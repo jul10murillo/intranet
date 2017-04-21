@@ -12,7 +12,6 @@ use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
-
 /**
  * Site controller
  */
@@ -43,6 +42,14 @@ class TestController extends Controller
      */
     public function actionIndex()
     {
+        $un = 'jmurillo@dumit' ;
+        $pw = '12345678' ;
+        if (\Yii::$app->ad->auth()->attempt($un , $pw)) {
+            echo 'User successfully authenticated' ;
+        } else {
+            echo 'User or Password wrong' ;
+        }
+
         $user = \Yii::$app->ad->search()->findBy('sAMAccountname', "jmurillo");
         print_r($user);exit;
         return $this->render('index');

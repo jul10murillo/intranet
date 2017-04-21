@@ -16,6 +16,9 @@ return [
             'class' => 'yii\console\controllers\FixtureController',
             'namespace' => 'common\fixtures',
           ],
+        'ldapcmd' => [
+            'class' => 'Edvlerblog\Adldap2\commands\LdapController' ,
+        ] ,
     ],
     'components' => [
         'log' => [

@@ -5,6 +5,12 @@ return [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+        'authManager' => [
+            'class' => 'yii\rbac\DbManager',
+        ],
+//        'user'        => [
+//            'identityClass' => 'Edvlerblog\Adldap2\model\UserDbLdap' ,
+//        ] ,
         'ad' => [
 	    'class' => 'Edvlerblog\Adldap2\Adldap2Wrapper',
 
@@ -49,9 +55,8 @@ return [
 			    // https://github.com/Adldap2/Adldap2/blob/master/docs/configuration.md
 			    'config' => [
 				// Your account suffix, for example: matthias.maderer@example.lan
-//				'account_suffix'        => '@example.lan',
-
-				// You can use the host name or the IP address of your controllers.
+        //				'account_suffix' => '@dumit' ,
+                        // You can use the host name or the IP address of your controllers.
 				'domain_controllers'    => ['170.16.1.17'],
 
 				// Your base DN. This is usually your account suffix.
