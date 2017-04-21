@@ -48,4 +48,13 @@ return array (
       '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker',
     ),
   ),
+  'edvlerblog/yii2-adldap-module' => 
+  array (
+    'name' => 'edvlerblog/yii2-adldap-module',
+    'version' => '3.0.3.0',
+    'alias' => 
+    array (
+      '@Edvlerblog/Adldap2' => $vendorDir . '/edvlerblog/yii2-adldap-module/src',
+    ),
+  ),
 );
