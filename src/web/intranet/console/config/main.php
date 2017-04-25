@@ -19,6 +19,11 @@ return [
         'ldapcmd' => [
             'class' => 'Edvlerblog\Adldap2\commands\LdapController' ,
         ] ,
+        'migrate-rbac' => [
+            'class' => 'yii\console\controllers\MigrateController',
+            'migrationPath' => '@yii/rbac/migrations',
+            'migrationTable' => 'migration_rbac',
+        ],
     ],
     'components' => [
         'log' => [

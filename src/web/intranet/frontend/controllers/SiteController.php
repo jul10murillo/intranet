@@ -26,7 +26,7 @@ class SiteController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['logout', 'signup'],
+                'only' => ['logout', 'signup','index','about','contact'],
                 'rules' => [
                     [
                         'actions' => ['signup'],
@@ -38,6 +38,21 @@ class SiteController extends Controller
                         'allow' => true,
                         'roles' => ['@'],
                     ],
+                    [
+                        'allow'   => true ,
+                        'actions' => ['index'] ,
+                        'roles'   => ['permissionToSeeHome'] ,
+                    ] ,
+                    [
+                        'allow' => true,
+                        'actions' => ['contact'],
+                        'roles' => ['permissionToUseContanctPage'],
+                    ],  
+                    [
+                        'allow' => true,
+                        'actions' => ['about'],
+                        'roles' => ['permissionDisplayDetailedAbout'],
+                    ], 
                 ],
             ],
             'verbs' => [
@@ -139,6 +154,7 @@ class SiteController extends Controller
      */
     public function actionAbout()
     {
+        var_dump(\Yii::$app->user->can('permissionDisplayDetailedAbout'));
         return $this->render('about');
     }
 

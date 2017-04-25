@@ -20,16 +20,26 @@ class ComposerStaticInite8f8a34fde751840a424d634385c649f
         'y' => 
         array (
             'yii\\swiftmailer\\' => 16,
+            'yii\\jui\\' => 8,
             'yii\\gii\\' => 8,
             'yii\\faker\\' => 10,
             'yii\\debug\\' => 10,
             'yii\\composer\\' => 13,
             'yii\\bootstrap\\' => 14,
             'yii\\' => 4,
+            'yii2mod\\rbac\\' => 13,
         ),
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
+        ),
+        'm' => 
+        array (
+            'mdm\\admin\\' => 10,
+        ),
+        'd' => 
+        array (
+            'dosamigos\\arrayquery\\' => 21,
         ),
         'c' => 
         array (
@@ -95,6 +105,10 @@ class ComposerStaticInite8f8a34fde751840a424d634385c649f
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-swiftmailer',
         ),
+        'yii\\jui\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-jui',
+        ),
         'yii\\gii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-gii',
@@ -119,11 +133,23 @@ class ComposerStaticInite8f8a34fde751840a424d634385c649f
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
         ),
+        'yii2mod\\rbac\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yii2mod/yii2-rbac',
+        ),
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+        ),
+        'mdm\\admin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mdmsoft/yii2-admin',
+        ),
+        'dosamigos\\arrayquery\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/2amigos/yii2-arrayquery-component/src',
         ),
         'cebe\\markdown\\' => 
         array (
