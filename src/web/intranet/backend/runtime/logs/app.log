@@ -1,0 +1,1832 @@
+2017-04-25 19:17:38 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'where clause' in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php:902
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(902): PDOStatement->execute()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Query.php(395): yii\db\Command->queryScalar()
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/validators/UniqueValidator.php(162): yii\db\Query->exists()
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/validators/UniqueValidator.php(135): yii\validators\UniqueValidator->modelExists('\\common\\models\\...', Array, Object(backend\models\SignupForm))
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/validators/Validator.php(267): yii\validators\UniqueValidator->validateAttribute(Object(backend\models\SignupForm), 'email')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Model.php(358): yii\validators\Validator->validateAttributes(Object(backend\models\SignupForm), Array)
+#7 /var/www/intranet/src/web/intranet/backend/models/SignupForm.php(46): yii\base\Model->validate()
+#8 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(104): backend\models\SignupForm->signup()
+#9 [internal function]: backend\controllers\SiteController->actionSignup()
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signup', Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/signup', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#16 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'where clause'
+The SQL being executed was: SELECT EXISTS(SELECT * FROM `user` WHERE (`email`='jmurillo@grudu.org')) in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(917): yii\db\Schema->convertException(Object(PDOException), 'SELECT EXISTS(S...')
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Query.php(395): yii\db\Command->queryScalar()
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/validators/UniqueValidator.php(162): yii\db\Query->exists()
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/validators/UniqueValidator.php(135): yii\validators\UniqueValidator->modelExists('\\common\\models\\...', Array, Object(backend\models\SignupForm))
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/validators/Validator.php(267): yii\validators\UniqueValidator->validateAttribute(Object(backend\models\SignupForm), 'email')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Model.php(358): yii\validators\Validator->validateAttributes(Object(backend\models\SignupForm), Array)
+#7 /var/www/intranet/src/web/intranet/backend/models/SignupForm.php(46): yii\base\Model->validate()
+#8 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(104): backend\models\SignupForm->signup()
+#9 [internal function]: backend\controllers\SiteController->actionSignup()
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signup', Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/signup', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#16 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'email' in 'where clause'
+)
+
+2017-04-25 19:17:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = [
+    '_csrf-backend' => 'LlQ4MUtESWsZB3tGLTA8LUUyWX0hCh4He2N3Wjx3Fgd2GW8BfCIQAA=='
+    'SignupForm' => [
+        'username' => 'admin'
+        'email' => 'jmurillo@grudu.org'
+        'password' => '12345678'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    'advanced-backend' => 'ma6sb587o1pvjql4353rdlauf4'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'dhn90msjq57qn49ol8o6o08fj4'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '197'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://intranet.local'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; advanced-backend=ma6sb587o1pvjql4353rdlauf4; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=dhn90msjq57qn49ol8o6o08fj4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '50522'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493147858.865
+    'REQUEST_TIME' => 1493147858
+]
+2017-04-25 19:24:23 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'where clause' in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php:902
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(902): PDOStatement->execute()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Query.php(395): yii\db\Command->queryScalar()
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/validators/UniqueValidator.php(162): yii\db\Query->exists()
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/validators/UniqueValidator.php(135): yii\validators\UniqueValidator->modelExists('\\common\\models\\...', Array, Object(backend\models\SignupForm))
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/validators/Validator.php(267): yii\validators\UniqueValidator->validateAttribute(Object(backend\models\SignupForm), 'email')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Model.php(358): yii\validators\Validator->validateAttributes(Object(backend\models\SignupForm), Array)
+#7 /var/www/intranet/src/web/intranet/backend/models/SignupForm.php(46): yii\base\Model->validate()
+#8 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(104): backend\models\SignupForm->signup()
+#9 [internal function]: backend\controllers\SiteController->actionSignup()
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signup', Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/signup', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#16 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'where clause'
+The SQL being executed was: SELECT EXISTS(SELECT * FROM `user` WHERE (`email`='jmurillo@grudu.org')) in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(917): yii\db\Schema->convertException(Object(PDOException), 'SELECT EXISTS(S...')
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Query.php(395): yii\db\Command->queryScalar()
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/validators/UniqueValidator.php(162): yii\db\Query->exists()
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/validators/UniqueValidator.php(135): yii\validators\UniqueValidator->modelExists('\\common\\models\\...', Array, Object(backend\models\SignupForm))
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/validators/Validator.php(267): yii\validators\UniqueValidator->validateAttribute(Object(backend\models\SignupForm), 'email')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Model.php(358): yii\validators\Validator->validateAttributes(Object(backend\models\SignupForm), Array)
+#7 /var/www/intranet/src/web/intranet/backend/models/SignupForm.php(46): yii\base\Model->validate()
+#8 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(104): backend\models\SignupForm->signup()
+#9 [internal function]: backend\controllers\SiteController->actionSignup()
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signup', Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/signup', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#16 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'email' in 'where clause'
+)
+
+2017-04-25 19:24:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = [
+    '_csrf-backend' => 'LlQ4MUtESWsZB3tGLTA8LUUyWX0hCh4He2N3Wjx3Fgd2GW8BfCIQAA=='
+    'SignupForm' => [
+        'username' => 'admin'
+        'email' => 'jmurillo@grudu.org'
+        'password' => '12345678'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    'advanced-backend' => 'ma6sb587o1pvjql4353rdlauf4'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'dhn90msjq57qn49ol8o6o08fj4'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '197'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://intranet.local'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; advanced-backend=ma6sb587o1pvjql4353rdlauf4; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=dhn90msjq57qn49ol8o6o08fj4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '50566'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493148263.033
+    'REQUEST_TIME' => 1493148263
+]
+2017-04-25 19:24:40 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'where clause' in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php:902
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(902): PDOStatement->execute()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Query.php(395): yii\db\Command->queryScalar()
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/validators/UniqueValidator.php(162): yii\db\Query->exists()
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/validators/UniqueValidator.php(135): yii\validators\UniqueValidator->modelExists('\\common\\models\\...', Array, Object(backend\models\SignupForm))
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/validators/Validator.php(267): yii\validators\UniqueValidator->validateAttribute(Object(backend\models\SignupForm), 'email')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Model.php(358): yii\validators\Validator->validateAttributes(Object(backend\models\SignupForm), Array)
+#7 /var/www/intranet/src/web/intranet/backend/models/SignupForm.php(46): yii\base\Model->validate()
+#8 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(104): backend\models\SignupForm->signup()
+#9 [internal function]: backend\controllers\SiteController->actionSignup()
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signup', Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/signup', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#16 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'where clause'
+The SQL being executed was: SELECT EXISTS(SELECT * FROM `user` WHERE (`email`='jmurillo@grudu.org')) in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(917): yii\db\Schema->convertException(Object(PDOException), 'SELECT EXISTS(S...')
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Query.php(395): yii\db\Command->queryScalar()
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/validators/UniqueValidator.php(162): yii\db\Query->exists()
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/validators/UniqueValidator.php(135): yii\validators\UniqueValidator->modelExists('\\common\\models\\...', Array, Object(backend\models\SignupForm))
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/validators/Validator.php(267): yii\validators\UniqueValidator->validateAttribute(Object(backend\models\SignupForm), 'email')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Model.php(358): yii\validators\Validator->validateAttributes(Object(backend\models\SignupForm), Array)
+#7 /var/www/intranet/src/web/intranet/backend/models/SignupForm.php(46): yii\base\Model->validate()
+#8 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(104): backend\models\SignupForm->signup()
+#9 [internal function]: backend\controllers\SiteController->actionSignup()
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signup', Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/signup', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#16 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'email' in 'where clause'
+)
+
+2017-04-25 19:24:40 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = [
+    '_csrf-backend' => 'LlQ4MUtESWsZB3tGLTA8LUUyWX0hCh4He2N3Wjx3Fgd2GW8BfCIQAA=='
+    'SignupForm' => [
+        'username' => 'admin'
+        'email' => 'jmurillo@grudu.org'
+        'password' => '12345678'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    'advanced-backend' => 'ma6sb587o1pvjql4353rdlauf4'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'dhn90msjq57qn49ol8o6o08fj4'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '197'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://intranet.local'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; advanced-backend=ma6sb587o1pvjql4353rdlauf4; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=dhn90msjq57qn49ol8o6o08fj4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '50584'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493148280.315
+    'REQUEST_TIME' => 1493148280
+]
+2017-04-25 19:25:47 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php:846
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(846): PDOStatement->execute()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Schema.php(454): yii\db\Command->execute()
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/ActiveRecord.php(494): yii\db\Schema->insert('{{%admin}}', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/BaseActiveRecord.php(635): yii\db\ActiveRecord->insert(true, NULL)
+#5 /var/www/intranet/src/web/intranet/backend/models/SignupForm.php(56): yii\db\BaseActiveRecord->save()
+#6 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(104): backend\models\SignupForm->signup()
+#7 [internal function]: backend\controllers\SiteController->actionSignup()
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signup', Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/signup', Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+The SQL being executed was: INSERT INTO `admin` (`username`, `email`, `password_hash`, `auth_key`, `status`, `created_at`, `updated_at`) VALUES ('admin', 'jmurillo@grudu.org', '$2y$13$dN.p1BsCGBPOgjo93R07ceP5ARF9yrYqWdTSxyIOpcZOhJAD8tUim', 'R5vkz8SsF6iRjoVR9jNoGG74N_B-WTAk', 10, 1493148347, 1493148347) in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `ad...')
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Schema.php(454): yii\db\Command->execute()
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/ActiveRecord.php(494): yii\db\Schema->insert('{{%admin}}', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/BaseActiveRecord.php(635): yii\db\ActiveRecord->insert(true, NULL)
+#5 /var/www/intranet/src/web/intranet/backend/models/SignupForm.php(56): yii\db\BaseActiveRecord->save()
+#6 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(104): backend\models\SignupForm->signup()
+#7 [internal function]: backend\controllers\SiteController->actionSignup()
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signup', Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/signup', Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1364
+    [2] => Field 'id' doesn't have a default value
+)
+
+2017-04-25 19:25:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = [
+    '_csrf-backend' => 'LlQ4MUtESWsZB3tGLTA8LUUyWX0hCh4He2N3Wjx3Fgd2GW8BfCIQAA=='
+    'SignupForm' => [
+        'username' => 'admin'
+        'email' => 'jmurillo@grudu.org'
+        'password' => '12345678'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    'advanced-backend' => 'ma6sb587o1pvjql4353rdlauf4'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'dhn90msjq57qn49ol8o6o08fj4'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '197'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://intranet.local'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; advanced-backend=ma6sb587o1pvjql4353rdlauf4; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=dhn90msjq57qn49ol8o6o08fj4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '50594'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493148347.26
+    'REQUEST_TIME' => 1493148347
+]
+2017-04-25 19:26:54 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000]: General error: 1364 Field 'password_reset_token' doesn't have a default value in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php:846
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(846): PDOStatement->execute()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Schema.php(454): yii\db\Command->execute()
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/ActiveRecord.php(494): yii\db\Schema->insert('{{%admin}}', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/BaseActiveRecord.php(635): yii\db\ActiveRecord->insert(true, NULL)
+#5 /var/www/intranet/src/web/intranet/backend/models/SignupForm.php(56): yii\db\BaseActiveRecord->save()
+#6 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(104): backend\models\SignupForm->signup()
+#7 [internal function]: backend\controllers\SiteController->actionSignup()
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signup', Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/signup', Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000]: General error: 1364 Field 'password_reset_token' doesn't have a default value
+The SQL being executed was: INSERT INTO `admin` (`username`, `email`, `password_hash`, `auth_key`, `status`, `created_at`, `updated_at`) VALUES ('admin', 'jmurillo@grudu.org', '$2y$13$BUB/fxuRRnyfpdLh/wFuOuytlWB8OBMeHC0A4vCTTiv4lahZY9May', 'NQewaBPHxV51MbZj4B-wVkxgv30e1Pgw', 10, 1493148414, 1493148414) in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `ad...')
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Schema.php(454): yii\db\Command->execute()
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/ActiveRecord.php(494): yii\db\Schema->insert('{{%admin}}', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/BaseActiveRecord.php(635): yii\db\ActiveRecord->insert(true, NULL)
+#5 /var/www/intranet/src/web/intranet/backend/models/SignupForm.php(56): yii\db\BaseActiveRecord->save()
+#6 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(104): backend\models\SignupForm->signup()
+#7 [internal function]: backend\controllers\SiteController->actionSignup()
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('signup', Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/signup', Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1364
+    [2] => Field 'password_reset_token' doesn't have a default value
+)
+
+2017-04-25 19:26:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = [
+    '_csrf-backend' => 'LlQ4MUtESWsZB3tGLTA8LUUyWX0hCh4He2N3Wjx3Fgd2GW8BfCIQAA=='
+    'SignupForm' => [
+        'username' => 'admin'
+        'email' => 'jmurillo@grudu.org'
+        'password' => '12345678'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    'advanced-backend' => 'ma6sb587o1pvjql4353rdlauf4'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'dhn90msjq57qn49ol8o6o08fj4'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '197'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://intranet.local'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; advanced-backend=ma6sb587o1pvjql4353rdlauf4; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=dhn90msjq57qn49ol8o6o08fj4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '50626'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493148413.595
+    'REQUEST_TIME' => 1493148413
+]
+2017-04-25 19:31:41 [127.0.0.1][-][ma6sb587o1pvjql4353rdlauf4][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: common\models\AdminLoginForm::errors() in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Component.php:290
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/common/models/AdminLoginForm.php(62): yii\base\Component->__call('errors', Array)
+#1 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(79): common\models\AdminLoginForm->login()
+#2 [internal function]: backend\controllers\SiteController->actionLogin()
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/login', Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#9 {main}
+2017-04-25 19:31:41 [127.0.0.1][-][ma6sb587o1pvjql4353rdlauf4][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'YlI4TVYyWlNVAXs6MEYvFQk0WQE8fA0/N2V3JiEBBT86H299YVQDOA=='
+    'AdminLoginForm' => [
+        'username' => 'jmurillo'
+        'password' => '12345678'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    'advanced-backend' => 'ma6sb587o1pvjql4353rdlauf4'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'dhn90msjq57qn49ol8o6o08fj4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '232'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://intranet.local'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; advanced-backend=ma6sb587o1pvjql4353rdlauf4; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=dhn90msjq57qn49ol8o6o08fj4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '50674'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493148701.52
+    'REQUEST_TIME' => 1493148701
+]
+2017-04-25 19:32:18 [127.0.0.1][-][ma6sb587o1pvjql4353rdlauf4][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: common\models\AdminLoginForm::errors() in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Component.php:290
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/common/models/AdminLoginForm.php(62): yii\base\Component->__call('errors', Array)
+#1 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(79): common\models\AdminLoginForm->login()
+#2 [internal function]: backend\controllers\SiteController->actionLogin()
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('login', Array)
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/login', Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#9 {main}
+2017-04-25 19:32:18 [127.0.0.1][-][ma6sb587o1pvjql4353rdlauf4][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'YlI4TVYyWlNVAXs6MEYvFQk0WQE8fA0/N2V3JiEBBT86H299YVQDOA=='
+    'AdminLoginForm' => [
+        'username' => 'jmurillo'
+        'password' => '12345678'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    'advanced-backend' => 'ma6sb587o1pvjql4353rdlauf4'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'dhn90msjq57qn49ol8o6o08fj4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '232'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://intranet.local'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; advanced-backend=ma6sb587o1pvjql4353rdlauf4; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=dhn90msjq57qn49ol8o6o08fj4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '50678'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493148738.176
+    'REQUEST_TIME' => 1493148738
+]
+2017-04-26 19:18:39 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: directoryAsset in /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php:64
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(64): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/var/www/intran...', 64, Array)
+#1 [internal function]: backend\controllers\SiteController->actionIndex()
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2017-04-26 19:18:39 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][info][application] $_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'mchtj9eu9hsi7446c2qmmjpnm1'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+    'advanced-backend' => 'nomoeqejlgl5692kr6l7oak3v1'
+    '_identity-backend' => '6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"uhYyJhWPWW4GNgUsfES14n3bePnvhwGe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=mchtj9eu9hsi7446c2qmmjpnm1; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D; advanced-backend=nomoeqejlgl5692kr6l7oak3v1; _identity-backend=6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22uhYyJhWPWW4GNgUsfES14n3bePnvhwGe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '44060'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493234319.261
+    'REQUEST_TIME' => 1493234319
+]
+2017-04-26 19:56:09 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][error][yii\base\ErrorException:4096] yii\base\ErrorException: Object of class common\models\Admin could not be converted to string in /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php:233
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php(233): yii\base\ErrorHandler->handleError(4096, 'Object of class...', '/var/www/intran...', 233, Array)
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/var/www/intran...', Array, NULL)
+#4 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/main.php(45): yii\base\View->render('header.php', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/var/www/intran...', Array, Object(backend\controllers\SiteController))
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#9 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(65): yii\base\Controller->render('index')
+#10 [internal function]: backend\controllers\SiteController->actionIndex()
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#15 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#17 {main}
+2017-04-26 19:56:09 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][info][application] $_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'mchtj9eu9hsi7446c2qmmjpnm1'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+    'advanced-backend' => 'nomoeqejlgl5692kr6l7oak3v1'
+    '_identity-backend' => '6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"uhYyJhWPWW4GNgUsfES14n3bePnvhwGe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=mchtj9eu9hsi7446c2qmmjpnm1; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D; advanced-backend=nomoeqejlgl5692kr6l7oak3v1; _identity-backend=6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22uhYyJhWPWW4GNgUsfES14n3bePnvhwGe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '44752'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493236569.754
+    'REQUEST_TIME' => 1493236569
+]
+2017-04-26 20:00:28 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\web\User::name in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php(234): yii\base\Component->__get('name')
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/var/www/intran...', Array, NULL)
+#4 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/main.php(45): yii\base\View->render('header.php', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/var/www/intran...', Array, Object(backend\controllers\SiteController))
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#9 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(65): yii\base\Controller->render('index')
+#10 [internal function]: backend\controllers\SiteController->actionIndex()
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#15 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#17 {main}
+2017-04-26 20:00:28 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][info][application] $_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'mchtj9eu9hsi7446c2qmmjpnm1'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+    'advanced-backend' => 'nomoeqejlgl5692kr6l7oak3v1'
+    '_identity-backend' => '6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"uhYyJhWPWW4GNgUsfES14n3bePnvhwGe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=mchtj9eu9hsi7446c2qmmjpnm1; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D; advanced-backend=nomoeqejlgl5692kr6l7oak3v1; _identity-backend=6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22uhYyJhWPWW4GNgUsfES14n3bePnvhwGe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '44790'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493236828.933
+    'REQUEST_TIME' => 1493236828
+]
+2017-04-26 20:00:30 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\web\User::name in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php(234): yii\base\Component->__get('name')
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/var/www/intran...', Array, NULL)
+#4 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/main.php(45): yii\base\View->render('header.php', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/var/www/intran...', Array, Object(backend\controllers\SiteController))
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#9 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(65): yii\base\Controller->render('index')
+#10 [internal function]: backend\controllers\SiteController->actionIndex()
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#15 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#17 {main}
+2017-04-26 20:00:30 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][info][application] $_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'mchtj9eu9hsi7446c2qmmjpnm1'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+    'advanced-backend' => 'nomoeqejlgl5692kr6l7oak3v1'
+    '_identity-backend' => '6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"uhYyJhWPWW4GNgUsfES14n3bePnvhwGe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=mchtj9eu9hsi7446c2qmmjpnm1; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D; advanced-backend=nomoeqejlgl5692kr6l7oak3v1; _identity-backend=6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22uhYyJhWPWW4GNgUsfES14n3bePnvhwGe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '44792'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493236830.597
+    'REQUEST_TIME' => 1493236830
+]
+2017-04-26 20:00:31 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\web\User::name in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Component.php:147
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php(234): yii\base\Component->__get('name')
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/var/www/intran...', Array, NULL)
+#4 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/main.php(45): yii\base\View->render('header.php', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/var/www/intran...', Array, Object(backend\controllers\SiteController))
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#9 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(65): yii\base\Controller->render('index')
+#10 [internal function]: backend\controllers\SiteController->actionIndex()
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#15 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#17 {main}
+2017-04-26 20:00:31 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][info][application] $_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'mchtj9eu9hsi7446c2qmmjpnm1'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+    'advanced-backend' => 'nomoeqejlgl5692kr6l7oak3v1'
+    '_identity-backend' => '6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"uhYyJhWPWW4GNgUsfES14n3bePnvhwGe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=mchtj9eu9hsi7446c2qmmjpnm1; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D; advanced-backend=nomoeqejlgl5692kr6l7oak3v1; _identity-backend=6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22uhYyJhWPWW4GNgUsfES14n3bePnvhwGe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '44794'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493236831.131
+    'REQUEST_TIME' => 1493236831
+]
+2017-04-26 20:00:53 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][error][yii\base\ErrorException:4096] yii\base\ErrorException: Object of class common\models\Admin could not be converted to string in /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php:234
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php(234): yii\base\ErrorHandler->handleError(4096, 'Object of class...', '/var/www/intran...', 234, Array)
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/var/www/intran...', Array, NULL)
+#4 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/main.php(45): yii\base\View->render('header.php', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/var/www/intran...', Array, Object(backend\controllers\SiteController))
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#9 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(65): yii\base\Controller->render('index')
+#10 [internal function]: backend\controllers\SiteController->actionIndex()
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#15 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#17 {main}
+2017-04-26 20:00:53 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][info][application] $_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'mchtj9eu9hsi7446c2qmmjpnm1'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+    'advanced-backend' => 'nomoeqejlgl5692kr6l7oak3v1'
+    '_identity-backend' => '6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"uhYyJhWPWW4GNgUsfES14n3bePnvhwGe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=mchtj9eu9hsi7446c2qmmjpnm1; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D; advanced-backend=nomoeqejlgl5692kr6l7oak3v1; _identity-backend=6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22uhYyJhWPWW4GNgUsfES14n3bePnvhwGe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '44798'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493236853.28
+    'REQUEST_TIME' => 1493236853
+]
+2017-04-26 20:00:54 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][error][yii\base\ErrorException:4096] yii\base\ErrorException: Object of class common\models\Admin could not be converted to string in /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php:234
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php(234): yii\base\ErrorHandler->handleError(4096, 'Object of class...', '/var/www/intran...', 234, Array)
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/var/www/intran...', Array, NULL)
+#4 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/main.php(45): yii\base\View->render('header.php', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/var/www/intran...', Array, Object(backend\controllers\SiteController))
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#9 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(65): yii\base\Controller->render('index')
+#10 [internal function]: backend\controllers\SiteController->actionIndex()
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#15 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#17 {main}
+2017-04-26 20:00:54 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][info][application] $_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'mchtj9eu9hsi7446c2qmmjpnm1'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+    'advanced-backend' => 'nomoeqejlgl5692kr6l7oak3v1'
+    '_identity-backend' => '6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"uhYyJhWPWW4GNgUsfES14n3bePnvhwGe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=mchtj9eu9hsi7446c2qmmjpnm1; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D; advanced-backend=nomoeqejlgl5692kr6l7oak3v1; _identity-backend=6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22uhYyJhWPWW4GNgUsfES14n3bePnvhwGe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '44800'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493236854.271
+    'REQUEST_TIME' => 1493236854
+]
+2017-04-26 20:00:54 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][error][yii\base\ErrorException:4096] yii\base\ErrorException: Object of class common\models\Admin could not be converted to string in /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php:234
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php(234): yii\base\ErrorHandler->handleError(4096, 'Object of class...', '/var/www/intran...', 234, Array)
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/var/www/intran...', Array, NULL)
+#4 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/main.php(45): yii\base\View->render('header.php', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/var/www/intran...', Array, Object(backend\controllers\SiteController))
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#9 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(65): yii\base\Controller->render('index')
+#10 [internal function]: backend\controllers\SiteController->actionIndex()
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#15 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#17 {main}
+2017-04-26 20:00:54 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][info][application] $_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'mchtj9eu9hsi7446c2qmmjpnm1'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+    'advanced-backend' => 'nomoeqejlgl5692kr6l7oak3v1'
+    '_identity-backend' => '6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"uhYyJhWPWW4GNgUsfES14n3bePnvhwGe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=mchtj9eu9hsi7446c2qmmjpnm1; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D; advanced-backend=nomoeqejlgl5692kr6l7oak3v1; _identity-backend=6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22uhYyJhWPWW4GNgUsfES14n3bePnvhwGe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '44802'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493236854.665
+    'REQUEST_TIME' => 1493236854
+]
+2017-04-26 20:00:54 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][error][yii\base\ErrorException:4096] yii\base\ErrorException: Object of class common\models\Admin could not be converted to string in /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php:234
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php(234): yii\base\ErrorHandler->handleError(4096, 'Object of class...', '/var/www/intran...', 234, Array)
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/var/www/intran...', Array, NULL)
+#4 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/main.php(45): yii\base\View->render('header.php', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/var/www/intran...', Array, Object(backend\controllers\SiteController))
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#9 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(65): yii\base\Controller->render('index')
+#10 [internal function]: backend\controllers\SiteController->actionIndex()
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#15 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#17 {main}
+2017-04-26 20:00:54 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][info][application] $_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'mchtj9eu9hsi7446c2qmmjpnm1'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+    'advanced-backend' => 'nomoeqejlgl5692kr6l7oak3v1'
+    '_identity-backend' => '6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"uhYyJhWPWW4GNgUsfES14n3bePnvhwGe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=mchtj9eu9hsi7446c2qmmjpnm1; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D; advanced-backend=nomoeqejlgl5692kr6l7oak3v1; _identity-backend=6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22uhYyJhWPWW4GNgUsfES14n3bePnvhwGe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '44804'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493236854.927
+    'REQUEST_TIME' => 1493236854
+]
+2017-04-26 20:00:55 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][error][yii\base\ErrorException:4096] yii\base\ErrorException: Object of class common\models\Admin could not be converted to string in /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php:234
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php(234): yii\base\ErrorHandler->handleError(4096, 'Object of class...', '/var/www/intran...', 234, Array)
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/var/www/intran...', Array, NULL)
+#4 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/main.php(45): yii\base\View->render('header.php', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/var/www/intran...', Array, Object(backend\controllers\SiteController))
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#9 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(65): yii\base\Controller->render('index')
+#10 [internal function]: backend\controllers\SiteController->actionIndex()
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#15 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#17 {main}
+2017-04-26 20:00:55 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][info][application] $_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'mchtj9eu9hsi7446c2qmmjpnm1'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+    'advanced-backend' => 'nomoeqejlgl5692kr6l7oak3v1'
+    '_identity-backend' => '6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"uhYyJhWPWW4GNgUsfES14n3bePnvhwGe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=mchtj9eu9hsi7446c2qmmjpnm1; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D; advanced-backend=nomoeqejlgl5692kr6l7oak3v1; _identity-backend=6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22uhYyJhWPWW4GNgUsfES14n3bePnvhwGe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '44806'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493236855.171
+    'REQUEST_TIME' => 1493236855
+]
+2017-04-26 20:00:55 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][error][yii\base\ErrorException:4096] yii\base\ErrorException: Object of class common\models\Admin could not be converted to string in /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php:234
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php(234): yii\base\ErrorHandler->handleError(4096, 'Object of class...', '/var/www/intran...', 234, Array)
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/var/www/intran...', Array, NULL)
+#4 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/main.php(45): yii\base\View->render('header.php', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/var/www/intran...', Array, Object(backend\controllers\SiteController))
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#9 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(65): yii\base\Controller->render('index')
+#10 [internal function]: backend\controllers\SiteController->actionIndex()
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#15 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#17 {main}
+2017-04-26 20:00:55 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][info][application] $_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'mchtj9eu9hsi7446c2qmmjpnm1'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+    'advanced-backend' => 'nomoeqejlgl5692kr6l7oak3v1'
+    '_identity-backend' => '6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"uhYyJhWPWW4GNgUsfES14n3bePnvhwGe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=mchtj9eu9hsi7446c2qmmjpnm1; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D; advanced-backend=nomoeqejlgl5692kr6l7oak3v1; _identity-backend=6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22uhYyJhWPWW4GNgUsfES14n3bePnvhwGe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '44808'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493236855.401
+    'REQUEST_TIME' => 1493236855
+]
+2017-04-26 20:00:55 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][error][yii\base\ErrorException:4096] yii\base\ErrorException: Object of class common\models\Admin could not be converted to string in /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php:234
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php(234): yii\base\ErrorHandler->handleError(4096, 'Object of class...', '/var/www/intran...', 234, Array)
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/var/www/intran...', Array, NULL)
+#4 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/main.php(45): yii\base\View->render('header.php', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/var/www/intran...', Array, Object(backend\controllers\SiteController))
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#9 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(65): yii\base\Controller->render('index')
+#10 [internal function]: backend\controllers\SiteController->actionIndex()
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#15 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#17 {main}
+2017-04-26 20:00:55 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][info][application] $_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'mchtj9eu9hsi7446c2qmmjpnm1'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+    'advanced-backend' => 'nomoeqejlgl5692kr6l7oak3v1'
+    '_identity-backend' => '6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"uhYyJhWPWW4GNgUsfES14n3bePnvhwGe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=mchtj9eu9hsi7446c2qmmjpnm1; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D; advanced-backend=nomoeqejlgl5692kr6l7oak3v1; _identity-backend=6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22uhYyJhWPWW4GNgUsfES14n3bePnvhwGe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '44810'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493236855.63
+    'REQUEST_TIME' => 1493236855
+]
+2017-04-26 20:00:55 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][error][yii\base\ErrorException:4096] yii\base\ErrorException: Object of class common\models\Admin could not be converted to string in /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php:234
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php(234): yii\base\ErrorHandler->handleError(4096, 'Object of class...', '/var/www/intran...', 234, Array)
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/var/www/intran...', Array, NULL)
+#4 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/main.php(45): yii\base\View->render('header.php', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/var/www/intran...', Array, Object(backend\controllers\SiteController))
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#9 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(65): yii\base\Controller->render('index')
+#10 [internal function]: backend\controllers\SiteController->actionIndex()
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#15 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#17 {main}
+2017-04-26 20:00:55 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][info][application] $_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'mchtj9eu9hsi7446c2qmmjpnm1'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+    'advanced-backend' => 'nomoeqejlgl5692kr6l7oak3v1'
+    '_identity-backend' => '6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"uhYyJhWPWW4GNgUsfES14n3bePnvhwGe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=mchtj9eu9hsi7446c2qmmjpnm1; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D; advanced-backend=nomoeqejlgl5692kr6l7oak3v1; _identity-backend=6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22uhYyJhWPWW4GNgUsfES14n3bePnvhwGe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '44812'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493236855.87
+    'REQUEST_TIME' => 1493236855
+]
+2017-04-26 20:00:56 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][error][yii\base\ErrorException:4096] yii\base\ErrorException: Object of class common\models\Admin could not be converted to string in /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php:234
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php(234): yii\base\ErrorHandler->handleError(4096, 'Object of class...', '/var/www/intran...', 234, Array)
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/var/www/intran...', Array, NULL)
+#4 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/main.php(45): yii\base\View->render('header.php', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/var/www/intran...', Array, Object(backend\controllers\SiteController))
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#9 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(65): yii\base\Controller->render('index')
+#10 [internal function]: backend\controllers\SiteController->actionIndex()
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#15 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#17 {main}
+2017-04-26 20:00:56 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][info][application] $_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'mchtj9eu9hsi7446c2qmmjpnm1'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+    'advanced-backend' => 'nomoeqejlgl5692kr6l7oak3v1'
+    '_identity-backend' => '6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"uhYyJhWPWW4GNgUsfES14n3bePnvhwGe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=mchtj9eu9hsi7446c2qmmjpnm1; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D; advanced-backend=nomoeqejlgl5692kr6l7oak3v1; _identity-backend=6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22uhYyJhWPWW4GNgUsfES14n3bePnvhwGe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '44816'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493236856.114
+    'REQUEST_TIME' => 1493236856
+]
+2017-04-26 20:02:17 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][error][yii\base\ErrorException:2] yii\base\ErrorException: The use statement with non-compound name 'gdhe' has no effect in /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/header.php:7
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): yii\base\ErrorHandler->handleError(2, 'The use stateme...', '/var/www/intran...', 7, Array)
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require()
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/var/www/intran...', Array, NULL)
+#4 /var/www/intranet/src/web/intranet/vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app/layouts/main.php(45): yii\base\View->render('header.php', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/var/www/intran...', Array, Object(backend\controllers\SiteController))
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#9 /var/www/intranet/src/web/intranet/backend/controllers/SiteController.php(65): yii\base\Controller->render('index')
+#10 [internal function]: backend\controllers\SiteController->actionIndex()
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#14 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#15 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/intranet/src/web/intranet/backend/web/index.php(17): yii\base\Application->run()
+#17 {main}
+2017-04-26 20:02:17 [127.0.0.1][2][nomoeqejlgl5692kr6l7oak3v1][info][application] $_COOKIE = [
+    '_csrf-frontend' => '2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW\";}'
+    'advanced-frontend' => 'fqkslekqb8mrpef37rkr2kn7f0'
+    '_csrf-backend' => '3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"7SCwftuFkfaLjNWlU7Okw3_lXMW07fYk\";}'
+    '_frontendCSRF' => '6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"2RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx\";}'
+    'PHPFRONTSESSID' => 'mchtj9eu9hsi7446c2qmmjpnm1'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+    'advanced-backend' => 'nomoeqejlgl5692kr6l7oak3v1'
+    '_identity-backend' => '6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[2,\"uhYyJhWPWW4GNgUsfES14n3bePnvhwGe\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 2
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/backend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/backend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/backend/web/index.php?r=gii%2Fdefault%2Fview&id=module'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf-frontend=2857cd97bac8383789f4cd3e55d7d79ae6bc737950e275e7081da110756a5603a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22FQ39Na-vPUoWIK9o1BZHmkvUtZwQZUXW%22%3B%7D; advanced-frontend=fqkslekqb8mrpef37rkr2kn7f0; _csrf-backend=3eff222dd050b3a2f34aa2da04e897ef8123477407f800974a32613186e784eea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%227SCwftuFkfaLjNWlU7Okw3_lXMW07fYk%22%3B%7D; _frontendCSRF=6f9c92018b18ec7f7c865b1a937addb6a8f896b112577324ba98e26b707732b3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%222RkX2O4hjL7Y0ZCIMhfHlii9PVIhsgFx%22%3B%7D; PHPFRONTSESSID=mchtj9eu9hsi7446c2qmmjpnm1; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D; advanced-backend=nomoeqejlgl5692kr6l7oak3v1; _identity-backend=6720c04b37c0376b8d3e7d323ee40944c07755fea15d2715bf34b3ad8fb88963a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%22uhYyJhWPWW4GNgUsfES14n3bePnvhwGe%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '44826'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493236937.84
+    'REQUEST_TIME' => 1493236937
+]

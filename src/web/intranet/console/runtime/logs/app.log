@@ -1,0 +1,2013 @@
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Starting import from Active Directory --
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Found 280 users --
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user Invitado --
+2017-04-21 18:03:29 [-][-][-][warning][application] User Invitado NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user arojas --
+2017-04-21 18:03:29 [-][-][-][warning][application] User arojas NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user salfonzo --
+2017-04-21 18:03:29 [-][-][-][warning][application] User salfonzo NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user ypatino --
+2017-04-21 18:03:29 [-][-][-][warning][application] User ypatino NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user rbautista --
+2017-04-21 18:03:29 [-][-][-][warning][application] User rbautista NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user egonzalez --
+2017-04-21 18:03:29 [-][-][-][warning][application] User egonzalez NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user egraterol --
+2017-04-21 18:03:29 [-][-][-][warning][application] User egraterol NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user iberrios --
+2017-04-21 18:03:29 [-][-][-][warning][application] User iberrios NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user farriojas --
+2017-04-21 18:03:29 [-][-][-][warning][application] User farriojas NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user ngonzalez --
+2017-04-21 18:03:29 [-][-][-][warning][application] User ngonzalez NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user grosales --
+2017-04-21 18:03:29 [-][-][-][warning][application] User grosales NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user ebarrios --
+2017-04-21 18:03:29 [-][-][-][warning][application] User ebarrios NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user bmartinez --
+2017-04-21 18:03:29 [-][-][-][warning][application] User bmartinez NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user ychirinos --
+2017-04-21 18:03:29 [-][-][-][warning][application] User ychirinos NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user iseijas --
+2017-04-21 18:03:29 [-][-][-][warning][application] User iseijas NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user xin.tolon --
+2017-04-21 18:03:29 [-][-][-][warning][application] User xin.tolon NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user pmarcano --
+2017-04-21 18:03:29 [-][-][-][warning][application] User pmarcano NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user eramirez --
+2017-04-21 18:03:29 [-][-][-][warning][application] User eramirez NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user llvargas --
+2017-04-21 18:03:29 [-][-][-][warning][application] User llvargas NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user vst.liderdamas --
+2017-04-21 18:03:29 [-][-][-][warning][application] User vst.liderdamas NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user wespin --
+2017-04-21 18:03:29 [-][-][-][warning][application] User wespin NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user vvismara --
+2017-04-21 18:03:29 [-][-][-][warning][application] User vvismara NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user gnavas --
+2017-04-21 18:03:29 [-][-][-][warning][application] User gnavas NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user lcontreras --
+2017-04-21 18:03:29 [-][-][-][warning][application] User lcontreras NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user ymarquez --
+2017-04-21 18:03:29 [-][-][-][warning][application] User ymarquez NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user vst.hatillo --
+2017-04-21 18:03:29 [-][-][-][warning][application] User vst.hatillo NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user dgarcia --
+2017-04-21 18:03:29 [-][-][-][warning][application] User dgarcia NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user kmendez --
+2017-04-21 18:03:29 [-][-][-][warning][application] User kmendez NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user icaceres --
+2017-04-21 18:03:29 [-][-][-][warning][application] User icaceres NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user aespinoza --
+2017-04-21 18:03:29 [-][-][-][warning][application] User aespinoza NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user eborjas --
+2017-04-21 18:03:29 [-][-][-][warning][application] User eborjas NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user vzambrano --
+2017-04-21 18:03:29 [-][-][-][warning][application] User vzambrano NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user dbastidas --
+2017-04-21 18:03:29 [-][-][-][warning][application] User dbastidas NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user tdoumet --
+2017-04-21 18:03:29 [-][-][-][warning][application] User tdoumet NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user bsanchez --
+2017-04-21 18:03:29 [-][-][-][warning][application] User bsanchez NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user vst.lidercaballeros --
+2017-04-21 18:03:29 [-][-][-][warning][application] User vst.lidercaballeros NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user xin.mgtaca --
+2017-04-21 18:03:29 [-][-][-][warning][application] User xin.mgtaca NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user recepcion02 --
+2017-04-21 18:03:29 [-][-][-][warning][application] User recepcion02 NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user Recepcion --
+2017-04-21 18:03:29 [-][-][-][warning][application] User Recepcion NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user saghandour --
+2017-04-21 18:03:29 [-][-][-][warning][application] User saghandour NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user ytorres --
+2017-04-21 18:03:29 [-][-][-][warning][application] User ytorres NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user areitich --
+2017-04-21 18:03:29 [-][-][-][warning][application] User areitich NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user rocastro --
+2017-04-21 18:03:29 [-][-][-][warning][application] User rocastro NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user mmartinez --
+2017-04-21 18:03:29 [-][-][-][warning][application] User mmartinez NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user vst.ccct --
+2017-04-21 18:03:29 [-][-][-][warning][application] User vst.ccct NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user vst.samccs --
+2017-04-21 18:03:29 [-][-][-][warning][application] User vst.samccs NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user vst.tolon --
+2017-04-21 18:03:29 [-][-][-][warning][application] User vst.tolon NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user vst.mgtaca --
+2017-04-21 18:03:29 [-][-][-][warning][application] User vst.mgtaca NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user vst.millenium --
+2017-04-21 18:03:29 [-][-][-][warning][application] User vst.millenium NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user xin.samccs --
+2017-04-21 18:03:29 [-][-][-][warning][application] User xin.samccs NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user xin.ccct --
+2017-04-21 18:03:29 [-][-][-][warning][application] User xin.ccct NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user aislido --
+2017-04-21 18:03:29 [-][-][-][warning][application] User aislido NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user ymoreno --
+2017-04-21 18:03:29 [-][-][-][warning][application] User ymoreno NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user vrivera --
+2017-04-21 18:03:29 [-][-][-][warning][application] User vrivera NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user ysuarez --
+2017-04-21 18:03:29 [-][-][-][warning][application] User ysuarez NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user ylacruz --
+2017-04-21 18:03:29 [-][-][-][warning][application] User ylacruz NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user sforde --
+2017-04-21 18:03:29 [-][-][-][warning][application] User sforde NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user garmand --
+2017-04-21 18:03:29 [-][-][-][warning][application] User garmand NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user getback --
+2017-04-21 18:03:29 [-][-][-][warning][application] User getback NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user ligonzalez --
+2017-04-21 18:03:29 [-][-][-][warning][application] User ligonzalez NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user imarquez --
+2017-04-21 18:03:29 [-][-][-][warning][application] User imarquez NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user aberrocal --
+2017-04-21 18:03:29 [-][-][-][warning][application] User aberrocal NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user GDCONFER --
+2017-04-21 18:03:29 [-][-][-][warning][application] User GDCONFER NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user lmontiel --
+2017-04-21 18:03:29 [-][-][-][warning][application] User lmontiel NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user lcarrillo --
+2017-04-21 18:03:29 [-][-][-][warning][application] User lcarrillo NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user rperez --
+2017-04-21 18:03:29 [-][-][-][warning][application] User rperez NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user dzapata --
+2017-04-21 18:03:29 [-][-][-][warning][application] User dzapata NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user jfranco --
+2017-04-21 18:03:29 [-][-][-][warning][application] User jfranco NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user gprieto --
+2017-04-21 18:03:29 [-][-][-][warning][application] User gprieto NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user oguevara --
+2017-04-21 18:03:29 [-][-][-][warning][application] User oguevara NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user yizquiel --
+2017-04-21 18:03:29 [-][-][-][warning][application] User yizquiel NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user kortuno --
+2017-04-21 18:03:29 [-][-][-][warning][application] User kortuno NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user cguzman --
+2017-04-21 18:03:29 [-][-][-][warning][application] User cguzman NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user yrivas --
+2017-04-21 18:03:29 [-][-][-][warning][application] User yrivas NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user rserpa --
+2017-04-21 18:03:29 [-][-][-][warning][application] User rserpa NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user nsantos --
+2017-04-21 18:03:29 [-][-][-][warning][application] User nsantos NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user esanabria --
+2017-04-21 18:03:29 [-][-][-][warning][application] User esanabria NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user nlobo --
+2017-04-21 18:03:29 [-][-][-][warning][application] User nlobo NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user dleal --
+2017-04-21 18:03:29 [-][-][-][warning][application] User dleal NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user ablanco --
+2017-04-21 18:03:29 [-][-][-][warning][application] User ablanco NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user rtovar --
+2017-04-21 18:03:29 [-][-][-][warning][application] User rtovar NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user lrojas --
+2017-04-21 18:03:29 [-][-][-][warning][application] User lrojas NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user hmoreno --
+2017-04-21 18:03:29 [-][-][-][warning][application] User hmoreno NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user kduenas --
+2017-04-21 18:03:29 [-][-][-][warning][application] User kduenas NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user acroquer --
+2017-04-21 18:03:29 [-][-][-][warning][application] User acroquer NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user aguerrero --
+2017-04-21 18:03:29 [-][-][-][warning][application] User aguerrero NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user druiz --
+2017-04-21 18:03:29 [-][-][-][warning][application] User druiz NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user fsilva --
+2017-04-21 18:03:29 [-][-][-][warning][application] User fsilva NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user abonaldy --
+2017-04-21 18:03:29 [-][-][-][warning][application] User abonaldy NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user avielma --
+2017-04-21 18:03:29 [-][-][-][warning][application] User avielma NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user lcamacho --
+2017-04-21 18:03:29 [-][-][-][warning][application] User lcamacho created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user gpabon --
+2017-04-21 18:03:29 [-][-][-][warning][application] User gpabon NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user svasquez --
+2017-04-21 18:03:29 [-][-][-][warning][application] User svasquez NOT created
+2017-04-21 18:03:29 [-][-][-][warning][application] -- Working on user ghernandez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ghernandez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user pcasique --
+2017-04-21 18:03:30 [-][-][-][warning][application] User pcasique NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user apaiva --
+2017-04-21 18:03:30 [-][-][-][warning][application] User apaiva NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user cguereguan --
+2017-04-21 18:03:30 [-][-][-][warning][application] User cguereguan NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user operez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User operez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user juzcategui --
+2017-04-21 18:03:30 [-][-][-][warning][application] User juzcategui NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user calvarez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User calvarez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user addiaz --
+2017-04-21 18:03:30 [-][-][-][warning][application] User addiaz NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user varevalo --
+2017-04-21 18:03:30 [-][-][-][warning][application] User varevalo NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user rmontero --
+2017-04-21 18:03:30 [-][-][-][warning][application] User rmontero NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ralves --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ralves NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user sgomez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User sgomez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user aishopccct --
+2017-04-21 18:03:30 [-][-][-][warning][application] User aishopccct NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user klopez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User klopez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user jrincon --
+2017-04-21 18:03:30 [-][-][-][warning][application] User jrincon NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user afigueroa --
+2017-04-21 18:03:30 [-][-][-][warning][application] User afigueroa NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user dguevara --
+2017-04-21 18:03:30 [-][-][-][warning][application] User dguevara NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user abolet --
+2017-04-21 18:03:30 [-][-][-][warning][application] User abolet NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user kgaydos --
+2017-04-21 18:03:30 [-][-][-][warning][application] User kgaydos NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user khernandez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User khernandez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user xrodriguez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User xrodriguez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user proveedor01 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User proveedor01 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user rcarrillo --
+2017-04-21 18:03:30 [-][-][-][warning][application] User rcarrillo NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user elopez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User elopez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user xin.lider --
+2017-04-21 18:03:30 [-][-][-][warning][application] User xin.lider NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user dlopez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User dlopez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user gsomogyi --
+2017-04-21 18:03:30 [-][-][-][warning][application] User gsomogyi NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user scarballo --
+2017-04-21 18:03:30 [-][-][-][warning][application] User scarballo NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user rmontilla --
+2017-04-21 18:03:30 [-][-][-][warning][application] User rmontilla NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user sblanco --
+2017-04-21 18:03:30 [-][-][-][warning][application] User sblanco NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user aalvarado --
+2017-04-21 18:03:30 [-][-][-][warning][application] User aalvarado NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user kgonzalez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User kgonzalez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ngoncalves --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ngoncalves NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ybriceño --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ybriceño NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user capacitacion --
+2017-04-21 18:03:30 [-][-][-][warning][application] User capacitacion NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user lrequena --
+2017-04-21 18:03:30 [-][-][-][warning][application] User lrequena NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user prtgadmin --
+2017-04-21 18:03:30 [-][-][-][warning][application] User prtgadmin NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user aiscab --
+2017-04-21 18:03:30 [-][-][-][warning][application] User aiscab NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user cmartinez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User cmartinez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user nguio --
+2017-04-21 18:03:30 [-][-][-][warning][application] User nguio NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user agarcia --
+2017-04-21 18:03:30 [-][-][-][warning][application] User agarcia NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user dpineda --
+2017-04-21 18:03:30 [-][-][-][warning][application] User dpineda NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user yherrera --
+2017-04-21 18:03:30 [-][-][-][warning][application] User yherrera NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user aissagd --
+2017-04-21 18:03:30 [-][-][-][warning][application] User aissagd NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ymelo --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ymelo NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user mvelasquez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User mvelasquez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user zortega --
+2017-04-21 18:03:30 [-][-][-][warning][application] User zortega NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user IUSR_GDPROFIT --
+2017-04-21 18:03:30 [-][-][-][warning][application] User IUSR_GDPROFIT NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG07 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG07 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user GDA_Inve01 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User GDA_Inve01 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Tango --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Tango NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Tolon --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Tolon NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Valencia --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Valencia NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user GDA_Owner --
+2017-04-21 18:03:30 [-][-][-][warning][application] User GDA_Owner NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Contabilidad1 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Contabilidad1 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Mchachati --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Mchachati NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Omendez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Omendez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG01 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG01 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG02 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG02 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG03 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG03 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG04 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG04 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG05 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG05 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG06 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG06 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG08 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG08 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Ozono --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Ozono NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user LDelgado --
+2017-04-21 18:03:30 [-][-][-][warning][application] User LDelgado NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Bimbatolon --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Bimbatolon NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user xinhatillo --
+2017-04-21 18:03:30 [-][-][-][warning][application] User xinhatillo NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Bimbalider --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Bimbalider NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG12 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG12 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG11 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG11 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user MQuercia --
+2017-04-21 18:03:30 [-][-][-][warning][application] User MQuercia NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user CFlores --
+2017-04-21 18:03:30 [-][-][-][warning][application] User CFlores NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user sanlong --
+2017-04-21 18:03:30 [-][-][-][warning][application] User sanlong NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Sramos --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Sramos NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG10 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG10 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG09 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG09 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user mcsamaniego --
+2017-04-21 18:03:30 [-][-][-][warning][application] User mcsamaniego NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user contabilidad10 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User contabilidad10 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user contabilidad9 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User contabilidad9 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Sanignacio --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Sanignacio NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Orinok --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Orinok NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Adolfoaeropuerto --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Adolfoaeropuerto NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user contabilidad2 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User contabilidad2 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Administrador --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Administrador NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user gdinforma --
+2017-04-21 18:03:30 [-][-][-][warning][application] User gdinforma NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user vwalo --
+2017-04-21 18:03:30 [-][-][-][warning][application] User vwalo NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user wbaldes --
+2017-04-21 18:03:30 [-][-][-][warning][application] User wbaldes NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user GDA_inv01 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User GDA_inv01 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user GDA_Super01 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User GDA_Super01 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user GDA_Manager --
+2017-04-21 18:03:30 [-][-][-][warning][application] User GDA_Manager NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user lrodriguez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User lrodriguez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user AHatillo --
+2017-04-21 18:03:30 [-][-][-][warning][application] User AHatillo NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user aishtilider --
+2017-04-21 18:03:30 [-][-][-][warning][application] User aishtilider NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user aishmillenium --
+2017-04-21 18:03:30 [-][-][-][warning][application] User aishmillenium NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user GDA_Admin --
+2017-04-21 18:03:30 [-][-][-][warning][application] User GDA_Admin NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user crevilla --
+2017-04-21 18:03:30 [-][-][-][warning][application] User crevilla NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Carolinaherrera --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Carolinaherrera NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user contabilidad3 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User contabilidad3 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Naifmillenium --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Naifmillenium NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Foru --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Foru NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user naifmaturin --
+2017-04-21 18:03:30 [-][-][-][warning][application] User naifmaturin NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Maturin --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Maturin NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user L19 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User L19 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user L163 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User L163 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user L153 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User L153 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Guatire --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Guatire NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Forest --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Forest NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user contabilidad4 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User contabilidad4 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user F05 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User F05 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user dzorrilla --
+2017-04-21 18:03:30 [-][-][-][warning][application] User dzorrilla NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user contabilidad8 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User contabilidad8 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user contabilidad7 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User contabilidad7 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user contabilidad6 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User contabilidad6 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user contabilidad5 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User contabilidad5 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Adolfolider --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Adolfolider NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Arecreo --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Arecreo NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user wpacheco --
+2017-04-21 18:03:30 [-][-][-][warning][application] User wpacheco NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user vrebolledo --
+2017-04-21 18:03:30 [-][-][-][warning][application] User vrebolledo NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user inv.adomars --
+2017-04-21 18:03:30 [-][-][-][warning][application] User inv.adomars NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user inv.adomar --
+2017-04-21 18:03:30 [-][-][-][warning][application] User inv.adomar NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user andrea.park --
+2017-04-21 18:03:30 [-][-][-][warning][application] User andrea.park NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user jmenendez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User jmenendez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user cmoreno --
+2017-04-21 18:03:30 [-][-][-][warning][application] User cmoreno NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user amontilla --
+2017-04-21 18:03:30 [-][-][-][warning][application] User amontilla NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user amaturin --
+2017-04-21 18:03:30 [-][-][-][warning][application] User amaturin NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ccervantes --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ccervantes NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user yortiz --
+2017-04-21 18:03:30 [-][-][-][warning][application] User yortiz NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user adtolon --
+2017-04-21 18:03:30 [-][-][-][warning][application] User adtolon NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user lgonzalez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User lgonzalez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ecapote --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ecapote NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user frodriguez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User frodriguez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user yfragoza --
+2017-04-21 18:03:30 [-][-][-][warning][application] User yfragoza NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user adiaz --
+2017-04-21 18:03:30 [-][-][-][warning][application] User adiaz NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user joanne.park --
+2017-04-21 18:03:30 [-][-][-][warning][application] User joanne.park NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user mlopez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User mlopez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user recepcionpb01 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User recepcionpb01 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user recepcionpb02 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User recepcionpb02 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user IWAM_GDPROFIT --
+2017-04-21 18:03:30 [-][-][-][warning][application] User IWAM_GDPROFIT NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user SUPPORT_388945a0 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User SUPPORT_388945a0 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user krbtgt --
+2017-04-21 18:03:30 [-][-][-][warning][application] User krbtgt NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user amoncada --
+2017-04-21 18:03:30 [-][-][-][warning][application] User amoncada NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user rcelis --
+2017-04-21 18:03:30 [-][-][-][warning][application] User rcelis NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user mjimenez --
+2017-04-21 18:03:30 [-][-][-][warning][application] User mjimenez NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user mcaldeira --
+2017-04-21 18:03:30 [-][-][-][warning][application] User mcaldeira NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG20 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG20 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user icg19 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User icg19 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG18 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG18 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user vgazcon --
+2017-04-21 18:03:30 [-][-][-][warning][application] User vgazcon NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user mapamate --
+2017-04-21 18:03:30 [-][-][-][warning][application] User mapamate NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user le.park --
+2017-04-21 18:03:30 [-][-][-][warning][application] User le.park NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user joanne.parks --
+2017-04-21 18:03:30 [-][-][-][warning][application] User joanne.parks NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Pronoviasmercedes --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Pronoviasmercedes NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG14 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG14 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user CHMargarita --
+2017-04-21 18:03:30 [-][-][-][warning][application] User CHMargarita NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Aishopm --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Aishopm NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Aldo --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Aldo NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG17 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG17 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG16 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG16 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG15 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG15 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ICG13 --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ICG13 NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user aromero --
+2017-04-21 18:03:30 [-][-][-][warning][application] User aromero NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Sancristobal --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Sancristobal NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user CHaeropuerto --
+2017-04-21 18:03:30 [-][-][-][warning][application] User CHaeropuerto NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user CHMercedes --
+2017-04-21 18:03:30 [-][-][-][warning][application] User CHMercedes NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Aishopfe --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Aishopfe NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Coachtolon --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Coachtolon NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user Aishopbarcelona --
+2017-04-21 18:03:30 [-][-][-][warning][application] User Aishopbarcelona NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user PGMargarita --
+2017-04-21 18:03:30 [-][-][-][warning][application] User PGMargarita NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user amedina --
+2017-04-21 18:03:30 [-][-][-][warning][application] User amedina NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user lady.fashion --
+2017-04-21 18:03:30 [-][-][-][warning][application] User lady.fashion NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user lady.fashions --
+2017-04-21 18:03:30 [-][-][-][warning][application] User lady.fashions NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user venecor.lnaranjos --
+2017-04-21 18:03:30 [-][-][-][warning][application] User venecor.lnaranjos NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user lider.fashion --
+2017-04-21 18:03:30 [-][-][-][warning][application] User lider.fashion NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user liko.fashion --
+2017-04-21 18:03:30 [-][-][-][warning][application] User liko.fashion NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user metropolitan.fashion --
+2017-04-21 18:03:30 [-][-][-][warning][application] User metropolitan.fashion NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user andrea.parks --
+2017-04-21 18:03:30 [-][-][-][warning][application] User andrea.parks NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user lider.fashions --
+2017-04-21 18:03:30 [-][-][-][warning][application] User lider.fashions NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user corporacion.vanity --
+2017-04-21 18:03:30 [-][-][-][warning][application] User corporacion.vanity NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user ipinto --
+2017-04-21 18:03:30 [-][-][-][warning][application] User ipinto NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user tropical.vanity --
+2017-04-21 18:03:30 [-][-][-][warning][application] User tropical.vanity NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user island.fboutique --
+2017-04-21 18:03:30 [-][-][-][warning][application] User island.fboutique NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user vanity.island --
+2017-04-21 18:03:30 [-][-][-][warning][application] User vanity.island NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user mdelima --
+2017-04-21 18:03:30 [-][-][-][warning][application] User mdelima NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user falfonzo --
+2017-04-21 18:03:30 [-][-][-][warning][application] User falfonzo NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user bramos --
+2017-04-21 18:03:30 [-][-][-][warning][application] User bramos NOT created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- Working on user jmurillo --
+2017-04-21 18:03:30 [-][-][-][warning][application] User jmurillo created
+2017-04-21 18:03:30 [-][-][-][warning][application] -- End import from Active Directory --
+2017-04-21 18:03:29 [-][-][-][info][application] $_SERVER = [
+    'CLUTTER_IM_MODULE' => ''
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-rHeQ4uItMY'
+    'DEFAULTS_PATH' => '/usr/share/gconf/xfce.default.path'
+    'DESKTOP_SESSION' => 'xfce'
+    'DISPLAY' => ':0.0'
+    'GDMSESSION' => 'xfce'
+    'GDM_LANG' => 'en_US'
+    'GLADE_CATALOG_PATH' => ':'
+    'GLADE_MODULE_PATH' => ':'
+    'GLADE_PIXMAP_PATH' => ':'
+    'GNOME_KEYRING_CONTROL' => ''
+    'GNOME_KEYRING_PID' => ''
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'GTK_IM_MODULE' => ''
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'HOME' => '/home/julio'
+    'IM_CONFIG_PHASE' => '1'
+    'INSTANCE' => ''
+    'JOB' => 'dbus'
+    'LANG' => 'en_US.UTF-8'
+    'LANGUAGE' => 'en_US'
+    'LC_ADDRESS' => 'es_VE.UTF-8'
+    'LC_IDENTIFICATION' => 'es_VE.UTF-8'
+    'LC_MEASUREMENT' => 'es_VE.UTF-8'
+    'LC_MONETARY' => 'es_VE.UTF-8'
+    'LC_NAME' => 'es_VE.UTF-8'
+    'LC_NUMERIC' => 'es_VE.UTF-8'
+    'LC_PAPER' => 'es_VE.UTF-8'
+    'LC_TELEPHONE' => 'es_VE.UTF-8'
+    'LC_TIME' => 'es_VE.UTF-8'
+    'LOGNAME' => 'julio'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MANDATORY_PATH' => '/usr/share/gconf/xfce.mandatory.path'
+    'PATH' => '/home/julio/bin:/home/julio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/intranet/src/web/intranet'
+    'QT4_IM_MODULE' => ''
+    'QT_ACCESSIBILITY' => '1'
+    'QT_IM_MODULE' => ''
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'SESSION' => 'xfce'
+    'SESSIONTYPE' => ''
+    'SESSION_MANAGER' => 'local/gd06001:@/tmp/.ICE-unix/5816,unix/gd06001:/tmp/.ICE-unix/5816'
+    'SHELL' => '/bin/bash'
+    'SHLVL' => '1'
+    'SSH_AGENT_PID' => '5825'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-OXh28eYxHfHO/agent.5824'
+    'TERM' => 'xterm'
+    'UPSTART_EVENTS' => 'started xsession'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_JOB' => 'startxfce4'
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/5618'
+    'USER' => 'julio'
+    'XAUTHORITY' => '/home/julio/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-xfce:/usr/share/upstart/xdg:/etc/xdg:/etc/xdg'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'XDG_DATA_DIRS' => '/usr/share/xfce:/usr/share/xfce4:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/julio'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XDG_SEAT' => 'seat0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'XDG_SESSION_DESKTOP' => 'xfce'
+    'XDG_SESSION_ID' => 'c6'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session2'
+    'XDG_SESSION_TYPE' => 'x11'
+    'XDG_VTNR' => '7'
+    'XMODIFIERS' => ''
+    '__fish_bin_dir' => '/usr/bin'
+    '__fish_datadir' => '/usr/share/fish'
+    '__fish_help_dir' => '/usr/share/doc/fish'
+    '__fish_sysconfdir' => '/etc/fish'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1492797809.6345
+    'REQUEST_TIME' => 1492797809
+    'argv' => [
+        0 => './yii'
+        1 => 'ldapcmd/import-all-users'
+    ]
+    'argc' => 2
+]
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Starting import from Active Directory --
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Found 280 users --
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Invitado --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Invitado NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user arojas --
+2017-04-21 18:04:40 [-][-][-][warning][application] User arojas NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user salfonzo --
+2017-04-21 18:04:40 [-][-][-][warning][application] User salfonzo NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ypatino --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ypatino NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user rbautista --
+2017-04-21 18:04:40 [-][-][-][warning][application] User rbautista NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user egonzalez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User egonzalez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user egraterol --
+2017-04-21 18:04:40 [-][-][-][warning][application] User egraterol NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user iberrios --
+2017-04-21 18:04:40 [-][-][-][warning][application] User iberrios NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user farriojas --
+2017-04-21 18:04:40 [-][-][-][warning][application] User farriojas NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ngonzalez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ngonzalez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user grosales --
+2017-04-21 18:04:40 [-][-][-][warning][application] User grosales NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ebarrios --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ebarrios NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user bmartinez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User bmartinez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ychirinos --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ychirinos NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user iseijas --
+2017-04-21 18:04:40 [-][-][-][warning][application] User iseijas NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user xin.tolon --
+2017-04-21 18:04:40 [-][-][-][warning][application] User xin.tolon NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user pmarcano --
+2017-04-21 18:04:40 [-][-][-][warning][application] User pmarcano NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user eramirez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User eramirez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user llvargas --
+2017-04-21 18:04:40 [-][-][-][warning][application] User llvargas NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user vst.liderdamas --
+2017-04-21 18:04:40 [-][-][-][warning][application] User vst.liderdamas NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user wespin --
+2017-04-21 18:04:40 [-][-][-][warning][application] User wespin NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user vvismara --
+2017-04-21 18:04:40 [-][-][-][warning][application] User vvismara NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user gnavas --
+2017-04-21 18:04:40 [-][-][-][warning][application] User gnavas NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user lcontreras --
+2017-04-21 18:04:40 [-][-][-][warning][application] User lcontreras NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ymarquez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ymarquez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user vst.hatillo --
+2017-04-21 18:04:40 [-][-][-][warning][application] User vst.hatillo NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user dgarcia --
+2017-04-21 18:04:40 [-][-][-][warning][application] User dgarcia NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user kmendez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User kmendez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user icaceres --
+2017-04-21 18:04:40 [-][-][-][warning][application] User icaceres NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user aespinoza --
+2017-04-21 18:04:40 [-][-][-][warning][application] User aespinoza NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user eborjas --
+2017-04-21 18:04:40 [-][-][-][warning][application] User eborjas NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user vzambrano --
+2017-04-21 18:04:40 [-][-][-][warning][application] User vzambrano NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user dbastidas --
+2017-04-21 18:04:40 [-][-][-][warning][application] User dbastidas NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user tdoumet --
+2017-04-21 18:04:40 [-][-][-][warning][application] User tdoumet NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user bsanchez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User bsanchez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user vst.lidercaballeros --
+2017-04-21 18:04:40 [-][-][-][warning][application] User vst.lidercaballeros NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user xin.mgtaca --
+2017-04-21 18:04:40 [-][-][-][warning][application] User xin.mgtaca NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user recepcion02 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User recepcion02 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Recepcion --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Recepcion NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user saghandour --
+2017-04-21 18:04:40 [-][-][-][warning][application] User saghandour NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ytorres --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ytorres NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user areitich --
+2017-04-21 18:04:40 [-][-][-][warning][application] User areitich NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user rocastro --
+2017-04-21 18:04:40 [-][-][-][warning][application] User rocastro NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user mmartinez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User mmartinez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user vst.ccct --
+2017-04-21 18:04:40 [-][-][-][warning][application] User vst.ccct NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user vst.samccs --
+2017-04-21 18:04:40 [-][-][-][warning][application] User vst.samccs NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user vst.tolon --
+2017-04-21 18:04:40 [-][-][-][warning][application] User vst.tolon NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user vst.mgtaca --
+2017-04-21 18:04:40 [-][-][-][warning][application] User vst.mgtaca NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user vst.millenium --
+2017-04-21 18:04:40 [-][-][-][warning][application] User vst.millenium NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user xin.samccs --
+2017-04-21 18:04:40 [-][-][-][warning][application] User xin.samccs NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user xin.ccct --
+2017-04-21 18:04:40 [-][-][-][warning][application] User xin.ccct NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user aislido --
+2017-04-21 18:04:40 [-][-][-][warning][application] User aislido NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ymoreno --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ymoreno NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user vrivera --
+2017-04-21 18:04:40 [-][-][-][warning][application] User vrivera NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ysuarez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ysuarez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ylacruz --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ylacruz NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user sforde --
+2017-04-21 18:04:40 [-][-][-][warning][application] User sforde NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user garmand --
+2017-04-21 18:04:40 [-][-][-][warning][application] User garmand NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user getback --
+2017-04-21 18:04:40 [-][-][-][warning][application] User getback NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ligonzalez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ligonzalez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user imarquez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User imarquez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user aberrocal --
+2017-04-21 18:04:40 [-][-][-][warning][application] User aberrocal NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user GDCONFER --
+2017-04-21 18:04:40 [-][-][-][warning][application] User GDCONFER NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user lmontiel --
+2017-04-21 18:04:40 [-][-][-][warning][application] User lmontiel NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user lcarrillo --
+2017-04-21 18:04:40 [-][-][-][warning][application] User lcarrillo NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user rperez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User rperez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user dzapata --
+2017-04-21 18:04:40 [-][-][-][warning][application] User dzapata NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user jfranco --
+2017-04-21 18:04:40 [-][-][-][warning][application] User jfranco NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user gprieto --
+2017-04-21 18:04:40 [-][-][-][warning][application] User gprieto NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user oguevara --
+2017-04-21 18:04:40 [-][-][-][warning][application] User oguevara NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user yizquiel --
+2017-04-21 18:04:40 [-][-][-][warning][application] User yizquiel NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user kortuno --
+2017-04-21 18:04:40 [-][-][-][warning][application] User kortuno NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user cguzman --
+2017-04-21 18:04:40 [-][-][-][warning][application] User cguzman NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user yrivas --
+2017-04-21 18:04:40 [-][-][-][warning][application] User yrivas NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user rserpa --
+2017-04-21 18:04:40 [-][-][-][warning][application] User rserpa NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user nsantos --
+2017-04-21 18:04:40 [-][-][-][warning][application] User nsantos NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user esanabria --
+2017-04-21 18:04:40 [-][-][-][warning][application] User esanabria NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user nlobo --
+2017-04-21 18:04:40 [-][-][-][warning][application] User nlobo NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user dleal --
+2017-04-21 18:04:40 [-][-][-][warning][application] User dleal NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ablanco --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ablanco NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user rtovar --
+2017-04-21 18:04:40 [-][-][-][warning][application] User rtovar NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user lrojas --
+2017-04-21 18:04:40 [-][-][-][warning][application] User lrojas NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user hmoreno --
+2017-04-21 18:04:40 [-][-][-][warning][application] User hmoreno NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user kduenas --
+2017-04-21 18:04:40 [-][-][-][warning][application] User kduenas NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user acroquer --
+2017-04-21 18:04:40 [-][-][-][warning][application] User acroquer NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user aguerrero --
+2017-04-21 18:04:40 [-][-][-][warning][application] User aguerrero NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user druiz --
+2017-04-21 18:04:40 [-][-][-][warning][application] User druiz NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user fsilva --
+2017-04-21 18:04:40 [-][-][-][warning][application] User fsilva NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user abonaldy --
+2017-04-21 18:04:40 [-][-][-][warning][application] User abonaldy NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user avielma --
+2017-04-21 18:04:40 [-][-][-][warning][application] User avielma NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user lcamacho --
+2017-04-21 18:04:40 [-][-][-][warning][application] User lcamacho created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user gpabon --
+2017-04-21 18:04:40 [-][-][-][warning][application] User gpabon NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user svasquez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User svasquez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ghernandez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ghernandez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user pcasique --
+2017-04-21 18:04:40 [-][-][-][warning][application] User pcasique NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user apaiva --
+2017-04-21 18:04:40 [-][-][-][warning][application] User apaiva NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user cguereguan --
+2017-04-21 18:04:40 [-][-][-][warning][application] User cguereguan NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user operez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User operez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user juzcategui --
+2017-04-21 18:04:40 [-][-][-][warning][application] User juzcategui NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user calvarez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User calvarez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user addiaz --
+2017-04-21 18:04:40 [-][-][-][warning][application] User addiaz NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user varevalo --
+2017-04-21 18:04:40 [-][-][-][warning][application] User varevalo NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user rmontero --
+2017-04-21 18:04:40 [-][-][-][warning][application] User rmontero NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ralves --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ralves NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user sgomez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User sgomez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user aishopccct --
+2017-04-21 18:04:40 [-][-][-][warning][application] User aishopccct NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user klopez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User klopez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user jrincon --
+2017-04-21 18:04:40 [-][-][-][warning][application] User jrincon NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user afigueroa --
+2017-04-21 18:04:40 [-][-][-][warning][application] User afigueroa NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user dguevara --
+2017-04-21 18:04:40 [-][-][-][warning][application] User dguevara NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user abolet --
+2017-04-21 18:04:40 [-][-][-][warning][application] User abolet NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user kgaydos --
+2017-04-21 18:04:40 [-][-][-][warning][application] User kgaydos NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user khernandez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User khernandez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user xrodriguez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User xrodriguez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user proveedor01 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User proveedor01 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user rcarrillo --
+2017-04-21 18:04:40 [-][-][-][warning][application] User rcarrillo NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user elopez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User elopez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user xin.lider --
+2017-04-21 18:04:40 [-][-][-][warning][application] User xin.lider NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user dlopez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User dlopez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user gsomogyi --
+2017-04-21 18:04:40 [-][-][-][warning][application] User gsomogyi NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user scarballo --
+2017-04-21 18:04:40 [-][-][-][warning][application] User scarballo NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user rmontilla --
+2017-04-21 18:04:40 [-][-][-][warning][application] User rmontilla NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user sblanco --
+2017-04-21 18:04:40 [-][-][-][warning][application] User sblanco NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user aalvarado --
+2017-04-21 18:04:40 [-][-][-][warning][application] User aalvarado NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user kgonzalez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User kgonzalez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ngoncalves --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ngoncalves NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ybriceño --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ybriceño NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user capacitacion --
+2017-04-21 18:04:40 [-][-][-][warning][application] User capacitacion NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user lrequena --
+2017-04-21 18:04:40 [-][-][-][warning][application] User lrequena NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user prtgadmin --
+2017-04-21 18:04:40 [-][-][-][warning][application] User prtgadmin NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user aiscab --
+2017-04-21 18:04:40 [-][-][-][warning][application] User aiscab NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user cmartinez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User cmartinez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user nguio --
+2017-04-21 18:04:40 [-][-][-][warning][application] User nguio NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user agarcia --
+2017-04-21 18:04:40 [-][-][-][warning][application] User agarcia NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user dpineda --
+2017-04-21 18:04:40 [-][-][-][warning][application] User dpineda NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user yherrera --
+2017-04-21 18:04:40 [-][-][-][warning][application] User yherrera NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user aissagd --
+2017-04-21 18:04:40 [-][-][-][warning][application] User aissagd NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ymelo --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ymelo NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user mvelasquez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User mvelasquez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user zortega --
+2017-04-21 18:04:40 [-][-][-][warning][application] User zortega NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user IUSR_GDPROFIT --
+2017-04-21 18:04:40 [-][-][-][warning][application] User IUSR_GDPROFIT NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ICG07 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ICG07 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user GDA_Inve01 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User GDA_Inve01 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Tango --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Tango NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Tolon --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Tolon NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Valencia --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Valencia NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user GDA_Owner --
+2017-04-21 18:04:40 [-][-][-][warning][application] User GDA_Owner NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Contabilidad1 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Contabilidad1 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Mchachati --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Mchachati NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Omendez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Omendez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ICG01 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ICG01 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ICG02 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ICG02 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ICG03 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ICG03 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ICG04 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ICG04 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ICG05 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ICG05 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ICG06 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ICG06 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ICG08 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ICG08 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Ozono --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Ozono NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user LDelgado --
+2017-04-21 18:04:40 [-][-][-][warning][application] User LDelgado NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Bimbatolon --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Bimbatolon NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user xinhatillo --
+2017-04-21 18:04:40 [-][-][-][warning][application] User xinhatillo NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Bimbalider --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Bimbalider NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ICG12 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ICG12 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ICG11 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ICG11 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user MQuercia --
+2017-04-21 18:04:40 [-][-][-][warning][application] User MQuercia NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user CFlores --
+2017-04-21 18:04:40 [-][-][-][warning][application] User CFlores NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user sanlong --
+2017-04-21 18:04:40 [-][-][-][warning][application] User sanlong NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Sramos --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Sramos NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ICG10 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ICG10 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user ICG09 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User ICG09 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user mcsamaniego --
+2017-04-21 18:04:40 [-][-][-][warning][application] User mcsamaniego NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user contabilidad10 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User contabilidad10 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user contabilidad9 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User contabilidad9 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Sanignacio --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Sanignacio NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Orinok --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Orinok NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Adolfoaeropuerto --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Adolfoaeropuerto NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user contabilidad2 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User contabilidad2 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Administrador --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Administrador NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user gdinforma --
+2017-04-21 18:04:40 [-][-][-][warning][application] User gdinforma NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user vwalo --
+2017-04-21 18:04:40 [-][-][-][warning][application] User vwalo NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user wbaldes --
+2017-04-21 18:04:40 [-][-][-][warning][application] User wbaldes NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user GDA_inv01 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User GDA_inv01 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user GDA_Super01 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User GDA_Super01 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user GDA_Manager --
+2017-04-21 18:04:40 [-][-][-][warning][application] User GDA_Manager NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user lrodriguez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User lrodriguez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user AHatillo --
+2017-04-21 18:04:40 [-][-][-][warning][application] User AHatillo NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user aishtilider --
+2017-04-21 18:04:40 [-][-][-][warning][application] User aishtilider NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user aishmillenium --
+2017-04-21 18:04:40 [-][-][-][warning][application] User aishmillenium NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user GDA_Admin --
+2017-04-21 18:04:40 [-][-][-][warning][application] User GDA_Admin NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user crevilla --
+2017-04-21 18:04:40 [-][-][-][warning][application] User crevilla NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Carolinaherrera --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Carolinaherrera NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user contabilidad3 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User contabilidad3 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Naifmillenium --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Naifmillenium NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Foru --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Foru NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user naifmaturin --
+2017-04-21 18:04:40 [-][-][-][warning][application] User naifmaturin NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Maturin --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Maturin NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user L19 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User L19 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user L163 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User L163 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user L153 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User L153 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Guatire --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Guatire NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Forest --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Forest NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user contabilidad4 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User contabilidad4 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user F05 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User F05 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user dzorrilla --
+2017-04-21 18:04:40 [-][-][-][warning][application] User dzorrilla NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user contabilidad8 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User contabilidad8 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user contabilidad7 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User contabilidad7 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user contabilidad6 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User contabilidad6 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user contabilidad5 --
+2017-04-21 18:04:40 [-][-][-][warning][application] User contabilidad5 NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Adolfolider --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Adolfolider NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user Arecreo --
+2017-04-21 18:04:40 [-][-][-][warning][application] User Arecreo NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user wpacheco --
+2017-04-21 18:04:40 [-][-][-][warning][application] User wpacheco NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user vrebolledo --
+2017-04-21 18:04:40 [-][-][-][warning][application] User vrebolledo NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user inv.adomars --
+2017-04-21 18:04:40 [-][-][-][warning][application] User inv.adomars NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user inv.adomar --
+2017-04-21 18:04:40 [-][-][-][warning][application] User inv.adomar NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user andrea.park --
+2017-04-21 18:04:40 [-][-][-][warning][application] User andrea.park NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user jmenendez --
+2017-04-21 18:04:40 [-][-][-][warning][application] User jmenendez NOT created
+2017-04-21 18:04:40 [-][-][-][warning][application] -- Working on user cmoreno --
+2017-04-21 18:04:41 [-][-][-][warning][application] User cmoreno NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user amontilla --
+2017-04-21 18:04:41 [-][-][-][warning][application] User amontilla NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user amaturin --
+2017-04-21 18:04:41 [-][-][-][warning][application] User amaturin NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user ccervantes --
+2017-04-21 18:04:41 [-][-][-][warning][application] User ccervantes NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user yortiz --
+2017-04-21 18:04:41 [-][-][-][warning][application] User yortiz NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user adtolon --
+2017-04-21 18:04:41 [-][-][-][warning][application] User adtolon NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user lgonzalez --
+2017-04-21 18:04:41 [-][-][-][warning][application] User lgonzalez NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user ecapote --
+2017-04-21 18:04:41 [-][-][-][warning][application] User ecapote NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user frodriguez --
+2017-04-21 18:04:41 [-][-][-][warning][application] User frodriguez NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user yfragoza --
+2017-04-21 18:04:41 [-][-][-][warning][application] User yfragoza NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user adiaz --
+2017-04-21 18:04:41 [-][-][-][warning][application] User adiaz NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user joanne.park --
+2017-04-21 18:04:41 [-][-][-][warning][application] User joanne.park NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user mlopez --
+2017-04-21 18:04:41 [-][-][-][warning][application] User mlopez NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user recepcionpb01 --
+2017-04-21 18:04:41 [-][-][-][warning][application] User recepcionpb01 NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user recepcionpb02 --
+2017-04-21 18:04:41 [-][-][-][warning][application] User recepcionpb02 NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user IWAM_GDPROFIT --
+2017-04-21 18:04:41 [-][-][-][warning][application] User IWAM_GDPROFIT NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user SUPPORT_388945a0 --
+2017-04-21 18:04:41 [-][-][-][warning][application] User SUPPORT_388945a0 NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user krbtgt --
+2017-04-21 18:04:41 [-][-][-][warning][application] User krbtgt NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user amoncada --
+2017-04-21 18:04:41 [-][-][-][warning][application] User amoncada NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user rcelis --
+2017-04-21 18:04:41 [-][-][-][warning][application] User rcelis NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user mjimenez --
+2017-04-21 18:04:41 [-][-][-][warning][application] User mjimenez NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user mcaldeira --
+2017-04-21 18:04:41 [-][-][-][warning][application] User mcaldeira NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user ICG20 --
+2017-04-21 18:04:41 [-][-][-][warning][application] User ICG20 NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user icg19 --
+2017-04-21 18:04:41 [-][-][-][warning][application] User icg19 NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user ICG18 --
+2017-04-21 18:04:41 [-][-][-][warning][application] User ICG18 NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user vgazcon --
+2017-04-21 18:04:41 [-][-][-][warning][application] User vgazcon NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user mapamate --
+2017-04-21 18:04:41 [-][-][-][warning][application] User mapamate NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user le.park --
+2017-04-21 18:04:41 [-][-][-][warning][application] User le.park NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user joanne.parks --
+2017-04-21 18:04:41 [-][-][-][warning][application] User joanne.parks NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user Pronoviasmercedes --
+2017-04-21 18:04:41 [-][-][-][warning][application] User Pronoviasmercedes NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user ICG14 --
+2017-04-21 18:04:41 [-][-][-][warning][application] User ICG14 NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user CHMargarita --
+2017-04-21 18:04:41 [-][-][-][warning][application] User CHMargarita NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user Aishopm --
+2017-04-21 18:04:41 [-][-][-][warning][application] User Aishopm NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user Aldo --
+2017-04-21 18:04:41 [-][-][-][warning][application] User Aldo NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user ICG17 --
+2017-04-21 18:04:41 [-][-][-][warning][application] User ICG17 NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user ICG16 --
+2017-04-21 18:04:41 [-][-][-][warning][application] User ICG16 NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user ICG15 --
+2017-04-21 18:04:41 [-][-][-][warning][application] User ICG15 NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user ICG13 --
+2017-04-21 18:04:41 [-][-][-][warning][application] User ICG13 NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user aromero --
+2017-04-21 18:04:41 [-][-][-][warning][application] User aromero NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user Sancristobal --
+2017-04-21 18:04:41 [-][-][-][warning][application] User Sancristobal NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user CHaeropuerto --
+2017-04-21 18:04:41 [-][-][-][warning][application] User CHaeropuerto NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user CHMercedes --
+2017-04-21 18:04:41 [-][-][-][warning][application] User CHMercedes NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user Aishopfe --
+2017-04-21 18:04:41 [-][-][-][warning][application] User Aishopfe NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user Coachtolon --
+2017-04-21 18:04:41 [-][-][-][warning][application] User Coachtolon NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user Aishopbarcelona --
+2017-04-21 18:04:41 [-][-][-][warning][application] User Aishopbarcelona NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user PGMargarita --
+2017-04-21 18:04:41 [-][-][-][warning][application] User PGMargarita NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user amedina --
+2017-04-21 18:04:41 [-][-][-][warning][application] User amedina NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user lady.fashion --
+2017-04-21 18:04:41 [-][-][-][warning][application] User lady.fashion NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user lady.fashions --
+2017-04-21 18:04:41 [-][-][-][warning][application] User lady.fashions NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user venecor.lnaranjos --
+2017-04-21 18:04:41 [-][-][-][warning][application] User venecor.lnaranjos NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user lider.fashion --
+2017-04-21 18:04:41 [-][-][-][warning][application] User lider.fashion NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user liko.fashion --
+2017-04-21 18:04:41 [-][-][-][warning][application] User liko.fashion NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user metropolitan.fashion --
+2017-04-21 18:04:41 [-][-][-][warning][application] User metropolitan.fashion NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user andrea.parks --
+2017-04-21 18:04:41 [-][-][-][warning][application] User andrea.parks NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user lider.fashions --
+2017-04-21 18:04:41 [-][-][-][warning][application] User lider.fashions NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user corporacion.vanity --
+2017-04-21 18:04:41 [-][-][-][warning][application] User corporacion.vanity NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user ipinto --
+2017-04-21 18:04:41 [-][-][-][warning][application] User ipinto NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user tropical.vanity --
+2017-04-21 18:04:41 [-][-][-][warning][application] User tropical.vanity NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user island.fboutique --
+2017-04-21 18:04:41 [-][-][-][warning][application] User island.fboutique NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user vanity.island --
+2017-04-21 18:04:41 [-][-][-][warning][application] User vanity.island NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user mdelima --
+2017-04-21 18:04:41 [-][-][-][warning][application] User mdelima NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user falfonzo --
+2017-04-21 18:04:41 [-][-][-][warning][application] User falfonzo NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user bramos --
+2017-04-21 18:04:41 [-][-][-][warning][application] User bramos NOT created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- Working on user jmurillo --
+2017-04-21 18:04:41 [-][-][-][warning][application] User jmurillo created
+2017-04-21 18:04:41 [-][-][-][warning][application] -- End import from Active Directory --
+2017-04-21 18:04:40 [-][-][-][info][application] $_SERVER = [
+    'CLUTTER_IM_MODULE' => ''
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-rHeQ4uItMY'
+    'DEFAULTS_PATH' => '/usr/share/gconf/xfce.default.path'
+    'DESKTOP_SESSION' => 'xfce'
+    'DISPLAY' => ':0.0'
+    'GDMSESSION' => 'xfce'
+    'GDM_LANG' => 'en_US'
+    'GLADE_CATALOG_PATH' => ':'
+    'GLADE_MODULE_PATH' => ':'
+    'GLADE_PIXMAP_PATH' => ':'
+    'GNOME_KEYRING_CONTROL' => ''
+    'GNOME_KEYRING_PID' => ''
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'GTK_IM_MODULE' => ''
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'HOME' => '/home/julio'
+    'IM_CONFIG_PHASE' => '1'
+    'INSTANCE' => ''
+    'JOB' => 'dbus'
+    'LANG' => 'en_US.UTF-8'
+    'LANGUAGE' => 'en_US'
+    'LC_ADDRESS' => 'es_VE.UTF-8'
+    'LC_IDENTIFICATION' => 'es_VE.UTF-8'
+    'LC_MEASUREMENT' => 'es_VE.UTF-8'
+    'LC_MONETARY' => 'es_VE.UTF-8'
+    'LC_NAME' => 'es_VE.UTF-8'
+    'LC_NUMERIC' => 'es_VE.UTF-8'
+    'LC_PAPER' => 'es_VE.UTF-8'
+    'LC_TELEPHONE' => 'es_VE.UTF-8'
+    'LC_TIME' => 'es_VE.UTF-8'
+    'LOGNAME' => 'julio'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MANDATORY_PATH' => '/usr/share/gconf/xfce.mandatory.path'
+    'PATH' => '/home/julio/bin:/home/julio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/intranet/src/web/intranet'
+    'QT4_IM_MODULE' => ''
+    'QT_ACCESSIBILITY' => '1'
+    'QT_IM_MODULE' => ''
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'SESSION' => 'xfce'
+    'SESSIONTYPE' => ''
+    'SESSION_MANAGER' => 'local/gd06001:@/tmp/.ICE-unix/5816,unix/gd06001:/tmp/.ICE-unix/5816'
+    'SHELL' => '/bin/bash'
+    'SHLVL' => '1'
+    'SSH_AGENT_PID' => '5825'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-OXh28eYxHfHO/agent.5824'
+    'TERM' => 'xterm'
+    'UPSTART_EVENTS' => 'started xsession'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_JOB' => 'startxfce4'
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/5618'
+    'USER' => 'julio'
+    'XAUTHORITY' => '/home/julio/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-xfce:/usr/share/upstart/xdg:/etc/xdg:/etc/xdg'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'XDG_DATA_DIRS' => '/usr/share/xfce:/usr/share/xfce4:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/julio'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XDG_SEAT' => 'seat0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'XDG_SESSION_DESKTOP' => 'xfce'
+    'XDG_SESSION_ID' => 'c6'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session2'
+    'XDG_SESSION_TYPE' => 'x11'
+    'XDG_VTNR' => '7'
+    'XMODIFIERS' => ''
+    '__fish_bin_dir' => '/usr/bin'
+    '__fish_datadir' => '/usr/share/fish'
+    '__fish_help_dir' => '/usr/share/doc/fish'
+    '__fish_sysconfdir' => '/etc/fish'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1492797880.3371
+    'REQUEST_TIME' => 1492797880
+    'argv' => [
+        0 => './yii'
+        1 => 'ldapcmd/import-all-users'
+    ]
+    'argc' => 2
+]
+2017-04-21 18:04:47 [-][-][-][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'permissionDisplayDetailedAbout' for key 'PRIMARY' in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php:846
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(846): PDOStatement->execute()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/rbac/DbManager.php(276): yii\db\Command->execute()
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/rbac/BaseManager.php(125): yii\rbac\DbManager->addItem(Object(yii\rbac\Permission))
+#3 /var/www/intranet/src/web/intranet/vendor/edvlerblog/yii2-adldap-module/src/commands/LdapController.php(34): yii\rbac\BaseManager->add(Object(yii\rbac\Permission))
+#4 [internal function]: Edvlerblog\Adldap2\commands\LdapController->actionCreateExampleRole()
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('create-example-...', Array)
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('create-example-...', Array)
+#9 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('ldapcmd/create-...', Array)
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('ldapcmd/create-...', Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 /var/www/intranet/src/web/intranet/yii(27): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'permissionDisplayDetailedAbout' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('permissionDisplayDetailedAbout', 2, 'Permission to display detailed about informations', NULL, NULL, 1492797887, 1492797887) in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/rbac/DbManager.php(276): yii\db\Command->execute()
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/rbac/BaseManager.php(125): yii\rbac\DbManager->addItem(Object(yii\rbac\Permission))
+#3 /var/www/intranet/src/web/intranet/vendor/edvlerblog/yii2-adldap-module/src/commands/LdapController.php(34): yii\rbac\BaseManager->add(Object(yii\rbac\Permission))
+#4 [internal function]: Edvlerblog\Adldap2\commands\LdapController->actionCreateExampleRole()
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('create-example-...', Array)
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('create-example-...', Array)
+#9 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('ldapcmd/create-...', Array)
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('ldapcmd/create-...', Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 /var/www/intranet/src/web/intranet/yii(27): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'permissionDisplayDetailedAbout' for key 'PRIMARY'
+)
+
+2017-04-21 18:04:47 [-][-][-][info][application] $_SERVER = [
+    'CLUTTER_IM_MODULE' => ''
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-rHeQ4uItMY'
+    'DEFAULTS_PATH' => '/usr/share/gconf/xfce.default.path'
+    'DESKTOP_SESSION' => 'xfce'
+    'DISPLAY' => ':0.0'
+    'GDMSESSION' => 'xfce'
+    'GDM_LANG' => 'en_US'
+    'GLADE_CATALOG_PATH' => ':'
+    'GLADE_MODULE_PATH' => ':'
+    'GLADE_PIXMAP_PATH' => ':'
+    'GNOME_KEYRING_CONTROL' => ''
+    'GNOME_KEYRING_PID' => ''
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'GTK_IM_MODULE' => ''
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'HOME' => '/home/julio'
+    'IM_CONFIG_PHASE' => '1'
+    'INSTANCE' => ''
+    'JOB' => 'dbus'
+    'LANG' => 'en_US.UTF-8'
+    'LANGUAGE' => 'en_US'
+    'LC_ADDRESS' => 'es_VE.UTF-8'
+    'LC_IDENTIFICATION' => 'es_VE.UTF-8'
+    'LC_MEASUREMENT' => 'es_VE.UTF-8'
+    'LC_MONETARY' => 'es_VE.UTF-8'
+    'LC_NAME' => 'es_VE.UTF-8'
+    'LC_NUMERIC' => 'es_VE.UTF-8'
+    'LC_PAPER' => 'es_VE.UTF-8'
+    'LC_TELEPHONE' => 'es_VE.UTF-8'
+    'LC_TIME' => 'es_VE.UTF-8'
+    'LOGNAME' => 'julio'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MANDATORY_PATH' => '/usr/share/gconf/xfce.mandatory.path'
+    'PATH' => '/home/julio/bin:/home/julio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/intranet/src/web/intranet'
+    'QT4_IM_MODULE' => ''
+    'QT_ACCESSIBILITY' => '1'
+    'QT_IM_MODULE' => ''
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'SESSION' => 'xfce'
+    'SESSIONTYPE' => ''
+    'SESSION_MANAGER' => 'local/gd06001:@/tmp/.ICE-unix/5816,unix/gd06001:/tmp/.ICE-unix/5816'
+    'SHELL' => '/bin/bash'
+    'SHLVL' => '1'
+    'SSH_AGENT_PID' => '5825'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-OXh28eYxHfHO/agent.5824'
+    'TERM' => 'xterm'
+    'UPSTART_EVENTS' => 'started xsession'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_JOB' => 'startxfce4'
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/5618'
+    'USER' => 'julio'
+    'XAUTHORITY' => '/home/julio/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-xfce:/usr/share/upstart/xdg:/etc/xdg:/etc/xdg'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'XDG_DATA_DIRS' => '/usr/share/xfce:/usr/share/xfce4:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/julio'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XDG_SEAT' => 'seat0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'XDG_SESSION_DESKTOP' => 'xfce'
+    'XDG_SESSION_ID' => 'c6'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session2'
+    'XDG_SESSION_TYPE' => 'x11'
+    'XDG_VTNR' => '7'
+    'XMODIFIERS' => ''
+    '__fish_bin_dir' => '/usr/bin'
+    '__fish_datadir' => '/usr/share/fish'
+    '__fish_help_dir' => '/usr/share/doc/fish'
+    '__fish_sysconfdir' => '/etc/fish'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1492797887.5531
+    'REQUEST_TIME' => 1492797887
+    'argv' => [
+        0 => './yii'
+        1 => 'ldapcmd/create-example-role'
+    ]
+    'argc' => 2
+]
+2017-04-25 17:15:43 [-][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Migration failed. Directory specified in migrationPath doesn't exist: @vendor/rbac/migrations in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php:106
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/controllers/MigrateController.php(168): yii\console\controllers\BaseMigrateController->beforeAction(Object(yii\base\InlineAction))
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(154): yii\console\controllers\MigrateController->beforeAction(Object(yii\base\InlineAction))
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 /var/www/intranet/src/web/intranet/yii(27): yii\base\Application->run()
+#8 {main}
+2017-04-25 17:15:43 [-][-][-][info][application] $_SERVER = [
+    'CLUTTER_IM_MODULE' => ''
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-a7OBzg0XpI'
+    'DEFAULTS_PATH' => '/usr/share/gconf/xfce.default.path'
+    'DESKTOP_SESSION' => 'xfce'
+    'DISPLAY' => ':0.0'
+    'GDMSESSION' => 'xfce'
+    'GDM_LANG' => 'en_US'
+    'GLADE_CATALOG_PATH' => ':'
+    'GLADE_MODULE_PATH' => ':'
+    'GLADE_PIXMAP_PATH' => ':'
+    'GNOME_KEYRING_CONTROL' => ''
+    'GNOME_KEYRING_PID' => ''
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'GTK_IM_MODULE' => ''
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'HOME' => '/home/julio'
+    'IM_CONFIG_PHASE' => '1'
+    'INSTANCE' => ''
+    'JOB' => 'dbus'
+    'LANG' => 'en_US.UTF-8'
+    'LANGUAGE' => 'en_US'
+    'LC_ADDRESS' => 'es_VE.UTF-8'
+    'LC_IDENTIFICATION' => 'es_VE.UTF-8'
+    'LC_MEASUREMENT' => 'es_VE.UTF-8'
+    'LC_MONETARY' => 'es_VE.UTF-8'
+    'LC_NAME' => 'es_VE.UTF-8'
+    'LC_NUMERIC' => 'es_VE.UTF-8'
+    'LC_PAPER' => 'es_VE.UTF-8'
+    'LC_TELEPHONE' => 'es_VE.UTF-8'
+    'LC_TIME' => 'es_VE.UTF-8'
+    'LOGNAME' => 'julio'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MANDATORY_PATH' => '/usr/share/gconf/xfce.mandatory.path'
+    'PATH' => '/home/julio/bin:/home/julio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/intranet/src/web/intranet'
+    'QT4_IM_MODULE' => ''
+    'QT_ACCESSIBILITY' => '1'
+    'QT_IM_MODULE' => ''
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'SESSION' => 'xfce'
+    'SESSIONTYPE' => ''
+    'SESSION_MANAGER' => 'local/gd06001:@/tmp/.ICE-unix/1820,unix/gd06001:/tmp/.ICE-unix/1820'
+    'SHELL' => '/bin/bash'
+    'SHLVL' => '1'
+    'SSH_AGENT_PID' => '2965'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-YRDx8HTluxEx/agent.2886'
+    'TERM' => 'xterm'
+    'UPSTART_EVENTS' => 'started xsession'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_JOB' => 'startxfce4'
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/1548'
+    'USER' => 'julio'
+    'XAUTHORITY' => '/home/julio/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-xfce:/usr/share/upstart/xdg:/etc/xdg:/etc/xdg'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'XDG_DATA_DIRS' => '/usr/share/xfce:/usr/share/xfce4:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/julio'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XDG_SEAT' => 'seat0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'XDG_SESSION_DESKTOP' => 'xfce'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SESSION_TYPE' => 'x11'
+    'XDG_VTNR' => '7'
+    'XMODIFIERS' => ''
+    '__fish_bin_dir' => '/usr/bin'
+    '__fish_datadir' => '/usr/share/fish'
+    '__fish_help_dir' => '/usr/share/doc/fish'
+    '__fish_sysconfdir' => '/etc/fish'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493140543.7943
+    'REQUEST_TIME' => 1493140543
+    'argv' => [
+        0 => './yii'
+        1 => 'migrate/up'
+        2 => '--migrationPath=@vendor/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2017-04-25 17:44:10 [-][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Migration failed. Directory specified in migrationPath doesn't exist: /vendor/yii2mod/yii2-rbac/migrations/ in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php:106
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/controllers/MigrateController.php(168): yii\console\controllers\BaseMigrateController->beforeAction(Object(yii\base\InlineAction))
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(154): yii\console\controllers\MigrateController->beforeAction(Object(yii\base\InlineAction))
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('', Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 /var/www/intranet/src/web/intranet/yii(27): yii\base\Application->run()
+#8 {main}
+2017-04-25 17:44:10 [-][-][-][info][application] $_SERVER = [
+    'DISPLAY' => ':0.0'
+    'HOME' => '/home/julio'
+    'LANG' => 'en_US.UTF-8'
+    'LANGUAGE' => 'en_US'
+    'LC_ADDRESS' => 'es_VE.UTF-8'
+    'LC_IDENTIFICATION' => 'es_VE.UTF-8'
+    'LC_MEASUREMENT' => 'es_VE.UTF-8'
+    'LC_MONETARY' => 'es_VE.UTF-8'
+    'LC_NAME' => 'es_VE.UTF-8'
+    'LC_NUMERIC' => 'es_VE.UTF-8'
+    'LC_PAPER' => 'es_VE.UTF-8'
+    'LC_TELEPHONE' => 'es_VE.UTF-8'
+    'LC_TIME' => 'es_VE.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'TERM' => 'xterm'
+    'XAUTHORITY' => '/home/julio/.Xauthority'
+    'MAIL' => '/var/mail/root'
+    'LOGNAME' => 'root'
+    'USER' => 'root'
+    'USERNAME' => 'root'
+    'SHELL' => '/bin/bash'
+    'SUDO_COMMAND' => './yii migrate --migrationPath=/vendor/yii2mod/yii2-rbac/migrations/'
+    'SUDO_USER' => 'julio'
+    'SUDO_UID' => '1000'
+    'SUDO_GID' => '1000'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493142250.2921
+    'REQUEST_TIME' => 1493142250
+    'argv' => [
+        0 => './yii'
+        1 => 'migrate'
+        2 => '--migrationPath=/vendor/yii2mod/yii2-rbac/migrations/'
+    ]
+    'argc' => 3
+]
+2017-04-25 18:12:54 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'auth_rule' already exists in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php:846
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(846): PDOStatement->execute()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Migration.php(274): yii\db\Command->execute()
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/rbac/migrations/m140506_102106_rbac_init.php(59): yii\db\Migration->createTable('{{%auth_rule}}', Array, 'CHARACTER SET u...')
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(654): m140506_102106_rbac_init->up()
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate-rbac/up', Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate-rbac/up', Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /var/www/intranet/src/web/intranet/yii(27): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'auth_rule' already exists
+The SQL being executed was: CREATE TABLE `auth_rule` (
+	`name` varchar(64) NOT NULL,
+	`data` blob,
+	`created_at` int(11),
+	`updated_at` int(11),
+	PRIMARY KEY (name)
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `a...')
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Migration.php(274): yii\db\Command->execute()
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/rbac/migrations/m140506_102106_rbac_init.php(59): yii\db\Migration->createTable('{{%auth_rule}}', Array, 'CHARACTER SET u...')
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(654): m140506_102106_rbac_init->up()
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate-rbac/up', Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate-rbac/up', Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /var/www/intranet/src/web/intranet/yii(27): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'auth_rule' already exists
+)
+
+2017-04-25 18:12:50 [-][-][-][info][application] $_SERVER = [
+    'DISPLAY' => ':0.0'
+    'HOME' => '/home/julio'
+    'LANG' => 'en_US.UTF-8'
+    'LANGUAGE' => 'en_US'
+    'LC_ADDRESS' => 'es_VE.UTF-8'
+    'LC_IDENTIFICATION' => 'es_VE.UTF-8'
+    'LC_MEASUREMENT' => 'es_VE.UTF-8'
+    'LC_MONETARY' => 'es_VE.UTF-8'
+    'LC_NAME' => 'es_VE.UTF-8'
+    'LC_NUMERIC' => 'es_VE.UTF-8'
+    'LC_PAPER' => 'es_VE.UTF-8'
+    'LC_TELEPHONE' => 'es_VE.UTF-8'
+    'LC_TIME' => 'es_VE.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'TERM' => 'xterm'
+    'XAUTHORITY' => '/home/julio/.Xauthority'
+    'MAIL' => '/var/mail/root'
+    'LOGNAME' => 'root'
+    'USER' => 'root'
+    'USERNAME' => 'root'
+    'SHELL' => '/bin/bash'
+    'SUDO_COMMAND' => './yii migrate-rbac/up'
+    'SUDO_USER' => 'julio'
+    'SUDO_UID' => '1000'
+    'SUDO_GID' => '1000'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493143970.5669
+    'REQUEST_TIME' => 1493143970
+    'argv' => [
+        0 => './yii'
+        1 => 'migrate-rbac/up'
+    ]
+    'argc' => 2
+]
+2017-04-25 18:31:33 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php:846
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(846): PDOStatement->execute()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Migration.php(274): yii\db\Command->execute()
+#2 /var/www/intranet/src/web/intranet/console/migrations/m130524_201442_init.php(25): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(654): m130524_201442_init->up()
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /var/www/intranet/src/web/intranet/yii(27): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists
+The SQL being executed was: CREATE TABLE `user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` varchar(255) NOT NULL UNIQUE,
+	`auth_key` varchar(32) NOT NULL,
+	`password_hash` varchar(255) NOT NULL,
+	`password_reset_token` varchar(255) UNIQUE,
+	`email` varchar(255) NOT NULL UNIQUE,
+	`status` smallint(6) NOT NULL DEFAULT 10,
+	`created_at` int(11) NOT NULL,
+	`updated_at` int(11) NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `u...')
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/db/Migration.php(274): yii\db\Command->execute()
+#2 /var/www/intranet/src/web/intranet/console/migrations/m130524_201442_init.php(25): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(654): m130524_201442_init->up()
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /var/www/intranet/src/web/intranet/yii(27): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'user' already exists
+)
+
+2017-04-25 18:31:31 [-][-][-][info][application] $_SERVER = [
+    'CLUTTER_IM_MODULE' => ''
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-a7OBzg0XpI'
+    'DEFAULTS_PATH' => '/usr/share/gconf/xfce.default.path'
+    'DESKTOP_SESSION' => 'xfce'
+    'DISPLAY' => ':0.0'
+    'GDMSESSION' => 'xfce'
+    'GDM_LANG' => 'en_US'
+    'GLADE_CATALOG_PATH' => ':'
+    'GLADE_MODULE_PATH' => ':'
+    'GLADE_PIXMAP_PATH' => ':'
+    'GNOME_KEYRING_CONTROL' => ''
+    'GNOME_KEYRING_PID' => ''
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'GTK_IM_MODULE' => ''
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'HOME' => '/home/julio'
+    'IM_CONFIG_PHASE' => '1'
+    'INSTANCE' => ''
+    'JOB' => 'dbus'
+    'LANG' => 'en_US.UTF-8'
+    'LANGUAGE' => 'en_US'
+    'LC_ADDRESS' => 'es_VE.UTF-8'
+    'LC_IDENTIFICATION' => 'es_VE.UTF-8'
+    'LC_MEASUREMENT' => 'es_VE.UTF-8'
+    'LC_MONETARY' => 'es_VE.UTF-8'
+    'LC_NAME' => 'es_VE.UTF-8'
+    'LC_NUMERIC' => 'es_VE.UTF-8'
+    'LC_PAPER' => 'es_VE.UTF-8'
+    'LC_TELEPHONE' => 'es_VE.UTF-8'
+    'LC_TIME' => 'es_VE.UTF-8'
+    'LOGNAME' => 'julio'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MANDATORY_PATH' => '/usr/share/gconf/xfce.mandatory.path'
+    'PATH' => '/home/julio/bin:/home/julio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/intranet/src/web/intranet'
+    'QT4_IM_MODULE' => ''
+    'QT_ACCESSIBILITY' => '1'
+    'QT_IM_MODULE' => ''
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'SESSION' => 'xfce'
+    'SESSIONTYPE' => ''
+    'SESSION_MANAGER' => 'local/gd06001:@/tmp/.ICE-unix/1820,unix/gd06001:/tmp/.ICE-unix/1820'
+    'SHELL' => '/bin/bash'
+    'SHLVL' => '1'
+    'SSH_AGENT_PID' => '2965'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-YRDx8HTluxEx/agent.2886'
+    'TERM' => 'xterm'
+    'UPSTART_EVENTS' => 'started xsession'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_JOB' => 'startxfce4'
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/1548'
+    'USER' => 'julio'
+    'XAUTHORITY' => '/home/julio/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-xfce:/usr/share/upstart/xdg:/etc/xdg:/etc/xdg'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'XDG_DATA_DIRS' => '/usr/share/xfce:/usr/share/xfce4:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/julio'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XDG_SEAT' => 'seat0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'XDG_SESSION_DESKTOP' => 'xfce'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SESSION_TYPE' => 'x11'
+    'XDG_VTNR' => '7'
+    'XMODIFIERS' => ''
+    '__fish_bin_dir' => '/usr/bin'
+    '__fish_datadir' => '/usr/share/fish'
+    '__fish_help_dir' => '/usr/share/doc/fish'
+    '__fish_sysconfdir' => '/etc/fish'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493145091.6656
+    'REQUEST_TIME' => 1493145091
+    'argv' => [
+        0 => './yii'
+        1 => 'migrate/up'
+        2 => 'm170425_183011_rbac_backend'
+    ]
+    'argc' => 3
+]
+2017-04-25 18:33:20 [-][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: m170425_183011_rbac_backend::createRule() in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Component.php:290
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/console/migrations/m170425_183011_rbac_backend.php(9): yii\base\Component->__call('createRule', Array)
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(654): m170425_183011_rbac_backend->up()
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m170425_183011_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#9 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /var/www/intranet/src/web/intranet/yii(27): yii\base\Application->run()
+#12 {main}
+2017-04-25 18:33:18 [-][-][-][info][application] $_SERVER = [
+    'CLUTTER_IM_MODULE' => ''
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-a7OBzg0XpI'
+    'DEFAULTS_PATH' => '/usr/share/gconf/xfce.default.path'
+    'DESKTOP_SESSION' => 'xfce'
+    'DISPLAY' => ':0.0'
+    'GDMSESSION' => 'xfce'
+    'GDM_LANG' => 'en_US'
+    'GLADE_CATALOG_PATH' => ':'
+    'GLADE_MODULE_PATH' => ':'
+    'GLADE_PIXMAP_PATH' => ':'
+    'GNOME_KEYRING_CONTROL' => ''
+    'GNOME_KEYRING_PID' => ''
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'GTK_IM_MODULE' => ''
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'HOME' => '/home/julio'
+    'IM_CONFIG_PHASE' => '1'
+    'INSTANCE' => ''
+    'JOB' => 'dbus'
+    'LANG' => 'en_US.UTF-8'
+    'LANGUAGE' => 'en_US'
+    'LC_ADDRESS' => 'es_VE.UTF-8'
+    'LC_IDENTIFICATION' => 'es_VE.UTF-8'
+    'LC_MEASUREMENT' => 'es_VE.UTF-8'
+    'LC_MONETARY' => 'es_VE.UTF-8'
+    'LC_NAME' => 'es_VE.UTF-8'
+    'LC_NUMERIC' => 'es_VE.UTF-8'
+    'LC_PAPER' => 'es_VE.UTF-8'
+    'LC_TELEPHONE' => 'es_VE.UTF-8'
+    'LC_TIME' => 'es_VE.UTF-8'
+    'LOGNAME' => 'julio'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MANDATORY_PATH' => '/usr/share/gconf/xfce.mandatory.path'
+    'PATH' => '/home/julio/bin:/home/julio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/intranet/src/web/intranet'
+    'QT4_IM_MODULE' => ''
+    'QT_ACCESSIBILITY' => '1'
+    'QT_IM_MODULE' => ''
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'SESSION' => 'xfce'
+    'SESSIONTYPE' => ''
+    'SESSION_MANAGER' => 'local/gd06001:@/tmp/.ICE-unix/1820,unix/gd06001:/tmp/.ICE-unix/1820'
+    'SHELL' => '/bin/bash'
+    'SHLVL' => '1'
+    'SSH_AGENT_PID' => '2965'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-YRDx8HTluxEx/agent.2886'
+    'TERM' => 'xterm'
+    'UPSTART_EVENTS' => 'started xsession'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_JOB' => 'startxfce4'
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/1548'
+    'USER' => 'julio'
+    'XAUTHORITY' => '/home/julio/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-xfce:/usr/share/upstart/xdg:/etc/xdg:/etc/xdg'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'XDG_DATA_DIRS' => '/usr/share/xfce:/usr/share/xfce4:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/julio'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XDG_SEAT' => 'seat0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'XDG_SESSION_DESKTOP' => 'xfce'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SESSION_TYPE' => 'x11'
+    'XDG_VTNR' => '7'
+    'XMODIFIERS' => ''
+    '__fish_bin_dir' => '/usr/bin'
+    '__fish_datadir' => '/usr/share/fish'
+    '__fish_help_dir' => '/usr/share/doc/fish'
+    '__fish_sysconfdir' => '/etc/fish'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493145198.9865
+    'REQUEST_TIME' => 1493145198
+    'argv' => [
+        0 => './yii'
+        1 => 'migrate/up'
+        2 => 'm170425_183011_rbac_backend'
+    ]
+    'argc' => 3
+]
+2017-04-25 18:33:56 [-][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Setting unknown property: m170425_183011_rbac_backend::db in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Component.php:201
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/BaseYii.php(525): yii\base\Component->__set('db', Object(yii\db\Connection))
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(m170425_183011_rbac_backend), Array)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/controllers/MigrateController.php(191): yii\base\Object->__construct(Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(653): yii\console\controllers\MigrateController->createMigration('m170425_183011_...')
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m170425_183011_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /var/www/intranet/src/web/intranet/yii(27): yii\base\Application->run()
+#14 {main}
+2017-04-25 18:33:55 [-][-][-][info][application] $_SERVER = [
+    'CLUTTER_IM_MODULE' => ''
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-a7OBzg0XpI'
+    'DEFAULTS_PATH' => '/usr/share/gconf/xfce.default.path'
+    'DESKTOP_SESSION' => 'xfce'
+    'DISPLAY' => ':0.0'
+    'GDMSESSION' => 'xfce'
+    'GDM_LANG' => 'en_US'
+    'GLADE_CATALOG_PATH' => ':'
+    'GLADE_MODULE_PATH' => ':'
+    'GLADE_PIXMAP_PATH' => ':'
+    'GNOME_KEYRING_CONTROL' => ''
+    'GNOME_KEYRING_PID' => ''
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'GTK_IM_MODULE' => ''
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'HOME' => '/home/julio'
+    'IM_CONFIG_PHASE' => '1'
+    'INSTANCE' => ''
+    'JOB' => 'dbus'
+    'LANG' => 'en_US.UTF-8'
+    'LANGUAGE' => 'en_US'
+    'LC_ADDRESS' => 'es_VE.UTF-8'
+    'LC_IDENTIFICATION' => 'es_VE.UTF-8'
+    'LC_MEASUREMENT' => 'es_VE.UTF-8'
+    'LC_MONETARY' => 'es_VE.UTF-8'
+    'LC_NAME' => 'es_VE.UTF-8'
+    'LC_NUMERIC' => 'es_VE.UTF-8'
+    'LC_PAPER' => 'es_VE.UTF-8'
+    'LC_TELEPHONE' => 'es_VE.UTF-8'
+    'LC_TIME' => 'es_VE.UTF-8'
+    'LOGNAME' => 'julio'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'MANDATORY_PATH' => '/usr/share/gconf/xfce.mandatory.path'
+    'PATH' => '/home/julio/bin:/home/julio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/intranet/src/web/intranet'
+    'QT4_IM_MODULE' => ''
+    'QT_ACCESSIBILITY' => '1'
+    'QT_IM_MODULE' => ''
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'SESSION' => 'xfce'
+    'SESSIONTYPE' => ''
+    'SESSION_MANAGER' => 'local/gd06001:@/tmp/.ICE-unix/1820,unix/gd06001:/tmp/.ICE-unix/1820'
+    'SHELL' => '/bin/bash'
+    'SHLVL' => '1'
+    'SSH_AGENT_PID' => '2965'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-YRDx8HTluxEx/agent.2886'
+    'TERM' => 'xterm'
+    'UPSTART_EVENTS' => 'started xsession'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_JOB' => 'startxfce4'
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/1548'
+    'USER' => 'julio'
+    'XAUTHORITY' => '/home/julio/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-xfce:/usr/share/upstart/xdg:/etc/xdg:/etc/xdg'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'XDG_DATA_DIRS' => '/usr/share/xfce:/usr/share/xfce4:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/julio'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XDG_SEAT' => 'seat0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'XDG_SESSION_DESKTOP' => 'xfce'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SESSION_TYPE' => 'x11'
+    'XDG_VTNR' => '7'
+    'XMODIFIERS' => ''
+    '__fish_bin_dir' => '/usr/bin'
+    '__fish_datadir' => '/usr/share/fish'
+    '__fish_help_dir' => '/usr/share/doc/fish'
+    '__fish_sysconfdir' => '/etc/fish'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1493145235.3217
+    'REQUEST_TIME' => 1493145235
+    'argv' => [
+        0 => './yii'
+        1 => 'migrate/up'
+        2 => 'm170425_183011_rbac_backend'
+    ]
+    'argc' => 3
+]
