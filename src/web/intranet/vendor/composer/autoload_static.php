@@ -29,6 +29,10 @@ class ComposerStaticInite8f8a34fde751840a424d634385c649f
             'yii\\' => 4,
             'yii2mod\\rbac\\' => 13,
         ),
+        'r' => 
+        array (
+            'rmrevin\\yii\\fontawesome\\' => 24,
+        ),
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
@@ -40,6 +44,7 @@ class ComposerStaticInite8f8a34fde751840a424d634385c649f
         'd' => 
         array (
             'dosamigos\\arrayquery\\' => 21,
+            'dmstr\\' => 6,
         ),
         'c' => 
         array (
@@ -137,6 +142,10 @@ class ComposerStaticInite8f8a34fde751840a424d634385c649f
         array (
             0 => __DIR__ . '/..' . '/yii2mod/yii2-rbac',
         ),
+        'rmrevin\\yii\\fontawesome\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/rmrevin/yii2-fontawesome',
+        ),
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
@@ -150,6 +159,10 @@ class ComposerStaticInite8f8a34fde751840a424d634385c649f
         'dosamigos\\arrayquery\\' => 
         array (
             0 => __DIR__ . '/..' . '/2amigos/yii2-arrayquery-component/src',
+        ),
+        'dmstr\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dmstr/yii2-adminlte-asset',
         ),
         'cebe\\markdown\\' => 
         array (
@@ -250,6 +263,13 @@ class ComposerStaticInite8f8a34fde751840a424d634385c649f
     );
 
     public static $prefixesPsr0 = array (
+        'c' => 
+        array (
+            'cebe\\gravatar\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/cebe/yii2-gravatar',
+            ),
+        ),
         'P' => 
         array (
             'Prophecy\\' => 

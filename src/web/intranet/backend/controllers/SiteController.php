@@ -61,6 +61,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+//        print_r($directoryAsset);exit;
         return $this->render('index');
     }
 

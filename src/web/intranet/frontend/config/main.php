@@ -17,11 +17,9 @@ return [
             'cookieValidationKey' => '1739523462',
             'csrfParam' => '_frontendCSRF',
         ],
-//        'user' => [
-//            'identityClass' => 'common\models\User',
-//            'enableAutoLogin' => true,
-//            'identityCookie' => ['name' => '_identity-frontend', 'httpOnly' => true],
-//        ],
+        'authManager' => [
+            'class' => 'yii\rbac\DbManagerFrontend',
+        ],
         'user' => [
             'identityClass' => 'Edvlerblog\Adldap2\model\UserDbLdap',
             'enableAutoLogin' => true,
