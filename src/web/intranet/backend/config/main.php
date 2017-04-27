@@ -8,15 +8,23 @@ $params = array_merge(
 
 return [
     'id' => 'app-backend',
+    'language' => 'es',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
-    'modules' => [
-        'gridview' => ['class' => 'kartik\grid\Module'],
-        'rbac' => [
-            'class' => 'johnitvn\rbacplus\Module'
+    'modules'             => [
+        'gridview' => ['class' => 'kartik\grid\Module'] ,
+        'rbac'     => [
+            'class'                     => 'johnitvn\rbacplus\Module' ,
+            'userModelClassName'        => 'Edvlerblog\Adldap2\model\UserDbLdap',
+            'userModelIdField'          => 'id' ,
+            'userModelLoginField'       => 'username' ,
+            'userModelLoginFieldLabel'  => null ,
+            'userModelExtraDataColumls' => null ,
+            'beforeCreateController'    => null ,
+            'beforeAction'              => null
         ]
-    ],
+    ] ,
     'components' => [
         'view' => [
             'theme' => [
