@@ -47,7 +47,17 @@ class LoginForm extends Model
             }
         }
     }
-
+    
+    /**
+     * Métodos para las etiquetas
+     * @return labels
+     */
+    public function attributeLabels() {
+        return [
+            'username' => 'Usuario',
+            'password' => 'Contraseña',
+        ];
+    }
     /**
      * Logs in a user using the provided username and password.
      *
@@ -59,7 +69,6 @@ class LoginForm extends Model
             
             return Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600 * 24 * 30 : 0);
         } else {
-//            print_r($this->errors);exit;
             return false;
         }
     }
