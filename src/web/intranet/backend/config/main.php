@@ -11,7 +11,12 @@ return [
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
-    'modules' => [],
+    'modules' => [
+        'gridview' => ['class' => 'kartik\grid\Module'],
+        'rbac' => [
+            'class' => 'johnitvn\rbacplus\Module'
+        ]
+    ],
     'components' => [
         'view' => [
             'theme' => [
@@ -28,6 +33,9 @@ return [
             'identityClass' => 'common\models\Admin', // your admin model
             'enableAutoLogin' => true,
             'identityCookie' => ['name' => '_identity-backend', 'httpOnly' => true],
+        ],
+        'authManagerldap' => [
+            'class' => 'yii\rbac\DbManagerFrontend',
         ],
         'session' => [
             // this is the name of the session cookie used for login on the backend

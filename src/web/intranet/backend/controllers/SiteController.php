@@ -61,8 +61,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-//        print_r($directoryAsset);exit;
-        return $this->render('index');
+        return $this->redirect(\yii\helpers\Url::to(['rbac/role']));
     }
 
     /**
