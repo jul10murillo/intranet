@@ -15,9 +15,13 @@ $this->params['breadcrumbs'][] = $this->title;
     <!--<h1><?= Html::encode($this->title) ?></h1>-->
 
     <div class="row">
-        
-        <div class="col-lg-offset-8 col-lg-4 col-md-offset-8 col-md-4">
-            <div class="well bs-component">
+        <div class="col-lg-8 col-md-8 hidden-sm hidden-xs">
+            <?=
+            \yii\bootstrap\Html::img('@web/img/fondodumit.jpg',['class'=>'img-responsive'])
+            ?>
+        </div>
+        <div class=" col-lg-4 col-md-4">
+            <div class="well bs-component login-dumit" >
             <?php $form = ActiveForm::begin([
                 'id' => 'login-form',
                 ]); 

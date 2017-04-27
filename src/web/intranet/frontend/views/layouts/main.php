@@ -29,10 +29,10 @@ AppAsset::register($this);
     <?php
     if (!Yii::$app->user->isGuest) {
         NavBar::begin([
-            'brandLabel' => 'My Company',
+            'brandLabel' => 'Grupo Dumit',
             'brandUrl' => Yii::$app->homeUrl,
             'options' => [
-                'class' => 'navbar navbar-default navbar-fixed-top',
+                'class' => 'navbar navbar-custom navbar-fixed-top',
             ],
         ]);
         $menuItems = [
@@ -48,7 +48,7 @@ AppAsset::register($this);
                 . Html::beginForm(['/site/logout'], 'post')
                 . Html::submitButton(
                     'Logout (' . Yii::$app->user->identity->username . ')',
-                    ['class' => 'btn btn-link logout']
+                    ['class' => 'btn logout']
                 )
                 . Html::endForm()
                 . '</li>';
@@ -60,6 +60,20 @@ AppAsset::register($this);
         NavBar::end();
     }
     ?>
+    <?php
+        if (!Yii::$app->user->isGuest) {
+            ?>
+<aside class="main-sidebar pull-left">
+    <section class="sidebar">
+    <ul class="nav nav-pills nav-stacked">
+      <li role="presentation" class="active"><a href="#">Home</a></li>
+      <li role="presentation"><a href="#">Profile</a></li>
+      <li role="presentation"><a href="#">Messages</a></li>
+    </ul>
+    </section>
+</aside>
+        <?php
+        }?>
 
     <div class="container">
         <?php
@@ -71,6 +85,7 @@ AppAsset::register($this);
         <?= Alert::widget() ?>
         <?= $content ?>
     </div>
+
 </div>
 <?php
 if (!Yii::$app->user->isGuest) {
