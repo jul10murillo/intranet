@@ -12341,3 +12341,342 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1493324019.817
     'REQUEST_TIME' => 1493324019
 ]
+2017-04-27 20:27:09 [127.0.0.1][1][o0d62l0rni1ae9banbc0obfh20][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php:229
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/var/www/intran...', Array, NULL)
+#1 /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php(67): yii\base\View->render('_sidebar')
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/var/www/intran...', Array, Object(frontend\controllers\SiteController))
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#6 /var/www/intranet/src/web/intranet/frontend/controllers/SiteController.php(90): yii\base\Controller->render('index')
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+2017-04-27 20:27:09 [127.0.0.1][1][o0d62l0rni1ae9banbc0obfh20][info][application] $_COOKIE = [
+    '_frontendCSRF' => '668eb17ad2c01124f0b2f779e003ba87c669a492d4189e87758e66847f3a00cba:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"_kau6bNopGsfG2Zc9uxTm3HPVOA2WfUq\";}'
+    'advanced-backend' => 'qaopu0568pla5n596manu3f5k6'
+    '_csrf-backend' => '1b16dd3b563914f7488eff6f8a173780170d0bcf39c5d0657f5207945ab5280ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QCKC-N7eSD4IzN0iaBJefptdSTbA1uLe\";}'
+    'PHPFRONTSESSID' => 'o0d62l0rni1ae9banbc0obfh20'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/frontend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/frontend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/frontend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=668eb17ad2c01124f0b2f779e003ba87c669a492d4189e87758e66847f3a00cba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22_kau6bNopGsfG2Zc9uxTm3HPVOA2WfUq%22%3B%7D; advanced-backend=qaopu0568pla5n596manu3f5k6; _csrf-backend=1b16dd3b563914f7488eff6f8a173780170d0bcf39c5d0657f5207945ab5280ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QCKC-N7eSD4IzN0iaBJefptdSTbA1uLe%22%3B%7D; PHPFRONTSESSID=o0d62l0rni1ae9banbc0obfh20; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '60402'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/frontend/web/index.php'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493324829.058
+    'REQUEST_TIME' => 1493324829
+]
+2017-04-27 20:27:10 [127.0.0.1][1][o0d62l0rni1ae9banbc0obfh20][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php:229
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/var/www/intran...', Array, NULL)
+#1 /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php(67): yii\base\View->render('_sidebar')
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/var/www/intran...', Array, Object(frontend\controllers\SiteController))
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#6 /var/www/intranet/src/web/intranet/frontend/controllers/SiteController.php(90): yii\base\Controller->render('index')
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+2017-04-27 20:27:10 [127.0.0.1][1][o0d62l0rni1ae9banbc0obfh20][info][application] $_COOKIE = [
+    '_frontendCSRF' => '668eb17ad2c01124f0b2f779e003ba87c669a492d4189e87758e66847f3a00cba:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"_kau6bNopGsfG2Zc9uxTm3HPVOA2WfUq\";}'
+    'advanced-backend' => 'qaopu0568pla5n596manu3f5k6'
+    '_csrf-backend' => '1b16dd3b563914f7488eff6f8a173780170d0bcf39c5d0657f5207945ab5280ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QCKC-N7eSD4IzN0iaBJefptdSTbA1uLe\";}'
+    'PHPFRONTSESSID' => 'o0d62l0rni1ae9banbc0obfh20'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/frontend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/frontend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/frontend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=668eb17ad2c01124f0b2f779e003ba87c669a492d4189e87758e66847f3a00cba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22_kau6bNopGsfG2Zc9uxTm3HPVOA2WfUq%22%3B%7D; advanced-backend=qaopu0568pla5n596manu3f5k6; _csrf-backend=1b16dd3b563914f7488eff6f8a173780170d0bcf39c5d0657f5207945ab5280ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QCKC-N7eSD4IzN0iaBJefptdSTbA1uLe%22%3B%7D; PHPFRONTSESSID=o0d62l0rni1ae9banbc0obfh20; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '60404'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/frontend/web/index.php'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493324830.85
+    'REQUEST_TIME' => 1493324830
+]
+2017-04-27 20:27:12 [127.0.0.1][1][o0d62l0rni1ae9banbc0obfh20][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php:229
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/var/www/intran...', Array, NULL)
+#1 /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php(67): yii\base\View->render('_sidebar')
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(328): require('/var/www/intran...')
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/var/www/intran...', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(396): yii\base\View->renderFile('/var/www/intran...', Array, Object(frontend\controllers\SiteController))
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#6 /var/www/intranet/src/web/intranet/frontend/controllers/SiteController.php(90): yii\base\Controller->render('index')
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#11 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#12 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+2017-04-27 20:27:12 [127.0.0.1][1][o0d62l0rni1ae9banbc0obfh20][info][application] $_COOKIE = [
+    '_frontendCSRF' => '668eb17ad2c01124f0b2f779e003ba87c669a492d4189e87758e66847f3a00cba:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"_kau6bNopGsfG2Zc9uxTm3HPVOA2WfUq\";}'
+    'advanced-backend' => 'qaopu0568pla5n596manu3f5k6'
+    '_csrf-backend' => '1b16dd3b563914f7488eff6f8a173780170d0bcf39c5d0657f5207945ab5280ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QCKC-N7eSD4IzN0iaBJefptdSTbA1uLe\";}'
+    'PHPFRONTSESSID' => 'o0d62l0rni1ae9banbc0obfh20'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/frontend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/frontend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/frontend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=668eb17ad2c01124f0b2f779e003ba87c669a492d4189e87758e66847f3a00cba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22_kau6bNopGsfG2Zc9uxTm3HPVOA2WfUq%22%3B%7D; advanced-backend=qaopu0568pla5n596manu3f5k6; _csrf-backend=1b16dd3b563914f7488eff6f8a173780170d0bcf39c5d0657f5207945ab5280ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QCKC-N7eSD4IzN0iaBJefptdSTbA1uLe%22%3B%7D; PHPFRONTSESSID=o0d62l0rni1ae9banbc0obfh20; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '60424'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/frontend/web/index.php'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493324832.079
+    'REQUEST_TIME' => 1493324832
+]
+2017-04-27 21:10:05 [127.0.0.1][1][q4ptfteitoie0drptutovhejh2][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: No tiene permitido ejecutar esta acción. in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/filters/AccessControl.php:151
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/filters/AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/ActionFilter.php(75): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#9 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#11 {main}
+2017-04-27 21:10:05 [127.0.0.1][1][q4ptfteitoie0drptutovhejh2][info][application] $_COOKIE = [
+    '_frontendCSRF' => '668eb17ad2c01124f0b2f779e003ba87c669a492d4189e87758e66847f3a00cba:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"_kau6bNopGsfG2Zc9uxTm3HPVOA2WfUq\";}'
+    'advanced-backend' => 'qaopu0568pla5n596manu3f5k6'
+    '_csrf-backend' => '1b16dd3b563914f7488eff6f8a173780170d0bcf39c5d0657f5207945ab5280ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QCKC-N7eSD4IzN0iaBJefptdSTbA1uLe\";}'
+    'PHPFRONTSESSID' => 'q4ptfteitoie0drptutovhejh2'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/frontend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/frontend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/frontend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=668eb17ad2c01124f0b2f779e003ba87c669a492d4189e87758e66847f3a00cba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22_kau6bNopGsfG2Zc9uxTm3HPVOA2WfUq%22%3B%7D; advanced-backend=qaopu0568pla5n596manu3f5k6; _csrf-backend=1b16dd3b563914f7488eff6f8a173780170d0bcf39c5d0657f5207945ab5280ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QCKC-N7eSD4IzN0iaBJefptdSTbA1uLe%22%3B%7D; PHPFRONTSESSID=q4ptfteitoie0drptutovhejh2; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '43032'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/frontend/web/index.php'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493327405.069
+    'REQUEST_TIME' => 1493327405
+]
+2017-04-27 21:11:22 [127.0.0.1][1][pajc3se2umghqj9f11n8hucns2][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: No tiene permitido ejecutar esta acción. in /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/filters/AccessControl.php:151
+Stack trace:
+#0 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/filters/AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/ActionFilter.php(75): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#8 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#9 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#11 {main}
+2017-04-27 21:11:22 [127.0.0.1][1][pajc3se2umghqj9f11n8hucns2][info][application] $_COOKIE = [
+    '_frontendCSRF' => '668eb17ad2c01124f0b2f779e003ba87c669a492d4189e87758e66847f3a00cba:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"_kau6bNopGsfG2Zc9uxTm3HPVOA2WfUq\";}'
+    'advanced-backend' => 'qaopu0568pla5n596manu3f5k6'
+    '_csrf-backend' => '1b16dd3b563914f7488eff6f8a173780170d0bcf39c5d0657f5207945ab5280ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QCKC-N7eSD4IzN0iaBJefptdSTbA1uLe\";}'
+    'PHPFRONTSESSID' => 'pajc3se2umghqj9f11n8hucns2'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/frontend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/frontend/web/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/frontend/web/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=668eb17ad2c01124f0b2f779e003ba87c669a492d4189e87758e66847f3a00cba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22_kau6bNopGsfG2Zc9uxTm3HPVOA2WfUq%22%3B%7D; advanced-backend=qaopu0568pla5n596manu3f5k6; _csrf-backend=1b16dd3b563914f7488eff6f8a173780170d0bcf39c5d0657f5207945ab5280ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QCKC-N7eSD4IzN0iaBJefptdSTbA1uLe%22%3B%7D; PHPFRONTSESSID=pajc3se2umghqj9f11n8hucns2; _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '43056'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/frontend/web/index.php'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493327482.676
+    'REQUEST_TIME' => 1493327482
+]

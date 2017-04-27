@@ -62,18 +62,13 @@ AppAsset::register($this);
     ?>
     <?php
         if (!Yii::$app->user->isGuest) {
-            ?>
-<aside class="main-sidebar pull-left">
-    <section class="sidebar">
-    <ul class="nav nav-pills nav-stacked">
-      <li role="presentation" class="active"><a href="#">Home</a></li>
-      <li role="presentation"><a href="#">Profile</a></li>
-      <li role="presentation"><a href="#">Messages</a></li>
-    </ul>
-    </section>
-</aside>
-        <?php
-        }?>
+    ?>
+    
+    <?= $this->render('_sidebar'); ?>
+    
+    <?php
+        }
+    ?>
 
     <div class="container">
         <?php
