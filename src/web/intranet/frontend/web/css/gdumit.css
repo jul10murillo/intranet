@@ -98,3 +98,12 @@ and open the template in the editor.
 .button-sidebar{
     margin-top: 50px;
 }
+.navmenu-fixed-left{
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navmenu{
+    -webkit-box-shadow: 6px 0px 7px 0px rgba(50, 50, 50, 0.75)!important;
+    -moz-box-shadow:    6px 0px 7px 0px rgba(50, 50, 50, 0.75)!important;
+    box-shadow:         6px 0px 7px 0px rgba(50, 50, 50, 0.75)!important;
+}
