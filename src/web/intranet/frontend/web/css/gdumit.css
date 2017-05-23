@@ -16,6 +16,14 @@ and open the template in the editor.
     margin-top: 10%;
 }
 
+ /*body para el menu lateral*/
+
+@media (min-width: 992px) {
+  body {
+    padding-left: 300px;
+  }
+}
+
 
 /*--------------- navbar editado --------------------*/
 /* navbar */
