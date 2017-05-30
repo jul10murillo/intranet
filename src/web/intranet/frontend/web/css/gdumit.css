@@ -7,6 +7,26 @@ and open the template in the editor.
     Created on : Apr 27, 2017, 11:28:23 AM
     Author     : julio
 */
+/*---------------------------------------*/
+/*font de la aplicacion*/
+/*-------------------------------------------*/
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('font/Montserrat-Bold.otf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'Montserrat-Hairline';
+  src: url('font/Montserrat-Hairline.otf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('font/Montserrat-Regular.otf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'Montserrat-UltraLight';
+  src: url('font/Montserrat-UltraLight.otf'); /* IE9 Compat Modes */
+}
 
 
 /*------------------------------------------------*/
@@ -20,8 +40,14 @@ and open the template in the editor.
 
 @media (min-width: 992px) {
   body {
+    font-family: 'Montserrat-UltraLight';
     padding-left: 300px;
   }
+}
+
+label.control-label{
+    font-size: 125%;
+    color: #FFF;
 }
 
 
@@ -115,3 +141,4 @@ and open the template in the editor.
     -moz-box-shadow:    6px 0px 7px 0px rgba(50, 50, 50, 0.75)!important;
     box-shadow:         6px 0px 7px 0px rgba(50, 50, 50, 0.75)!important;
 }
+

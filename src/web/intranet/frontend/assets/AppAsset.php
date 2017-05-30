@@ -13,11 +13,13 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'css/site.css',
-        'css/bootstrap-material-design.css',
-        'css/ripples.css',
-        'css/zmd.hierarchical-display.css',
+//        'css/bootstrap-material-design.css',
+//        'css/ripples.css',
+//        'css/zmd.hierarchical-display.css',
         'css/jasny-bootstrap/css/jasny-bootstrap.css',
         'css/gdumit.css',
+//        'css/whitestyle.css',
+        'css/blackstyle.css',
     ];
     public $js = [
         'js/material.min.js',

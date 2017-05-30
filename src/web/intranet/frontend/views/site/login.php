@@ -15,13 +15,13 @@ $this->params['breadcrumbs'][] = $this->title;
     <!--<h1><?= Html::encode($this->title) ?></h1>-->
 
     <div class="row">
-        <div class="col-lg-8 col-md-8 hidden-sm hidden-xs">
+        <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
             <?=
-            \yii\bootstrap\Html::img('@web/img/fondodumit.jpg',['class'=>'img-responsive'])
+            \yii\bootstrap\Html::img('@web/img/img-dumit/black/LOGO.png',['class'=>'img-responsive login-img'])
             ?>
         </div>
-        <div class=" col-lg-4 col-md-4">
-            <div class="well bs-component login-dumit" >
+        <div class=" col-lg-6 col-md-6">
+            <div class="login-dumit" >
             <?php $form = ActiveForm::begin([
                 'id' => 'login-form',
                 ]); 
@@ -29,13 +29,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <?= $form->field($model, 'username')->textInput(['autofocus' => true,'class'=>'form-control']) ?>
                 <?= $form->field($model, 'password')->passwordInput() ?>
 
-                <?php // $form->field($model, 'rememberMe')->checkbox() ?>
-
-<!--                <div style="color:#999;margin:1em 0">
-                    If you forgot your password you can <?= Html::a('reset it', ['site/request-password-reset']) ?>.
-                </div>-->
-
-                <div class="form-group text-center">
+                 <div class="form-group text-center">
                     <?= Html::submitButton('Entrar', ['class' => 'btn btn-raised btn-primary btn-lg', 'name' => 'login-button']) ?>
                 </div>
 
