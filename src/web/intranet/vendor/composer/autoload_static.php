@@ -23,11 +23,16 @@ class ComposerStaticInite8f8a34fde751840a424d634385c649f
             'yii\\jui\\' => 8,
             'yii\\gii\\' => 8,
             'yii\\faker\\' => 10,
+            'yii\\elasticsearch\\' => 18,
             'yii\\debug\\' => 10,
             'yii\\composer\\' => 13,
             'yii\\bootstrap\\' => 14,
             'yii\\' => 4,
             'yii2mod\\rbac\\' => 13,
+        ),
+        'x' => 
+        array (
+            'xgosoftwarecraft\\RssFeed\\' => 25,
         ),
         'r' => 
         array (
@@ -56,10 +61,15 @@ class ComposerStaticInite8f8a34fde751840a424d634385c649f
             'johnitvn\\rbacplus\\' => 18,
             'johnitvn\\ajaxcrud\\' => 18,
         ),
+        'e' => 
+        array (
+            'edofre\\sliderpro\\' => 17,
+        ),
         'd' => 
         array (
             'dosamigos\\arrayquery\\' => 21,
             'dmstr\\' => 6,
+            'davidjeddy\\RssFeed\\' => 19,
         ),
         'c' => 
         array (
@@ -137,6 +147,10 @@ class ComposerStaticInite8f8a34fde751840a424d634385c649f
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-faker',
         ),
+        'yii\\elasticsearch\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-elasticsearch',
+        ),
         'yii\\debug\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-debug',
@@ -156,6 +170,10 @@ class ComposerStaticInite8f8a34fde751840a424d634385c649f
         'yii2mod\\rbac\\' => 
         array (
             0 => __DIR__ . '/..' . '/yii2mod/yii2-rbac',
+        ),
+        'xgosoftwarecraft\\RssFeed\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/xgosoftwarecraft/yii2-rss-reader',
         ),
         'rmrevin\\yii\\fontawesome\\' => 
         array (
@@ -207,6 +225,10 @@ class ComposerStaticInite8f8a34fde751840a424d634385c649f
         array (
             0 => __DIR__ . '/..' . '/johnitvn/yii2-ajaxcrud/src',
         ),
+        'edofre\\sliderpro\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/edofre/yii2-slider-pro/src',
+        ),
         'dosamigos\\arrayquery\\' => 
         array (
             0 => __DIR__ . '/..' . '/2amigos/yii2-arrayquery-component/src',
@@ -214,6 +236,10 @@ class ComposerStaticInite8f8a34fde751840a424d634385c649f
         'dmstr\\' => 
         array (
             0 => __DIR__ . '/..' . '/dmstr/yii2-adminlte-asset',
+        ),
+        'davidjeddy\\RssFeed\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/davidjeddy/yii2-rss-reader/src',
         ),
         'cebe\\markdown\\' => 
         array (

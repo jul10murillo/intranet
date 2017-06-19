@@ -174,6 +174,15 @@ return array (
       '@kartik/grid' => $vendorDir . '/kartik-v/yii2-grid',
     ),
   ),
+  'kartik-v/yii2-slider' => 
+  array (
+    'name' => 'kartik-v/yii2-slider',
+    'version' => '1.3.2.0',
+    'alias' => 
+    array (
+      '@kartik/slider' => $vendorDir . '/kartik-v/yii2-slider',
+    ),
+  ),
   'johnitvn/yii2-ajaxcrud' => 
   array (
     'name' => 'johnitvn/yii2-ajaxcrud',
@@ -193,5 +202,32 @@ return array (
       '@johnitvn/rbacplus' => $vendorDir . '/johnitvn/yii2-rbac-plus/src',
     ),
     'bootstrap' => 'johnitvn\\rbacplus\\Bootstrap',
+  ),
+  'edofre/yii2-slider-pro' => 
+  array (
+    'name' => 'edofre/yii2-slider-pro',
+    'version' => '1.1.6.0',
+    'alias' => 
+    array (
+      '@edofre/sliderpro' => $vendorDir . '/edofre/yii2-slider-pro/src',
+    ),
+  ),
+  'yiisoft/yii2-elasticsearch' => 
+  array (
+    'name' => 'yiisoft/yii2-elasticsearch',
+    'version' => '2.0.4.0',
+    'alias' => 
+    array (
+      '@yii/elasticsearch' => $vendorDir . '/yiisoft/yii2-elasticsearch',
+    ),
+  ),
+  'xgosoftwarecraft/yii2-rss-reader' => 
+  array (
+    'name' => 'xgosoftwarecraft/yii2-rss-reader',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@xgosoftwarecraft/RssFeed' => $vendorDir . '/xgosoftwarecraft/yii2-rss-reader',
+    ),
   ),
 );
