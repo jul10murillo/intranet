@@ -11,16 +11,20 @@ use yii\web\View;
 $this->title = 'Login';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
+
 <div class="site-login">
     <!--<h1><?= Html::encode($this->title) ?></h1>-->
 
     <div class="row">
-        <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
+    	<div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
             <?=
             \yii\bootstrap\Html::img('@web/img/img-dumit/black/LOGO.png',['class'=>'img-responsive login-img'])
             ?>
         </div>
-        <div class=" col-lg-6 col-md-6">
+        <div class="col-lg-6 col-md-6">
+        <div class="title-login">
+            <h1>INTRANET<br/>GRUPO DUMIT</h1>
+        </div>
             <div class="login-dumit" >
             <?php $form = ActiveForm::begin([
                 'id' => 'login-form',
@@ -30,7 +34,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <?= $form->field($model, 'password')->passwordInput() ?>
 
                  <div class="form-group text-center">
-                    <?= Html::submitButton('Entrar', ['class' => 'btn btn-raised btn-primary btn-lg', 'name' => 'login-button']) ?>
+                    <?= Html::submitButton('ENTRAR', ['class' => 'btn btn-raised btn-primary btn-lg', 'name' => 'login-button']) ?>
                 </div>
 
             <?php ActiveForm::end(); ?>

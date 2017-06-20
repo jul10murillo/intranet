@@ -87,6 +87,12 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+//       $users= \Edvlerblog\Adldap2\model\UserDbLdap::find()->all();
+//       $usersActive= \Edvlerblog\Adldap2\model\UserDbLdap::findByUsername($users);
+//       print_r($usersActive);exit;
+//        return $this->render('index',[
+//                'usersActive' => $users,
+//            ]);
         return $this->render('index');
     }
 
@@ -227,4 +233,6 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }
+    
+   
 }

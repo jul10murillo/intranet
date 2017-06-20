@@ -4,7 +4,7 @@
 use yii\helpers\Url;
 use yii\helpers\Html;
 
-$this->title = 'My Yii Application';
+$this->title = 'Intranet Grupo Dumit, C.A.';
 ?>
 <div class="site-index">
 
@@ -15,64 +15,75 @@ $this->title = 'My Yii Application';
 
         <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
     </div>-->
-
-    <div class="body-content">
-
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Recursos Humanos</h3>
+<!--    <div class="canvas canvas-slid" style="left:300px; right:-300px;">
+        <div class="navbar navbar-default navbar-fixed-top" style="left: 300px;right: 1226px;">
+            <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button> 
+        </div>-->
+        <div class="body-content">
+            <div class="search">
+                <form id="buscador" name="buscador" method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>"> 
+                    <input id="buscar" name="buscar" type="search" class="" placeholder="    Buscar...">
+<!--                    <input type="submit" name="buscador" class="btn-search" value="buscar">                    -->
+                    <button type="submit">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </form>
+                <br><br>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-body">
+                            <div class="list-group">
+                                
+                            </div>
+                        </div>
+                        <div class="panel-heading">
+                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-play"></span><span class="home-title"> RECURSOS HUMANOS</span></button>
+                        </div>
                     </div>
-                    <div class="panel-body">
-                        <div class="list-group">
-                            <?= Html::a('Noticias', Url::to(['/news/index']),['class'=>'list-group-item text-center btn btn-primary']) ?>
-                            <?= Html::a('Noticias', Url::to(['/news/index']),['class'=>'list-group-item text-center btn btn-primary']) ?>
+                </div>
+                <div class="col-lg-6">
+                    <div class="panel panel-info">
+                        <div class="panel-body">
+                            <div class="list-group">
+                                
+                            </div>
+                        </div>
+                        <div class="panel-heading">
+                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-play"></span><span class="home-title"> INTERÉS</span></button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div class="panel panel-info">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Interés</h3>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="panel panel-warning">
+                        <div class="panel-body">
+                            <div class="list-group">
+                            </div>
+                        </div>
+                        <div class="panel-heading">
+                            <button type="button" class="btn btn-default" onClick="location.href = '/index.php?r=news%2Fshow'"><span class="glyphicon glyphicon-play"></span><span class="home-title"> TECNOLOGÍA</span></button>
+                        </div>
                     </div>
-                    <div class="panel-body">
-                        <div class="list-group">
-                            <?= Html::a('Noticias', Url::to(['/news/index']),['class'=>'list-group-item text-center btn btn-info']) ?>
-                            <?= Html::a('Noticias', Url::to(['/news/index']),['class'=>'list-group-item text-center btn btn-info']) ?>
+                </div>
+                <div class="col-lg-6">
+                    <div class="panel panel-danger">
+                        <div class="panel-body">
+                            <div class="list-group">
+                            </div>
+                        </div>
+                        <div class="panel-heading">
+                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-play"></span><span class="home-title"> REDES</span></button>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="panel panel-warning">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Tecnología</h3>
-                    </div>
-                    <div class="panel-body">
-                        <div class="list-group">
-                            <?= Html::a('Noticias', Url::to(['/news/index']),['class'=>'list-group-item text-center btn btn-warning']) ?>
-                            <?= Html::a('Noticias', Url::to(['/news/index']),['class'=>'list-group-item text-center btn btn-warning']) ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="panel panel-danger">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Redes</h3>
-                    </div>
-                    <div class="panel-body">
-                        <div class="list-group">
-                            <?= Html::a('Noticias', Url::to(['/news/index']),['class'=>'list-group-item text-center btn btn-danger']) ?>
-                            <?= Html::a('Noticias', Url::to(['/news/index']),['class'=>'list-group-item text-center btn btn-danger']) ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+          </div>
+    <!--</div>-->
 </div>

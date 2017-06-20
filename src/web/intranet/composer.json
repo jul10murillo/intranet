@@ -22,7 +22,11 @@
         "yii2mod/yii2-rbac": "*",
         "mdmsoft/yii2-admin": "~2.0",
         "dmstr/yii2-adminlte-asset": "2.*",
-        "johnitvn/yii2-rbac-plus": "*"
+        "johnitvn/yii2-rbac-plus": "*",
+        "edofre/yii2-slider-pro": "V1.1.6",
+        "yiisoft/yii2-elasticsearch": "^2.0",
+        "davidjeddy/yii2-rss-reader": "*",
+        "xgosoftwarecraft/yii2-rss-reader": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

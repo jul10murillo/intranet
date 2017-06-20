@@ -11,11 +11,11 @@ use yii\helpers\Html;
 
 ?>
 <div class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm">
-    <a class="navmenu-brand visible-md visible-lg" href="#">Grupo Dumit</a>
+    <a class="navmenu-brand visible-md visible-lg" href="#"></a>
     <ul class="nav navmenu-nav">
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
+        <li><span class="glyphicon glyphicon-home"></span> <span><a href="/index.php?r=business%2Fsearch&id=1">Grupo Dumit</a></span></li>
+        <li><span class="glyphicon glyphicon-list-alt"></span> <span><a href="/index.php?r=application%2Fsearch">Aplicaciones</a></span></li>
+        <li><span class="glyphicon glyphicon-link"></span> <span><a href="/index.php?r=link%2Fsearch">Enlaces</a></span></li>
     </ul>
 </div>
 
@@ -25,12 +25,12 @@ use yii\helpers\Html;
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="#">Grupo Dumit</a>
+    <a href="/index.php" class="navbar-brand"></a>
     <p class="navbar-text ">
     <?=
         Html::beginForm(['/site/logout'], 'post')
         . Html::submitButton(
-            'Logout (' . Yii::$app->user->identity->username . ')',
+            'Cerrar Sesión (' . Yii::$app->user->identity->username . ')',
             ['class' => 'btn logout navbar-link navbar-right hidden-xs']
         )
         . Html::endForm();
