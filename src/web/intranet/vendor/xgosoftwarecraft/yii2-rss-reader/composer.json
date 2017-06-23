@@ -1,0 +1,28 @@
+{
+    "name": "xgosoftwarecraft/yii2-rss-reader",
+    "description": "Yii 2 rss reader.",
+    "keywords": [
+        "yii2",
+        "extension",
+        "rss"
+    ],
+    "homepage": "https://github.com/xgosoftwarecraft/yii2-rss-reader",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "XGO - Software Craft",
+            "email": "contact@xgo.pt",
+            "homepage": "https://www.xgo.pt/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2"
+    },
+    "autoload": {
+        "psr-4": {
+            "xgosoftwarecraft\\RssFeed\\": ""
+        }
+    }
+    
+}
