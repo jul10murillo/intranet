@@ -898,6 +898,20 @@ class User extends Entry implements Authenticatable
     {
         return $this->setFirstAttribute($this->schema->personalTitle(), $personalTitle);
     }
+    /**
+     * Return the personal title.
+     *
+     * @return $this
+     */
+    public function getFnacimiento()
+    {
+        return $this->getAttribute('fnacimiento');
+    }
+    public function getFinicio()
+    {
+        return $this->getAttribute('finicio');
+    }
+
 
     /**
      * Retrieves the primary group of the current user.

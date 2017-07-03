@@ -471,6 +471,17 @@ class UserDbLdap extends ActiveRecord implements IdentityInterface
         return $this->getPrimaryKey();
     }   
     
+    public function getFnacimiento()
+    {       
+        return $this->getFnacimiento();
+    } 
+    
+    public function getFinicio()
+    {
+        return $this->getFinicio();
+    }   
+    
+    
     /**
      * @inheritdoc
      */
