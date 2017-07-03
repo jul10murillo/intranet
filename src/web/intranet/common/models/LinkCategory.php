@@ -41,9 +41,9 @@ class LinkCategory extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'categoryli_id' => 'Categoryli ID',
-            'categoryli_name' => 'Categoryli Name',
-            'categoryli_description' => 'Categoryli Description',
+            'categoryli_id' => 'ID',
+            'categoryli_name' => 'Categoría',
+            'categoryli_description' => 'Descripción',
         ];
     }
 

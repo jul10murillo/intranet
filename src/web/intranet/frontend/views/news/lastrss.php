@@ -41,7 +41,7 @@ class lastRSS {
 	var $cp = '';
 	var $items_limit = 0;
 	var $stripHTML = False;
-	var $date_format = '';
+	var $date_format = 'd/m/Y';
 
 	// -------------------------------------------------------------------
 	// Private variables
@@ -157,10 +157,10 @@ class lastRSS {
 				if ($temp != '') $result[$channeltag] = $temp; // Set only if not empty
 			}
 			// If date_format is specified and lastBuildDate is valid
-			if ($this->date_format != '' && ($timestamp = strtotime($result['lastBuildDate'])) !==-1) {
-						// convert lastBuildDate to specified date format
-						$result['lastBuildDate'] = date($this->date_format, $timestamp);
-			}
+//			if ($this->date_format != '' && ($timestamp = strtotime($result['lastBuildDate'])) !==-1) {
+//						// convert lastBuildDate to specified date format
+//						$result['lastBuildDate'] = date($this->date_format, $timestamp);
+//			}
 
 			// Parse TEXTINPUT info
 			preg_match("'<textinput(|[^>]*[^/])>(.*?)</textinput>'si", $rss_content, $out_textinfo);

@@ -60,8 +60,17 @@ body {
   color: #b6b6b6;
 }
 
-.btn ,.btn-raised ,.btn-primary ,.btn-lg{
+.news-create, .news-update, .news-view, .application-view, .application-create,.application-update, .link-create, .link-update, .link-view , .business-view , .business-create, .business-update > h1{
   color: #b6b6b6;
+}
+
+.application-category-index, .application-category-create, .application-category-update, .link-category-view,.link-category-index, .link-category-create, .link-category-update, .link-category-view, .news-category-index, .news-category-create, .news-category-update, .news-category-view > h1{
+  color: #b6b6b6;
+}
+
+.btn ,.btn-raised ,.btn-primary ,.btn-lg{
+/*  color: #b6b6b6;*/
+  color: #fff;
   font-family: 'Montserrat-SemiBold';
   font-size:14px;
   background-color: #8db559;
@@ -72,19 +81,28 @@ body {
 }
 
 .btn-success:hover{
-  color: #b6b6b6;
+/*  color: #b6b6b6;*/
+  color: #fff;
   font-family: 'Montserrat-SemiBold';
   font-size:14px;
   background-color: #8db559;
   border-style: none;
-  border-radius:4px;
- 
+  border-radius:4px; 
 }
 
-.btn-success:active:hover {
-  color:  #b6b6b6;
-  background-color:#8db559;
- }
+.btn-success:active:hover,
+.btn-success.active:hover,
+.open > .dropdown-toggle.btn-success:hover,
+.btn-success:active:focus,
+.btn-success.active:focus,
+.open > .dropdown-toggle.btn-success:focus,
+.btn-success:active.focus,
+.btn-success.active.focus,
+.open > .dropdown-toggle.btn-success.focus {
+  color: #fff;
+  background-color: #8db559;
+  border-color: #00d1e5;
+}
 
 .table-striped > tbody > tr:nth-of-type(odd) {
   color: #5b5f64;
@@ -156,6 +174,14 @@ body {
   text-decoration: none; 
 }
 
+.navmenu-default, .navbar-default , .navbar-offcanvas {
+  border-style:none;
+}
+
+.navmenu, .navbar-offcanvas {
+  width: 200px;
+}
+
 .navmenu-fixed-left{
   background-color:#5b5f64; 
 }
@@ -175,8 +201,13 @@ body {
   text-decoration: none; 
 }
 
-.navmenu-default, .navbar-default , .navbar-offcanvas {
-  border-style:none;
+ /* BOTON OCULTAR MENU */ 
+ 
+.menu-hide .glyphicon {
+  color: #fff;
+  background-color: #8db559;
+  padding: 6px 18px;
+  border-radius: 3px;
 }
 
  /* HOME FOOTER */
@@ -193,19 +224,34 @@ body {
 
 /* HOME BODY */
 
+.body-content{
+ padding: 0 4em;
+/* width: 100%;
+ height: 100%;
+ position: relative;*/
+}
+
 .home-title{
   color: #b6b6b6;
   font-family:'Montserrat-Regular';
   font-size: 15.25pt;
 }
 
-.btn-default, .btn-default:hover,.btn-default:focus,.btn-default:visited{
+.btn-default,
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:visited{
   background-color:transparent;
   border-style:none;
 }
 
+.navbar-default .navbar-link {
+  color: #fff;
+  /*color: #b6b6b6;*/ 
+}
+
 .panel {
-  margin-bottom:7%;
+  margin-bottom:5%;
   background-color: #FFF;
   border-style:none;
 }
@@ -223,13 +269,19 @@ body {
   background-size: cover;
   height: 230px;
   width: 80%;
+  position: relative;
  } 
  
- .panel-info .panel-heading,.panel-warning .panel-heading,.panel-danger .panel-heading, .panel-primary .panel-heading{
+ .panel-info .panel-heading,
+ .panel-warning .panel-heading,
+ .panel-danger .panel-heading,
+ .panel-primary .panel-heading{
   color: #fff;
   background-color: transparent;
   border-style:none;
-  margin-top: 130px;
+  float:left;
+  position: absolute;
+  margin-top: 40%;
 }
 
 .panel-primary {
@@ -268,8 +320,7 @@ body {
   background-color: #8db559;
   border-style:none;
   border-radius: 2px;
-  width: 3%;
-  height: 33px;
+  padding: 4px 8px;
 }
 
 .search button .glyphicon {
@@ -322,11 +373,11 @@ body {
   display: inline-block;
   padding: 5px 18px;
   border-radius: 3px;
-  color: #b6b6b6;
+/*  color: #b6b6b6;*/
+  color: #fff;
   font-family: 'Montserrat-SemiBold';
   font-size: 12.51pt;
   font-weight: bold;
-/*  float:right;*/
   margin-left: 40%;
 
 }
@@ -338,10 +389,15 @@ body {
 .paginacion{
   position:absolute;
   left:55%; 
-  bottom:10%;
+  bottom:7%;
 }
 
-.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
   color: #b6b6b6;
   border-color: #8db559;
   background-color: transparent;
@@ -354,7 +410,7 @@ body {
   border-color: #8db559; 
 }
 
- /* NEWS */ 
+ /* NEWS-INFO-EMPLOYEE */ 
 
 .news-title{
   color: #b6b6b6;
@@ -363,8 +419,17 @@ body {
   margin-top:10%;
   margin-bottom:4%;
 }
+
+.info-employee-title{
+  color: #b6b6b6;
+  font-family: 'Montserrat-SemiBold';
+  font-size: 21.35pt;
+  margin-bottom:4%;
+}
  
-.news-body{
+.news-body,
+.info-employee-body,
+.info-employee-text{
   color: #b6b6b6;
   font-size: 14pt;
   font-weight: bold;
@@ -377,7 +442,7 @@ body {
   font-size: 19.7pt;
 }
 
-.news-item{
+.news-item, .info-employee-item{
   background-color: rgba(91,95,100, 0.64);
   margin-bottom:3px;
   padding: 3%;
@@ -402,4 +467,11 @@ body {
 }
 .navbar-default .navbar-toggle-body:hover, .navbar-default .navbar-toggle-body:focus {
     background-color: #ddd;
-}*/
+}
+ @media (max-width: 991px)
+offcanvas.less:5
+.offcanvas-sm.in {
+    display: block;
+}
+ 
+ */

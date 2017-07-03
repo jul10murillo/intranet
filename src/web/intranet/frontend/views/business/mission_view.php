@@ -68,7 +68,7 @@
 
     <!-- end .slider --></div> 
     <div class="">
-        <div class="mission-title"> 
+        <div class="mission-title">
             <h1 >Misión</h1>
         </div> 
         <div class="mission-body"> 
@@ -76,6 +76,7 @@
             <?php 
                 echo $model->mission_description; 
             ?>
+            <br>    
             </p>
         </div>        
     <!-- end .mission --></div>

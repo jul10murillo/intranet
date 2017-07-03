@@ -41,9 +41,9 @@ class NewsCategory extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'categoryne_id' => 'Categoryne ID',
-            'categoryne_name' => 'Categoryne Name',
-            'categoryne_description' => 'Categoryne Description',
+            'categoryne_id' => 'ID',
+            'categoryne_name' => 'categoría',
+            'categoryne_description' => 'Descripción',
         ];
     }
 

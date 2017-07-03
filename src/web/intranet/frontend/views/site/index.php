@@ -24,6 +24,9 @@ $this->title = 'Intranet Grupo Dumit, C.A.';
             </button> 
         </div>-->
         <div class="body-content">
+            <div class="menu-hide">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </div>
             <div class="search">
                 <form id="buscador" name="buscador" method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>"> 
                     <input id="buscar" name="buscar" type="search" class="" placeholder="    Buscar...">
@@ -37,11 +40,6 @@ $this->title = 'Intranet Grupo Dumit, C.A.';
             <div class="row">
                 <div class="col-lg-6">
                     <div class="panel panel-primary">
-                        <div class="panel-body">
-                            <div class="list-group">
-                                
-                            </div>
-                        </div>
                         <div class="panel-heading">
                             <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-play"></span><span class="home-title"> RECURSOS HUMANOS</span></button>
                         </div>
@@ -49,11 +47,6 @@ $this->title = 'Intranet Grupo Dumit, C.A.';
                 </div>
                 <div class="col-lg-6">
                     <div class="panel panel-info">
-                        <div class="panel-body">
-                            <div class="list-group">
-                                
-                            </div>
-                        </div>
                         <div class="panel-heading">
                             <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-play"></span><span class="home-title"> INTERÉS</span></button>
                         </div>
@@ -63,10 +56,6 @@ $this->title = 'Intranet Grupo Dumit, C.A.';
             <div class="row">
                 <div class="col-lg-6">
                     <div class="panel panel-warning">
-                        <div class="panel-body">
-                            <div class="list-group">
-                            </div>
-                        </div>
                         <div class="panel-heading">
                             <button type="button" class="btn btn-default" onClick="location.href = '/index.php?r=news%2Fshow'"><span class="glyphicon glyphicon-play"></span><span class="home-title"> TECNOLOGÍA</span></button>
                         </div>
@@ -74,10 +63,6 @@ $this->title = 'Intranet Grupo Dumit, C.A.';
                 </div>
                 <div class="col-lg-6">
                     <div class="panel panel-danger">
-                        <div class="panel-body">
-                            <div class="list-group">
-                            </div>
-                        </div>
                         <div class="panel-heading">
                             <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-play"></span><span class="home-title"> REDES</span></button>
                         </div>

@@ -129,6 +129,7 @@ class NewsController extends Controller
             $postNews = Yii::$app->request->post('News')['news_channel'];
             $news->where(['news_id'=>$postNews]);
         }
+        
         $newsData = $news->all();
         return $this->render('show_news', [
         'news' => $newsData,

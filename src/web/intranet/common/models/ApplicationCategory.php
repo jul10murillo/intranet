@@ -41,9 +41,9 @@ class ApplicationCategory extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'categoryap_id' => 'Categoryap ID',
-            'categoryap_name' => 'Categoryap Name',
-            'categoryap_description' => 'Categoryap Description',
+            'categoryap_id' => 'ID',
+            'categoryap_name' => 'Categoría',
+            'categoryap_description' => 'Descripción',
         ];
     }
 
