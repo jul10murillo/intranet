@@ -41,7 +41,7 @@ $this->title = 'Intranet Grupo Dumit, C.A.';
                 <div class="col-lg-6">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-play"></span><span class="home-title"> RECURSOS HUMANOS</span></button>
+                            <button type="button" class="btn btn-default" onClick="location.href = '/index.php?r=newsbusiness%2Fshow&id=2'"><span class="glyphicon glyphicon-play"></span><span class="home-title"> RECURSOS HUMANOS</span></button>
                         </div>
                     </div>
                 </div>

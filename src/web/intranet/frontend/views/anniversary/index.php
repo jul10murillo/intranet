@@ -3,11 +3,14 @@
 /* @var $this yii\web\View */
 use yii\helpers\Url;
 use yii\helpers\Html;
+use yii\data\Pagination;
+use yii\widgets\LinkPager;
 
+$meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
 
 ?>
 <div class="info-employee-title">
-    <h1>Aniversarios del mes</h1>
+    <h1>Aniversarios mes de <?php echo $meses[date('n')-1];?></h1>
 </div>
 <div class="info-employee-body">
     <p>Gracias por pertenecer a esta gran familia, por dedicar tiempo y esmero, enalteciendo el espíritu de trabajo en equipo que define a Grupo Dumit.

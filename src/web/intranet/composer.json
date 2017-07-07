@@ -26,7 +26,8 @@
         "edofre/yii2-slider-pro": "V1.1.6",
         "yiisoft/yii2-elasticsearch": "^2.0",
         "davidjeddy/yii2-rss-reader": "*",
-        "xgosoftwarecraft/yii2-rss-reader": "dev-master"
+        "xgosoftwarecraft/yii2-rss-reader": "dev-master",
+        "kartik-v/yii2-widget-datepicker": "@dev"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

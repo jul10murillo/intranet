@@ -244,7 +244,7 @@ class UserDbLdap extends ActiveRecord implements IdentityInterface
              * In this example only groups starting with yii2 and app would be assigned to the user
              * if a corresponding role (again names has to be the same!) exists in yii2.
              */
-            'REGEX_GROUP_MATCH_IN_LDAP' => "/^(yii2|app)(.*)/", // groupname start with yii2 or app
+            'REGEX_GROUP_MATCH_IN_LDAP' => "/(.*)/", // groupname start with yii2 or app
         
             /*
              * ADD_GROUPS_FROM_LDAP_MATCHING_REGEX
@@ -286,8 +286,8 @@ class UserDbLdap extends ActiveRecord implements IdentityInterface
      * The only differnce is, that a login is only allowed with a role assigned.
      */    
     const GROUP_ASSIGNMENT_TOUCH_ONLY_MATCHING_REGEX_WITH_ROLE = [
-            'LOGIN_POSSIBLE_WITH_ROLE_ASSIGNED_MATCHING_REGEX' => "/(.*)/", // a role has to be assign, the name could be everything
-            'REGEX_GROUP_MATCH_IN_LDAP' => "/^(yii2|app)(.*)/", // start with
+            'LOGIN_POSSIBLE_WITH_ROLE_ASSIGNED_MATCHING_REGEX' => null, // a role has to be assign, the name could be everything
+            'REGEX_GROUP_MATCH_IN_LDAP' => "/(.*)/", // start with
             'ADD_GROUPS_FROM_LDAP_MATCHING_REGEX' => true,
             'REMOVE_ALL_GROUPS_NOT_FOUND_IN_LDAP' => true,
             'REMOVE_ONLY_GROUPS_MATCHING_REGEX' => false,
@@ -301,8 +301,8 @@ class UserDbLdap extends ActiveRecord implements IdentityInterface
      * The roles assigned to the user object are always the same as the member of attribute of the active directory user.
      */      
     const GROUP_ASSIGNMENT_LDAP_MANDANTORY = [
-            'LOGIN_POSSIBLE_WITH_ROLE_ASSIGNED_MATCHING_REGEX' => "/(.*)/",
-            'REGEX_GROUP_MATCH_IN_LDAP' => "/^(yii2|app)(.*)/", // start with
+            'LOGIN_POSSIBLE_WITH_ROLE_ASSIGNED_MATCHING_REGEX' => null,
+            'REGEX_GROUP_MATCH_IN_LDAP' => "/(.*)/", // start with
             'ADD_GROUPS_FROM_LDAP_MATCHING_REGEX' => true,
             'REMOVE_ALL_GROUPS_NOT_FOUND_IN_LDAP' => true,
             'REMOVE_ONLY_GROUPS_MATCHING_REGEX' => false,
@@ -586,8 +586,8 @@ class UserDbLdap extends ActiveRecord implements IdentityInterface
         
         if(isset($individualGroupAssignmentOptions) != null) {
             $groupOptionsUsed = $userDbLdapObject->individualGroupAssignmentOptions;
-        } else if(isset(\Yii::$app->params["LDAP-Group-Assignment-Options"]) && $individualGroupAssignmentOptions == null ) {
-            $groupOptionsUsed = \Yii::$app->params["LDAP-Group-Assignment-Options"];
+//        } else if(isset(\Yii::$app->params["LDAP-Group-Assignment-Options"]) && $individualGroupAssignmentOptions == null ) {
+//            $groupOptionsUsed = \Yii::$app->params["LDAP-Group-Assignment-Options"];
         } else {
             $groupOptionsUsed = self::GROUP_ASSIGNMENT_TOUCH_ONLY_MATCHING_REGEX;
         }

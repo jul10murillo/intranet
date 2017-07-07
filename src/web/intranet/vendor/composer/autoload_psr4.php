@@ -26,6 +26,7 @@ return array(
     'kartik\\grid\\' => array($vendorDir . '/kartik-v/yii2-grid'),
     'kartik\\editable\\' => array($vendorDir . '/kartik-v/yii2-editable'),
     'kartik\\dialog\\' => array($vendorDir . '/kartik-v/yii2-dialog'),
+    'kartik\\date\\' => array($vendorDir . '/kartik-v/yii2-widget-datepicker'),
     'kartik\\base\\' => array($vendorDir . '/kartik-v/yii2-krajee-base'),
     'johnitvn\\rbacplus\\' => array($vendorDir . '/johnitvn/yii2-rbac-plus/src'),
     'johnitvn\\ajaxcrud\\' => array($vendorDir . '/johnitvn/yii2-ajaxcrud/src'),
