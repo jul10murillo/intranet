@@ -62,7 +62,7 @@ include "lastrss.php";
 //                                    ->limit($pages->limit)
 //                                     ->all();
 //                            echo "\t<div class=\"news-item\"><div class=\"news_link\"><img src=\"\"></img><a target=\"_blank\" href=\"$item[link]\" type=\"application/rss+xml\" >".$item['title']."</a></div><div><br>$item[description]<br><br>FECHA: $item[pubDate]</div></div>\n";
-                            echo "\t<div class=\"news-item\"><div class=\"news_link\"><img src=\"\"></img><a target=\"_blank\" href=\"$item[link]\" type=\"application/rss+xml\" >".$item['title']."</a></div><div><br><br>FECHA: $item[pubDate]</div></div>\n";
+                            echo "\t<div class=\"news-item\"><div class=\"\"><img src=\"\"></img><a class=\"news_link\" target=\"_blank\" href=\"$item[link]\" type=\"application/rss+xml\" >".$item['title']."</a></div><div><br><br><span class=\"glyphicon glyphicon-time\"></span>&nbsp;&nbsp;FECHA: $item[pubDate]</div></div>\n";
                         }
 //                        print_r($rs);
                     }

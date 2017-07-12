@@ -3,17 +3,22 @@
 
 ?>
 <div>
-    <div class="application-title">
-      NOTICIAS</br></br>
-    </div>
      <?php
-       foreach ($detail as $row) {
+       foreach ($category as $rowc) {
+            if ($rowc->categoryne_id ==$model->categoryne_id ) {
+                $description=$rowc->categoryne_name;
+            }    
+    }?>
+    <div class="application-title">
+      <?php
+       echo"NOTICIAS</br></br>$description</br></br>";
      ?>
+     </div>
         <div class="news-body">
             <?php
-            //            echo "\t<div class=\"news-item\"><div class=\"\"><img class=\"responsive-news-img\" src=\"$row->nbusiness_image\"></img></div><div class=\"news_link\"><a target=\"\" href=\"\">".$row->nbusiness_title."</a></div><div><br>$row->nbusiness_description<br><br>FECHA: $row->nbusiness_date</div></div>\n";
-            echo "\t<div class=\"news-item\"><div class=\"contenedor-news\"><img class=\"responsive-news-img\" src=\"$row->nbusiness_image\"></img><a class=\"\" target=\"\" href=\"\">".$row->nbusiness_title."</a><br>$row->nbusiness_description...<br><br>FECHA: $row->nbusiness_date</div></div>\n";
+            echo "\t<div class=\"news-item\"><div class=\"detail-title\">".$model->nbusiness_title."</div><div><br><span class=\"glyphicon glyphicon-time\"></span>&nbsp;&nbsp;$model->nbusiness_date</div><div class=\"detail-img\"><br><img class=\"responsive-detail-img\" src=\"$model->nbusiness_image\"></img></div><div><br>$model->nbusiness_description<br><br></div></div><br>\n";
+            
+            echo \yii\helpers\Html::a( '<< REGRESAR', Yii::$app->request->referrer);
             ?>
         </div>
-     <?php }  ?>
-</div>
+     </div>

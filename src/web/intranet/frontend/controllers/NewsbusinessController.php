@@ -109,16 +109,17 @@ class NewsbusinessController extends Controller
 //        if ($model->load(Yii::$app->request->post()) && $model->save()) {
         if ($model->load(Yii::$app->request->post())) {
             
-            //get the instance of the uploaded file
-            
-            $imageName= $model->nbusiness_title;
-            $model ->file=UploadedFile::getInstance($model,'file');
-            $model->file->saveAs('uploads/'.$imageName.'.'.$model->file->extension );
-            
-            //save the path in the db column
-            
-            $model->nbusiness_image='uploads/'.$imageName.'.'.$model->file->extension;
-            
+            if (($model->file=UploadedFile::getInstance($model,'file'))!= NULL) {
+                $imageName= $model->nbusiness_title;
+
+                //get the instance of the uploaded file
+                $model ->file=UploadedFile::getInstance($model,'file');
+                $model->file->saveAs('uploads/'.$imageName.'.'.$model->file->extension );
+
+                //save the path in the db column
+                $model->nbusiness_image='uploads/'.$imageName.'.'.$model->file->extension;
+            }
+           
             $model->save();
             
             return $this->redirect(['view', 'id' => $model->nbusiness_id]);
@@ -149,18 +150,29 @@ class NewsbusinessController extends Controller
     {
        $news=NewsBusiness::find()->where(['categoryne_id'=>$id])->orderBy('nbusiness_date DESC');
        $count= clone $news;
+
+       $category= \common\models\NewsCategory::find()->all();
+       foreach ($category as $rowc) {
+            if ($rowc->categoryne_id ==$id ) {
+                $description=$rowc->categoryne_name;
+            } 
+        }
+
        $pages= new Pagination([
-           "pageSize"=> 3,
+           "pageSize"=> 2,
            "totalCount"=> $count -> count()
        ]);
+
        $model=$news
                ->offset($pages->offset)
                ->limit($pages->limit)
                ->all();
+
        return $this->render('show_news_business', [
             'model' => $model,
             'news' => $news,
-            'pages' =>$pages
+            'pages' =>$pages,
+            'description'=>$description,
         ]);
        
      }
@@ -169,14 +181,10 @@ class NewsbusinessController extends Controller
      
      public function actionDetail($id)
     {
-       $detail=NewsBusiness::find()->where(['nbusiness_id'=>$id])->all();
-       
        $category= \common\models\NewsCategory::find()->all();
-       
-//       $items= \yii\helpers\ArrayHelper::map($category,'categoryne_id','categoryne_name');
-    
+
        return $this->render('detail_news_business', [
-            'detail' => $detail,
+            'model' => $this->findModel($id),
             'category'=> $category,
        ]);
        

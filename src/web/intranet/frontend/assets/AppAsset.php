@@ -19,7 +19,7 @@ class AppAsset extends AssetBundle
         'css/jasny-bootstrap/css/jasny-bootstrap.css',
         'css/gdumit.css',
 //        'css/whitestyle.css',
-        'css/blackstyle.css',
+//        'css/blackstyle.css',
     ];
     public $js = [
         'js/material.min.js',
@@ -33,4 +33,10 @@ class AppAsset extends AssetBundle
         'yii\bootstrap\BootstrapAsset',
         
     ];
+    
+     //Define as neededcssMethod,Note the order in the final 
+  public static function addCss($view, $cssfile) { 
+    $view->registerCssFile($cssfile, [AppAsset::className(), 'depends' => 'frontend\assets\AppAsset']); 
+  } 
+    
 }

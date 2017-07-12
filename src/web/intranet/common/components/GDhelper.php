@@ -22,4 +22,10 @@ class GDhelper{
         $identity = Yii::$app->user->getIdentity();
         return $identity['email'];
     }
+    
+    public static function getUser() {
+        $identity = Yii::$app->user->getIdentity();
+        return $identity['email'];
+    }    
+    
 }

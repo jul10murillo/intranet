@@ -10,7 +10,14 @@ use yii\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
 use common\widgets\Alert;
 
+if (!Yii::$app->user->isGuest) {
+$cssfile= ('css/'.Yii::$app->user->identity->template);
+}else{
+$cssfile= ('css/blackstyle.css');
+}
+
 AppAsset::register($this);
+AppAsset::addCss($this,$cssfile);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>

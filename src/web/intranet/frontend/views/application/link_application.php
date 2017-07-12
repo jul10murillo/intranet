@@ -27,9 +27,10 @@ use yii\widgets\LinkPager;
         </div>
        <?php
           }  
-         ?> 
+         ?>
+        <br>
     </div>
-    <div class="paginacion">
+    <div class="pagination-link-application">
     <?= LinkPager::widget([
         "pagination" => $pages,
     ]);

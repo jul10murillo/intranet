@@ -22,8 +22,8 @@ $this->params['breadcrumbs'][] = $this->title;
             ?>
         </div>
         <div class="col-lg-6 col-md-6">
-        <div class="title-login">
-            <h1>INTRANET<br/>GRUPO DUMIT</h1>
+        <div class="">
+            <h1><span class="title-login">INTRANET</span><br/><span class="title2-login">GRUPO DUMIT</span></h1>
         </div>
             <div class="login-dumit" >
             <?php $form = ActiveForm::begin([

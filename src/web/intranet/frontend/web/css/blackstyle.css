@@ -140,9 +140,14 @@ body {
 
 .title-login{
   color:#b6b6b6;
-  font-family: 'Montserrat-SemiBold';
-  font-size:14px;
-  font-weight:bold;
+  font-family: 'Montserrat-Bold';
+  font-size:33.62px; 
+}
+
+.title2-login{
+  color:#b6b6b6;
+  font-family: 'Montserrat-Regular';
+  font-size:33.62px;
 }
 
 .login-dumit .form-control{
@@ -205,6 +210,12 @@ body {
   text-decoration: none; 
 }
 
+/* MENÚ USUARIO*/
+.navbar-nav {
+  float: right;
+  margin-top: 0px;
+}
+
  /* BOTON OCULTAR MENU */ 
  
 .menu-hide .glyphicon {
@@ -219,6 +230,7 @@ body {
 .footer {
   background-color: #222222;
   color:#b6b6b6;
+  font-size: 12.51px;
   border-style:none;
 }
 
@@ -390,10 +402,12 @@ body {
   text-decoration: none; 
 }
 
-.paginacion{
-  position:absolute;
+.pagination-link-application{
+  position:relative;
+  text-align: center;
+/*  position:absolute;
   left:55%; 
-  bottom:7%;
+  bottom:7%;*/
 }
 
 .pagination > .active > a,
@@ -452,6 +466,14 @@ body {
   padding: 3%;
 }
 
+
+/* NEWS BUSINESS */ 
+
+.pagination-news-business{
+  position:relative;
+  text-align: center;
+}
+
 .responsive-news-img {
   padding: 0 20px;
   float: left;
@@ -465,6 +487,26 @@ body {
 }
 .contenedor-news {
   overflow: auto;
+}
+
+.detail-title{
+  color: #b6b6b6;
+  font-family: 'Montserrat-SemiBold';
+  font-size: 21.35pt;
+}
+
+.detail-img {
+  text-align: center;
+}
+
+.responsive-detail-img {
+  width: 60%;
+}
+
+@media only screen and (max-width: 724px){
+  .responsive-detail-img {
+    width: 100%;
+  }
 }
  /* BOTON MENU 
 /* 

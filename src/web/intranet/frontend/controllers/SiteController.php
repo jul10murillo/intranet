@@ -58,7 +58,8 @@ class SiteController extends Controller
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
-                    'logout' => ['post'],
+                    'logout' => ['get'],
+//                    'logout' => ['post'],
                 ],
             ],
         ];
@@ -234,5 +235,12 @@ class SiteController extends Controller
         ]);
     }
     
-   
+   public function actionSearch($user)
+    {
+        $users= \common\models\User::find()-> where(['username' => $user])->all();
+        
+        return $this->render('chanceTemplate',[
+        'users' => $users
+        ]);
+    }
 }

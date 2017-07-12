@@ -48,7 +48,7 @@ $this->title = 'Intranet Grupo Dumit, C.A.';
                 <div class="col-lg-6">
                     <div class="panel panel-info">
                         <div class="panel-heading">
-                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-play"></span><span class="home-title"> INTERÉS</span></button>
+                            <button type="button" class="btn btn-default" onClick="location.href = '/index.php?r=newsbusiness%2Fshow&id=3'"><span class="glyphicon glyphicon-play"></span><span class="home-title"> INTERÉS</span></button>
                         </div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ $this->title = 'Intranet Grupo Dumit, C.A.';
                 <div class="col-lg-6">
                     <div class="panel panel-danger">
                         <div class="panel-heading">
-                            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-play"></span><span class="home-title"> REDES</span></button>
+                            <button type="button" class="btn btn-default" onClick="location.href = '/index.php?r=newsbusiness%2Fshow&id=4'"><span class="glyphicon glyphicon-play"></span><span class="home-title"> REDES</span></button>
                         </div>
                     </div>
                 </div>

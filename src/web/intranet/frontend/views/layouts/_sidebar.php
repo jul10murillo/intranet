@@ -3,6 +3,7 @@
 
 use yii\web\View;
 use yii\helpers\Html;
+use yii\widgets\Menu;
 /* 
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -28,17 +29,34 @@ use yii\helpers\Html;
     </button>
     <a href="/index.php" class="navbar-brand"></a>
     <p class="navbar-text ">
-    <?=
-        Html::beginForm(['/site/logout'], 'post')
-        . Html::submitButton(
-            'Cerrar Sesión (' . Yii::$app->user->identity->username . ')',
-            ['class' => 'btn logout navbar-link navbar-right hidden-xs']
-        )
-        . Html::endForm();
-    ?>
+     <?php
+        echo Menu::widget([
+        'items' => [
+        ['label' => 'Perfil', 'url' => '#','options'=>['class'=>'profile'],],
+        ['label' => 'Cerrar Sesión('.Yii::$app->user->identity->username.')',
+            'url' => ['/site/logout']],
+         ],
+        'options' => [
+        'class' => 'navbar-nav nav',
+        'id'=>'navbar-id',
+        'style'=>'font-size: 16px;',
+        'data-tag'=>'yii2-menu',
+        ],
+        'activeCssClass'=>'activeclass',
+        ]);
+      ?>      
+        
     </p>
 </div>
+
 <?php
+
+echo $this->render('chanceTemplate');
+
 $this->registerCss(".navmenu { box-shadow:0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important; }"
         . ".navbar{ box-shadow:0 1px 3px 0 rgba(0,0,0,.12), 0 1px 2px 0 rgba(0,0,0,.24)!important; }");
-?>
+$this->registerJs(
+    "$('.profile').click( function() { $('#w0').modal('toggle'); });",
+    View::POS_READY,
+    'my-button-handler'
+);?>

@@ -125,6 +125,7 @@ class NewsController extends Controller
         $news=News::find()->where(['categoryne_id'=>'1'])->orderBy('news_channel ASC');
         $newsArray = $news->all();
         $listData=ArrayHelper::map($newsArray,'news_id','news_channel');
+        $category= \common\models\NewsCategory::find()->all();
         if (Yii::$app->request->post()) {
             $postNews = Yii::$app->request->post('News')['news_channel'];
             $news->where(['news_id'=>$postNews]);
