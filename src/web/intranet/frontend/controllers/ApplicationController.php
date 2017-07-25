@@ -9,6 +9,7 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\data\Pagination;
+use yii\filters\AccessControl;
 
 /**
  * ApplicationController implements the CRUD actions for Application model.
@@ -25,6 +26,17 @@ class ApplicationController extends Controller
                 'class' => VerbFilter::className(),
                 'actions' => [
                     'delete' => ['POST'],
+                ],
+            ],
+            'access' => [
+                'class' => AccessControl::className(),
+                'only'  => ['index','view', 'create', 'update','delete','search'],
+                'rules' => [
+                    [
+                        'allow'   => true,
+                        'actions' => ['index','view', 'create', 'update','delete','search'],
+                        'roles'   => ['@'],
+                    ],
                 ],
             ],
         ];
@@ -124,22 +136,43 @@ class ApplicationController extends Controller
 
     public function actionSearch()
     {
-       $applications=Application::find();
-       $count= clone $applications;
-       $pages= new Pagination([
-           "pageSize"=> 4,
-           "totalCount"=> $count -> count()
-       ]);
-       $model=$applications
-               ->offset($pages->offset)
-               ->limit($pages->limit)
-               ->all();
-       return $this->render('link_application', [
-            'model' => $model,
-            'links' => $applications,
-            'pages' =>$pages
-        ]);
-         
+        $applications = Application::find() ;
+        $search       = false;
+        if (Yii::$app->request->isPost) {
+            $searchString = Yii::$app->request->post('search');
+            if (strlen($searchString) >= 1 ) {
+                $search       = true;
+            }
+            $applications = Application::find()->filterWhere(['or',
+                ['like', 'application_name', $searchString],
+                ['like', 'application_description', $searchString]
+            ]) ;
+            Yii::$app->session['searchapplication'] = $searchString ;
+        }else{
+            $searchString = Yii::$app->session['searchapplication'];
+        }
+        
+        $count        = clone $applications ;
+        $count        = $count->count() ;
+        
+        $pages        = new Pagination([
+            "pageSize"   => 4,
+            "totalCount" => $count
+        ]) ;
+        
+        $model = $applications
+                ->offset($pages->offset)
+                ->limit($pages->limit)
+                ->all() ;
+
+        return $this->render('link_application', [
+                    'model'  => $model,
+                    'links'  => $applications,
+                    'pages'  => $pages,
+                    'searchString' => $searchString,
+                    'count'  => $count,
+                    'search' => $search
+                ]) ;
     }
 
     /**

@@ -21,48 +21,25 @@ class SiteController extends Controller
     /**
      * @inheritdoc
      */
-    public function behaviors()
-    {
+    public function behaviors() {
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['logout', 'signup','index','about','contact'],
+                'only'  => ['index','login', 'logout', 'signup'],
                 'rules' => [
                     [
-                        'actions' => ['signup'],
-                        'allow' => true,
-                        'roles' => ['?'],
+                        'allow'   => true,
+                        'actions' => ['login', 'signup'],
+                        'roles'   => ['?'],
                     ],
                     [
-                        'actions' => ['logout'],
-                        'allow' => true,
-                        'roles' => ['@'],
+                        'allow'   => true,
+                        'actions' => ['logout','index','search'],
+                        'roles'   => ['admin'],
                     ],
-                    [
-                        'allow'   => true ,
-                        'actions' => ['index'] ,
-                        'roles'   => ['permissionToSeeHome'] ,
-                    ] ,
-                    [
-                        'allow' => true,
-                        'actions' => ['contact'],
-                        'roles' => ['permissionToUseContanctPage'],
-                    ],  
-                    [
-                        'allow' => true,
-                        'actions' => ['about'],
-                        'roles' => ['permissionDisplayDetailedAbout'],
-                    ], 
                 ],
             ],
-            'verbs' => [
-                'class' => VerbFilter::className(),
-                'actions' => [
-                    'logout' => ['get'],
-//                    'logout' => ['post'],
-                ],
-            ],
-        ];
+        ] ;
     }
 
     /**
@@ -88,12 +65,6 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-//       $users= \Edvlerblog\Adldap2\model\UserDbLdap::find()->all();
-//       $usersActive= \Edvlerblog\Adldap2\model\UserDbLdap::findByUsername($users);
-//       print_r($usersActive);exit;
-//        return $this->render('index',[
-//                'usersActive' => $users,
-//            ]);
         return $this->render('index');
     }
 

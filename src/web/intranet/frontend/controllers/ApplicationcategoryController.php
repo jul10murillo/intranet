@@ -26,6 +26,17 @@ class ApplicationcategoryController extends Controller
                     'delete' => ['POST'],
                 ],
             ],
+            'access' => [
+                'class' => AccessControl::className(),
+                'only'  => ['index','login', 'logout', 'signup'],
+                'rules' => [
+                    [
+                        'allow'   => true,
+                        'actions' => ['view','index','create','update','delete'],
+                        'roles'   => ['@'],
+                    ],
+                ],
+            ],
         ];
     }
 

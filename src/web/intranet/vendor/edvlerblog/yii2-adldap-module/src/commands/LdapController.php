@@ -72,6 +72,7 @@ class LdapController extends Controller
                 where('objectCategory','=','person')->
                 paginate(999);
         
+
         $userNamesToAdd = [];
         foreach($results->getResults() as $ldapUser) {
             $accountName = $ldapUser->getAttribute("samaccountname",0);
@@ -79,18 +80,32 @@ class LdapController extends Controller
                 array_push($userNamesToAdd, $accountName);
             }
         }
-
         
-        $c=0;
         \Yii::warning("-- Found " . count ($userNamesToAdd) . " users --");
+        $auth = \Yii::$app->authManagerldap;
+        $auth->removeAllRoles();
         foreach ($userNamesToAdd as $userName) {
-            $c++;
-            
             \Yii::warning("-- Working on user " . $userName . " --");
-            $userObject = \Edvlerblog\Adldap2\model\UserDbLdap::createOrRefreshUser($userName);
+            $userObject    = \Edvlerblog\Adldap2\model\UserDbLdap::createOrRefreshUser($userName);
+            
             
             if ($userObject != null) {
-                \Yii::warning("User " . $userName . " created");
+                $statususer    = \Yii::$app->ad->getDefaultProvider()->search()->findBy('sAMAccountname', $userName) ;
+                $department    = $statususer->getDepartment();
+                if (!is_null($department)) {
+                    $role = $auth->getRole($department);
+                    
+                    if (is_null($role)) {
+                        \Yii::warning($department);
+                        $role = $auth->createRole($department);
+                        $auth->add($role);
+                        $role = $auth->getRole($role->name);
+                    }
+                    
+                    $auth->assign($role, $userObject->getId());
+                }
+                
+                
             } else {
                 \Yii::warning("User " . $userName . " NOT created");
             }
