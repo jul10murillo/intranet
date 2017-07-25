@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = http://root@gd03wb01.dumit.local:8088/root/intranet.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	pushurl = http://root@gd03wb01.dumit.local:8088/root/intranet.git
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[receive]
+	denyNonFastForwards = false

@@ -1,0 +1,4 @@
+warning: Negative patterns are ignored in git attributes
+Use '\!' for literal leading exclamation.
+warning: Negative patterns are ignored in git attributes
+Use '\!' for literal leading exclamation.

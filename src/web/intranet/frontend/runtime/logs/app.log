@@ -1,0 +1,487 @@
+2017-07-12 21:14:44 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][error][Error] Error: Class 'Html' not found in C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\chanceTemplate.php:16
+Stack trace:
+#0 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require()
+#1 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#3 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\_sidebar.php(54): yii\base\View->render('chanceTemplate')
+#4 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#7 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\main.php(75): yii\base\View->render('_sidebar')
+#8 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#10 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#11 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#12 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\controllers\SiteController.php(97): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#17 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#18 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\web\index.php(17): yii\base\Application->run()
+#20 {main}
+2017-07-12 21:14:43 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][info][application] $_COOKIE = [
+    '_frontendCSRF' => '2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"xH3jswZORdjXuKivcHz_VytgX_y-9uh0\";}'
+    'PHPFRONTSESSID' => 'f2hfajbhtgalf5mb9bfqff2qn5'
+    '_identity-frontend' => '51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[5,\"QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    '__id' => 5
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'intranet.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local:8080/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCSRF=2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22xH3jswZORdjXuKivcHz_VytgX_y-9uh0%22%3B%7D; PHPFRONTSESSID=f2hfajbhtgalf5mb9bfqff2qn5; _identity-frontend=51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseHg\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts\\;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\;C:\\Users\\ylopez.DUMIT\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18 Server at intranet.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '58459'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499886883.937
+    'REQUEST_TIME' => 1499886883
+]
+2017-07-12 21:25:37 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\chanceTemplate.php:15
+Stack trace:
+#0 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\chanceTemplate.php(15): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#4 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\_sidebar.php(54): yii\base\View->render('chanceTemplate')
+#5 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#8 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\main.php(75): yii\base\View->render('_sidebar')
+#9 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#12 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#13 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\controllers\SiteController.php(97): yii\base\Controller->render('index')
+#14 [internal function]: frontend\controllers\SiteController->actionIndex()
+#15 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#18 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#19 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\web\index.php(17): yii\base\Application->run()
+#21 {main}
+2017-07-12 21:25:37 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][info][application] $_COOKIE = [
+    '_frontendCSRF' => '2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"xH3jswZORdjXuKivcHz_VytgX_y-9uh0\";}'
+    'PHPFRONTSESSID' => 'f2hfajbhtgalf5mb9bfqff2qn5'
+    '_identity-frontend' => '51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[5,\"QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    '__id' => 5
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'intranet.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local:8080/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCSRF=2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22xH3jswZORdjXuKivcHz_VytgX_y-9uh0%22%3B%7D; PHPFRONTSESSID=f2hfajbhtgalf5mb9bfqff2qn5; _identity-frontend=51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseHg\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts\\;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\;C:\\Users\\ylopez.DUMIT\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18 Server at intranet.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '58517'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499887537.386
+    'REQUEST_TIME' => 1499887537
+]
+2017-07-12 21:56:30 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\chanceTemplate.php:19
+Stack trace:
+#0 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\chanceTemplate.php(19): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#4 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\_sidebar.php(54): yii\base\View->render('chanceTemplate')
+#5 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#8 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\main.php(75): yii\base\View->render('_sidebar')
+#9 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\BirthdayController))
+#12 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="inf...')
+#13 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\controllers\BirthdayController.php(24): yii\base\Controller->render('index', Array)
+#14 [internal function]: frontend\controllers\BirthdayController->actionIndex()
+#15 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#18 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('birthday/index', Array)
+#19 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\web\index.php(17): yii\base\Application->run()
+#21 {main}
+2017-07-12 21:56:29 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][info][application] $_GET = [
+    'r' => 'birthday/index'
+]
+
+$_COOKIE = [
+    '_frontendCSRF' => '2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"xH3jswZORdjXuKivcHz_VytgX_y-9uh0\";}'
+    'PHPFRONTSESSID' => 'f2hfajbhtgalf5mb9bfqff2qn5'
+    '_identity-frontend' => '51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[5,\"QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    '__id' => 5
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'intranet.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCSRF=2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22xH3jswZORdjXuKivcHz_VytgX_y-9uh0%22%3B%7D; PHPFRONTSESSID=f2hfajbhtgalf5mb9bfqff2qn5; _identity-frontend=51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseHg\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts\\;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\;C:\\Users\\ylopez.DUMIT\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18 Server at intranet.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '58659'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=birthday%2Findex'
+    'REQUEST_URI' => '/index.php?r=birthday%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499889389.303
+    'REQUEST_TIME' => 1499889389
+]
+2017-07-12 21:56:44 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\chanceTemplate.php:19
+Stack trace:
+#0 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\chanceTemplate.php(19): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#4 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\_sidebar.php(54): yii\base\View->render('chanceTemplate')
+#5 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#8 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\main.php(75): yii\base\View->render('_sidebar')
+#9 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#12 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#13 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\controllers\SiteController.php(97): yii\base\Controller->render('index')
+#14 [internal function]: frontend\controllers\SiteController->actionIndex()
+#15 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#18 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#19 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\web\index.php(17): yii\base\Application->run()
+#21 {main}
+2017-07-12 21:56:44 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][info][application] $_COOKIE = [
+    '_frontendCSRF' => '2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"xH3jswZORdjXuKivcHz_VytgX_y-9uh0\";}'
+    'PHPFRONTSESSID' => 'f2hfajbhtgalf5mb9bfqff2qn5'
+    '_identity-frontend' => '51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[5,\"QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    '__id' => 5
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'intranet.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCSRF=2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22xH3jswZORdjXuKivcHz_VytgX_y-9uh0%22%3B%7D; PHPFRONTSESSID=f2hfajbhtgalf5mb9bfqff2qn5; _identity-frontend=51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseHg\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts\\;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\;C:\\Users\\ylopez.DUMIT\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18 Server at intranet.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '58663'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499889404.767
+    'REQUEST_TIME' => 1499889404
+]
+2017-07-12 21:58:14 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\user/search.php in C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#1 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\_sidebar.php(54): yii\base\View->render('/user/search')
+#2 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#5 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\main.php(75): yii\base\View->render('_sidebar')
+#6 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#8 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#9 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#10 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\controllers\SiteController.php(97): yii\base\Controller->render('index')
+#11 [internal function]: frontend\controllers\SiteController->actionIndex()
+#12 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#15 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#16 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\web\index.php(17): yii\base\Application->run()
+#18 {main}
+2017-07-12 21:58:14 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][info][application] $_COOKIE = [
+    '_frontendCSRF' => '2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"xH3jswZORdjXuKivcHz_VytgX_y-9uh0\";}'
+    'PHPFRONTSESSID' => 'f2hfajbhtgalf5mb9bfqff2qn5'
+    '_identity-frontend' => '51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[5,\"QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    '__id' => 5
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'intranet.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCSRF=2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22xH3jswZORdjXuKivcHz_VytgX_y-9uh0%22%3B%7D; PHPFRONTSESSID=f2hfajbhtgalf5mb9bfqff2qn5; _identity-frontend=51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseHg\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts\\;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\;C:\\Users\\ylopez.DUMIT\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18 Server at intranet.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '58677'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499889494.361
+    'REQUEST_TIME' => 1499889494
+]
+2017-07-12 21:58:47 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\user/search.php in C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#1 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\_sidebar.php(54): yii\base\View->render('/user/search')
+#2 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#5 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\main.php(75): yii\base\View->render('_sidebar')
+#6 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#8 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\BirthdayController))
+#9 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="inf...')
+#10 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\controllers\BirthdayController.php(24): yii\base\Controller->render('index', Array)
+#11 [internal function]: frontend\controllers\BirthdayController->actionIndex()
+#12 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#15 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('birthday/index', Array)
+#16 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\web\index.php(17): yii\base\Application->run()
+#18 {main}
+2017-07-12 21:58:47 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][info][application] $_GET = [
+    'r' => 'birthday/index'
+]
+
+$_COOKIE = [
+    '_frontendCSRF' => '2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"xH3jswZORdjXuKivcHz_VytgX_y-9uh0\";}'
+    'PHPFRONTSESSID' => 'f2hfajbhtgalf5mb9bfqff2qn5'
+    '_identity-frontend' => '51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[5,\"QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+    '__id' => 5
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'intranet.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCSRF=2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22xH3jswZORdjXuKivcHz_VytgX_y-9uh0%22%3B%7D; PHPFRONTSESSID=f2hfajbhtgalf5mb9bfqff2qn5; _identity-frontend=51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseHg\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts\\;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\;C:\\Users\\ylopez.DUMIT\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18 Server at intranet.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '58684'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=birthday%2Findex'
+    'REQUEST_URI' => '/index.php?r=birthday%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1499889527.03
+    'REQUEST_TIME' => 1499889527
+]
