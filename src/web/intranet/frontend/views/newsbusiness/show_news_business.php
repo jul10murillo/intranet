@@ -1,6 +1,5 @@
 <?php
 use yii\widgets\LinkPager;
-
 ?>
 <div>
     <div class="application-title">
@@ -23,4 +22,8 @@ use yii\widgets\LinkPager;
         ]);
         ?> 
     </div>
+    
+    <?=
+        (\Yii::$app->user->can('editNews'))?\yii\helpers\Html::a('<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>', \yii\helpers\Url::to(['newsbusiness/index']), ['class'=>'botonF1']):"";
+    ?>
 </div>

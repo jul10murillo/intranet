@@ -52,4 +52,7 @@ use yii\widgets\LinkPager;
     ]);
     ?>     
     </div>
+    <?=
+        (\Yii::$app->user->can('editLink'))?\yii\helpers\Html::a('<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>', \yii\helpers\Url::to(['link/index']), ['class'=>'botonF1']):"";
+    ?>
 </div>

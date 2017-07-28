@@ -1,487 +1,1067 @@
-2017-07-12 21:14:44 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][error][Error] Error: Class 'Html' not found in C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\chanceTemplate.php:16
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******abatatina****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] abatatina
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******ablanco****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] ablanco
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******abonaldy****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] abonaldy
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******adiaz****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] adiaz
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******Administrador****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] Administrador
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******Adolfoaeropuerto****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] Adolfoaeropuerto
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******adtolon****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] adtolon
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******AHatillo****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] AHatillo
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******aiscab****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] aiscab
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******aishmillenium****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] aishmillenium
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******Aishopbarcelona****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] Aishopbarcelona
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******aishopccct****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] aishopccct
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******Aishopfe****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] Aishopfe
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******Aishopm****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] Aishopm
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******aishtilider****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] aishtilider
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******aislido****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] aislido
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******aissagd****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] aissagd
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******Aldo****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] Aldo
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******amaturin****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] amaturin
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******amoncada****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] amoncada
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******amontilla****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] amontilla
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******andrea.park****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] andrea.park
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******andrea.parks****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] andrea.parks
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******apaiva****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] apaiva
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******Arecreo****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] Arecreo
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******areitich****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] areitich
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******arojas****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] arojas
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******aromero****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] aromero
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******avielma****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] avielma
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] *******avillamizar****1
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:60
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][warning][application] avillamizar
+    in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:67
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][error][Error] Error: Call to a member function getFinicio() on null in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:74
 Stack trace:
-#0 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require()
-#1 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
-#2 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
-#3 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\_sidebar.php(54): yii\base\View->render('chanceTemplate')
-#4 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
-#5 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
-#6 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
-#7 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\main.php(75): yii\base\View->render('_sidebar')
-#8 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
-#9 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
-#10 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
-#11 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
-#12 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\controllers\SiteController.php(97): yii\base\Controller->render('index')
-#13 [internal function]: frontend\controllers\SiteController->actionIndex()
-#14 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
-#15 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
-#16 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
-#17 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
-#18 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
-#19 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\web\index.php(17): yii\base\Application->run()
-#20 {main}
-2017-07-12 21:14:43 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][info][application] $_COOKIE = [
-    '_frontendCSRF' => '2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"xH3jswZORdjXuKivcHz_VytgX_y-9uh0\";}'
-    'PHPFRONTSESSID' => 'f2hfajbhtgalf5mb9bfqff2qn5'
-    '_identity-frontend' => '51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[5,\"QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B\",2592000]\";}'
-]
-
-$_SESSION = [
-    '__flash' => []
-    '__returnUrl' => '/index.php'
-    '__id' => 5
-]
-
-$_SERVER = [
-    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
-    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
-    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
-    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
-    'PHPRC' => '\\xampp\\php'
-    'TMP' => '\\xampp\\tmp'
-    'HTTP_HOST' => 'intranet.local:8080'
-    'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_CACHE_CONTROL' => 'max-age=0'
-    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    'HTTP_REFERER' => 'http://intranet.local:8080/index.php'
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
-    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
-    'HTTP_COOKIE' => '_frontendCSRF=2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22xH3jswZORdjXuKivcHz_VytgX_y-9uh0%22%3B%7D; PHPFRONTSESSID=f2hfajbhtgalf5mb9bfqff2qn5; _identity-frontend=51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B%22%2C2592000%5D%22%3B%7D'
-    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseHg\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts\\;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\;C:\\Users\\ylopez.DUMIT\\AppData\\Roaming\\Composer\\vendor\\bin'
-    'SystemRoot' => 'C:\\Windows'
-    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
-    'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18 Server at intranet.local Port 8080</address>
-'
-    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18'
-    'SERVER_NAME' => 'intranet.local'
-    'SERVER_ADDR' => '127.0.0.1'
-    'SERVER_PORT' => '8080'
-    'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
-    'REQUEST_SCHEME' => 'http'
-    'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
-    'SERVER_ADMIN' => 'postmaster@localhost'
-    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web/index.php'
-    'REMOTE_PORT' => '58459'
-    'GATEWAY_INTERFACE' => 'CGI/1.1'
-    'SERVER_PROTOCOL' => 'HTTP/1.1'
-    'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => ''
-    'REQUEST_URI' => '/index.php'
-    'SCRIPT_NAME' => '/index.php'
-    'PHP_SELF' => '/index.php'
-    'REQUEST_TIME_FLOAT' => 1499886883.937
-    'REQUEST_TIME' => 1499886883
-]
-2017-07-12 21:25:37 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\chanceTemplate.php:15
-Stack trace:
-#0 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\chanceTemplate.php(15): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
-#1 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
-#3 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
-#4 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\_sidebar.php(54): yii\base\View->render('chanceTemplate')
-#5 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
-#6 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
-#7 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
-#8 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\main.php(75): yii\base\View->render('_sidebar')
-#9 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
-#10 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
-#11 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
-#12 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
-#13 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\controllers\SiteController.php(97): yii\base\Controller->render('index')
-#14 [internal function]: frontend\controllers\SiteController->actionIndex()
-#15 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
-#16 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
-#17 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
-#18 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
-#19 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
-#20 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\web\index.php(17): yii\base\Application->run()
-#21 {main}
-2017-07-12 21:25:37 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][info][application] $_COOKIE = [
-    '_frontendCSRF' => '2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"xH3jswZORdjXuKivcHz_VytgX_y-9uh0\";}'
-    'PHPFRONTSESSID' => 'f2hfajbhtgalf5mb9bfqff2qn5'
-    '_identity-frontend' => '51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[5,\"QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B\",2592000]\";}'
-]
-
-$_SESSION = [
-    '__flash' => []
-    '__returnUrl' => '/index.php'
-    '__id' => 5
-]
-
-$_SERVER = [
-    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
-    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
-    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
-    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
-    'PHPRC' => '\\xampp\\php'
-    'TMP' => '\\xampp\\tmp'
-    'HTTP_HOST' => 'intranet.local:8080'
-    'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_CACHE_CONTROL' => 'max-age=0'
-    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    'HTTP_REFERER' => 'http://intranet.local:8080/index.php'
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
-    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
-    'HTTP_COOKIE' => '_frontendCSRF=2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22xH3jswZORdjXuKivcHz_VytgX_y-9uh0%22%3B%7D; PHPFRONTSESSID=f2hfajbhtgalf5mb9bfqff2qn5; _identity-frontend=51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B%22%2C2592000%5D%22%3B%7D'
-    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseHg\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts\\;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\;C:\\Users\\ylopez.DUMIT\\AppData\\Roaming\\Composer\\vendor\\bin'
-    'SystemRoot' => 'C:\\Windows'
-    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
-    'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18 Server at intranet.local Port 8080</address>
-'
-    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18'
-    'SERVER_NAME' => 'intranet.local'
-    'SERVER_ADDR' => '127.0.0.1'
-    'SERVER_PORT' => '8080'
-    'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
-    'REQUEST_SCHEME' => 'http'
-    'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
-    'SERVER_ADMIN' => 'postmaster@localhost'
-    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web/index.php'
-    'REMOTE_PORT' => '58517'
-    'GATEWAY_INTERFACE' => 'CGI/1.1'
-    'SERVER_PROTOCOL' => 'HTTP/1.1'
-    'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => ''
-    'REQUEST_URI' => '/index.php'
-    'SCRIPT_NAME' => '/index.php'
-    'PHP_SELF' => '/index.php'
-    'REQUEST_TIME_FLOAT' => 1499887537.386
-    'REQUEST_TIME' => 1499887537
-]
-2017-07-12 21:56:30 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\chanceTemplate.php:19
-Stack trace:
-#0 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\chanceTemplate.php(19): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
-#1 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
-#3 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
-#4 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\_sidebar.php(54): yii\base\View->render('chanceTemplate')
-#5 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
-#6 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
-#7 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
-#8 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\main.php(75): yii\base\View->render('_sidebar')
-#9 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
-#10 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
-#11 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\BirthdayController))
-#12 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="inf...')
-#13 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\controllers\BirthdayController.php(24): yii\base\Controller->render('index', Array)
-#14 [internal function]: frontend\controllers\BirthdayController->actionIndex()
-#15 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
-#16 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
-#17 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
-#18 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('birthday/index', Array)
-#19 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
-#20 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\web\index.php(17): yii\base\Application->run()
-#21 {main}
-2017-07-12 21:56:29 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][info][application] $_GET = [
-    'r' => 'birthday/index'
+#0 [internal function]: frontend\controllers\AnniversaryController->actionDate()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('date', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('anniversary/dat...', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2017-07-25 21:31:54 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][info][application] $_GET = [
+    'r' => 'anniversary/date'
 ]
 
 $_COOKIE = [
-    '_frontendCSRF' => '2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"xH3jswZORdjXuKivcHz_VytgX_y-9uh0\";}'
-    'PHPFRONTSESSID' => 'f2hfajbhtgalf5mb9bfqff2qn5'
-    '_identity-frontend' => '51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[5,\"QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B\",2592000]\";}'
+    'PHPFRONTSESSID' => 'p2hvcblb2b90nfm3kekahoa6c6'
+    '_frontendCSRF' => '724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"6k4iXp0kQrXQNPpobIWjbccohK6M2toQ\";}'
+    '_csrf-backend' => '054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9\";}'
+    'advanced-backend' => 'rvq67mjqgej0ugnm5eeifcdms2'
+    '_identity-backend' => '10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k\",2592000]\";}'
 ]
 
 $_SESSION = [
     '__flash' => []
-    '__returnUrl' => '/index.php'
-    '__id' => 5
+    '__id' => 1
 ]
 
 $_SERVER = [
-    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
-    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
-    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
-    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
-    'PHPRC' => '\\xampp\\php'
-    'TMP' => '\\xampp\\tmp'
-    'HTTP_HOST' => 'intranet.local:8080'
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
     'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
-    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
-    'HTTP_COOKIE' => '_frontendCSRF=2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22xH3jswZORdjXuKivcHz_VytgX_y-9uh0%22%3B%7D; PHPFRONTSESSID=f2hfajbhtgalf5mb9bfqff2qn5; _identity-frontend=51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B%22%2C2592000%5D%22%3B%7D'
-    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseHg\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts\\;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\;C:\\Users\\ylopez.DUMIT\\AppData\\Roaming\\Composer\\vendor\\bin'
-    'SystemRoot' => 'C:\\Windows'
-    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
-    'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18 Server at intranet.local Port 8080</address>
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=link%2Fsearch'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=p2hvcblb2b90nfm3kekahoa6c6; _frontendCSRF=724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%226k4iXp0kQrXQNPpobIWjbccohK6M2toQ%22%3B%7D; _csrf-backend=054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9%22%3B%7D; advanced-backend=rvq67mjqgej0ugnm5eeifcdms2; _identity-backend=10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
 '
-    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
     'SERVER_NAME' => 'intranet.local'
-    'SERVER_ADDR' => '127.0.0.1'
-    'SERVER_PORT' => '8080'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
     'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
     'REQUEST_SCHEME' => 'http'
     'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
-    'SERVER_ADMIN' => 'postmaster@localhost'
-    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web/index.php'
-    'REMOTE_PORT' => '58659'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '38760'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
     'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => 'r=birthday%2Findex'
-    'REQUEST_URI' => '/index.php?r=birthday%2Findex'
+    'QUERY_STRING' => 'r=anniversary%2Fdate'
+    'REQUEST_URI' => '/index.php?r=anniversary%2Fdate'
     'SCRIPT_NAME' => '/index.php'
     'PHP_SELF' => '/index.php'
-    'REQUEST_TIME_FLOAT' => 1499889389.303
-    'REQUEST_TIME' => 1499889389
+    'REQUEST_TIME_FLOAT' => 1501018314.758
+    'REQUEST_TIME' => 1501018314
 ]
-2017-07-12 21:56:44 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\chanceTemplate.php:19
+2017-07-25 21:33:11 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][error][Error] Error: Call to a member function getFinicio() on null in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:106
 Stack trace:
-#0 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\chanceTemplate.php(19): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
-#1 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
-#3 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
-#4 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\_sidebar.php(54): yii\base\View->render('chanceTemplate')
-#5 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
-#6 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
-#7 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
-#8 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\main.php(75): yii\base\View->render('_sidebar')
-#9 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
-#10 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
-#11 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
-#12 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
-#13 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\controllers\SiteController.php(97): yii\base\Controller->render('index')
-#14 [internal function]: frontend\controllers\SiteController->actionIndex()
-#15 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
-#16 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
-#17 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
-#18 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
-#19 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
-#20 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\web\index.php(17): yii\base\Application->run()
-#21 {main}
-2017-07-12 21:56:44 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][info][application] $_COOKIE = [
-    '_frontendCSRF' => '2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"xH3jswZORdjXuKivcHz_VytgX_y-9uh0\";}'
-    'PHPFRONTSESSID' => 'f2hfajbhtgalf5mb9bfqff2qn5'
-    '_identity-frontend' => '51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[5,\"QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B\",2592000]\";}'
-]
-
-$_SESSION = [
-    '__flash' => []
-    '__returnUrl' => '/index.php'
-    '__id' => 5
-]
-
-$_SERVER = [
-    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
-    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
-    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
-    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
-    'PHPRC' => '\\xampp\\php'
-    'TMP' => '\\xampp\\tmp'
-    'HTTP_HOST' => 'intranet.local:8080'
-    'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
-    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
-    'HTTP_COOKIE' => '_frontendCSRF=2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22xH3jswZORdjXuKivcHz_VytgX_y-9uh0%22%3B%7D; PHPFRONTSESSID=f2hfajbhtgalf5mb9bfqff2qn5; _identity-frontend=51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B%22%2C2592000%5D%22%3B%7D'
-    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseHg\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts\\;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\;C:\\Users\\ylopez.DUMIT\\AppData\\Roaming\\Composer\\vendor\\bin'
-    'SystemRoot' => 'C:\\Windows'
-    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
-    'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18 Server at intranet.local Port 8080</address>
-'
-    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18'
-    'SERVER_NAME' => 'intranet.local'
-    'SERVER_ADDR' => '127.0.0.1'
-    'SERVER_PORT' => '8080'
-    'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
-    'REQUEST_SCHEME' => 'http'
-    'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
-    'SERVER_ADMIN' => 'postmaster@localhost'
-    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web/index.php'
-    'REMOTE_PORT' => '58663'
-    'GATEWAY_INTERFACE' => 'CGI/1.1'
-    'SERVER_PROTOCOL' => 'HTTP/1.1'
-    'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => ''
-    'REQUEST_URI' => '/'
-    'SCRIPT_NAME' => '/index.php'
-    'PHP_SELF' => '/index.php'
-    'REQUEST_TIME_FLOAT' => 1499889404.767
-    'REQUEST_TIME' => 1499889404
-]
-2017-07-12 21:58:14 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\user/search.php in C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php:229
-Stack trace:
-#0 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
-#1 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\_sidebar.php(54): yii\base\View->render('/user/search')
-#2 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
-#4 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
-#5 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\main.php(75): yii\base\View->render('_sidebar')
-#6 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
-#7 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
-#8 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
-#9 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
-#10 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\controllers\SiteController.php(97): yii\base\Controller->render('index')
-#11 [internal function]: frontend\controllers\SiteController->actionIndex()
-#12 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
-#13 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
-#14 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
-#15 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
-#16 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
-#17 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\web\index.php(17): yii\base\Application->run()
-#18 {main}
-2017-07-12 21:58:14 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][info][application] $_COOKIE = [
-    '_frontendCSRF' => '2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"xH3jswZORdjXuKivcHz_VytgX_y-9uh0\";}'
-    'PHPFRONTSESSID' => 'f2hfajbhtgalf5mb9bfqff2qn5'
-    '_identity-frontend' => '51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[5,\"QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B\",2592000]\";}'
-]
-
-$_SESSION = [
-    '__flash' => []
-    '__returnUrl' => '/index.php'
-    '__id' => 5
-]
-
-$_SERVER = [
-    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
-    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
-    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
-    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
-    'PHPRC' => '\\xampp\\php'
-    'TMP' => '\\xampp\\tmp'
-    'HTTP_HOST' => 'intranet.local:8080'
-    'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_PRAGMA' => 'no-cache'
-    'HTTP_CACHE_CONTROL' => 'no-cache'
-    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
-    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
-    'HTTP_COOKIE' => '_frontendCSRF=2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22xH3jswZORdjXuKivcHz_VytgX_y-9uh0%22%3B%7D; PHPFRONTSESSID=f2hfajbhtgalf5mb9bfqff2qn5; _identity-frontend=51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B%22%2C2592000%5D%22%3B%7D'
-    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseHg\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts\\;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\;C:\\Users\\ylopez.DUMIT\\AppData\\Roaming\\Composer\\vendor\\bin'
-    'SystemRoot' => 'C:\\Windows'
-    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
-    'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18 Server at intranet.local Port 8080</address>
-'
-    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18'
-    'SERVER_NAME' => 'intranet.local'
-    'SERVER_ADDR' => '127.0.0.1'
-    'SERVER_PORT' => '8080'
-    'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
-    'REQUEST_SCHEME' => 'http'
-    'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
-    'SERVER_ADMIN' => 'postmaster@localhost'
-    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web/index.php'
-    'REMOTE_PORT' => '58677'
-    'GATEWAY_INTERFACE' => 'CGI/1.1'
-    'SERVER_PROTOCOL' => 'HTTP/1.1'
-    'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => ''
-    'REQUEST_URI' => '/'
-    'SCRIPT_NAME' => '/index.php'
-    'PHP_SELF' => '/index.php'
-    'REQUEST_TIME_FLOAT' => 1499889494.361
-    'REQUEST_TIME' => 1499889494
-]
-2017-07-12 21:58:47 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\user/search.php in C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php:229
-Stack trace:
-#0 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
-#1 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\_sidebar.php(54): yii\base\View->render('/user/search')
-#2 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
-#3 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
-#4 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
-#5 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\views\layouts\main.php(75): yii\base\View->render('_sidebar')
-#6 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
-#7 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
-#8 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\BirthdayController))
-#9 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="inf...')
-#10 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\controllers\BirthdayController.php(24): yii\base\Controller->render('index', Array)
-#11 [internal function]: frontend\controllers\BirthdayController->actionIndex()
-#12 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
-#13 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
-#14 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
-#15 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('birthday/index', Array)
-#16 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
-#17 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\frontend\web\index.php(17): yii\base\Application->run()
-#18 {main}
-2017-07-12 21:58:47 [127.0.0.1][5][f2hfajbhtgalf5mb9bfqff2qn5][info][application] $_GET = [
-    'r' => 'birthday/index'
+#0 [internal function]: frontend\controllers\AnniversaryController->actionJsonanniversary()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('jsonanniversary', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('anniversary/jso...', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2017-07-25 21:33:11 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][info][application] $_GET = [
+    'r' => 'anniversary/jsonanniversary'
+    'start' => '2017-06-26'
+    'end' => '2017-08-07'
+    '_' => '1501018391234'
 ]
 
 $_COOKIE = [
-    '_frontendCSRF' => '2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"xH3jswZORdjXuKivcHz_VytgX_y-9uh0\";}'
-    'PHPFRONTSESSID' => 'f2hfajbhtgalf5mb9bfqff2qn5'
-    '_identity-frontend' => '51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[5,\"QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B\",2592000]\";}'
+    'PHPFRONTSESSID' => 'p2hvcblb2b90nfm3kekahoa6c6'
+    '_frontendCSRF' => '724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"6k4iXp0kQrXQNPpobIWjbccohK6M2toQ\";}'
+    '_csrf-backend' => '054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9\";}'
+    'advanced-backend' => 'rvq67mjqgej0ugnm5eeifcdms2'
+    '_identity-backend' => '10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k\",2592000]\";}'
 ]
 
 $_SESSION = [
     '__flash' => []
-    '__returnUrl' => '/index.php'
-    '__id' => 5
+    '__id' => 1
 ]
 
 $_SERVER = [
-    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
-    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
-    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
-    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
-    'PHPRC' => '\\xampp\\php'
-    'TMP' => '\\xampp\\tmp'
-    'HTTP_HOST' => 'intranet.local:8080'
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
     'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
-    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
-    'HTTP_COOKIE' => '_frontendCSRF=2081a4aea3257640f09567ea262eb827532546c877bb96c1f3adca3de54737a3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22xH3jswZORdjXuKivcHz_VytgX_y-9uh0%22%3B%7D; PHPFRONTSESSID=f2hfajbhtgalf5mb9bfqff2qn5; _identity-frontend=51f604ed0c4eaa03c21c8abac77e0b630ad54a1683192b7b99d84659105f097ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B5%2C%22QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B%22%2C2592000%5D%22%3B%7D'
-    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseHg\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts\\;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\;C:\\Users\\ylopez.DUMIT\\AppData\\Roaming\\Composer\\vendor\\bin'
-    'SystemRoot' => 'C:\\Windows'
-    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
-    'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18 Server at intranet.local Port 8080</address>
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'YVBHR3Z1ak5XO3MuLgVaJTAiHxY4JRohAxkQLRQWCSEJG3EKRAEFHw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=anniversary%2Fdate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=p2hvcblb2b90nfm3kekahoa6c6; _frontendCSRF=724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%226k4iXp0kQrXQNPpobIWjbccohK6M2toQ%22%3B%7D; _csrf-backend=054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9%22%3B%7D; advanced-backend=rvq67mjqgej0ugnm5eeifcdms2; _identity-backend=10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
 '
-    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
     'SERVER_NAME' => 'intranet.local'
-    'SERVER_ADDR' => '127.0.0.1'
-    'SERVER_PORT' => '8080'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
     'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
     'REQUEST_SCHEME' => 'http'
     'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web'
-    'SERVER_ADMIN' => 'postmaster@localhost'
-    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/frontend/web/index.php'
-    'REMOTE_PORT' => '58684'
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '38768'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
     'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => 'r=birthday%2Findex'
-    'REQUEST_URI' => '/index.php?r=birthday%2Findex'
+    'QUERY_STRING' => 'r=anniversary%2Fjsonanniversary&start=2017-06-26&end=2017-08-07&_=1501018391234'
+    'REQUEST_URI' => '/index.php?r=anniversary%2Fjsonanniversary&start=2017-06-26&end=2017-08-07&_=1501018391234'
     'SCRIPT_NAME' => '/index.php'
     'PHP_SELF' => '/index.php'
-    'REQUEST_TIME_FLOAT' => 1499889527.03
-    'REQUEST_TIME' => 1499889527
+    'REQUEST_TIME_FLOAT' => 1501018391.38
+    'REQUEST_TIME' => 1501018391
+]
+2017-07-25 21:33:50 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][error][Error] Error: Call to a member function getFinicio() on null in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:106
+Stack trace:
+#0 [internal function]: frontend\controllers\AnniversaryController->actionJsonanniversary()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('jsonanniversary', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('anniversary/jso...', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2017-07-25 21:33:50 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][info][application] $_GET = [
+    'r' => 'anniversary/jsonanniversary'
+    'start' => '2017-05-29'
+    'end' => '2017-07-10'
+    '_' => '1501018391235'
+]
+
+$_COOKIE = [
+    'PHPFRONTSESSID' => 'p2hvcblb2b90nfm3kekahoa6c6'
+    '_frontendCSRF' => '724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"6k4iXp0kQrXQNPpobIWjbccohK6M2toQ\";}'
+    '_csrf-backend' => '054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9\";}'
+    'advanced-backend' => 'rvq67mjqgej0ugnm5eeifcdms2'
+    '_identity-backend' => '10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'YVBHR3Z1ak5XO3MuLgVaJTAiHxY4JRohAxkQLRQWCSEJG3EKRAEFHw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=anniversary%2Fdate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=p2hvcblb2b90nfm3kekahoa6c6; _frontendCSRF=724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%226k4iXp0kQrXQNPpobIWjbccohK6M2toQ%22%3B%7D; _csrf-backend=054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9%22%3B%7D; advanced-backend=rvq67mjqgej0ugnm5eeifcdms2; _identity-backend=10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '38776'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=anniversary%2Fjsonanniversary&start=2017-05-29&end=2017-07-10&_=1501018391235'
+    'REQUEST_URI' => '/index.php?r=anniversary%2Fjsonanniversary&start=2017-05-29&end=2017-07-10&_=1501018391235'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501018430.014
+    'REQUEST_TIME' => 1501018430
+]
+2017-07-25 21:33:50 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][error][Error] Error: Call to a member function getFinicio() on null in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:106
+Stack trace:
+#0 [internal function]: frontend\controllers\AnniversaryController->actionJsonanniversary()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('jsonanniversary', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('anniversary/jso...', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2017-07-25 21:33:50 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][info][application] $_GET = [
+    'r' => 'anniversary/jsonanniversary'
+    'start' => '2017-06-26'
+    'end' => '2017-08-07'
+    '_' => '1501018391236'
+]
+
+$_COOKIE = [
+    'PHPFRONTSESSID' => 'p2hvcblb2b90nfm3kekahoa6c6'
+    '_frontendCSRF' => '724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"6k4iXp0kQrXQNPpobIWjbccohK6M2toQ\";}'
+    '_csrf-backend' => '054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9\";}'
+    'advanced-backend' => 'rvq67mjqgej0ugnm5eeifcdms2'
+    '_identity-backend' => '10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'YVBHR3Z1ak5XO3MuLgVaJTAiHxY4JRohAxkQLRQWCSEJG3EKRAEFHw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=anniversary%2Fdate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=p2hvcblb2b90nfm3kekahoa6c6; _frontendCSRF=724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%226k4iXp0kQrXQNPpobIWjbccohK6M2toQ%22%3B%7D; _csrf-backend=054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9%22%3B%7D; advanced-backend=rvq67mjqgej0ugnm5eeifcdms2; _identity-backend=10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '38780'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=anniversary%2Fjsonanniversary&start=2017-06-26&end=2017-08-07&_=1501018391236'
+    'REQUEST_URI' => '/index.php?r=anniversary%2Fjsonanniversary&start=2017-06-26&end=2017-08-07&_=1501018391236'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501018430.831
+    'REQUEST_TIME' => 1501018430
+]
+2017-07-25 21:33:51 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][error][Error] Error: Call to a member function getFinicio() on null in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:106
+Stack trace:
+#0 [internal function]: frontend\controllers\AnniversaryController->actionJsonanniversary()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('jsonanniversary', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('anniversary/jso...', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2017-07-25 21:33:51 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][info][application] $_GET = [
+    'r' => 'anniversary/jsonanniversary'
+    'start' => '2017-07-31'
+    'end' => '2017-09-11'
+    '_' => '1501018391237'
+]
+
+$_COOKIE = [
+    'PHPFRONTSESSID' => 'p2hvcblb2b90nfm3kekahoa6c6'
+    '_frontendCSRF' => '724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"6k4iXp0kQrXQNPpobIWjbccohK6M2toQ\";}'
+    '_csrf-backend' => '054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9\";}'
+    'advanced-backend' => 'rvq67mjqgej0ugnm5eeifcdms2'
+    '_identity-backend' => '10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'YVBHR3Z1ak5XO3MuLgVaJTAiHxY4JRohAxkQLRQWCSEJG3EKRAEFHw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=anniversary%2Fdate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=p2hvcblb2b90nfm3kekahoa6c6; _frontendCSRF=724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%226k4iXp0kQrXQNPpobIWjbccohK6M2toQ%22%3B%7D; _csrf-backend=054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9%22%3B%7D; advanced-backend=rvq67mjqgej0ugnm5eeifcdms2; _identity-backend=10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '38784'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=anniversary%2Fjsonanniversary&start=2017-07-31&end=2017-09-11&_=1501018391237'
+    'REQUEST_URI' => '/index.php?r=anniversary%2Fjsonanniversary&start=2017-07-31&end=2017-09-11&_=1501018391237'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501018431.669
+    'REQUEST_TIME' => 1501018431
+]
+2017-07-25 21:33:52 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][error][Error] Error: Call to a member function getFinicio() on null in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:106
+Stack trace:
+#0 [internal function]: frontend\controllers\AnniversaryController->actionJsonanniversary()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('jsonanniversary', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('anniversary/jso...', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2017-07-25 21:33:52 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][info][application] $_GET = [
+    'r' => 'anniversary/jsonanniversary'
+    'start' => '2017-08-28'
+    'end' => '2017-10-09'
+    '_' => '1501018391238'
+]
+
+$_COOKIE = [
+    'PHPFRONTSESSID' => 'p2hvcblb2b90nfm3kekahoa6c6'
+    '_frontendCSRF' => '724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"6k4iXp0kQrXQNPpobIWjbccohK6M2toQ\";}'
+    '_csrf-backend' => '054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9\";}'
+    'advanced-backend' => 'rvq67mjqgej0ugnm5eeifcdms2'
+    '_identity-backend' => '10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'YVBHR3Z1ak5XO3MuLgVaJTAiHxY4JRohAxkQLRQWCSEJG3EKRAEFHw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=anniversary%2Fdate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=p2hvcblb2b90nfm3kekahoa6c6; _frontendCSRF=724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%226k4iXp0kQrXQNPpobIWjbccohK6M2toQ%22%3B%7D; _csrf-backend=054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9%22%3B%7D; advanced-backend=rvq67mjqgej0ugnm5eeifcdms2; _identity-backend=10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '38788'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=anniversary%2Fjsonanniversary&start=2017-08-28&end=2017-10-09&_=1501018391238'
+    'REQUEST_URI' => '/index.php?r=anniversary%2Fjsonanniversary&start=2017-08-28&end=2017-10-09&_=1501018391238'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501018432.374
+    'REQUEST_TIME' => 1501018432
+]
+2017-07-25 21:33:52 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][error][Error] Error: Call to a member function getFinicio() on null in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:106
+Stack trace:
+#0 [internal function]: frontend\controllers\AnniversaryController->actionJsonanniversary()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('jsonanniversary', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('anniversary/jso...', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2017-07-25 21:33:52 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][info][application] $_GET = [
+    'r' => 'anniversary/jsonanniversary'
+    'start' => '2017-09-25'
+    'end' => '2017-11-06'
+    '_' => '1501018391239'
+]
+
+$_COOKIE = [
+    'PHPFRONTSESSID' => 'p2hvcblb2b90nfm3kekahoa6c6'
+    '_frontendCSRF' => '724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"6k4iXp0kQrXQNPpobIWjbccohK6M2toQ\";}'
+    '_csrf-backend' => '054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9\";}'
+    'advanced-backend' => 'rvq67mjqgej0ugnm5eeifcdms2'
+    '_identity-backend' => '10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'YVBHR3Z1ak5XO3MuLgVaJTAiHxY4JRohAxkQLRQWCSEJG3EKRAEFHw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=anniversary%2Fdate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=p2hvcblb2b90nfm3kekahoa6c6; _frontendCSRF=724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%226k4iXp0kQrXQNPpobIWjbccohK6M2toQ%22%3B%7D; _csrf-backend=054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9%22%3B%7D; advanced-backend=rvq67mjqgej0ugnm5eeifcdms2; _identity-backend=10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '38792'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=anniversary%2Fjsonanniversary&start=2017-09-25&end=2017-11-06&_=1501018391239'
+    'REQUEST_URI' => '/index.php?r=anniversary%2Fjsonanniversary&start=2017-09-25&end=2017-11-06&_=1501018391239'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501018432.82
+    'REQUEST_TIME' => 1501018432
+]
+2017-07-25 21:33:53 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][error][Error] Error: Call to a member function getFinicio() on null in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:106
+Stack trace:
+#0 [internal function]: frontend\controllers\AnniversaryController->actionJsonanniversary()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('jsonanniversary', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('anniversary/jso...', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2017-07-25 21:33:53 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][info][application] $_GET = [
+    'r' => 'anniversary/jsonanniversary'
+    'start' => '2017-10-30'
+    'end' => '2017-12-11'
+    '_' => '1501018391240'
+]
+
+$_COOKIE = [
+    'PHPFRONTSESSID' => 'p2hvcblb2b90nfm3kekahoa6c6'
+    '_frontendCSRF' => '724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"6k4iXp0kQrXQNPpobIWjbccohK6M2toQ\";}'
+    '_csrf-backend' => '054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9\";}'
+    'advanced-backend' => 'rvq67mjqgej0ugnm5eeifcdms2'
+    '_identity-backend' => '10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'YVBHR3Z1ak5XO3MuLgVaJTAiHxY4JRohAxkQLRQWCSEJG3EKRAEFHw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=anniversary%2Fdate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=p2hvcblb2b90nfm3kekahoa6c6; _frontendCSRF=724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%226k4iXp0kQrXQNPpobIWjbccohK6M2toQ%22%3B%7D; _csrf-backend=054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9%22%3B%7D; advanced-backend=rvq67mjqgej0ugnm5eeifcdms2; _identity-backend=10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '38796'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=anniversary%2Fjsonanniversary&start=2017-10-30&end=2017-12-11&_=1501018391240'
+    'REQUEST_URI' => '/index.php?r=anniversary%2Fjsonanniversary&start=2017-10-30&end=2017-12-11&_=1501018391240'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501018433.508
+    'REQUEST_TIME' => 1501018433
+]
+2017-07-25 21:33:53 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][error][Error] Error: Call to a member function getFinicio() on null in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:106
+Stack trace:
+#0 [internal function]: frontend\controllers\AnniversaryController->actionJsonanniversary()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('jsonanniversary', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('anniversary/jso...', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2017-07-25 21:33:53 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][info][application] $_GET = [
+    'r' => 'anniversary/jsonanniversary'
+    'start' => '2017-11-27'
+    'end' => '2017-12-31'
+    '_' => '1501018391241'
+]
+
+$_COOKIE = [
+    'PHPFRONTSESSID' => 'p2hvcblb2b90nfm3kekahoa6c6'
+    '_frontendCSRF' => '724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"6k4iXp0kQrXQNPpobIWjbccohK6M2toQ\";}'
+    '_csrf-backend' => '054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9\";}'
+    'advanced-backend' => 'rvq67mjqgej0ugnm5eeifcdms2'
+    '_identity-backend' => '10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'YVBHR3Z1ak5XO3MuLgVaJTAiHxY4JRohAxkQLRQWCSEJG3EKRAEFHw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=anniversary%2Fdate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=p2hvcblb2b90nfm3kekahoa6c6; _frontendCSRF=724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%226k4iXp0kQrXQNPpobIWjbccohK6M2toQ%22%3B%7D; _csrf-backend=054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9%22%3B%7D; advanced-backend=rvq67mjqgej0ugnm5eeifcdms2; _identity-backend=10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '38800'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=anniversary%2Fjsonanniversary&start=2017-11-27&end=2017-12-31&_=1501018391241'
+    'REQUEST_URI' => '/index.php?r=anniversary%2Fjsonanniversary&start=2017-11-27&end=2017-12-31&_=1501018391241'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501018433.789
+    'REQUEST_TIME' => 1501018433
+]
+2017-07-25 21:33:55 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][error][Error] Error: Call to a member function getFinicio() on null in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:106
+Stack trace:
+#0 [internal function]: frontend\controllers\AnniversaryController->actionJsonanniversary()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('jsonanniversary', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('anniversary/jso...', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2017-07-25 21:33:55 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][info][application] $_GET = [
+    'r' => 'anniversary/jsonanniversary'
+    'start' => '2017-10-30'
+    'end' => '2017-12-11'
+    '_' => '1501018391242'
+]
+
+$_COOKIE = [
+    'PHPFRONTSESSID' => 'p2hvcblb2b90nfm3kekahoa6c6'
+    '_frontendCSRF' => '724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"6k4iXp0kQrXQNPpobIWjbccohK6M2toQ\";}'
+    '_csrf-backend' => '054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9\";}'
+    'advanced-backend' => 'rvq67mjqgej0ugnm5eeifcdms2'
+    '_identity-backend' => '10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'YVBHR3Z1ak5XO3MuLgVaJTAiHxY4JRohAxkQLRQWCSEJG3EKRAEFHw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=anniversary%2Fdate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=p2hvcblb2b90nfm3kekahoa6c6; _frontendCSRF=724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%226k4iXp0kQrXQNPpobIWjbccohK6M2toQ%22%3B%7D; _csrf-backend=054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9%22%3B%7D; advanced-backend=rvq67mjqgej0ugnm5eeifcdms2; _identity-backend=10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '38804'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=anniversary%2Fjsonanniversary&start=2017-10-30&end=2017-12-11&_=1501018391242'
+    'REQUEST_URI' => '/index.php?r=anniversary%2Fjsonanniversary&start=2017-10-30&end=2017-12-11&_=1501018391242'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501018435.11
+    'REQUEST_TIME' => 1501018435
+]
+2017-07-25 21:33:55 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][error][Error] Error: Call to a member function getFinicio() on null in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:106
+Stack trace:
+#0 [internal function]: frontend\controllers\AnniversaryController->actionJsonanniversary()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('jsonanniversary', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('anniversary/jso...', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2017-07-25 21:33:55 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][info][application] $_GET = [
+    'r' => 'anniversary/jsonanniversary'
+    'start' => '2017-09-25'
+    'end' => '2017-11-06'
+    '_' => '1501018391243'
+]
+
+$_COOKIE = [
+    'PHPFRONTSESSID' => 'p2hvcblb2b90nfm3kekahoa6c6'
+    '_frontendCSRF' => '724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"6k4iXp0kQrXQNPpobIWjbccohK6M2toQ\";}'
+    '_csrf-backend' => '054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9\";}'
+    'advanced-backend' => 'rvq67mjqgej0ugnm5eeifcdms2'
+    '_identity-backend' => '10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'YVBHR3Z1ak5XO3MuLgVaJTAiHxY4JRohAxkQLRQWCSEJG3EKRAEFHw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=anniversary%2Fdate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=p2hvcblb2b90nfm3kekahoa6c6; _frontendCSRF=724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%226k4iXp0kQrXQNPpobIWjbccohK6M2toQ%22%3B%7D; _csrf-backend=054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9%22%3B%7D; advanced-backend=rvq67mjqgej0ugnm5eeifcdms2; _identity-backend=10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '38808'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=anniversary%2Fjsonanniversary&start=2017-09-25&end=2017-11-06&_=1501018391243'
+    'REQUEST_URI' => '/index.php?r=anniversary%2Fjsonanniversary&start=2017-09-25&end=2017-11-06&_=1501018391243'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501018435.35
+    'REQUEST_TIME' => 1501018435
+]
+2017-07-25 21:33:55 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][error][Error] Error: Call to a member function getFinicio() on null in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:106
+Stack trace:
+#0 [internal function]: frontend\controllers\AnniversaryController->actionJsonanniversary()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('jsonanniversary', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('anniversary/jso...', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2017-07-25 21:33:55 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][info][application] $_GET = [
+    'r' => 'anniversary/jsonanniversary'
+    'start' => '2017-08-28'
+    'end' => '2017-10-09'
+    '_' => '1501018391244'
+]
+
+$_COOKIE = [
+    'PHPFRONTSESSID' => 'p2hvcblb2b90nfm3kekahoa6c6'
+    '_frontendCSRF' => '724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"6k4iXp0kQrXQNPpobIWjbccohK6M2toQ\";}'
+    '_csrf-backend' => '054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9\";}'
+    'advanced-backend' => 'rvq67mjqgej0ugnm5eeifcdms2'
+    '_identity-backend' => '10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'YVBHR3Z1ak5XO3MuLgVaJTAiHxY4JRohAxkQLRQWCSEJG3EKRAEFHw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=anniversary%2Fdate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=p2hvcblb2b90nfm3kekahoa6c6; _frontendCSRF=724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%226k4iXp0kQrXQNPpobIWjbccohK6M2toQ%22%3B%7D; _csrf-backend=054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9%22%3B%7D; advanced-backend=rvq67mjqgej0ugnm5eeifcdms2; _identity-backend=10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '38812'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=anniversary%2Fjsonanniversary&start=2017-08-28&end=2017-10-09&_=1501018391244'
+    'REQUEST_URI' => '/index.php?r=anniversary%2Fjsonanniversary&start=2017-08-28&end=2017-10-09&_=1501018391244'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501018435.895
+    'REQUEST_TIME' => 1501018435
+]
+2017-07-25 21:34:44 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][error][Error] Error: Call to a member function getFinicio() on null in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:106
+Stack trace:
+#0 [internal function]: frontend\controllers\AnniversaryController->actionJsonanniversary()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('jsonanniversary', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('anniversary/jso...', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2017-07-25 21:34:44 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][info][application] $_GET = [
+    'r' => 'anniversary/jsonanniversary'
+    'start' => '2017-06-26'
+    'end' => '2017-08-07'
+    '_' => '1501018484482'
+]
+
+$_COOKIE = [
+    'PHPFRONTSESSID' => 'p2hvcblb2b90nfm3kekahoa6c6'
+    '_frontendCSRF' => '724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"6k4iXp0kQrXQNPpobIWjbccohK6M2toQ\";}'
+    '_csrf-backend' => '054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9\";}'
+    'advanced-backend' => 'rvq67mjqgej0ugnm5eeifcdms2'
+    '_identity-backend' => '10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'ZXM3VXZGMERTGAM8LjYALzQBbwQ4FkArBzpgPxQlUysNOAEYRDJfFQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=anniversary%2Fdate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=p2hvcblb2b90nfm3kekahoa6c6; _frontendCSRF=724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%226k4iXp0kQrXQNPpobIWjbccohK6M2toQ%22%3B%7D; _csrf-backend=054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9%22%3B%7D; advanced-backend=rvq67mjqgej0ugnm5eeifcdms2; _identity-backend=10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '38828'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=anniversary%2Fjsonanniversary&start=2017-06-26&end=2017-08-07&_=1501018484482'
+    'REQUEST_URI' => '/index.php?r=anniversary%2Fjsonanniversary&start=2017-06-26&end=2017-08-07&_=1501018484482'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501018484.606
+    'REQUEST_TIME' => 1501018484
+]
+2017-07-25 21:34:51 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][error][Error] Error: Call to a member function getFinicio() on null in /var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php:106
+Stack trace:
+#0 [internal function]: frontend\controllers\AnniversaryController->actionJsonanniversary()
+#1 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('jsonanniversary', Array)
+#4 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('anniversary/jso...', Array)
+#5 /var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/intranet/src/web/intranet/frontend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2017-07-25 21:34:51 [127.0.0.1][1][p2hvcblb2b90nfm3kekahoa6c6][info][application] $_GET = [
+    'r' => 'anniversary/jsonanniversary'
+    'start' => '2017-06-26'
+    'end' => '2017-08-07'
+    '_' => '1501018484482'
+]
+
+$_COOKIE = [
+    'PHPFRONTSESSID' => 'p2hvcblb2b90nfm3kekahoa6c6'
+    '_frontendCSRF' => '724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"6k4iXp0kQrXQNPpobIWjbccohK6M2toQ\";}'
+    '_csrf-backend' => '054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9\";}'
+    'advanced-backend' => 'rvq67mjqgej0ugnm5eeifcdms2'
+    '_identity-backend' => '10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=p2hvcblb2b90nfm3kekahoa6c6; _frontendCSRF=724cde5ae595a350a96c70095b4e5891b66e47d1729a6fc0ee27d3f6b91fd6c0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%226k4iXp0kQrXQNPpobIWjbccohK6M2toQ%22%3B%7D; _csrf-backend=054d412676d648decb8d740d8492b934f8aef83fb2c4b33509789a29b263b459a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22KASOFCQ9lEX1R-bTWPHyfD1KFt1f62z9%22%3B%7D; advanced-backend=rvq67mjqgej0ugnm5eeifcdms2; _identity-backend=10ac79f6251713b89862d8a6b596485e80d67e06d51a0f12b6e16d21ec7db4aaa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zmvjCiyO9z6QcAVkmSu-M4wzfreyCd2k%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '38830'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=anniversary%2Fjsonanniversary&start=2017-06-26&end=2017-08-07&_=1501018484482'
+    'REQUEST_URI' => '/index.php?r=anniversary%2Fjsonanniversary&start=2017-06-26&end=2017-08-07&_=1501018484482'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501018491.081
+    'REQUEST_TIME' => 1501018491
 ]

@@ -91,4 +91,7 @@
             ?>
             </p>
         </div>
+        <?=
+        (\Yii::$app->user->can('editMision'))?\yii\helpers\Html::a('<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>', \yii\helpers\Url::to(['business/index']), ['class'=>'botonF1']):"";
+        ?>
  <!-- end .view --></div>
