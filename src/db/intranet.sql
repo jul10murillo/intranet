@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 12-07-2017 a las 22:49:16
+-- Tiempo de generación: 28-07-2017 a las 15:28:17
 -- Versión del servidor: 10.1.22-MariaDB
 -- Versión de PHP: 7.0.18
 
@@ -438,11 +438,11 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `auth_key`, `status`, `created_at`, `updated_at`, `template`) VALUES
-(1, 'jmurillo', 'nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp', 1, 1492786835, 1492786835, 'blackstyle.css'),
+(1, 'jmurillo', 'nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp', 1, 1492786835, 1500064248, 'blackstyle.css'),
 (2, 'lcamacho', '0fE5jIp_Zee5mlvqUYPzkvkKZHao9EyE', 0, 1492797681, 1497625676, 'blackstyle.css'),
 (3, 'fsilva', '4RLEk3q2TlzjeCSTciYV6ul-0VLJXdaz', 1, 1492802509, 1492802509, 'blackstyle.css'),
 (4, 'vgazcon', 'BBqTpyDzUhw0nTB3VuZzt99NMxPDsGOh', 1, 1493211033, 1493211033, 'blackstyle.css'),
-(5, 'ylopez', 'QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B', 1, 1495649714, 1495649714, 'whitestyle.css'),
+(5, 'ylopez', 'QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B', 1, 1495649714, 1500404643, 'whitestyle.css'),
 (6, 'Invitado', 'au3a87ZWsRzMKDXJiHmGgbs-Sp-RABBp', 0, 1499112670, 1499112670, 'blackstyle.css'),
 (7, 'ebarrios', 'qlSVgdHPhaMnVrHhbJThb-KMVSdSsW7e', 1, 1499112670, 1499112670, 'blackstyle.css'),
 (8, 'jfranco', 'S6e2VNnZnVN-J7G7K5JD1P6HPzYLwAFK', 1, 1499112671, 1499112671, 'blackstyle.css'),
@@ -669,6 +669,24 @@ INSERT INTO `user` (`id`, `username`, `auth_key`, `status`, `created_at`, `updat
 (229, 'amedina', '651_0boGAqcshm9DgcmB6ve-dKXFWXdd', 0, 1499112676, 1499112676, 'blackstyle.css'),
 (230, 'ysalazar', 'mG3atfBBXO9av9nADf0bYDNF6h3-N6oQ', 1, 1499112676, 1499112676, 'blackstyle.css');
 
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `user_profile`
+--
+
+CREATE TABLE `user_profile` (
+  `id` int(11) NOT NULL,
+  `template` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL DEFAULT 'blackstyle.css'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `user_profile`
+--
+
+INSERT INTO `user_profile` (`id`, `template`) VALUES
+(5, 'blackstyle.css');
+
 --
 -- Índices para tablas volcadas
 --
@@ -806,6 +824,12 @@ ALTER TABLE `user`
   ADD UNIQUE KEY `auth_key` (`auth_key`);
 
 --
+-- Indices de la tabla `user_profile`
+--
+ALTER TABLE `user_profile`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -843,7 +867,7 @@ ALTER TABLE `link_category`
 -- AUTO_INCREMENT de la tabla `news`
 --
 ALTER TABLE `news`
-  MODIFY `news_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `news_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT de la tabla `news_business`
 --

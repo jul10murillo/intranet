@@ -1,32 +1,29 @@
 <?php
 use yii\helpers\Html;
-use yii\widgets\ActiveForm;
+//use yii\widgets\ActiveForm;
 use yii\bootstrap\Modal;
 use common\components\GDhelper;
 
 ?>
-<?php
-Modal::begin([
-    'header' => '<h2>Perfil</h2>',
-//    'toggleButton' => ['label' => 'click me'],
-]);
-$form = ActiveForm::begin([
-    'id' => 'update-form',
-    'options' => ['class' => 'form-horizontal'],
-]) 
+<div class="">
+         <?php
+            Modal::begin([
+                'header' => '<h2>Perfil</h2>',              
+            ]);
 
+            echo('<b>Usuario:</b> '. GDhelper::getUsername().'<br><br>');
+            echo('<h4>Seleccione un Diseño para la <b>Intranet</b>:</h4>'); 
+        ?>
+    <!--<? =Html::beginForm(\yii\helpers\Url::to(['/site/update']), 'post',['class' => 'form-horizontal'])?>-->
+            <?=Html::beginForm(['update','id'=>'template'], 'post',['class' => 'form-horizontal'])?>
+            <!--<? = Html::input('text', 'template', GDhelper::getTemplate()) ?>-->
+            <?=Html::dropDownList('listemplate', GDhelper::getTemplate(), ['whitestyle.css' => 'Estilo Claro','blackstyle.css' => 'Estilo Oscuro'],['class' =>'form-control']) ?>
+            <div class="form-group">
+             <?= Html::submitButton('Editar',['id' => 'template','class' =>'btn btn-primary'])?>
+            </div>
 
-?>
-
-<!--<? = $form->field($model, 'username') ?>-->
-<!--<? = $form->field($model, 'items[]')->checkboxList(['1' => 'Black', '2' => 'White']);?>-->
-
-<div class="form-group">
-    <div class="col-lg-offset-1 col-lg-11">
-        <?= Html::submitButton('Editar', ['class' => 'btn btn-primary']) ?>
-    </div>
+        <?php
+        Html::endForm();
+        Modal::end();
+        ?>
 </div>
-<?php
-ActiveForm::end();
-Modal::end();
-?>

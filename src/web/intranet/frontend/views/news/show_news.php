@@ -12,7 +12,7 @@ include "lastrss.php";
         <div class="application-title">
             NOTICIAS
         </div>
-        <?php $form = ActiveForm::begin();?>
+        <?php $form = ActiveForm::begin(['id'=>'news']);?>
             <div class="">
                 <?php 
                     $model = new News();
@@ -21,7 +21,7 @@ include "lastrss.php";
                 ?>
             </div>
             <div class="form-group">
-                <?= Html::submitButton('Mostrar', ['class' => 'btn btn-primary']) ?>
+                <?= Html::submitButton('Mostrar',['id' =>'news','type' =>'submit','class' => 'btn btn-primary']) ?>
             </div>
         <?php ActiveForm::end(); ?>
     </div>
