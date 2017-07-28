@@ -174,7 +174,7 @@ body {
   color: #97c757; 
   font-size: 12pt;
 }
- 
+
 .navmenu-default .navmenu-nav > li > span > a, .navbar-default .navbar-offcanvas .navmenu-nav > li > span > a{
   color:#3e3934;
   font-weight: bold;
@@ -196,7 +196,8 @@ body {
 .nav, .navmenu-nav> li{
   font-size: 15.08pt;
   -webkit-margin-before: 2em;
-  text-align: center;
+  /*text-align: center;*/
+  text-align: left;
   height: 39px;
 }
 
@@ -264,9 +265,9 @@ body {
 }
 
 .panel {
-  margin-bottom:5%;
+  /*margin-bottom:5%;*/
   background-color: #FFF;
-  border-style:none;
+  /*border-style:none;*/
 }
 
 .panel-heading button .glyphicon {
@@ -292,9 +293,11 @@ body {
   color: #fff;
   background-color: transparent;
   border-style:none;
-  float:left;
+  /*float:left;*/
   position: absolute;
-  margin-top: 40%;
+  bottom:1px;
+  left:1px;
+  /*margin-top: 40%;*/
 }
 
 .panel-primary {
@@ -333,7 +336,7 @@ body {
   background-color: #8db559;
   border-style:none;
   border-radius: 2px;
-  padding: 4px 8px;
+  padding: 8px 12px;
 }
 
 .search button .glyphicon {
@@ -413,14 +416,15 @@ body {
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
-  color: #3e3934;
+  color: #222222;
+  font-weight:bold;
   border-color: #8db559;
   background-color: transparent;
 }
 
 .pagination > li > a, .pagination > li > span {
   padding: 2px 12px;
-  color: #8db559;
+  color: #383d44;
   background-color: transparent;
   border-color: #8db559; 
 }

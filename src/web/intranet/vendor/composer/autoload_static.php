@@ -53,6 +53,7 @@ class ComposerStaticInite8f8a34fde751840a424d634385c649f
             'kartik\\mpdf\\' => 12,
             'kartik\\grid\\' => 12,
             'kartik\\editable\\' => 16,
+            'kartik\\dropdown\\' => 16,
             'kartik\\dialog\\' => 14,
             'kartik\\date\\' => 12,
             'kartik\\base\\' => 12,
@@ -209,6 +210,10 @@ class ComposerStaticInite8f8a34fde751840a424d634385c649f
         'kartik\\editable\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-editable',
+        ),
+        'kartik\\dropdown\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-dropdown-x',
         ),
         'kartik\\dialog\\' => 
         array (

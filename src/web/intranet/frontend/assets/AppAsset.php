@@ -13,6 +13,9 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'css/site.css',
+//        'css/bootstrap-material-design.css',
+//        'css/ripples.css',
+//        'css/zmd.hierarchical-display.css',
         'css/jasny-bootstrap/css/jasny-bootstrap.css',
         'css/tooltip/jquery.qtip.min.css',
         'css/gdumit.css',
@@ -23,8 +26,10 @@ class AppAsset extends AssetBundle
         'css/helperStyle.css',
     ];
     public $js = [
+        'js/material.min.js',
         'js/ripples.min.js',
-        'js/bootstrap.js',
+//        'js/bootstrap.js',
+        'js/jquery.zmd.hierarchical-display.js',
         'js/jasny-bootstrap/js/jasny-bootstrap.js',
         'js/lib/moment.min.js',
         'js/fullcalendar.js',
@@ -35,6 +40,7 @@ class AppAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
+        
     ];
     
      //Define as neededcssMethod,Note the order in the final 
