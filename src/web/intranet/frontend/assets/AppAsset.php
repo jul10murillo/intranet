@@ -20,6 +20,7 @@ class AppAsset extends AssetBundle
         'css/fullcalendar.css',
         'css/alert/sweetalert.css',
         'css/easy-sidebar.css',
+        'css/helperStyle.css',
     ];
     public $js = [
         'js/ripples.min.js',

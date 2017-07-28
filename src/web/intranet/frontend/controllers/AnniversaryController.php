@@ -56,10 +56,9 @@ class AnniversaryController extends \yii\web\Controller
         foreach ($users as $row) {
             $statususer    = \common\models\User::find()->select('status')->where(['username' => $row->username])->one() ;
             $accountStatus = $statususer->getAttribute("status", 0) ;
-                        
-            if ($accountStatus != 0)
+            $userData      = \Yii::$app->ad->getDefaultProvider()->search()->findBy('sAMAccountname', $row->username) ;
+            if ($accountStatus != 0 && isset($userData))
             {
-                $userData      = \Yii::$app->ad->getDefaultProvider()->search()->findBy('sAMAccountname', $row->username) ;
                 if (isset($userData->getFinicio()[0])) {
 
                     $date       = strtotime(str_replace('/', '-', $userData->getFinicio()[0])) ;
@@ -100,9 +99,8 @@ class AnniversaryController extends \yii\web\Controller
         foreach ($users as $row) {
             $statususer    = \common\models\User::find()->select('status')->where(['username' => $row->username])->one() ;
             $accountStatus = $statususer->getAttribute("status", 0) ;
-            if ($accountStatus != 0)
-            {
-                $userData      = \Yii::$app->ad->getDefaultProvider()->search()->findBy('sAMAccountname', $row->username) ;
+            $userData      = \Yii::$app->ad->getDefaultProvider()->search()->findBy('sAMAccountname', $row->username) ;
+            if ($accountStatus != 0 && isset($userData)){
                 if (isset($userData->getFinicio()[0]))
                 {
                     

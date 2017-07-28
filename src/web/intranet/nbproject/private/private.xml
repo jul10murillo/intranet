@@ -12,14 +12,20 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/web/js/lib/moment.min.js</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/views/site/index.php</file>
             <file>file:/var/www/intranet/src/web/intranet/frontend/web/css/gdumit.css</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/web/css/site.css</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/web/js/jquery.detect_swipe.js</file>
+            <file>file:/var/www/intranet/src/web/intranet/frontend/views/site/index.php</file>
+            <file>file:/var/www/intranet/src/web/intranet/console/config/main.php</file>
             <file>file:/var/www/intranet/src/web/intranet/frontend/assets/AppAsset.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/views/layouts/main.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php</file>
+            <file>file:/var/www/intranet/src/web/intranet/frontend/views/newsbusiness/show_news_business.php</file>
+            <file>file:/var/www/intranet/src/web/intranet/common/models/User.php</file>
+            <file>file:/var/www/intranet/src/web/intranet/common/models/LoginForm.php</file>
+            <file>file:/var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php</file>
+            <file>file:/var/www/intranet/src/web/intranet/frontend/runtime/logs/app.log</file>
+            <file>file:/var/www/intranet/src/web/intranet/frontend/controllers/NewsbusinessController.php</file>
+            <file>file:/var/www/intranet/src/web/intranet/console/runtime/logs/app.log</file>
+            <file>file:/var/www/intranet/src/web/intranet/backend/config/main.php</file>
+            <file>file:/var/www/intranet/src/web/intranet/frontend/controllers/SiteController.php</file>
+            <file>file:/var/www/intranet/src/web/intranet/frontend/web/css/helperStyle.css</file>
         </group>
     </open-files>
 </project-private>
