@@ -12,6 +12,7 @@ use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
+use common\components\GDhelper;
 
 /**
  * Site controller
@@ -111,6 +112,18 @@ class SiteController extends Controller
         $model = new LoginForm();
 
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
+            $username = $model->username;
+            $model1= \common\models\User::find()->select('id')->where(['username'=>$username])->one();
+            $id= $model1->id;
+
+            $user=\common\models\UserProfile::find()->where(['id'=>$id])->one();
+
+            if (!$user){
+                $user = new \common\models\UserProfile;
+                $user->id= $id;
+                $user->template= 'blackstyle.css';
+                $user->save();
+            }
             return $this->goBack();
         } else {
             return $this->render('login', [
@@ -242,5 +255,21 @@ class SiteController extends Controller
         return $this->render('chanceTemplate',[
         'users' => $users
         ]);
+    }
+    
+    public function actionUpdate(){
+        if(isset($_POST['listemplate']))
+        {
+//            $model= new \common\models\User;
+            $model= new \common\models\UserProfile;
+//            $user=$model::find()-> where(['username'=>Yii::$app->user->identity->username])->one();
+            $user=$model::find()-> where(['id'=>Yii::$app->user->identity->id])->one();
+
+            $user->template= $_POST['listemplate'];
+//            $user->status= 10;
+
+            $user->save();
+        }
+        return $this->redirect(\yii\helpers\Url::home());
     }
 }

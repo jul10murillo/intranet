@@ -198,7 +198,8 @@ body {
 .nav, .navmenu-nav> li{
   font-size: 15.08pt;
   -webkit-margin-before: 2em;
-  text-align: center;
+  /*text-align: center;*/
+  text-align: left;
   height: 39px;
 }
 
@@ -267,9 +268,9 @@ body {
 }
 
 .panel {
-  margin-bottom:5%;
+  /*margin-bottom:5%;*/
   background-color: #FFF;
-  border-style:none;
+  /*border-style:none;*/
 }
 
 .panel-heading button .glyphicon {
@@ -295,9 +296,11 @@ body {
   color: #fff;
   background-color: transparent;
   border-style:none;
-  float:left;
+  /*float:left;*/
   position: absolute;
-  margin-top: 40%;
+  bottom:1px;
+  left:1px;
+  /*margin-top: 40%;*/
 }
 
 .panel-primary {
@@ -336,7 +339,7 @@ body {
   background-color: #8db559;
   border-style:none;
   border-radius: 2px;
-  padding: 4px 8px;
+  padding: 8px 12px;
 }
 
 .search button .glyphicon {

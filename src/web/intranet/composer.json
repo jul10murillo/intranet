@@ -16,7 +16,7 @@
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "~2.0.6",
-        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-bootstrap": "^2.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
         "edvlerblog/yii2-adldap-module": "^3.0.0",
         "yii2mod/yii2-rbac": "*",
@@ -27,7 +27,8 @@
         "yiisoft/yii2-elasticsearch": "^2.0",
         "davidjeddy/yii2-rss-reader": "*",
         "xgosoftwarecraft/yii2-rss-reader": "dev-master",
-        "kartik-v/yii2-widget-datepicker": "@dev"
+        "kartik-v/yii2-widget-datepicker": "@dev",
+        "kartik-v/yii2-dropdown-x": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

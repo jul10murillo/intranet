@@ -24,7 +24,7 @@ class AppAsset extends AssetBundle
     public $js = [
         'js/material.min.js',
         'js/ripples.min.js',
-        'js/bootstrap.js',
+//        'js/bootstrap.js',
         'js/jquery.zmd.hierarchical-display.js',
         'js/jasny-bootstrap/js/jasny-bootstrap.js',
     ];

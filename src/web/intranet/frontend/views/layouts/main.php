@@ -11,9 +11,13 @@ use frontend\assets\AppAsset;
 use common\widgets\Alert;
 
 if (!Yii::$app->user->isGuest) {
-$cssfile= ('css/'.Yii::$app->user->identity->template);
+    $model= new \common\models\UserProfile;
+    $user_profile=$model::find()->select(['template'])-> where(['id'=>Yii::$app->user->identity->id])->one();
+    $template= $user_profile['template'];
+    $cssfile= ('css/'. $template);
+    //$cssfile= ('css/'.Yii::$app->user->identity->template);
 }else{
-$cssfile= ('css/blackstyle.css');
+    $cssfile= ('css/blackstyle.css');
 }
 
 AppAsset::register($this);
