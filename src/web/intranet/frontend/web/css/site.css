@@ -11,7 +11,7 @@ body {
 }
 
 .wrap > .container {
-    padding: 70px 15px 20px;
+    padding: 70px;
 }
 
 .footer {
@@ -128,7 +128,6 @@ a.desc:after {
 css para las busquedas
 ------------------------------*/
 
-.container { margin-top: 20px; }
 .mb20 { margin-bottom: 20px; } 
 
 hgroup { 
@@ -218,7 +217,7 @@ hgroup h2.lead {
     background-color: brown;
 }
 .back-anniversary{
-    background-color: blueviolet;
+    background-color: #00d1e5;
 }
 .legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
 
@@ -231,8 +230,15 @@ hgroup h2.lead {
     color: brown!important;
 }
 .birthday-icon{
-    color: blueviolet!important;
+    color: #00d1e5!important;
 }
 .date-item{
     color: #fff;
+}
+
+@media (min-width: 991px) {
+  
+  .container{
+      padding-left: 200px!important;
+  }
 }

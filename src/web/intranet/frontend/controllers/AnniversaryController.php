@@ -127,7 +127,8 @@ class AnniversaryController extends \yii\web\Controller
                         'start' => (string)$dateInicio.'-'.$dateYear,
                         'title' => $userData->getFirstName().' '.$userData->getLastName(),
                         'description' => 'Cumpleaños de '.$userData->getFirstName().' '.$userData->getLastName(),
-                        'color' => 'blueviolet!important',
+                        'color' => '#00d1e5!important',
+                        'textColor' => '#000!important',
                         'allDay' => true
                     ] ;
                 }

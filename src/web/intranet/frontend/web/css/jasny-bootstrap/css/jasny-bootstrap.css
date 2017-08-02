@@ -7,11 +7,7 @@
 .container-smooth {
   max-width: 1170px;
 }
-@media (min-width: 1px) {
-  .container-smooth {
-    width: auto;
-  }
-}
+
 .btn-labeled {
   padding-top: 0;
   padding-bottom: 0;
@@ -466,6 +462,9 @@
   }
   .offcanvas-sm.in {
     display: block;
+  }
+  .container{
+      margin-left: 160px!important;
   }
 }
 @media (max-width: 1199px) {
