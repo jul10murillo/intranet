@@ -32,7 +32,7 @@ AppAsset::addCss($this,$cssfile);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
-    
+    <?= $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii::getAlias('@web/uploads/icon/logo_home_2HU_icon.ico')]); ?>
 </head>
 <body class="bg">
 <?php $this->beginBody() ?>

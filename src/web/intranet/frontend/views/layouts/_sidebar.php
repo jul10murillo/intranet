@@ -19,7 +19,7 @@ use yii\bootstrap\Dropdown;
         <li><span class="glyphicon glyphicon-home"></span> <span><a href="/index.php?r=business%2Fsearch&id=1">Grupo Dumit</a></span></li>
         <li><span class="glyphicon glyphicon-list-alt"></span> <span><a href="/index.php?r=application%2Fsearch">Aplicaciones</a></span></li>
         <li><span class="glyphicon glyphicon-link"></span> <span><a href="/index.php?r=link%2Fsearch">Enlaces</a></span></li>
-        <li><span class="glyphicon glyphicon-calendar"></span> <span><a href="<?= yii\helpers\Url::to(['/anniversary/date']) ?>">Fechas</a></span></li>
+        <li><span class="glyphicon glyphicon-calendar"></span> <span><a href="<?= yii\helpers\Url::to(['/anniversary/date']) ?>">Calendario</a></span></li>
         
     </ul>
    </div>

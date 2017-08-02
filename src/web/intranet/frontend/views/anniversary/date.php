@@ -5,12 +5,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-$this->title = "Fechas" ;
+$this->title = "Calendario" ;
 ?>
 <div class="col-lg-8">
     <div id='calendar'></div>
 </div>
-<div class="col-lg-4">
+<div class="col-lg-4 back-date">
     <h3 class="label-gd">
         Leyenda
     </h3>
