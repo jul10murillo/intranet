@@ -1,7 +1,7 @@
 <?php
 
 /* @var $this yii\web\View */
-use yii\helpers\Url;
+//use yii\helpers\Url;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
@@ -14,13 +14,12 @@ $this->title = 'Intranet Grupo Dumit, C.A.';
                 <?php $form = ActiveForm::begin(['action' => ['news/search'],'options' => [
                 'class' => 'form-inline'
              ]]); ?>
-                    <!--<div class="col-sm-10 col-xs-10">-->
+                    <div class="col-sm-10 col-xs-10">
                         <?= Html::input('text','search',null,['placeholder'=>'  Buscar...'])?>
-                    <!--</div>-->
-                    <!--<div class="col-sm-2 col-xs-2">-->
+                    </div>
+                    <div class="col-sm-2 col-xs-2">
                         <?= Html::submitButton('<span class="glyphicon glyphicon-search"></span>') ?>
-                    <!--</div>-->
-                    
+                    </div>
                 <?php ActiveForm::end(); ?>
                 </div>
                 <br><br>

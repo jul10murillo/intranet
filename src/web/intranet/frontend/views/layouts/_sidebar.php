@@ -1,8 +1,6 @@
 <?php
 use yii\helpers\Html;
 use common\components\GDhelper;
-//use yii\web\View;
-//use yii\widgets\Menu;
 use yii\widgets\ActiveForm;
 use yii\bootstrap\Dropdown;
 
@@ -33,38 +31,6 @@ use yii\bootstrap\Dropdown;
     </button>
     <a href="/index.php" class="navbar-brand"></a>
     <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Perfil</button>-->
-     <?php
-//        echo Menu::widget([
-//        'items' => [
-//        ['label' => 'Perfil ('.Yii::$app->user->identity->username.')',
-//            'options'=>['class'=>'dropdown'],
-////            'template' => '<a href="{url}" class="href_class">{label}</a>',
-//            'template' => '<a href="#" class="href_class">{label}</a>',
-//            'items' => [
-//                ['label' => 'Modificar',
-////                  'url' => ['#'],
-//                 'options'=>['class'=>'','data-toggle'=>'modal','data-target'=>'#templateModal','data-whatever'=>'@getbootstrap'],
-//                ],
-//                ['label' => 'Cerrar Sesión',
-//                 'url' => ['/site/logout']
-//                ],
-//             ],
-//        ],
-////        ['label' => 'Cerrar Sesión('.Yii::$app->user->identity->username.')',
-////         'url' => ['/site/logout'],
-////        ],
-//        ],
-//        'options' => [
-//       'class' => 'navbar-nav nav',
-////        'id'=>'navbar-id',
-//        'style'=>'font-size: 14px;',
-//////        'data-tag'=>'yii2-menu',
-//        ],
-////        'activeCssClass'=>'activeclass',
-////          'submenuTemplate' => "\n<ul class='dropdown-menu' role='menu'>\n{items}\n</ul>\n",
-//        ]);
-        
-       ?>
 <div class="dropdown">
     <a href="#" data-toggle="dropdown" class="dropdown-toggle">Perfil<?php echo ' ('.Yii::$app->user->identity->username.')'?> <b class="caret"></b></a>
     <?php

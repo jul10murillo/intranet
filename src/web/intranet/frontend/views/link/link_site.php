@@ -2,22 +2,26 @@
 
 use yii\widgets\ActiveForm;
 use yii\helpers\Html;
-use yii\data\Pagination;
+//use yii\data\Pagination;
 use yii\widgets\LinkPager;
 
 ?>
 <div class="search">
     <?php $form = ActiveForm::begin(); ?>
+        <div class="col-sm-10 col-xs-10">
         <?= Html::input('text','search',null,['placeholder'=>'  Buscar...'])?>
+        </div>
+        <div class="col-sm-2 col-xs-2">
         <?= Html::submitButton('<span class="glyphicon glyphicon-search"></span>') ?>
+        </div>
     <?php ActiveForm::end(); ?>
-
-    <br><br>
 </div>
+<br>
+<br>
 <?php if ($search) : ?>
 <hgroup>
     <h2 class="searchhead">Resultado de la busqueda: "<?= $search ?>"</h2>
-    <h2 class="lead"><strong class="text-danger"><?= $count ?></strong> <?= ($count > 1) ? "resultados encontrados" : "resultado encontrado" ?> de la busqueda de <strong class="text-danger"><?= $search ?></strong></h2>
+    <h2 class="lead"><strong class="text-danger"><?= $count ?></strong> <?= ($count > 1) ? "resultados encontrados" : "resultado encontrado" ?> de la búsqueda de <strong class="text-danger"><?= $search ?></strong></h2>
 </hgroup>
 <br>
 <?php endif ; ?>
