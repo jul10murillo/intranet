@@ -19,7 +19,7 @@ return [
             'userModelClassName'        => 'Edvlerblog\Adldap2\model\UserDbLdap',
             'userModelIdField'          => 'id' ,
             'userModelLoginField'       => 'username' ,
-            'userModelLoginFieldLabel'  => null ,
+            'userModelLoginFieldLabel'  => 'username' ,
             'userModelExtraDataColumls' => null ,
             'beforeCreateController'    => null ,
             'beforeAction'              => null

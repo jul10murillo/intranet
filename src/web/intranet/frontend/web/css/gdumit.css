@@ -46,11 +46,9 @@ and open the template in the editor.
 
  /*body para el menu lateral*/
 
-@media (min-width: 992px) {
-  body {
-    font-family: 'Montserrat-UltraLight';
-    padding-left: 200px;
-  }
+body {
+  font-family: 'Montserrat-UltraLight';
+  padding-left: 200px;
 }
 
 label.control-label{
@@ -150,3 +148,10 @@ label.control-label{
     box-shadow:         6px 0px 7px 0px rgba(50, 50, 50, 0.75)!important;
 }
 
+
+@media (max-width: 991px) {
+    .navbar-toggle{
+        display: block!important;
+    }
+    
+}

@@ -294,7 +294,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 230px;
-  width: 80%;
   position: relative;
  } 
  
@@ -520,4 +519,4 @@ body {
   .responsive-detail-img {
     width: 100%;
   }
-}
+}

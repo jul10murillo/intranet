@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 25, 2017, 4:34:34 PM
+    Author     : julio
+*/
+
+.botonF1{
+    width:60px;
+    height:60px;
+    border-radius:100%;
+    background:#97c757;
+    right:0;
+    bottom:0;
+    position:absolute;
+    margin-right:40px;
+    margin-bottom:90px;
+    border:none;
+    outline:none;
+    color:#FFF;
+    font-size:36px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition:.3s;  
+}
+span{
+    transition:.5s;  
+}
+.glyphicon-pencil{
+    color: #FFF!important;
+    margin-left: 20px;
+    font-size: 20px;
+}

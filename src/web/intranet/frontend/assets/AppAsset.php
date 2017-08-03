@@ -17,9 +17,13 @@ class AppAsset extends AssetBundle
 //        'css/ripples.css',
 //        'css/zmd.hierarchical-display.css',
         'css/jasny-bootstrap/css/jasny-bootstrap.css',
+        'css/tooltip/jquery.qtip.min.css',
         'css/gdumit.css',
-//        'css/whitestyle.css',
-//        'css/blackstyle.css',
+        'css/blackstyle.css',
+        'css/fullcalendar.css',
+        'css/alert/sweetalert.css',
+        'css/easy-sidebar.css',
+        'css/helperStyle.css',
     ];
     public $js = [
         'js/material.min.js',
@@ -27,6 +31,11 @@ class AppAsset extends AssetBundle
 //        'js/bootstrap.js',
         'js/jquery.zmd.hierarchical-display.js',
         'js/jasny-bootstrap/js/jasny-bootstrap.js',
+        'js/lib/moment.min.js',
+        'js/fullcalendar.js',
+        'js/es.js',
+        'js/jquery.qtip.min.js',
+        'js/alert/sweetalert-dev.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',

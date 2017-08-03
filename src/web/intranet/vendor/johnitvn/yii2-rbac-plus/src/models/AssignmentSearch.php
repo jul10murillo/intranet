@@ -62,6 +62,7 @@ class AssignmentSearch extends \yii\base\Model {
      */
     public function search() {
         $query = call_user_func($this->rbacModule->userModelClassName . "::find");
+        $query = $query->where(['status'=>1]);
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
         ]);

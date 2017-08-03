@@ -26,6 +26,9 @@ return [
         ],
     ],
     'components' => [
+        'authManagerldap' => [
+            'class' => 'yii\rbac\DbManagerFrontend',
+        ],
         'log' => [
             'targets' => [
                 [

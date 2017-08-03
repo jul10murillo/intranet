@@ -11,7 +11,7 @@ body {
 }
 
 .wrap > .container {
-    padding: 70px 15px 20px;
+    padding: 70px;
 }
 
 .footer {
@@ -106,8 +106,20 @@ a.desc:after {
         text-align: left;
         width: 100%;
     }
+    
+    .container{
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+    }
 }
-
+@media(max-width:425px) {
+    .container{
+        margin-left: 0%!important;
+        padding-left: 3%!important;
+        padding-right: 0px!important;
+    }
+    
+}
 .nav > li > form > button.logout:focus,
 .nav > li > form > button.logout:hover {
     text-decoration: none;
@@ -123,4 +135,122 @@ a.desc:after {
 
 .site-login{
     margin-top: 50%;
+}
+/*------------------------------
+css para las busquedas
+------------------------------*/
+
+.mb20 { margin-bottom: 20px; } 
+
+hgroup { 
+    padding-left: 15px; 
+    border-bottom: 1px solid #ccc; 
+}
+
+hgroup h1 { 
+    color: #2a3644; 
+    margin-top: 0; 
+    line-height: 1.15; 
+}
+
+hgroup h2.lead { 
+    color: #999;
+    margin: 0; 
+    padding-bottom: 10px; 
+}
+.searchhead{
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.search-result .thumbnail { 
+    border-radius: 0 !important;
+}
+.search-result:first-child { 
+    margin-top: 0 !important;
+}
+.search-result {
+    color: #ddd;
+    margin-top: 20px;
+}
+.search-result .col-md-2 { 
+    border-right: 1px dotted #ccc; 
+    min-height: 140px; 
+}
+.search-result ul { 
+    padding-left: 0 !important;
+    list-style: none;
+}
+.search-result ul li {
+    font: 400 normal .85em "Roboto", Arial, Verdana, sans-serif;
+    line-height: 30px;
+}
+.search-result ul li i {
+    padding-right: 5px;
+}
+.search-result .col-md-7 {
+    position: relative;
+}
+.search-result h3 {
+    font: 500 normal 1.375em "Roboto", Arial, Verdana, sans-serif;
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+}
+.search-result h3 > a,
+.search-result i {
+    color: #97c757 !important;
+}
+.search-result span.plus {
+    position: absolute;
+    right: 0;
+    top: 126px;
+}
+.search-result span.plus a {
+    background-color: #97c757;
+    padding: 5px 5px 3px 5px;
+}
+.search-result span.plus a:hover {
+    background-color: #414141;
+}
+.search-result span.plus a i {
+    color: #fff !important;
+}
+.search-result span.border {
+    display: block;
+    width: 97%;
+    margin: 0 15px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.label-gd{
+    color: #97c757!important;
+}
+.back-birthday{
+    background-color: brown;
+}
+.back-anniversary{
+    background-color: #00d1e5;
+}
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+
+.legend-item {
+    color: white;
+    font-size: 15px;
+}
+.legend { list-style: none; }
+.anniversary-icon{
+    color: brown!important;
+}
+.birthday-icon{
+    color: #00d1e5!important;
+}
+.date-item{
+    color: #fff;
+}
+
+@media (min-width: 991px) {
+  
+  .container{
+      padding-left: 200px!important;
+  }
 }

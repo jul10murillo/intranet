@@ -9,6 +9,7 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\data\Pagination;
+use yii\filters\AccessControl;
 
 /**
  * LinkController implements the CRUD actions for Link model.
@@ -25,6 +26,17 @@ class LinkController extends Controller
                 'class' => VerbFilter::className(),
                 'actions' => [
                     'delete' => ['POST'],
+                ],
+            ],
+            'access' => [
+                'class' => AccessControl::className(),
+                'only'  => ['index','view', 'create', 'update','delete','search'],
+                'rules' => [
+                    [
+                        'allow'   => true,
+                        'actions' => ['index','view', 'create', 'update','delete','search'],
+                        'roles'   => ['@'],
+                    ],
                 ],
             ],
         ];
@@ -120,24 +132,38 @@ class LinkController extends Controller
     * Search an existing Link model.
     * @param integer $id
     */
-    public function actionSearch()
-    {
-       $links=Link::find();
-       $count= clone $links;
-       $pages= new Pagination([
-           "pageSize"=> 4,
-           "totalCount"=> $count -> count()
-       ]);
-       $model=$links
-               ->offset($pages->offset)
-               ->limit($pages->limit)
-               ->all();
-       return $this->render('link_site', [
-            'model' => $model,
-            'links' => $links,
-            'pages' =>$pages
-        ]);
-       
+    public function actionSearch() {
+        $links = Link::find() ;
+
+        if (Yii::$app->request->isPost) {
+            $searchString                    = Yii::$app->request->post('search') ;
+            Yii::$app->session['searchlink'] = $searchString ;
+            
+            $links = Link::find()->filterWhere(['or',
+                ['like', 'link_name', $searchString],
+                ['like', 'link_description', $searchString]
+            ]) ;
+            
+        } else {
+            $searchString = Yii::$app->session['searchlink'] ;
+        }
+        
+        $count = $links->count();
+        $pages = new Pagination([
+            "pageSize"   => 4,
+            "totalCount" => $count
+        ]) ;
+        $model = $links
+                ->offset($pages->offset)
+                ->limit($pages->limit)
+                ->all() ;
+        return $this->render('link_site', [
+                    'model' => $model,
+                    'links' => $links,
+                    'pages' => $pages,
+                    'search' => $searchString,
+                    'count' => $count
+        ]) ;
     }
 
     /**
@@ -155,4 +181,5 @@ class LinkController extends Controller
             throw new NotFoundHttpException('The requested page does not exist.');
         }
     }
+    
 }

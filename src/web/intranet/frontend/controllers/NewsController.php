@@ -9,6 +9,8 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\helpers\ArrayHelper;
+use yii\data\Pagination;
+use yii\filters\AccessControl;
 
 /**
  * NewsController implements the CRUD actions for News model.
@@ -25,6 +27,17 @@ class NewsController extends Controller
                 'class' => VerbFilter::className(),
                 'actions' => [
                     'delete' => ['POST'],
+                ],
+            ],
+            'access' => [
+                'class' => AccessControl::className(),
+                'only'  => ['index','view', 'create', 'update','delete','show','search'],
+                'rules' => [
+                    [
+                        'allow'   => true,
+                        'actions' => ['index','view', 'create', 'update','delete','show','search'],
+                        'roles'   => ['@'],
+                    ],
                 ],
             ],
         ];
@@ -153,4 +166,40 @@ class NewsController extends Controller
             throw new NotFoundHttpException('The requested page does not exist.');
         }
     }
+    
+    /**
+     * Acción de buscar noticias
+     * @return type
+     */
+    public function actionSearch() {
+        $searchString = Yii::$app->request->post('search') ;
+        if (Yii::$app->request->post('search')) {
+            Yii::$app->session['searchnews'] = $searchString ;
+        } else {
+            $searchString = Yii::$app->session['searchnews'] ;
+        }
+
+        $query = \common\models\NewsBusiness::find()->filterWhere(['or',
+                ['like', 'nbusiness_title', $searchString],
+                ['like', 'nbusiness_description', $searchString]
+            ]) ;
+        $count = $query->count() ;
+
+        $pagination = new Pagination([
+            "pageSize"   => 4,
+            "totalCount" => $count
+            ]) ;
+
+        $data = $query->offset($pagination->offset)
+                ->limit($pagination->limit)
+                ->all() ;
+
+        return $this->render('search', [
+                    'data'       => $data,
+                    'search'     => $searchString,
+                    'pagination' => $pagination,
+                    'count'      => $count,
+                ]) ;
+    }
+
 }
