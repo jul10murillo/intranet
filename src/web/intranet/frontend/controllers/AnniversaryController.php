@@ -109,7 +109,7 @@ class AnniversaryController extends \yii\web\Controller
                     $dateInicio    = date("m-d", $dateDay) ;
                     $dateYear      = date("Y") ;
                     $usersActive[] = [
-                        'start' => (string)$dateInicio.'-'.$dateYear,
+                        'start' => date((string)$dateInicio.'-'.$dateYear),
                         'title' => $userData->getFirstName().' '.$userData->getLastName(),
                         'description' => 'Aniversario de '.$userData->getFirstName().' '.$userData->getLastName(),
                         'color' => 'brown!important',
@@ -124,7 +124,7 @@ class AnniversaryController extends \yii\web\Controller
                     $dateInicio    = date("m-d", $dateDay) ;
                     $dateYear      = date("Y") ;
                     $usersActive[] = [
-                        'start' => (string)$dateInicio.'-'.$dateYear,
+                        'start' => date((string)$dateInicio.'-'.$dateYear),
                         'title' => $userData->getFirstName().' '.$userData->getLastName(),
                         'description' => 'Cumpleaños de '.$userData->getFirstName().' '.$userData->getLastName(),
                         'color' => '#00d1e5!important',
