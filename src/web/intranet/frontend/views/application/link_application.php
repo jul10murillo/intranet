@@ -1,6 +1,5 @@
 <?php
-
-use yii\data\Pagination ;
+//use yii\data\Pagination ;
 use yii\widgets\LinkPager ;
 use yii\widgets\ActiveForm ;
 use yii\helpers\Html ;
@@ -8,10 +7,15 @@ use yii\helpers\Html ;
 ?>
 <div class="search">
     <?php $form = ActiveForm::begin(); ?>
+        <div class="col-sm-10 col-xs-10">
         <?= Html::input('text','search',null,['placeholder'=>'  Buscar...'])?>
+        </div>
+        <div class="col-sm-2 col-xs-2">
         <?= Html::submitButton('<span class="glyphicon glyphicon-search"></span>') ?>
+        </div>
     <?php ActiveForm::end(); ?>
 </div>
+<br>
 <br>
 <?php if ($search) : ?>
 <hgroup>

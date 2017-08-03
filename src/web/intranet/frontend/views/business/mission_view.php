@@ -76,7 +76,6 @@
             <?php 
                 echo $model->mission_description; 
             ?>
-            <br>    
             </p>
         </div>        
     <!-- end .mission --></div>
