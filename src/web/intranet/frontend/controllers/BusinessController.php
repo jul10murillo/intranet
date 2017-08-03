@@ -8,6 +8,7 @@ use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\filters\AccessControl;
 
 /**
  * BusinessController implements the CRUD actions for Business model.
@@ -24,6 +25,22 @@ class BusinessController extends Controller
                 'class' => VerbFilter::className(),
                 'actions' => [
                     'delete' => ['POST'],
+                ],
+            ],
+            'access' => [
+                'class' => AccessControl::className(),
+                'only'  => ['index','login', 'logout', 'search'],
+                'rules' => [
+                    [
+                        'allow'   => true,
+                        'actions' => ['search','index','view','jsonbirthday'],
+                        'roles'   => ['@'],
+                    ],
+                    [
+                        'allow'   => false,
+                        'actions' => ['search','index','view','jsonbirthday'],
+                        'roles'   => ['?'],
+                    ],
                 ],
             ],
         ];

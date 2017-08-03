@@ -10,6 +10,7 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\web\UploadedFile;
 use yii\data\Pagination;
+use yii\filters\AccessControl;
 
 /**
  * NewsbusinessController implements the CRUD actions for NewsBusiness model.
@@ -26,6 +27,17 @@ class NewsbusinessController extends Controller
                 'class' => VerbFilter::className(),
                 'actions' => [
                     'delete' => ['POST'],
+                ],
+            ],
+            'access' => [
+                'class' => AccessControl::className(),
+                'only'  => ['index','view', 'create', 'delete','update','show','detail'],
+                'rules' => [
+                    [
+                        'allow'   => true,
+                        'actions' => ['index','view', 'create', 'delete','update','show','detail'],
+                        'roles'   => ['@'],
+                    ],
                 ],
             ],
         ];
