@@ -463,9 +463,9 @@
   .offcanvas-sm.in {
     display: block;
   }
-  .container{
+/*  .container{
       margin-left: 160px!important;
-  }
+  }*/
 }
 @media (max-width: 1199px) {
   .offcanvas-md {

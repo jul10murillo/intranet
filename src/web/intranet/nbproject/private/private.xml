@@ -11,44 +11,6 @@
         </file>
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/views/layouts/main.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/vendor/johnitvn/yii2-rbac-plus/src/controllers/AssignmentController.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/views/anniversary/date.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/web/IdentityInterface.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/views/newsbusiness/index.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/views/link/link_site.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/vendor/johnitvn/yii2-rbac-plus/src/views/assignment/index.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/web/css/jasny-bootstrap/css/jasny-bootstrap.css</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/assets/AppAsset.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/common/models/LoginForm.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/web/css/whitestyle.css</file>
-            <file>file:/var/www/intranet/src/web/intranet/console/runtime/logs/app.log</file>
-            <file>file:/var/www/intranet/src/web/intranet/console/config/main.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/controllers/NewsbusinessController.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/web/css/site.css</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/web/css/fullcalendar.css</file>
-            <file>file:/var/www/intranet/src/web/intranet/backend/config/main.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/views/business/mission_view.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/vendor/edvlerblog/yii2-adldap-module/src/model/UserDbLdap.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/vendor/johnitvn/yii2-rbac-plus/src/views/assignment/_columns.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/web/css/blackstyle.css</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/controllers/SiteController.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/vendor/johnitvn/yii2-rbac-plus/src/Module.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/runtime/logs/app.log</file>
-            <file>file:/var/www/intranet/src/web/intranet/common/models/User.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/helpers/BaseHtml.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/controllers/LinkController.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/controllers/BusinessController.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/views/site/index.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/views/newsbusiness/show_news_business.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/rbac/DbManagerFrontend.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/vendor/yiisoft/yii2/rbac/DbManager.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/vendor/edvlerblog/yii2-adldap-module/src/commands/LdapController.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/web/css/gdumit.css</file>
-            <file>file:/var/www/intranet/src/web/intranet/vendor/johnitvn/yii2-rbac-plus/src/models/AssignmentSearch.php</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

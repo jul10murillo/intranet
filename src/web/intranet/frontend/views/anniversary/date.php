@@ -7,10 +7,10 @@
  */
 $this->title = "Calendario" ;
 ?>
-<div class="col-lg-8">
+<div class="col-lg-8 col-md-8">
     <div id='calendar'></div>
 </div>
-<div class="col-lg-4 back-date">
+<div class="col-lg-4 col-md-4 back-date">
     <h3 class="label-gd">
         Leyenda
     </h3>
@@ -95,8 +95,8 @@ $script = <<< JS
         
         $('#calendar').fullCalendar({
             validRange: {
-                start: '$year-01-01',
-                end: '$year-12-31'
+                start: new moment('$year-01-01', "YYYY-MM-DD"),
+                end: new moment('$year-12-31', "YYYY-MM-DD")
             },
             editable: true,
             navLinks: true,

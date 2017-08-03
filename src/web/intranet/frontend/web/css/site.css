@@ -106,8 +106,20 @@ a.desc:after {
         text-align: left;
         width: 100%;
     }
+    
+    .container{
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+    }
 }
-
+@media(max-width:425px) {
+    .container{
+        margin-left: 0%!important;
+        padding-left: 3%!important;
+        padding-right: 0px!important;
+    }
+    
+}
 .nav > li > form > button.logout:focus,
 .nav > li > form > button.logout:hover {
     text-decoration: none;
