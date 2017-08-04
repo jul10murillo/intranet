@@ -150,7 +150,7 @@ class LinkController extends Controller
         
         $count = $links->count();
         $pages = new Pagination([
-            "pageSize"   => 4,
+            "pageSize"   => 3,
             "totalCount" => $count
         ]) ;
         $model = $links

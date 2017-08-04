@@ -20,7 +20,7 @@ use yii\widgets\LinkPager;
 <br>
 <?php if ($search) : ?>
 <hgroup>
-    <h2 class="searchhead">Resultado de la busqueda: "<?= $search ?>"</h2>
+    <h2 class="searchhead">Resultado de la búsqueda: "<?= $search ?>"</h2>
     <h2 class="lead"><strong class="text-danger"><?= $count ?></strong> <?= ($count > 1) ? "resultados encontrados" : "resultado encontrado" ?> de la búsqueda de <strong class="text-danger"><?= $search ?></strong></h2>
 </hgroup>
 <br>
@@ -36,7 +36,7 @@ use yii\widgets\LinkPager;
             ?>       
         </div>
         <div class="mission-body">
-            <p></br>
+            <p><br/>
             <?php 
             echo $row-> link_description;
             ?>
@@ -44,6 +44,7 @@ use yii\widgets\LinkPager;
         </div>
         <div class="btn-application">
             <a href="<?php echo $row-> url;?>" target="_blank">INICIAR</a>
+            <hr>
         </div>
        <?php
           }  
@@ -54,6 +55,7 @@ use yii\widgets\LinkPager;
     <?= LinkPager::widget([
         "pagination" => $pages,
     ]);
+       (\Yii::$app->user->can('editLink'))?\yii\helpers\Html::a('<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>', \yii\helpers\Url::to(['link/index']), ['class'=>'botonF1']):"";
     ?>     
     </div>
     <?=
