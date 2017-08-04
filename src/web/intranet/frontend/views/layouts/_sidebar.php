@@ -12,7 +12,7 @@ use yii\bootstrap\Dropdown;
 
 ?>
 <div class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm">
-   <div>
+   <div class="menu-principal">
     <ul class="nav navmenu-nav">
         <li><span class="glyphicon glyphicon-home"></span> <span><a href="/index.php?r=business%2Fsearch&id=1">Grupo Dumit</a></span></li>
         <li><span class="glyphicon glyphicon-list-alt"></span> <span><a href="/index.php?r=application%2Fsearch">Aplicaciones</a></span></li>
@@ -67,12 +67,12 @@ use yii\bootstrap\Dropdown;
       </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        <!--<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>-->
         <?=Html::submitButton("<span class='glyphicon glyphicon-pencil' aria-hidden='true'></span>",
-                    ['class'=>'kv-action-btn',
-                        'onclick'=>"'".\Yii::$app->urlManager->createUrl(['/site/update'])."'",
-                        'data-toggle'=>'tooltip',
-                        'title'=>Yii::t('app', 'Editar perfil'),
+                    ['class'=>'modal-btn',
+                     'onclick'=>"'".\Yii::$app->urlManager->createUrl(['/site/update'])."'",
+                     'data-toggle'=>'tooltip',
+                     'title'=>Yii::t('app', 'Editar perfil'),
                     ]
         )?>
       </div>
