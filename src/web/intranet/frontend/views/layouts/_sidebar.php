@@ -3,6 +3,7 @@ use yii\helpers\Html;
 use common\components\GDhelper;
 use yii\widgets\ActiveForm;
 use yii\bootstrap\Dropdown;
+use yii\helpers\Url;
 
 /* 
  * To change this license header, choose License Headers in Project Properties.
@@ -18,7 +19,23 @@ use yii\bootstrap\Dropdown;
         <li><span class="glyphicon glyphicon-list-alt"></span> <span><a href="/index.php?r=application%2Fsearch">Aplicaciones</a></span></li>
         <li><span class="glyphicon glyphicon-link"></span> <span><a href="/index.php?r=link%2Fsearch">Enlaces</a></span></li>
         <li><span class="glyphicon glyphicon-calendar"></span> <span><a href="<?= yii\helpers\Url::to(['/anniversary/date']) ?>">Calendario</a></span></li>
-        
+        <li class="hidden-lg hidden-md">
+            <a data-toggle="dropdown" href="#" class="profile"><span class="glyphicon glyphicon-user"></span> Perfil (<?= Yii::$app->user->identity->username ?>)
+            <ul class="dropdown-menu nav navmenu-nav">
+                <li  >
+                    <a href="" class="label-dropdown" data-toggle="modal" data-target="#templateModal" >
+                        <span class="glyphicon glyphicon-edit"></span>
+                        Modificar
+                    </a>
+                </li>
+                <li class="label-dropdown">
+                    <a href="<?= Url::to(['/site/logout']) ?>" class="label-dropdown">
+                        <span class="glyphicon glyphicon-log-out"></span>
+                        Cerrar Sesión
+                    </a>
+                </li>
+            </ul>
+        </li>
     </ul>
    </div>
 </div>
@@ -30,8 +47,7 @@ use yii\bootstrap\Dropdown;
         <span class="icon-bar"></span>
     </button>
     <a href="/index.php" class="navbar-brand"></a>
-    <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Perfil</button>-->
-<div class="dropdown">
+<div class="dropdown hidden-sm hidden-xs">
     <a href="#" data-toggle="dropdown" class="dropdown-toggle">Perfil<?php echo ' ('.Yii::$app->user->identity->username.')'?> <b class="caret"></b></a>
     <?php
         echo Dropdown::widget([

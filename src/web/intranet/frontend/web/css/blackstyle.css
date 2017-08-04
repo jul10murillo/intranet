@@ -198,9 +198,6 @@ body {
 .nav, .navmenu-nav> li{
   font-size: 15.08pt;
   -webkit-margin-before: 2em;
-  /*text-align: center;*/
-  text-align: left;
-  height: 39px;
 }
 
 .navmenu-nav > li:hover{
@@ -531,3 +528,13 @@ body {
     width: 100%;
   }
 } 
+
+.profile{
+    color: #b6b6b6!important;
+    font-weight: bold;
+}
+
+.label-dropdown{
+    color: #5f5f5f!important;
+    font-weight: bold!important;
+}

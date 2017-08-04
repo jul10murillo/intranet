@@ -521,3 +521,12 @@ body {
   }
 }
 
+.profile{
+    color: #b6b6b6!important;
+    font-weight: bold;
+}
+
+.label-dropdown{
+    color: #5f5f5f!important;
+    font-weight: bold!important;
+}
