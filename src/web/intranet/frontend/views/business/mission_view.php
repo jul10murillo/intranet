@@ -65,18 +65,17 @@
             </div>-->
         </div>
     </div>
-
     <!-- end .slider --></div> 
     <div class="">
         <div class="mission-title">
             <h1 >Misión</h1>
         </div> 
         <div class="mission-body"> 
-            <p>
+            
             <?php 
                 echo $model->mission_description; 
             ?>
-            </p>
+            
         </div>        
     <!-- end .mission --></div>
     <div class="">
@@ -84,11 +83,11 @@
             <h1>Visión</h1>
         </div>
         <div class="mission-body">
-            <p>
+            
              <?php 
                 echo $model->view_description; 
             ?>
-            </p>
+            
         </div>
         <?=
         (\Yii::$app->user->can('editMision'))?\yii\helpers\Html::a('<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>', \yii\helpers\Url::to(['business/index']), ['class'=>'botonF1']):"";

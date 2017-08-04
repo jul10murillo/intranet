@@ -19,8 +19,8 @@ use yii\helpers\Html ;
 <br>
 <?php if ($search) : ?>
 <hgroup>
-    <h2 class="searchhead">Resultado de la busqueda: "<?= $searchString ?>"</h2>
-    <h2 class="lead"><strong class="text-danger"><?= $count ?></strong> <?= ($count > 1) ? "resultados encontrados" : "resultado encontrado" ?> de la busqueda de <strong class="text-danger"><?= $searchString ?></strong></h2>
+    <h2 class="searchhead">Resultado de la búsqueda: "<?= $searchString ?>"</h2>
+    <h2 class="lead"><strong class="text-danger"><?= $count ?></strong> <?= ($count > 1) ? "resultados encontrados" : "resultado encontrado" ?> de la búsqueda de <strong class="text-danger"><?= $searchString ?></strong></h2>
 </hgroup>
 <br>
 <?php endif ; ?>
@@ -42,7 +42,8 @@ use yii\helpers\Html ;
             </p>
         </div>
         <div class="btn-application">
-            <a href="<?php echo $row->application_url ; ?>" target="_blank">INICIAR</a> 
+            <a href="<?php echo $row->application_url ; ?>" target="_blank">INICIAR</a>
+            <hr>
         </div>
         <?php
         }
