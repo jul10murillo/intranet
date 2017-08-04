@@ -156,7 +156,7 @@ class ApplicationController extends Controller
         $count        = $count->count() ;
         
         $pages        = new Pagination([
-            "pageSize"   => 4,
+            "pageSize"   => 3,
             "totalCount" => $count
         ]) ;
         

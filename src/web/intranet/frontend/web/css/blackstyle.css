@@ -195,7 +195,13 @@ body {
   background-color:#5b5f64; 
 }
 
-.nav, .navmenu-nav> li{
+.menu-principal > ul {
+  margin-top: 70px;
+  text-align: center;
+  left:15%;
+}
+
+.navmenu-nav> li{
   font-size: 15.08pt;
   -webkit-margin-before: 2em;
 }
@@ -255,9 +261,8 @@ body {
 
 .footer .container .pull-left {
   position: relative;
-  top: 96%; 
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 45%;
+  transform: translate(-40%, -20%);
 }
 
 /* HOME BODY */
@@ -368,7 +373,7 @@ body {
 .mission-title{
   color: #b6b6b6;
   font-family: 'Montserrat-SemiBold';
-  font-size: 27.07pt;
+  font-size: 27pt;
 }
  
 .mission-body{
@@ -411,7 +416,7 @@ body {
   border-radius: 3px;
 /*  color: #b6b6b6;*/
   color: #fff;
-  font-family: 'Montserrat-SemiBold';
+  font-family: 'Montserrat-UltraLight';
   font-size: 12.51pt;
   font-weight: bold;
   margin-left: 40%;
@@ -528,13 +533,3 @@ body {
     width: 100%;
   }
 } 
-
-.profile{
-    color: #b6b6b6!important;
-    font-weight: bold;
-}
-
-.label-dropdown{
-    color: #5f5f5f!important;
-    font-weight: bold!important;
-}
