@@ -1,0 +1,157 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2017, 11:28:23 AM
+    Author     : julio
+*/
+/*---------------------------------------*/
+/*font de la aplicacion*/
+/*-------------------------------------------*/
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('font/Montserrat-Bold.otf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('font/Montserrat-SemiBold.otf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'Montserrat-Hairline';
+  src: url('font/Montserrat-Hairline.otf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('font/Montserrat-Regular.otf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'Montserrat-UltraLight';
+  src: url('font/Montserrat-UltraLight.otf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Montserrat-UltraLight 2';
+  src: url('font/Montserrat-UltraLight 2.otf'); /* IE9 Compat Modes */
+}
+
+/*------------------------------------------------*/
+/*css editado para el site*/
+/*------------------------------------------------*/
+.site-login{
+    margin-top: 10%;
+}
+
+ /*body para el menu lateral*/
+
+body {
+  font-family: 'Montserrat-UltraLight';
+  padding-left: 200px;
+}
+
+label.control-label{
+    font-size: 125%;
+    color: #FFF;
+}
+
+
+/*--------------- navbar editado --------------------*/
+/* navbar */
+.navbar-custom {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+/* Title */
+.navbar-custom .navbar-brand {
+    color: #777;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* Link */
+.navbar-custom .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* Caret */
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* Mobile version */
+.navbar-custom .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+          color: #333;
+    }
+}
+
+.login-dumit{
+    margin-top: 10%;
+}
+.main-sidebar{
+    margin-top: 60px;
+    width: 300px;
+}
+.button-sidebar{
+    margin-top: 50px;
+}
+.navmenu-fixed-left{
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navmenu{
+    -webkit-box-shadow: 6px 0px 7px 0px rgba(50, 50, 50, 0.75)!important;
+    -moz-box-shadow:    6px 0px 7px 0px rgba(50, 50, 50, 0.75)!important;
+    box-shadow:         6px 0px 7px 0px rgba(50, 50, 50, 0.75)!important;
+}
+
+
+@media (max-width: 991px) {
+    .navbar-toggle{
+        display: block!important;
+    }
+    
+}
