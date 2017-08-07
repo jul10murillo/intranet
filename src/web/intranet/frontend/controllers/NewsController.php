@@ -11,6 +11,7 @@ use yii\filters\VerbFilter;
 use yii\helpers\ArrayHelper;
 use yii\data\Pagination;
 use yii\filters\AccessControl;
+use yii\data\ArrayDataProvider;
 
 /**
  * NewsController implements the CRUD actions for News model.
@@ -31,11 +32,11 @@ class NewsController extends Controller
             ],
             'access' => [
                 'class' => AccessControl::className(),
-                'only'  => ['index','view', 'create', 'update','delete','show','search'],
+                'only'  => ['index','view', 'create', 'update','delete','show','search','rss','rssitem'],
                 'rules' => [
                     [
                         'allow'   => true,
-                        'actions' => ['index','view', 'create', 'update','delete','show','search'],
+                        'actions' => ['index','view', 'create', 'update','delete','show','search','rss','rssitem'],
                         'roles'   => ['@'],
                     ],
                 ],
@@ -200,6 +201,71 @@ class NewsController extends Controller
                     'pagination' => $pagination,
                     'count'      => $count,
                 ]) ;
+    }
+    
+    /**
+     * Metodo para capturar RSS
+     * @return type
+     */
+    public function actionRss() {
+        \Feed::$cacheExpire = '5 hours' ;
+        $sources            = News::find()->all() ;
+
+        foreach ($sources as $source) {
+            $rssData = \Feed::loadRss($source->news_link) ;
+            $rss     = $rssData->toArray() ;
+
+            $imageRss = isset($rss['image']) ? $rss['image']['url'] : "" ;
+            foreach ($rss['item'] as $value) {
+                preg_match_all('/<img[^>]+>/i', $value['description'], $result) ;
+                if (isset($result[0][0])) {
+                    preg_match('@src="([^"]+)"@', $result[0][0], $match) ;
+                    $image = $match[1] ;
+                } else {
+                    $image = $imageRss ;
+                }
+                $data[] = [
+                    'title'       => $rss['title'],
+                    'link'        => $rss['link'],
+                    'generator'   => $rss['link'],
+                    'image'       => $image,
+                    'pubDate'     => $value['pubDate'],
+                    'titleNews'   => $value['title'],
+                    'linkNews'    => $value['link'],
+                    'description' => $value['description'],
+                    'creator'     => $value['dc:creator'],
+                        ] ;
+            }
+        }
+
+        $provider = new ArrayDataProvider([
+            'allModels'  => $data,
+            'sort'       => [
+                'attributes' => ['pubDate'],
+            ],
+            'pagination' => [
+                'pageSize' => 6,
+            ],
+                ]) ;
+
+        return $this->render('rss', [
+                    'provider' => $provider
+        ]) ;
+    }
+    
+    function actionRssitem() {
+
+        $model = [
+            'titleNews'   => $_POST['titleNews'],
+            'description' => $_POST['description'],
+            'title'       => $_POST['title'],
+            'creator'     => $_POST['creator'],
+            'pubDate'     => $_POST['pubDate'],
+            'link'        => $_POST['link'],
+                ] ;
+        return $this->render('rssitem', [
+                    'model' => $model
+        ]) ;
     }
 
 }
