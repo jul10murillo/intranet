@@ -107,20 +107,24 @@ body {
 }
 
 .table-striped > tbody > tr:nth-of-type(odd) {
-  color: #dfe2e5;
-  background-color: #fff;
+    color: #3e3934;
+    background-color: #fff;
 }
 
 .table-striped > tbody > tr {
-  color: #3e3934;
+  background:#5b5f64;
 }
 
 .table-striped > tbody > tr > td > a{
-  color: #00d1e5;
+  font-weight: bold;
 }
 
 .table-striped > thead > tr > th > a{
-  color: #00d1e5;
+  color: #3e3934;
+}
+
+.glyphicon-pencil {
+    color: #00d1e5!important;
 }
 
 .summary{
@@ -477,7 +481,14 @@ body {
   padding: 3%;
 }
 
+.contenedor-news> a:hover {
+  text-decoration: none;
+}
 
+.boton_regresar > a, .boton_regresar > a:hover {
+  color:#8db559;
+  text-decoration: none;
+}
 /* NEWS BUSINESS */ 
 
 .pagination-news-business{

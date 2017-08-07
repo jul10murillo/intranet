@@ -118,8 +118,7 @@ class NewsbusinessController extends Controller
         $itemsData= \common\models\NewsCategory::find()->all();
         $items= \yii\helpers\ArrayHelper::map($itemsData,'categoryne_id','categoryne_name');
         
-//        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-        if ($model->load(Yii::$app->request->post())) {
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
             
             if (($model->file=UploadedFile::getInstance($model,'file'))!= NULL) {
                 $imageName= $model->nbusiness_title;
