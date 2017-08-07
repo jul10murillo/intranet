@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 28-07-2017 a las 15:28:17
+-- Tiempo de generación: 04-08-2017 a las 22:39:02
 -- Versión del servidor: 10.1.22-MariaDB
 -- Versión de PHP: 7.0.18
 
@@ -112,9 +112,10 @@ CREATE TABLE `auth_assignment` (
 --
 
 INSERT INTO `auth_assignment` (`item_name`, `user_id`, `created_at`) VALUES
+('admin', '5', 1501877956),
 ('yii2_example_group', '1', 1494941701),
 ('yii2_see_home_group', '3', 1493302134),
-('yii2_see_home_group', '5', 1495649714);
+('yii2_see_home_group', '5', 1501877956);
 
 -- --------------------------------------------------------
 

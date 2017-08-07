@@ -23,13 +23,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'nbusiness_id',
             'nbusiness_title',
-            'nbusiness_description:ntext',
+//            'nbusiness_description:ntext',
             ['attribute'=>'Imagen',
              'value'=>'nbusiness_image',
              'format' => ['image',['width'=>'30','height'=>'30']]],
             'nbusiness_date',
-            // 'categoryne_id',
-            // 'nbusiness_active',
+            'categoryne.categoryne_name',
+//            'nbusiness_active',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

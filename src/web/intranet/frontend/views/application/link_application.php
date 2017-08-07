@@ -42,7 +42,11 @@ use yii\helpers\Html ;
             </p>
         </div>
         <div class="btn-application">
-            <a href="<?php echo $row->application_url ; ?>" target="_blank">INICIAR</a>
+            <a href="<?php echo $row->application_url ; ?>" target="_blank">INICIAR
+<!--                <form>
+                    <input type="button" value="Iniciar" onClick="go();"/>
+                </form>-->
+               </a>
             <hr>
         </div>
         <?php
