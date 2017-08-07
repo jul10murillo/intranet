@@ -5,7 +5,7 @@
             <url>frontend/controllers/AnniversaryController.php</url>
             <bookmark id="1">
                 <name/>
-                <line>182</line>
+                <line>187</line>
                 <key/>
             </bookmark>
         </file>
@@ -14,13 +14,19 @@
         <group>
             <file>file:/var/www/intranet/src/web/intranet/frontend/views/site/index.php</file>
             <file>file:/var/www/intranet/src/web/intranet/frontend/web/css/blackstyle.css</file>
+            <file>file:/var/www/intranet/src/web/intranet/frontend/views/layouts/chanceTemplate.php</file>
+            <file>file:/var/www/intranet/src/web/intranet/frontend/views/anniversary/date.php</file>
+            <file>file:/var/www/intranet/src/web/intranet/frontend/views/news/show_news.php</file>
+            <file>file:/var/www/intranet/src/web/intranet/frontend/views/layouts/main.php</file>
+            <file>file:/var/www/intranet/src/web/intranet/frontend/web/css/jasny-bootstrap/css/jasny-bootstrap.css</file>
             <file>file:/var/www/intranet/src/web/intranet/frontend/web/css/site.css</file>
             <file>file:/var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/views/layouts/chanceTemplate.php</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/views/layouts/main.php</file>
+            <file>file:/var/www/intranet/src/web/intranet/frontend/views/news/lastrss.php</file>
+            <file>file:/var/www/intranet/src/web/intranet/composer.json</file>
             <file>file:/var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php</file>
             <file>file:/var/www/intranet/src/web/intranet/frontend/web/css/whitestyle.css</file>
-            <file>file:/var/www/intranet/src/web/intranet/frontend/web/css/jasny-bootstrap/css/jasny-bootstrap.css</file>
+            <file>file:/var/www/intranet/src/web/intranet/frontend/controllers/NewsController.php</file>
+            <file>file:/var/www/intranet/src/web/intranet/frontend/views/news/rss.php</file>
         </group>
     </open-files>
 </project-private>

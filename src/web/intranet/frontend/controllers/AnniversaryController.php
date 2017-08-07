@@ -108,8 +108,11 @@ class AnniversaryController extends \yii\web\Controller
                     $dateDay       = strtotime("+1 day", $date) ;
                     $dateInicio    = date("m-d", $dateDay) ;
                     $dateYear      = date("Y") ;
+                    $dateZ         = date((string)$dateYear.'-'.$dateInicio);
+
+                    $datezon       = gmdate($dateZ)."T16:25:00Z";
                     $usersActive[] = [
-                        'start' => date((string)$dateInicio.'-'.$dateYear),
+                        'start' => $datezon,
                         'title' => $userData->getFirstName().' '.$userData->getLastName(),
                         'description' => 'Aniversario de '.$userData->getFirstName().' '.$userData->getLastName(),
                         'color' => 'brown!important',
@@ -123,8 +126,10 @@ class AnniversaryController extends \yii\web\Controller
                     $dateDay       = strtotime("+1 day", $date) ;
                     $dateInicio    = date("m-d", $dateDay) ;
                     $dateYear      = date("Y") ;
+                    $dateZ         = date((string)$dateYear.'-'.$dateInicio) ;
+                    $datezon       = gmdate($dateZ)."T16:25:00Z" ;
                     $usersActive[] = [
-                        'start' => date((string)$dateInicio.'-'.$dateYear),
+                        'start' => $datezon,
                         'title' => $userData->getFirstName().' '.$userData->getLastName(),
                         'description' => 'Cumpleaños de '.$userData->getFirstName().' '.$userData->getLastName(),
                         'color' => '#00d1e5!important',

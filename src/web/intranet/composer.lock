@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "71831ba132e97f458b98eced0f50625d",
+    "content-hash": "409b70a1bd3b779c7b05cffb69d07e8d",
     "packages": [
         {
             "name": "2amigos/yii2-arrayquery-component",
@@ -650,6 +650,48 @@
                 "yii2"
             ],
             "time": "2017-02-06T04:31:14+00:00"
+        },
+        {
+            "name": "dg/rss-php",
+            "version": "v1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dg/rss-php.git",
+                "reference": "b33661748d89d8c0c288e8d86feada6018d05031"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dg/rss-php/zipball/b33661748d89d8c0c288e8d86feada6018d05031",
+                "reference": "b33661748d89d8c0c288e8d86feada6018d05031",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.2"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "http://davidgrudl.com"
+                }
+            ],
+            "description": "RSS & Atom Feeds for PHP is a very small and easy-to-use library for consuming an RSS and Atom feed",
+            "homepage": "https://github.com/dg/rss-php",
+            "keywords": [
+                "atom",
+                "feed",
+                "rss"
+            ],
+            "time": "2015-07-02T11:54:05+00:00"
         },
         {
             "name": "dmstr/yii2-adminlte-asset",
