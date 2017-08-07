@@ -125,6 +125,10 @@ body {
   color: #00d1e5;
 }
 
+.glyphicon-pencil {
+    color: #00d1e5!important;
+}
+
 .summary{
   color: #b6b6b6;
   text-align: right;
@@ -491,6 +495,14 @@ body {
   padding: 3%;
 }
 
+.contenedor-news> a:hover {
+  text-decoration: none;
+}
+
+.boton_regresar > a, .boton_regresar > a:hover {
+  color:#8db559;
+  text-decoration: none;
+}
 
 /* NEWS BUSINESS */ 
 
