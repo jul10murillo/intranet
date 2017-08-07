@@ -561,3 +561,12 @@ body {
 .media-heading{
     font-weight: bold;
 }
+
+.button-search{
+  background-color: #8db559;
+  border-style:none;
+  border-radius: 2px;
+  padding: 5px 10px;
+  float:right;
+  color: #FFF!important;
+}

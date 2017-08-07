@@ -210,7 +210,12 @@ class NewsController extends Controller
     public function actionRss() {
         \Feed::$cacheExpire = '5 hours' ;
         $sources            = News::find()->all() ;
-
+        $items = ArrayHelper::map($sources, 'news_id', 'news_channel');
+        $select = 0 ;
+        if (Yii::$app->request->isGet) {
+            $select = 1 ;
+        }
+        
         foreach ($sources as $source) {
             $rssData = \Feed::loadRss($source->news_link) ;
             $rss     = $rssData->toArray() ;
@@ -249,7 +254,9 @@ class NewsController extends Controller
                 ]) ;
 
         return $this->render('rss', [
-                    'provider' => $provider
+                    'provider' => $provider,
+                    'items' => $items,
+                    'select' => $select
         ]) ;
     }
     

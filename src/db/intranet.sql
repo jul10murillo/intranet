@@ -1,15 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.0
--- https://www.phpmyadmin.net/
+-- version 4.5.4.1deb2ubuntu2
+-- http://www.phpmyadmin.net
 --
--- Servidor: 127.0.0.1
--- Tiempo de generación: 04-08-2017 a las 22:39:02
--- Versión del servidor: 10.1.22-MariaDB
--- Versión de PHP: 7.0.18
+-- Servidor: localhost
+-- Tiempo de generación: 07-08-2017 a las 16:09:56
+-- Versión del servidor: 5.7.19-0ubuntu0.16.04.1
+-- Versión de PHP: 7.0.18-0ubuntu0.16.04.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -112,10 +110,71 @@ CREATE TABLE `auth_assignment` (
 --
 
 INSERT INTO `auth_assignment` (`item_name`, `user_id`, `created_at`) VALUES
-('admin', '5', 1501877956),
-('yii2_example_group', '1', 1494941701),
-('yii2_see_home_group', '3', 1493302134),
-('yii2_see_home_group', '5', 1501877956);
+('Administración', '113', 1501248805),
+('Administración', '149', 1501248806),
+('Administración', '15', 1501248800),
+('Administración', '152', 1501248807),
+('Administración', '153', 1501248807),
+('Administración', '157', 1501248807),
+('Administración', '174', 1501248808),
+('Administración', '200', 1501248808),
+('Administración', '203', 1501248807),
+('Administración', '228', 1501248808),
+('Administración', '230', 1501248804),
+('Administración', '231', 1501248804),
+('Administración', '24', 1501248801),
+('Administración', '46', 1501248801),
+('Administración', '48', 1501248802),
+('Administración', '49', 1501248802),
+('Administración', '68', 1501248803),
+('Administración', '69', 1501248803),
+('Administración', '72', 1501248803),
+('Administración', '75', 1501248802),
+('Administración', '76', 1501248803),
+('Administración', '84', 1501248803),
+('Administración', '95', 1501248804),
+('Administración', '97', 1501248804),
+('Buena Alimentacion', '29', 1501248801),
+('Buena Alimentacion', '90', 1501248802),
+('Informática', '11', 1501248800),
+('Informática', '110', 1501248805),
+('Informática', '116', 1501248807),
+('Informática', '12', 1501248800),
+('Informática', '13', 1501248800),
+('Informática', '3', 1501248804),
+('Informática', '4', 1501248805),
+('Informática', '5', 1501248803),
+('Informática', '85', 1501248804),
+('Informática', '94', 1501248804),
+('Inventario', '111', 1501248805),
+('Inventario', '114', 1501248805),
+('Inventario', '19', 1501248800),
+('Inventario', '23', 1501248801),
+('Inventario', '34', 1501248801),
+('Inventario', '73', 1501248803),
+('Inventario', '74', 1501248805),
+('Mercadeo', '67', 1501248803),
+('Mercadeo', '81', 1501248803),
+('Presidencia', '127', 1501248805),
+('Presidencia', '16', 1501248800),
+('RRHH', '106', 1501248805),
+('RRHH', '17', 1501248800),
+('RRHH', '18', 1501248801),
+('RRHH', '202', 1501248808),
+('RRHH', '205', 1501248808),
+('RRHH', '206', 1501248808),
+('RRHH', '22', 1501248801),
+('RRHH', '232', 1501248809),
+('RRHH', '40', 1501248802),
+('RRHH', '64', 1501248804),
+('RRHH', '65', 1501248802),
+('RRHH', '78', 1501248803),
+('RRHH', '79', 1501248803),
+('RRHH', '8', 1501248801),
+('RRHH', '87', 1501248804),
+('RRHH', '89', 1501248801),
+('RRHH', '9', 1501248800),
+('Servicios Generales', '7', 1501248801);
 
 -- --------------------------------------------------------
 
@@ -138,12 +197,17 @@ CREATE TABLE `auth_item` (
 --
 
 INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES
-('admin', 1, NULL, NULL, NULL, 1493232743, 1493232743),
-('permissionDisplayDetailedAbout', 2, 'Permission to display detailed about informations', NULL, NULL, 1492787312, 1492787312),
-('permissionToSeeHome', 2, 'Permission to use the home page', NULL, NULL, 1492787313, 1492787313),
-('permissionToUseContanctPage', 2, 'Permission to use the contanct page', NULL, NULL, 1492787312, 1492787312),
-('yii2_example_group', 1, NULL, NULL, NULL, 1492787312, 1492787312),
-('yii2_see_home_group', 1, NULL, NULL, NULL, 1492787313, 1492787313);
+('Administración', 1, NULL, NULL, NULL, 1501248800, 1501248800),
+('Buena Alimentacion', 1, NULL, NULL, NULL, 1501248801, 1501248801),
+('editLink', 2, 'permite editar los links', NULL, NULL, 1501248925, 1501248925),
+('editMision', 2, 'Permite editar misión y visión', NULL, NULL, 1501248892, 1501248892),
+('editNews', 2, 'Permite editar Noticias', NULL, NULL, 1501248845, 1501248845),
+('Informática', 1, NULL, NULL, NULL, 1501248800, 1501248942),
+('Inventario', 1, NULL, NULL, NULL, 1501248800, 1501248800),
+('Mercadeo', 1, NULL, NULL, NULL, 1501248802, 1501248802),
+('Presidencia', 1, NULL, NULL, NULL, 1501248800, 1501248800),
+('RRHH', 1, NULL, NULL, NULL, 1501248800, 1501248800),
+('Servicios Generales', 1, NULL, NULL, NULL, 1501248801, 1501248801);
 
 -- --------------------------------------------------------
 
@@ -161,9 +225,9 @@ CREATE TABLE `auth_item_child` (
 --
 
 INSERT INTO `auth_item_child` (`parent`, `child`) VALUES
-('yii2_example_group', 'permissionDisplayDetailedAbout'),
-('yii2_example_group', 'permissionToUseContanctPage'),
-('yii2_see_home_group', 'permissionToSeeHome');
+('Informática', 'editLink'),
+('Informática', 'editMision'),
+('Informática', 'editNews');
 
 -- --------------------------------------------------------
 
@@ -363,9 +427,9 @@ CREATE TABLE `news` (
 --
 
 INSERT INTO `news` (`news_id`, `news_channel`, `news_title`, `news_link`, `news_description`, `categoryne_id`) VALUES
-(1, 'CNN', 'Tecnologia', 'http://rss.cnn.com/rss/edition_technology.rss', 'Noticias tecnológica', 1),
 (2, 'Xataka', 'Tecnología', 'http://www.xataka.com/atom.xml', 'Noticias de Tecnología', 1),
-(4, 'ABC', 'Tecnología', 'http://www.abc.es/rss/feeds/abc_Tecnologia.xml', 'Noticias de tecnología', 1);
+(4, 'ABC', 'Tecnología', 'http://www.abc.es/rss/feeds/abc_Tecnologia.xml', 'Noticias de tecnología', 1),
+(5, 'Genbeta', 'Tecnología', 'http://feeds.weblogssl.com/genbeta', 'Tecnología', 1);
 
 -- --------------------------------------------------------
 
@@ -444,7 +508,6 @@ INSERT INTO `user` (`id`, `username`, `auth_key`, `status`, `created_at`, `updat
 (3, 'fsilva', '4RLEk3q2TlzjeCSTciYV6ul-0VLJXdaz', 1, 1492802509, 1492802509, 'blackstyle.css'),
 (4, 'vgazcon', 'BBqTpyDzUhw0nTB3VuZzt99NMxPDsGOh', 1, 1493211033, 1493211033, 'blackstyle.css'),
 (5, 'ylopez', 'QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B', 1, 1495649714, 1500404643, 'whitestyle.css'),
-(6, 'Invitado', 'au3a87ZWsRzMKDXJiHmGgbs-Sp-RABBp', 0, 1499112670, 1499112670, 'blackstyle.css'),
 (7, 'ebarrios', 'qlSVgdHPhaMnVrHhbJThb-KMVSdSsW7e', 1, 1499112670, 1499112670, 'blackstyle.css'),
 (8, 'jfranco', 'S6e2VNnZnVN-J7G7K5JD1P6HPzYLwAFK', 1, 1499112671, 1499112671, 'blackstyle.css'),
 (9, 'dzapata', '3MSiCL4Jt8HyuYgDBmimQckE5LKe_IJd', 1, 1499112671, 1499112671, 'blackstyle.css'),
@@ -469,19 +532,14 @@ INSERT INTO `user` (`id`, `username`, `auth_key`, `status`, `created_at`, `updat
 (28, 'vst.lidercaballeros', 'lFwxyDI6aXnmIRJhrxanWyuh0hIbGFJk', 1, 1499112671, 1499112671, 'blackstyle.css'),
 (29, 'oguevara', 'jJQsGzZDpggf99wArp_icox744nCBS-m', 1, 1499112671, 1499112671, 'blackstyle.css'),
 (30, 'aishopccct', '1uCE7UL3JUiwNlG7YvJsBqonXcC-SZ81', 1, 1499112671, 1499112671, 'blackstyle.css'),
-(31, 'afigueroa', 'hsmwTIPznQUXFzzH9oEQa6Oj7Iuc-CeZ', 1, 1499112671, 1499112671, 'blackstyle.css'),
 (32, 'aislido', 'i5TYpSFyvWGkLpoIdzacHdcUPVrxZOXX', 1, 1499112671, 1499112671, 'blackstyle.css'),
 (33, 'xin.ccct', 'MGsRzaM7eoZLDQG3xsYHjk0HrsYNnBob', 1, 1499112671, 1499112671, 'blackstyle.css'),
 (34, 'elopez', 'evSqtZWvfP6z3zIa8cVSEbmjalnAmPZZ', 1, 1499112671, 1499112671, 'blackstyle.css'),
 (35, 'recepcionpb01', 'Z74RksCKhYskTxr-iYImQGfRQscyy1Ga', 1, 1499112671, 1499112671, 'blackstyle.css'),
 (36, 'ICG18', 'Q4A6lSXKWCg4gykTSYWTwWL9PZGomBRz', 1, 1499112671, 1499112671, 'blackstyle.css'),
-(37, 'icg19', 'FV7sYZ4n53xd3nWfZ-ctQ4vTqpLOehXg', 0, 1499112672, 1499112672, 'blackstyle.css'),
-(38, 'ICG20', 'LoRp9D7jfhgTGZAbPSpnSe5vka8mD6eH', 0, 1499112672, 1499112672, 'blackstyle.css'),
 (39, 'mcaldeira', 'xsHYieXiRrzhNDIAR9HnMpSQ9-SfnO_w', 1, 1499112672, 1499112672, 'blackstyle.css'),
 (40, 'rcelis', '39SCn3kQ-6j5bgwj_WDFQxrL7l8MjzF7', 1, 1499112672, 1499112672, 'blackstyle.css'),
 (41, 'amoncada', 's0MpMeMglxunTJwzOF81vwx-u83y67_u', 1, 1499112672, 1499112672, 'blackstyle.css'),
-(42, 'krbtgt', 'hbYjh0I3USnucAsvYfD_Pc1L9SQNEy9-', 0, 1499112672, 1499112672, 'blackstyle.css'),
-(43, 'SUPPORT_388945a0', 'XJl_tOildYSnuwnvijMBuYFVQvXbw0RL', 0, 1499112672, 1499112672, 'blackstyle.css'),
 (44, 'IWAM_GDPROFIT', 'cw9prLeaGeGxepRxAgH4EDS5FSyRqkeR', 1, 1499112672, 1499112672, 'blackstyle.css'),
 (45, 'recepcionpb02', 'pzdDBXv2puQ2VoNJPzTK0ox6fkJlKL8j', 1, 1499112672, 1499112672, 'blackstyle.css'),
 (46, 'zortega', 'ld5A8BoSHdnEyDuc1OwW7V7-yI0Y7Ywr', 1, 1499112672, 1499112672, 'blackstyle.css'),
@@ -520,27 +578,20 @@ INSERT INTO `user` (`id`, `username`, `auth_key`, `status`, `created_at`, `updat
 (79, 'jKiss', 'Lo1DltuizlJEewj5sbh8sc56-Kp0KZh5', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (80, 'kchacon', 'PQlCtpP9zlWrCcJzvJCljhhvu7GyY9LO', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (81, 'eblanco', 'Caq8YoOyRCWebhsRaLoYjLIcnKjgzo31', 1, 1499112673, 1499112673, 'blackstyle.css'),
-(82, 'ehernandez', '5wIYRqNz7BaZutOpMmr8iqoOhWS380H4', 0, 1499112673, 1499112673, 'blackstyle.css'),
 (83, 'ndsantos', 'wb-Pssx3Opv1COXLRzIyzflTMLoT4ZHE', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (84, 'ygarcia', 'xt0skmx9RtEVay-x8NIAh7-Lbiaidinq', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (85, 'eperalta', 'lnalKJhUVxnIdNQqvQyNiDjmgmwyvjq7', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (86, 'abatatina', 'bO9QX8u6GcLDqG2PNQN_KmAdGQO93L3f', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (87, 'juzcategui', 'Fw_0MwkG8lD973R1P7rrrvI5ECkW2evT', 1, 1499112673, 1499112673, 'blackstyle.css'),
-(88, 'addiaz', 'oBT6cQpr1-DwqRC6hxFnFGIiY9AUoOon', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (89, 'cmartinez', 'XSdBY3psfHkD7UlfNJrFyaLJBuK4_NSk', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (90, 'ymelo', 'ymvaOZTzuizhzFC2hEIhsQuaRYJV-xfu', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (91, 'aissagd', 'zw1AhFAS7TCM_oNKrI-1Rkg_ShF1YSbc', 1, 1499112673, 1499112673, 'blackstyle.css'),
-(92, 'agarcia', 'qVvBMhVLY9YIEH_BP4hJWfpZhb80DdzO', 0, 1499112673, 1499112673, 'blackstyle.css'),
 (93, 'aiscab', 'gH8GeijsLcizEA8TaeF7_gkQHgMh9YNS', 1, 1499112673, 1499112673, 'blackstyle.css'),
-(94, 'aalvarado', '9-zmqyxr0ynDw-WLn0MGdBJH3y-hzkLX', 0, 1499112673, 1499112673, 'blackstyle.css'),
 (95, 'lrequena', 'erfppikf9MwB4kXCRVKYGSEdGlTxc10V', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (96, 'capacitacion', 'Olebz6H94XZgxCQqAL6kCZBpceQ2nlYY', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (97, 'ybriceño', 'JIUE2DeRLo4fDf573PG3KNk5KAusAi9L', 1, 1499112673, 1499112673, 'blackstyle.css'),
-(98, 'ngoncalves', 'Ox4mPxJeYAHQBl9D8PSoOu8T5Ww2hjM7', 0, 1499112673, 1499112673, 'blackstyle.css'),
-(99, 'kgonzalez', 'jtc2DIsWhniJWjI1T7DnNfK3L0Ip0gfq', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (100, 'sgomez', 'p-a9HAAHDlIMMY0BRKbZfeYiwAH5wrct', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (101, 'ralves', 'X_xQ0TvnGM0KLb0TxMQqGzZ_DOcgF0pD', 1, 1499112673, 1499112673, 'blackstyle.css'),
-(102, 'varevalo', 'rnrIYOGxdlnWhLsGSDLVK2wm_O8YVb3B', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (103, 'cguzman', 'ZcbIx6krd3FhqDQdCWoUpXdoiUUZugCP', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (104, 'yrivas', '6dSWNaTME5n6AQx_xcCXf57f5FmSDTdF', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (105, 'rserpa', 'Bg0FPq9zcMbk5ohn1_lGyfI2RkzmYE1d', 1, 1499112673, 1499112673, 'blackstyle.css'),
@@ -568,25 +619,14 @@ INSERT INTO `user` (`id`, `username`, `auth_key`, `status`, `created_at`, `updat
 (127, 'GDA_Owner', 'XtDVjnk6Kw1F0oSsw7CeRyGOxx5NLuLq', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (128, 'Contabilidad1', 'xgLtw_uV7WpmtRrkL38OS5nIg27RsxSg', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (129, 'Mchachati', '2yWR1o9gJUYsm2yVlpswH7p97wSXN23T', 1, 1499112674, 1499112674, 'blackstyle.css'),
-(130, 'ICG01', 'bOwSyobJj8hOgVL01u4jq4sh7Z-9p-TG', 0, 1499112674, 1499112674, 'blackstyle.css'),
 (131, 'Maturin', 'EdH2NBcVGhUdMXAVcmY8X_VBcl6syNYx', 1, 1499112674, 1499112674, 'blackstyle.css'),
-(132, 'ICG02', 'eIyuRU_4IoUvxXlKFkJpv0YDmlFbSueg', 0, 1499112674, 1499112674, 'blackstyle.css'),
-(133, 'ICG03', '6-qY_E_jyAOQxFTrAgn7ZHYDsGN_Wu95', 0, 1499112674, 1499112674, 'blackstyle.css'),
-(134, 'ICG04', 'r3hEfUUTO2fHHBDOzWpiEInUqH_TbTHB', 0, 1499112674, 1499112674, 'blackstyle.css'),
 (135, 'ICG05', 'g3VtXGPBZViLHCbQn-xJf--QZxal9Je7', 1, 1499112674, 1499112674, 'blackstyle.css'),
-(136, 'ICG06', 'JqBtXMTrHebHu0G8DS3dvjt4smWQ5e5t', 0, 1499112674, 1499112674, 'blackstyle.css'),
-(137, 'ICG07', 'RrclofixwSiAKREOkM_1mGg773mxQ5Se', 0, 1499112674, 1499112674, 'blackstyle.css'),
-(138, 'ICG08', 'lh-7qGb0Ytfn4TT_yKTT8xagNsNpdmNy', 0, 1499112674, 1499112674, 'blackstyle.css'),
-(139, 'sanlong', 'xApLjc-gB47TCfAEWFuSw7tj7arwdz2X', 0, 1499112674, 1499112674, 'blackstyle.css'),
 (140, 'contabilidad9', '653EMa88ydr7l3GEXuQEClX7toGWq1aV', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (141, 'contabilidad10', '896kamZDb7fL9mniDv7-2-X6v7vkZUVY', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (142, 'mcsamaniego', 'SjUn7MHO9mrN31_nn4vB9E9uFUfevOvM', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (143, 'naifmaturin', 'w9_FLpP7-6j38BMi3UeS4cU5L-ux-nmM', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (144, 'L19', '1JbpOyELIQlu5f-2iUwflw3vC-dQHHkJ', 1, 1499112674, 1499112674, 'blackstyle.css'),
-(145, 'ICG10', 'MoC9PmUjnDsqOHZj_nuc0OO4IqucMzGu', 0, 1499112674, 1499112674, 'blackstyle.css'),
-(146, 'crevilla', 'ZDaD5l1yhYTcep3FtiBSF5rnx5RkDJDQ', 0, 1499112674, 1499112674, 'blackstyle.css'),
 (147, 'Administrador', 'hoplPv69Szi4GmeD7FDU4SPsOh1ABFKB', 1, 1499112674, 1499112674, 'blackstyle.css'),
-(148, 'vwalo', 'niL-egeCYVLBdqkDls4focEbl4MpHvYP', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (149, 'wbaldes', 'T2fHj5y_mNdGstcOsg5J8Xw4SC7t6C8j', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (150, 'GDA_inv01', 'bnrEwNq2ALvO3Y5zkiGVuyG5p4d1w2Qd', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (151, 'GDA_Super01', '-m-yke5wIoevPw1rim8JEUR6kPF2gVOB', 1, 1499112674, 1499112674, 'blackstyle.css'),
@@ -605,12 +645,10 @@ INSERT INTO `user` (`id`, `username`, `auth_key`, `status`, `created_at`, `updat
 (164, 'contabilidad6', 'RiTz7vGzmi4TK_01QUuWwPGtwIkwP4TK', 1, 1499112675, 1499112675, 'blackstyle.css'),
 (165, 'contabilidad7', 'SCbmyYOb0dwSgJMOtFVN4TBntiIrXV5g', 1, 1499112675, 1499112675, 'blackstyle.css'),
 (166, 'contabilidad8', 'OmKIJ8d1sIIMN5EYNUd2VG1jkabYQU7N', 1, 1499112675, 1499112675, 'blackstyle.css'),
-(167, 'dzorrilla', 'FE87Dyguek3bGlV-sJQ47kMItAlKBubE', 0, 1499112675, 1499112675, 'blackstyle.css'),
 (168, 'F05', 'CDeMB-hNcoj6Qjisrd8j6cpkmfqScgLc', 1, 1499112675, 1499112675, 'blackstyle.css'),
 (169, 'Forest', 'foeoTMA5ND3AIGPSnNvPIRqJJQfU2vBW', 1, 1499112675, 1499112675, 'blackstyle.css'),
 (170, 'Foru', 'yhuxtUJ5jZ5WLDI4XTt2up48JkFvP3cn', 1, 1499112675, 1499112675, 'blackstyle.css'),
 (171, 'Guatire', 'nTsVe3-JjQei7Ejl2qMbnFInQfL5mk0J', 1, 1499112675, 1499112675, 'blackstyle.css'),
-(172, 'ICG09', 'WgXyG1zJkOtb1dfsFgEjyfxWF1ctiNeq', 0, 1499112675, 1499112675, 'blackstyle.css'),
 (173, 'Sramos', '9yetqoiusw5m3QpJgJNr0JrAS5PgFRaA', 1, 1499112675, 1499112675, 'blackstyle.css'),
 (174, 'vrebolledo', 'TQPQto73RkJKKjtSnPNG0mKLvDYScAaN', 1, 1499112675, 1499112675, 'blackstyle.css'),
 (175, 'joanne.parks', 'PPqFHlaioh9jeNMFOIZpzPv6qX6k5Jzq', 1, 1499112675, 1499112675, 'blackstyle.css'),
@@ -645,8 +683,6 @@ INSERT INTO `user` (`id`, `username`, `auth_key`, `status`, `created_at`, `updat
 (204, 'CHMercedes', 'iW7ubh9qeHVP30IPT1OwaybDc4w7QqHS', 1, 1499112675, 1499112675, 'blackstyle.css'),
 (205, 'LDelgado', '-klThzo0H-fMEtpzXvmpRs8hlvqfE6gd', 1, 1499112676, 1499112676, 'blackstyle.css'),
 (206, 'MQuercia', 'h-7r28vzPy8qwQmosLVRTMqHUVKitwGq', 1, 1499112676, 1499112676, 'blackstyle.css'),
-(207, 'ICG11', 'iIfrbs9F6CEiLByT3sujlOyhFsxRb2yZ', 0, 1499112676, 1499112676, 'blackstyle.css'),
-(208, 'ICG12', 'GBTJMiLOYeyjP1q0SP5dSOXEXZumBHzt', 0, 1499112676, 1499112676, 'blackstyle.css'),
 (209, 'xinhatillo', 'mwa0k-Ahf0bW8FvrcR7B9-WCj9TXSmvK', 1, 1499112676, 1499112676, 'blackstyle.css'),
 (210, 'Adolfoaeropuerto', '9RdbHJVddfqhN30wzrg3JRdYNSk_61bj', 1, 1499112676, 1499112676, 'blackstyle.css'),
 (211, 'Arecreo', 'mFmkWEA8j4Qe0IH9EIE21RKeYC4mp3hx', 1, 1499112676, 1499112676, 'blackstyle.css'),
@@ -657,18 +693,14 @@ INSERT INTO `user` (`id`, `username`, `auth_key`, `status`, `created_at`, `updat
 (216, 'CHaeropuerto', 'cilehVywIDw6maflVEo-LrDj3N0VUDGs', 1, 1499112676, 1499112676, 'blackstyle.css'),
 (217, 'ipinto', 'wESWn3y_l2BhZ3H5uzaljgx8zwI7Cfro', 1, 1499112676, 1499112676, 'blackstyle.css'),
 (218, 'Sancristobal', 'wabfFuaFGzfVkJG73iFEx9XUFFhJwF1V', 1, 1499112676, 1499112676, 'blackstyle.css'),
-(219, 'ICG13', '577XwT-Z_hwzJy6IYRDrfKvwf_C1O3U_', 0, 1499112676, 1499112676, 'blackstyle.css'),
-(220, 'ICG14', 'OeFpJEqBdWlDqq7sobekp4BZv-hLFMZA', 0, 1499112676, 1499112676, 'blackstyle.css'),
-(221, 'ICG15', 'O0wudckHBFtbXeY0EKZiGj9YDJfumMhv', 0, 1499112676, 1499112676, 'blackstyle.css'),
-(222, 'ICG16', 'poZPdZUPJdcio9dRkjPj0nPSf7q7zM9m', 0, 1499112676, 1499112676, 'blackstyle.css'),
-(223, 'ICG17', 'mW4rUQzYgSY1o42ZpV0m3zKRQ5wzTjor', 0, 1499112676, 1499112676, 'blackstyle.css'),
 (224, 'Aldo', 'UhijT6NYKOMGnZUtgrbUjM6T28tSp0P7', 1, 1499112676, 1499112676, 'blackstyle.css'),
 (225, 'Aishopm', 'Fdc9OvsrfPWJUlxONUP_mkvDGeGMaTII', 1, 1499112676, 1499112676, 'blackstyle.css'),
 (226, 'CHMargarita', 'cZnKCTLFu2UU7YEB10k1Jid_F1zfcGON', 1, 1499112676, 1499112676, 'blackstyle.css'),
 (227, 'PGMargarita', 'jxq-DgwSKqSAFAfoFS1drygYAVgvXcYy', 1, 1499112676, 1499112676, 'blackstyle.css'),
 (228, 'aromero', 'NF1Nu6vwOn3kIqDs0k3agFP-TVXWtfOo', 1, 1499112676, 1499112676, 'blackstyle.css'),
-(229, 'amedina', '651_0boGAqcshm9DgcmB6ve-dKXFWXdd', 0, 1499112676, 1499112676, 'blackstyle.css'),
-(230, 'ysalazar', 'mG3atfBBXO9av9nADf0bYDNF6h3-N6oQ', 1, 1499112676, 1499112676, 'blackstyle.css');
+(230, 'ysalazar', 'mG3atfBBXO9av9nADf0bYDNF6h3-N6oQ', 1, 1499112676, 1499112676, 'blackstyle.css'),
+(231, 'dhernandez', 'uzFeNOQDyHO9nMgghRU17oUCHsBzxo2O', 1, 1501248804, 1501248804, 'blackstyle.css'),
+(232, 'mguzman', 'LvccYy80cNEkZEv9OWa5jpW_bp_dLk0h', 1, 1501248809, 1501248809, 'blackstyle.css');
 
 -- --------------------------------------------------------
 
@@ -686,6 +718,7 @@ CREATE TABLE `user_profile` (
 --
 
 INSERT INTO `user_profile` (`id`, `template`) VALUES
+(1, 'blackstyle.css'),
 (5, 'blackstyle.css');
 
 --
@@ -868,7 +901,7 @@ ALTER TABLE `link_category`
 -- AUTO_INCREMENT de la tabla `news`
 --
 ALTER TABLE `news`
-  MODIFY `news_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `news_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT de la tabla `news_business`
 --
@@ -883,7 +916,7 @@ ALTER TABLE `news_category`
 -- AUTO_INCREMENT de la tabla `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=231;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=233;
 --
 -- Restricciones para tablas volcadas
 --
@@ -949,7 +982,6 @@ ALTER TABLE `news`
 --
 ALTER TABLE `news_business`
   ADD CONSTRAINT `news_business_ibfk_1` FOREIGN KEY (`categoryne_id`) REFERENCES `news_category` (`categoryne_id`);
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

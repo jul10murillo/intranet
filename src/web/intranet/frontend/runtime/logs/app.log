@@ -24569,3 +24569,1593 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1502120979.78
     'REQUEST_TIME' => 1502120979
 ]
+2017-08-07 18:55:36 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/BusinessController.php:133
+2017-08-07 18:55:36 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'business/search'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=news%2Frss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '40872'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=business%2Fsearch&id=1'
+    'REQUEST_URI' => '/index.php?r=business%2Fsearch&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502132136.091
+    'REQUEST_TIME' => 1502132136
+]
+2017-08-07 18:55:43 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/NewsController.php:259
+2017-08-07 18:55:40 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'news/rss'
+    'page' => '2'
+    'per-page' => '6'
+]
+
+$_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=news%2Frss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '40872'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Frss&page=2&per-page=6'
+    'REQUEST_URI' => '/index.php?r=news%2Frss&page=2&per-page=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502132140.157
+    'REQUEST_TIME' => 1502132140
+]
+2017-08-07 18:56:58 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/NewsController.php:259
+2017-08-07 18:56:56 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'news/rss'
+    'page' => '2'
+    'per-page' => '6'
+]
+
+$_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=news%2Frss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '41650'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Frss&page=2&per-page=6'
+    'REQUEST_URI' => '/index.php?r=news%2Frss&page=2&per-page=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502132216.879
+    'REQUEST_TIME' => 1502132216
+]
+2017-08-07 19:14:16 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/NewsController.php:259
+2017-08-07 19:14:15 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'news/rss'
+    'page' => '2'
+    'per-page' => '6'
+]
+
+$_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=news%2Frss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '50168'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Frss&page=2&per-page=6'
+    'REQUEST_URI' => '/index.php?r=news%2Frss&page=2&per-page=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502133255.133
+    'REQUEST_TIME' => 1502133255
+]
+2017-08-07 19:14:25 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/NewsController.php:259
+2017-08-07 19:14:24 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'news/rss'
+    'page' => '2'
+    'per-page' => '6'
+]
+
+$_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=news%2Frss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '50170'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Frss&page=2&per-page=6'
+    'REQUEST_URI' => '/index.php?r=news%2Frss&page=2&per-page=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502133264.482
+    'REQUEST_TIME' => 1502133264
+]
+2017-08-07 19:14:35 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/NewsController.php:259
+2017-08-07 19:14:33 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'news/rss'
+    'page' => '2'
+    'per-page' => '6'
+]
+
+$_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=news%2Frss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '50356'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Frss&page=2&per-page=6'
+    'REQUEST_URI' => '/index.php?r=news%2Frss&page=2&per-page=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502133273.713
+    'REQUEST_TIME' => 1502133273
+]
+2017-08-07 19:14:46 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/NewsController.php:259
+2017-08-07 19:14:44 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'news/rss'
+    'page' => '2'
+    'per-page' => '6'
+]
+
+$_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_identity-frontend' => '3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=news%2Frss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _identity-frontend=3e7af3e9aa27047259f3ecad9b1d36226db9d28ccacbdc43f46bd5b3e8454c70a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22nDs3iQfHsHvYjjGRgkaT_GJzq5Ep1sbp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '50462'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Frss&page=2&per-page=6'
+    'REQUEST_URI' => '/index.php?r=news%2Frss&page=2&per-page=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502133284.816
+    'REQUEST_TIME' => 1502133284
+]
+2017-08-07 19:23:37 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/NewsController.php:259
+2017-08-07 19:23:35 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'news/rss'
+    'page' => '2'
+    'per-page' => '6'
+]
+
+$_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=news%2Frss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '55138'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Frss&page=2&per-page=6'
+    'REQUEST_URI' => '/index.php?r=news%2Frss&page=2&per-page=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502133815.099
+    'REQUEST_TIME' => 1502133815
+]
+2017-08-07 20:01:38 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/BusinessController.php:133
+2017-08-07 20:01:37 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'business/search'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=news%2Frss&page=2&per-page=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '45734'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=business%2Fsearch&id=1'
+    'REQUEST_URI' => '/index.php?r=business%2Fsearch&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502136097.453
+    'REQUEST_TIME' => 1502136097
+]
+2017-08-07 20:01:42 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/SiteController.php:69
+2017-08-07 20:01:42 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=business%2Fsearch&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '45734'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502136102.197
+    'REQUEST_TIME' => 1502136102
+]
+2017-08-07 20:02:26 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/NewsController.php:259
+2017-08-07 20:02:23 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'news/rss'
+    'page' => '2'
+    'per-page' => '6'
+]
+
+$_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=news%2Frss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '46128'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Frss&page=2&per-page=6'
+    'REQUEST_URI' => '/index.php?r=news%2Frss&page=2&per-page=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502136143.525
+    'REQUEST_TIME' => 1502136143
+]
+2017-08-07 20:02:27 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/SiteController.php:69
+2017-08-07 20:02:27 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/js/jquery.qtip.min.map'
+    'REDIRECT_SCRIPT_URI' => 'http://intranet.local/js/jquery.qtip.min.map'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/js/jquery.qtip.min.map'
+    'SCRIPT_URI' => 'http://intranet.local/js/jquery.qtip.min.map'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '46170'
+    'REDIRECT_URL' => '/js/jquery.qtip.min.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/jquery.qtip.min.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1502136147.276
+    'REQUEST_TIME' => 1502136147
+]
+2017-08-07 20:02:48 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/SiteController.php:69
+2017-08-07 20:02:47 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=news%2Frss&page=2&per-page=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '46364'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502136167.732
+    'REQUEST_TIME' => 1502136167
+]
+2017-08-07 20:02:49 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/SiteController.php:69
+2017-08-07 20:02:49 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/js/jquery.qtip.min.map'
+    'REDIRECT_SCRIPT_URI' => 'http://intranet.local/js/jquery.qtip.min.map'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/js/jquery.qtip.min.map'
+    'SCRIPT_URI' => 'http://intranet.local/js/jquery.qtip.min.map'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '46370'
+    'REDIRECT_URL' => '/js/jquery.qtip.min.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/jquery.qtip.min.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1502136169.094
+    'REQUEST_TIME' => 1502136169
+]
+2017-08-07 20:03:28 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/NewsController.php:259
+2017-08-07 20:03:26 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'news/rss'
+    'page' => '2'
+    'per-page' => '6'
+]
+
+$_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=news%2Frss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '46688'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Frss&page=2&per-page=6'
+    'REQUEST_URI' => '/index.php?r=news%2Frss&page=2&per-page=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502136206.398
+    'REQUEST_TIME' => 1502136206
+]
+2017-08-07 20:03:29 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/SiteController.php:69
+2017-08-07 20:03:29 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/js/jquery.qtip.min.map'
+    'REDIRECT_SCRIPT_URI' => 'http://intranet.local/js/jquery.qtip.min.map'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/js/jquery.qtip.min.map'
+    'SCRIPT_URI' => 'http://intranet.local/js/jquery.qtip.min.map'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '46726'
+    'REDIRECT_URL' => '/js/jquery.qtip.min.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/jquery.qtip.min.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1502136209.433
+    'REQUEST_TIME' => 1502136209
+]
+2017-08-07 20:03:36 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/NewsController.php:259
+2017-08-07 20:03:35 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'news/rss'
+    'page' => '2'
+    'per-page' => '6'
+]
+
+$_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=news%2Frss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '46782'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Frss&page=2&per-page=6'
+    'REQUEST_URI' => '/index.php?r=news%2Frss&page=2&per-page=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502136215.199
+    'REQUEST_TIME' => 1502136215
+]
+2017-08-07 20:03:37 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/SiteController.php:69
+2017-08-07 20:03:37 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/js/jquery.qtip.min.map'
+    'REDIRECT_SCRIPT_URI' => 'http://intranet.local/js/jquery.qtip.min.map'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/js/jquery.qtip.min.map'
+    'SCRIPT_URI' => 'http://intranet.local/js/jquery.qtip.min.map'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '46804'
+    'REDIRECT_URL' => '/js/jquery.qtip.min.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/jquery.qtip.min.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1502136217.288
+    'REQUEST_TIME' => 1502136217
+]
+2017-08-07 20:03:51 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/SiteController.php:69
+2017-08-07 20:03:51 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=news%2Frss&page=2&per-page=6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '46944'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502136231.84
+    'REQUEST_TIME' => 1502136231
+]
+2017-08-07 20:03:52 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/SiteController.php:69
+2017-08-07 20:03:52 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/js/jquery.qtip.min.map'
+    'REDIRECT_SCRIPT_URI' => 'http://intranet.local/js/jquery.qtip.min.map'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/js/jquery.qtip.min.map'
+    'SCRIPT_URI' => 'http://intranet.local/js/jquery.qtip.min.map'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '46952'
+    'REDIRECT_URL' => '/js/jquery.qtip.min.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/jquery.qtip.min.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1502136232.531
+    'REQUEST_TIME' => 1502136232
+]
+2017-08-07 20:05:03 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/NewsController.php:259
+2017-08-07 20:05:02 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'news/rss'
+    'page' => '2'
+    'per-page' => '6'
+]
+
+$_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=news%2Frss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '47520'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Frss&page=2&per-page=6'
+    'REQUEST_URI' => '/index.php?r=news%2Frss&page=2&per-page=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502136302.35
+    'REQUEST_TIME' => 1502136302
+]
+2017-08-07 20:05:03 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/SiteController.php:69
+2017-08-07 20:05:03 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/js/jquery.qtip.min.map'
+    'REDIRECT_SCRIPT_URI' => 'http://intranet.local/js/jquery.qtip.min.map'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/js/jquery.qtip.min.map'
+    'SCRIPT_URI' => 'http://intranet.local/js/jquery.qtip.min.map'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '47544'
+    'REDIRECT_URL' => '/js/jquery.qtip.min.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/jquery.qtip.min.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1502136303.919
+    'REQUEST_TIME' => 1502136303
+]
+2017-08-07 20:05:32 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/NewsController.php:259
+2017-08-07 20:05:31 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'news/rss'
+    'page' => '2'
+    'per-page' => '6'
+]
+
+$_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=news%2Frss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '47782'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Frss&page=2&per-page=6'
+    'REQUEST_URI' => '/index.php?r=news%2Frss&page=2&per-page=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502136331.128
+    'REQUEST_TIME' => 1502136331
+]
+2017-08-07 20:05:33 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/SiteController.php:69
+2017-08-07 20:05:33 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/js/jquery.qtip.min.map'
+    'REDIRECT_SCRIPT_URI' => 'http://intranet.local/js/jquery.qtip.min.map'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/js/jquery.qtip.min.map'
+    'SCRIPT_URI' => 'http://intranet.local/js/jquery.qtip.min.map'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '47804'
+    'REDIRECT_URL' => '/js/jquery.qtip.min.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/jquery.qtip.min.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1502136333.31
+    'REQUEST_TIME' => 1502136333
+]
+2017-08-07 20:05:41 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/NewsController.php:259
+2017-08-07 20:05:40 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'news/rss'
+    'page' => '2'
+    'per-page' => '6'
+]
+
+$_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'SCRIPT_URL' => '/index.php'
+    'SCRIPT_URI' => 'http://intranet.local/index.php'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://intranet.local/index.php?r=news%2Frss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '47878'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Frss&page=2&per-page=6'
+    'REQUEST_URI' => '/index.php?r=news%2Frss&page=2&per-page=6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502136340.816
+    'REQUEST_TIME' => 1502136340
+]
+2017-08-07 20:05:42 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: /var/www/intranet/src/web/intranet/frontend/messages/es/app.php
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php:91
+    in /var/www/intranet/src/web/intranet/frontend/views/layouts/main.php:50
+    in /var/www/intranet/src/web/intranet/frontend/controllers/SiteController.php:69
+2017-08-07 20:05:42 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_frontendCSRF' => '72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"3_WyZNNllrj_JcoTMoz35pxBBelz2SF4\";}'
+    'PHPFRONTSESSID' => 'sqc7r7upc2vc2psdsglbl0fi31'
+    '__utma' => '156381795.887016530.1502109630.1502109630.1502109630.1'
+    '__utmc' => '156381795'
+    '__utmz' => '156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+    '__id' => 1
+    'searchnews' => 'gua'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/js/jquery.qtip.min.map'
+    'REDIRECT_SCRIPT_URI' => 'http://intranet.local/js/jquery.qtip.min.map'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/js/jquery.qtip.min.map'
+    'SCRIPT_URI' => 'http://intranet.local/js/jquery.qtip.min.map'
+    'HTTP_HOST' => 'intranet.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-419,es;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_frontendCSRF=72336d69548bf5eb509af0d256dae7b4b0782ae4c778789a66ee8551daa1c7c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%223_WyZNNllrj_JcoTMoz35pxBBelz2SF4%22%3B%7D; PHPFRONTSESSID=sqc7r7upc2vc2psdsglbl0fi31; __utma=156381795.887016530.1502109630.1502109630.1502109630.1; __utmc=156381795; __utmz=156381795.1502109630.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at intranet.local Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'intranet.local'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/intranet/src/web/intranet'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/var/www/intranet/src/web/intranet/frontend/web/index.php'
+    'REMOTE_PORT' => '47912'
+    'REDIRECT_URL' => '/js/jquery.qtip.min.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/jquery.qtip.min.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1502136342.381
+    'REQUEST_TIME' => 1502136342
+]

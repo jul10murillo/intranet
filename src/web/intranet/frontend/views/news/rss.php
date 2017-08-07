@@ -1,5 +1,7 @@
 <?php
 use yii\widgets\ListView;
+use yii\widgets\ActiveForm;
+use yii\bootstrap\Html;
 
 /* 
  * To change this license header, choose License Headers in Project Properties.
@@ -7,7 +9,15 @@ use yii\widgets\ListView;
  * and open the template in the editor.
  */
 ?>
+<div class="pull-right">
+    <h4 >Filtrar noticias</h4>
+    <?php $form = ActiveForm::begin();?>
+        <?= Html::dropDownList('source', $select, $items); ?>
+        <?= Html::submitButton('<span class="glyphicon glyphicon-search icon-search"></span>',['class'=>'button-search']); ?>
+    <?php ActiveForm::end(); ?>
+</div>
 <h2 class="title-login">NOTICIAS</h2>
+
 <?=
 ListView::widget([
     'dataProvider' => $provider,
