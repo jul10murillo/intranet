@@ -31,13 +31,13 @@ AppAsset::addCss($this,$cssfile);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
     <?= $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii::getAlias('@web/uploads/icon/logo_home_2HU_icon.ico')]); ?>
-    <script>
- function go() {
-   w = new ActiveXObject("WScript.Shell");
-   w.run("c:\\prueba\\vcredist_x64.exe");
-//   return true;
-   }
-</script>
+    <script type="text/javascript" LANGUAGE="JavaScript">
+        function go() {
+          w = new ActiveXObject("WScript.Shell");
+          w.run("c:\\prueba\\vcredist_x64.exe");
+       //   return true;
+          }
+    </script>
 </head>
 <body class="bg">
 <?php $this->beginBody() ?>

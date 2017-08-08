@@ -4991,3 +4991,163 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1493321589.537
     'REQUEST_TIME' => 1493321589
 ]
+2017-08-08 21:36:49 [127.0.0.1][-][vveifr7epint1o8vkgcjhoora1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\AdminLoginForm::Usuario in C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Component.php:147
+Stack trace:
+#0 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\helpers\BaseHtml.php(2081): yii\base\Component->__get('Usuario')
+#1 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\helpers\BaseHtml.php(1264): yii\helpers\BaseHtml::getAttributeValue(Object(common\models\AdminLoginForm), 'Usuario')
+#2 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\helpers\BaseHtml.php(1313): yii\helpers\BaseHtml::activeInput('text', Object(common\models\AdminLoginForm), 'Usuario', Array)
+#3 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\widgets\ActiveField.php(395): yii\helpers\BaseHtml::activeTextInput(Object(common\models\AdminLoginForm), 'Usuario', Array)
+#4 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\dmstr\yii2-adminlte-asset\example-views\yiisoft\yii2-app\site\login.php(36): yii\widgets\ActiveField->textInput(Array)
+#5 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\SiteController))
+#8 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('login', Array, Object(backend\controllers\SiteController))
+#9 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\backend\controllers\SiteController.php(83): yii\base\Controller->render('login', Array)
+#10 [internal function]: backend\controllers\SiteController->actionLogin()
+#11 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('login', Array)
+#14 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/login', Array)
+#15 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\backend\web\index.php(17): yii\base\Application->run()
+#17 {main}
+2017-08-08 21:36:49 [127.0.0.1][-][vveifr7epint1o8vkgcjhoora1][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf-backend' => '10da196ab68d7ff83ee03b22743269da0fbb2e1ae6c9e901e5ed656a172edd82a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"K6OIslXQliHljRf_6T62aZNiNO895EgO\";}'
+    'advanced-backend' => 'vveifr7epint1o8vkgcjhoora1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.local:8080/index.php?r=rbac%2Frule'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=10da196ab68d7ff83ee03b22743269da0fbb2e1ae6c9e901e5ed656a172edd82a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22K6OIslXQliHljRf_6T62aZNiNO895EgO%22%3B%7D; advanced-backend=vveifr7epint1o8vkgcjhoora1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseHg\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts\\;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\;C:\\Users\\ylopez.DUMIT\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18 Server at admin.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18'
+    'SERVER_NAME' => 'admin.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '49778'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502221009.779
+    'REQUEST_TIME' => 1502221009
+]
+2017-08-08 21:38:44 [127.0.0.1][-][vveifr7epint1o8vkgcjhoora1][error][yii\base\InvalidParamException] yii\base\InvalidParamException: Attribute name must contain word characters only. in C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\helpers\BaseHtml.php:2128
+Stack trace:
+#0 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\helpers\BaseHtml.php(1460): yii\helpers\BaseHtml::getInputName(Object(common\models\AdminLoginForm), 'recu\xC3\xA9rdame')
+#1 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\helpers\BaseHtml.php(1443): yii\helpers\BaseHtml::activeBooleanInput('checkbox', Object(common\models\AdminLoginForm), 'recu\xC3\xA9rdame', Array)
+#2 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\widgets\ActiveField.php(580): yii\helpers\BaseHtml::activeCheckbox(Object(common\models\AdminLoginForm), 'recu\xC3\xA9rdame', Array)
+#3 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2-bootstrap\ActiveField.php(212): yii\widgets\ActiveField->checkbox(Array, false)
+#4 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\dmstr\yii2-adminlte-asset\example-views\yiisoft\yii2-app\site\login.php(45): yii\bootstrap\ActiveField->checkbox()
+#5 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(backend\controllers\SiteController))
+#8 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('login', Array, Object(backend\controllers\SiteController))
+#9 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\backend\controllers\SiteController.php(83): yii\base\Controller->render('login', Array)
+#10 [internal function]: backend\controllers\SiteController->actionLogin()
+#11 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('login', Array)
+#14 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/login', Array)
+#15 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\xampp\htdocs\virtualhost\intranet\src\web\intranet\backend\web\index.php(17): yii\base\Application->run()
+#17 {main}
+2017-08-08 21:38:44 [127.0.0.1][-][vveifr7epint1o8vkgcjhoora1][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf-backend' => '10da196ab68d7ff83ee03b22743269da0fbb2e1ae6c9e901e5ed656a172edd82a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"K6OIslXQliHljRf_6T62aZNiNO895EgO\";}'
+    'advanced-backend' => 'vveifr7epint1o8vkgcjhoora1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'admin.local:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://admin.local:8080/index.php?r=rbac%2Frule'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=10da196ab68d7ff83ee03b22743269da0fbb2e1ae6c9e901e5ed656a172edd82a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22K6OIslXQliHljRf_6T62aZNiNO895EgO%22%3B%7D; advanced-backend=vveifr7epint1o8vkgcjhoora1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseHg\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\Scripts\\;C:\\Users\\ylopez.DUMIT\\AppData\\Local\\Programs\\Python\\Python36-32\\;C:\\Users\\ylopez.DUMIT\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18 Server at admin.local Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18'
+    'SERVER_NAME' => 'admin.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/virtualhost/intranet/src/web/intranet/backend/web/index.php'
+    'REMOTE_PORT' => '49835'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1502221124.586
+    'REQUEST_TIME' => 1502221124
+]
