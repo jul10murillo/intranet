@@ -14,7 +14,7 @@ and open the template in the editor.
 body {
   /* Location of the image */
   /*background-image: url('../img/img-dumit/black/BG.jpg');*/
-    background-image: url('../img/img-dumit/black/fondo.jpg');
+  background-image: url('../img/img-dumit/black/fondo.jpg');
   
   /* Image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -560,4 +560,11 @@ body {
 }
 .media-heading{
     font-weight: bold;
+}
+
+/* BACKEND */ 
+.skin-green .main-header .logo {
+    background-color: #222222;
+    color: #fff;
+    border-bottom: 0 solid transparent;
 }

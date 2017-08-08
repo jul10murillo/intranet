@@ -45,8 +45,9 @@ use yii\helpers\Html ;
             <a href="<?php echo $row->application_url ; ?>" target="_blank">INICIAR
 <!--                <form>
                     <input type="button" value="Iniciar" onClick="go();"/>
+                    <input type="button" value="Iniciar" onClick="window.open('file:///C:/prueba/vcredist_x64.exe')"/>                    
                 </form>-->
-               </a>
+            </a>
             <hr>
         </div>
         <?php
