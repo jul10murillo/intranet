@@ -4,6 +4,11 @@ use yii\helpers\Html;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
+if (class_exists('backend\assets\AppAsset')) {
+    backend\assets\AppAsset::register($this);
+} else {
+    app\assets\AppAsset::register($this);
+}
 
 dmstr\web\AdminLteAsset::register($this);
 ?>
@@ -16,6 +21,7 @@ dmstr\web\AdminLteAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
+     <?= $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii::getAlias('../img/icon/logo_home_2HU_icon.ico')]); ?>
 </head>
 <body class="login-page">
 
