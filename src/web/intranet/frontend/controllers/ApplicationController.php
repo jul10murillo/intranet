@@ -30,11 +30,11 @@ class ApplicationController extends Controller
             ],
             'access' => [
                 'class' => AccessControl::className(),
-                'only'  => ['index','view', 'create', 'update','delete','search'],
+                'only'  => ['index','view', 'create', 'update','delete','search','test'],
                 'rules' => [
                     [
                         'allow'   => true,
-                        'actions' => ['index','view', 'create', 'update','delete','search'],
+                        'actions' => ['index','view', 'create', 'update','delete','search','test'],
                         'roles'   => ['@'],
                     ],
                 ],
@@ -189,5 +189,11 @@ class ApplicationController extends Controller
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
         }
+    }
+    
+    public function actionTest() {
+        return $this->render('test');
+        Yii::warning("pasoo");
+        print_r(passthru('"C:Program Files (x86)\Google\Chrome\Application\chrome.exe"'));exit;
     }
 }

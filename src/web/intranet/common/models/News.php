@@ -18,6 +18,8 @@ use Yii;
  */
 class News extends \yii\db\ActiveRecord
 {
+    const CONST_CATEGORY_NEWS_TECNOLOGY = 1;
+
     /**
      * @inheritdoc
      */

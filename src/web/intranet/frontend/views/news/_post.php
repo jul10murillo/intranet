@@ -15,7 +15,6 @@ use yii\helpers\Url;
                         'titleNews'   => Html::encode($model['titleNews']),
                         'description' => Html::encode($model['description']),
                         'title'       => Html::encode($model['title']),
-                        'creator'     => Html::encode($model['creator']),
                         'pubDate'     => Html::encode($model['pubDate']),
                         'link'        => Html::encode($model['link']),
                     ],
@@ -27,13 +26,26 @@ use yii\helpers\Url;
             </a>
         </div>
         <div class="media-body">
-            <h4 class="media-heading"> <?= $model['titleNews'] ?></h4>
+            <?php
+            echo Html::a('<h4 class="media-heading">'.$model['titleNews'].'</h4>', ['news/rssitem'], [
+                'data'=>[
+                    'method'=>'post',
+                    'params' => [
+                        'titleNews'   => Html::encode($model['titleNews']),
+                        'description' => Html::encode($model['description']),
+                        'title'       => Html::encode($model['title']),
+                        'pubDate'     => Html::encode($model['pubDate']),
+                        'link'        => Html::encode($model['link']),
+                    ],
+                ]
+            ]);
+            ?>
             <p>
                 <?= substr(strip_tags($model['description']),0,250).'...' ?>
             </p>
         </div>
         <div class="media-footer text-right">
-            <?=$model['pubDate']?>
+            <?=$model['pubDate']?> - <?=$model['title']?>
         </div>
     </div>
 </div>

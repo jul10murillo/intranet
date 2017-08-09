@@ -6,7 +6,7 @@ use yii\helpers\Url;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+$this->title = $model['titleNews'];
 ?>
 
 <h2 class="title-login"> <?= $model['titleNews'] ?>

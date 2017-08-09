@@ -44,7 +44,7 @@ $this->title = 'Intranet Grupo Dumit, C.A.';
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="panel panel-warning">
                         <div class="panel-heading">
-                            <button type="button" class="btn btn-default" onClick="location.href = '/index.php?r=news%2Fshow'"><span class="glyphicon glyphicon-play"></span><span class="home-title"> TECNOLOGÍA</span></button>
+                            <a type="button" class="btn btn-default" href = "<?= yii\helpers\Url::to(['/news/rss']) ?>"><span class="glyphicon glyphicon-play"></span><span class="home-title"> TECNOLOGÍA</span></a>
                         </div>
                     </div>
                 </div>
