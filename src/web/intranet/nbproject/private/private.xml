@@ -25,6 +25,7 @@
             <file>file:/var/www/intranet/src/web/intranet/frontend/web/css/site.css</file>
             <file>file:/var/www/intranet/src/web/intranet/frontend/controllers/AnniversaryController.php</file>
             <file>file:/var/www/intranet/src/web/intranet/frontend/views/news/lastrss.php</file>
+            <file>file:/var/www/intranet/src/web/intranet/frontend/controllers/ApplicationController.php</file>
             <file>file:/var/www/intranet/src/web/intranet/composer.json</file>
             <file>file:/var/www/intranet/src/web/intranet/frontend/views/layouts/_sidebar.php</file>
             <file>file:/var/www/intranet/src/web/intranet/frontend/web/css/whitestyle.css</file>

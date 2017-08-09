@@ -582,13 +582,7 @@ body {
     margin-bottom: 5px;
     padding: 20px;
 }
-.media-object{
-    width: 180px;
-    height: 130px;
-}
-.media-heading{
-    font-weight: bold;
-}
+
 
 /* BACKEND */ 
 .skin-green .main-header .logo {

@@ -7,6 +7,8 @@
  */
 $this->title = "Calendario" ;
 ?>
+<h2 class="title-login">Calendario</h2>
+<br>
 <div class="col-lg-8 col-md-8">
     <div id='calendar'></div>
 </div>
