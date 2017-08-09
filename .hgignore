@@ -1,2 +1,3 @@
-src/web/intranet/backend/runtime/*
-src/web/intranet/frontend/runtime/*
+
+/src/web/intranet/backend/runtime/*
+/src/web/intranet/frontend/runtime/*
