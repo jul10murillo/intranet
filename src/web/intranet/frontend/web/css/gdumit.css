@@ -155,3 +155,30 @@ label.control-label{
     }
     
 }
+.article-asset-video .asset-content {
+  float: left;
+  width: 100%;
+}
+.article-asset-video .base-asset-video {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding: 56.25% 0 0 0;
+  overflow: hidden;
+}
+.article-asset-video .base-asset-video embed,
+.article-asset-video .base-asset-video iframe,
+.article-asset-video .base-asset-video object,
+.article-asset-video .base-asset-video video,
+.article-asset-video .base-asset-video .fb-video {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}

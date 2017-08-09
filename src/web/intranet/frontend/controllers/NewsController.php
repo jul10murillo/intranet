@@ -209,11 +209,16 @@ class NewsController extends Controller
      */
     public function actionRss() {
         \Feed::$cacheExpire = '5 hours' ;
-        $sources            = News::find()->all() ;
-        $items = ArrayHelper::map($sources, 'news_id', 'news_channel');
-        $select = 0 ;
-        if (Yii::$app->request->isGet) {
-            $select = 1 ;
+        $sources            = News::find()->where(['categoryne_id' => News::CONST_CATEGORY_NEWS_TECNOLOGY ])->all() ;
+        $items              = ArrayHelper::map($sources, 'news_id', 'news_channel') ;
+        $items['A']         = "Todo";
+        $select             = null ;
+        if (Yii::$app->request->get('source')) {
+            $select = Yii::$app->request->get('source') ;
+            
+            if ( $select != "A") {
+                $sources = News::find()->where(['news_id' => $select])->andWhere(['categoryne_id' => News::CONST_CATEGORY_NEWS_TECNOLOGY])->all() ;
+            } 
         }
         
         foreach ($sources as $source) {
@@ -229,25 +234,30 @@ class NewsController extends Controller
                 } else {
                     $image = $imageRss ;
                 }
-                $data[] = [
+
+
+
+                $newDate = date("d-m-Y", strtotime($value['pubDate'])) ;
+                $data[]  = [
                     'title'       => $rss['title'],
                     'link'        => $rss['link'],
                     'generator'   => $rss['link'],
                     'image'       => $image,
-                    'pubDate'     => $value['pubDate'],
+                    'pubDate'     => $newDate,
                     'titleNews'   => $value['title'],
                     'linkNews'    => $value['link'],
                     'description' => $value['description'],
-                    'creator'     => $value['dc:creator'],
                         ] ;
             }
         }
+        
+
+        usort($data, function( $a, $b ) {
+            return strtotime($b["pubDate"]) - strtotime($a["pubDate"]) ;
+        }) ;
 
         $provider = new ArrayDataProvider([
             'allModels'  => $data,
-            'sort'       => [
-                'attributes' => ['pubDate'],
-            ],
             'pagination' => [
                 'pageSize' => 6,
             ],
@@ -255,24 +265,28 @@ class NewsController extends Controller
 
         return $this->render('rss', [
                     'provider' => $provider,
-                    'items' => $items,
-                    'select' => $select
-        ]) ;
+                    'items'    => $items,
+                    'select'   => $select
+                ]) ;
     }
-    
-    function actionRssitem() {
 
-        $model = [
+    /**
+     * Mostrar cada item de la noticia rss
+     * @return type
+     */
+    function actionRssitem() {
+        $bodytag = str_replace("centro_sinmarco", "img-responsive", $_POST['description']) ;
+        $body    = str_replace('frameborder="0"', 'frameborder="0" class="embed-responsive-item"', $bodytag) ;
+        $model   = [
             'titleNews'   => $_POST['titleNews'],
-            'description' => $_POST['description'],
+            'description' => $body,
             'title'       => $_POST['title'],
-            'creator'     => $_POST['creator'],
             'pubDate'     => $_POST['pubDate'],
             'link'        => $_POST['link'],
                 ] ;
         return $this->render('rssitem', [
                     'model' => $model
-        ]) ;
+                ]) ;
     }
 
 }
