@@ -1,0 +1,11 @@
+0000000000000000000000000000000000000000 2058005ffc6c82754a5027c93aa0f6e3996d23e0 Administrator <admin@example.com> 1498055083 -0400	commit (initial): Initial commit
+2058005ffc6c82754a5027c93aa0f6e3996d23e0 8cc1dfe0afd460fbf526d7f13089a74d0b29b661 Administrator <admin@example.com> 1498146620 -0400	commit (amend): Initial commit
+8cc1dfe0afd460fbf526d7f13089a74d0b29b661 ee3d407ac6f2d2471a3220851642217640cd4d59 Administrator <admin@example.com> 1498146948 -0400	pull: Merge made by the 'recursive' strategy.
+ee3d407ac6f2d2471a3220851642217640cd4d59 ca8cee31fe26f18352858127f1cf704520e01720 Administrator <admin@example.com> 1498147024 -0400	commit (amend): Merge branch 'master' of http://gd03wb01.dumit.local:8088/root/intranet
+ca8cee31fe26f18352858127f1cf704520e01720 0b2d350a204797887bc760f6d9eac7ac2bc63eb2 Administrator <admin@example.com> 1498147414 -0400	commit (amend): Merge branch 'master' of http://gd03wb01.dumit.local:8088/root/intranet
+0b2d350a204797887bc760f6d9eac7ac2bc63eb2 0b4adffd292d15b5df119dd35ac68f80380940dd Administrator <admin@example.com> 1498152558 -0400	commit (amend): Merge branch 'master' of http://gd03wb01.dumit.local:8088/root/intranet
+0b4adffd292d15b5df119dd35ac68f80380940dd 2596b07fa65d6b08de8c4741cd8cb5f3f7f716be Administrator <admin@example.com> 1498153166 -0400	pull origin master: Merge made by the 'recursive' strategy.
+2596b07fa65d6b08de8c4741cd8cb5f3f7f716be 21d4b9d67f2265d91c62982a3e560761472baee6 Administrator <admin@example.com> 1498153620 -0400	commit: agregando
+21d4b9d67f2265d91c62982a3e560761472baee6 79bd6a0fd29a36796f9cd1f39286602d38426a3c Administrator <admin@example.com> 1498228659 -0400	commit: actualizando yusmari
+79bd6a0fd29a36796f9cd1f39286602d38426a3c 0d47cb86deb13d69eede995e10e938d9d8f8737e Administrator <admin@example.com> 1498230776 -0400	commit: actualizando yusmari vendor
+0d47cb86deb13d69eede995e10e938d9d8f8737e 652f4da7a779eb3b6e94874d9e8f294cd8282fb9 Administrator <admin@example.com> 1501684074 -0400	commit: probando gitignore
