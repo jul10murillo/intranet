@@ -6,9 +6,8 @@ use yii\helpers\Html;
 ?>
 
 <header class="main-header">
-
-    <?= Html::a('<span class="logo-mini">IGD</span><span class="logo-lg">Intranet Grupo Dumit</span>', Yii::$app->homeUrl, ['class' => 'logo']) ?>
-
+    <!--<? = Html::a('<span class="logo-mini">IGD</span><span class="logo-lg">Intranet Grupo Dumit</span>', Yii::$app->homeUrl, ['class' => 'logo']) ?>-->
+<?= Html::a('<img src="../img/LOGO_SOLO.png" class="logo-mini"><img src="../img/LOGO_HOME.png" class="logo-lg">', Yii::$app->homeUrl, ['class' => 'logo']) ?>
     <nav class="navbar navbar-static-top" role="navigation">
 
         <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
@@ -258,7 +257,7 @@ use yii\helpers\Html;
                         <li class="user-footer">
                             <div class="pull-right">
                                 <?= Html::a(
-                                    'Sign out',
+                                    'Cerrar Sesión',
                                     ['/site/logout'],
                                     ['data-method' => 'post', 'class' => 'btn btn-default btn-flat']
                                 ) ?>

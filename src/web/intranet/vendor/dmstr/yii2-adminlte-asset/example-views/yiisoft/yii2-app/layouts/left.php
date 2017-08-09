@@ -5,7 +5,7 @@
             [
                 'options' => ['class' => 'sidebar-menu'],
                 'items' => [
-                    ['label' => 'Menu Gestión Intranet', 'options' => ['class' => 'header']],
+                    ['label' => 'MENÚ GESTIÓN INTRANET', 'options' => ['class' => 'header']],
                     ['label' => 'Roles/Grupos', 'icon' => 'group', 'url' => \yii\helpers\Url::to(['/rbac/role'])],
                     ['label' => 'Permisos', 'icon' => 'address-card', 'url' => \yii\helpers\Url::to(['/rbac/permission'])],
                     ['label' => 'Reglas', 'icon' => 'id-badge', 'url' => \yii\helpers\Url::to(['/rbac/rule'])],
