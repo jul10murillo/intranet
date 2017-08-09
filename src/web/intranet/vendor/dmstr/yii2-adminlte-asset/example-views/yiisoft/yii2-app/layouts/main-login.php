@@ -21,6 +21,7 @@ dmstr\web\AdminLteAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
+     <?= $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii::getAlias('../img/icon/logo_home_2HU_icon.ico')]); ?>
 </head>
 <body class="login-page">
 
