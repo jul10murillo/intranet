@@ -191,8 +191,7 @@ label.control-label{
     font-weight: bold;
 }
 
-@media (max-width: 320px) {
-    
+@media (max-width: 425px) {
     .media-left, .media-right, .media-body{
         display: initial;
     }
