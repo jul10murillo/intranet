@@ -64,6 +64,10 @@ and open the template in the editor.
   
 .login-page{
     background-image: url('../img/fondo_login.jpg')!important;
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
+    background-attachment: fixed!important;
+    background-size: cover!important;
 }
 
 button.btn.btn-primary.btn-block.btn-flat{
