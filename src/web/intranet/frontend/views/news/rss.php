@@ -19,12 +19,10 @@ $this->title = "Noticias";
                  ]]); ?>
             <?= Html::dropDownList('source', $select, $items,['class'=>'form-control']); ?>
             <?= Html::submitButton('<span class="glyphicon glyphicon-search"></span>') ?>
-        <?php ActiveForm::end(); ?>
-    </div>
-    
+        <?php ActiveForm::end(); ?>       
+    </div>    
 </div>
-<h2 class="title-login">NOTICIAS</h2>
-
+<div class="application-title">NOTICIAS</div>
 <?=
 ListView::widget([
     'dataProvider' => $provider,

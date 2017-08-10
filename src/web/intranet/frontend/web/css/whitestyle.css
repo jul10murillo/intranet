@@ -123,7 +123,7 @@ body {
   color: #3e3934;
 }
 
-.glyphicon-pencil {
+span.glyphicon.glyphicon-pencil {
   color: #b6b6b6!important;
 }
 
@@ -305,7 +305,7 @@ body {
   /*border-style:none;*/
 }
 
-.panel-heading button .glyphicon {
+.panel-heading button .glyphicon,.panel-heading a .glyphicon {
   color: #3e3934; 
 }
 

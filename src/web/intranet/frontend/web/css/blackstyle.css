@@ -125,8 +125,8 @@ body {
   color: #00d1e5;
 }
 
-.glyphicon-pencil {
-    color: #00d1e5!important;
+span.glyphicon.glyphicon-pencil{
+  color: #b6b6b6!important;
 }
 
 .summary{
@@ -316,7 +316,7 @@ body {
   /*border-style:none;*/
 }
 
-.panel-heading button .glyphicon {
+.panel-heading button .glyphicon,.panel-heading a .glyphicon {
   color: #b6b6b6; 
 }
 
@@ -572,21 +572,29 @@ body {
   padding: 3px 3px;
  }
  
+ button.modal-btn > span.glyphicon.glyphicon-pencil{
+  color: #fff!important;
+}
+ 
 /* NEWS RSS */ 
+
 .post{
-    background-color: rgba(103, 101, 98, 0.23);
-    color: white;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    padding: 20px;
+  background-color: rgba(103, 101, 98, 0.23);
+  color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 20px;
 }
 
+.search .media-heading{
+  color: #b6b6b6;
+}
 
 /* BACKEND */ 
 .skin-green .main-header .logo {
-    background-color: #222222;
-    color: #fff;
-    border-bottom: 0 solid transparent;
+  background-color: #222222;
+  color: #fff;
+  border-bottom: 0 solid transparent;
 }

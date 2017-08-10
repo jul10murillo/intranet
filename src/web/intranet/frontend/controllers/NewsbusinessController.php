@@ -121,7 +121,8 @@ class NewsbusinessController extends Controller
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             
             if (($model->file=UploadedFile::getInstance($model,'file'))!= NULL) {
-                $imageName= $model->nbusiness_title;
+                $imageName= 'news_'.$model->nbusiness_id;
+//                $imageName = preg_replace('/\s+/', '_',$model->nbusiness_title);
 
                 //get the instance of the uploaded file
                 $model ->file=UploadedFile::getInstance($model,'file');
