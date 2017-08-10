@@ -196,3 +196,38 @@ label.control-label{
         display: initial;
     }
 }
+.custom-page{
+    display: block;
+    margin: auto;
+}
+@media (min-width: 1200px) {
+    .custom-page{
+        width: 40%
+    }
+}
+@media (min-width: 1000px) and (max-width:1200px) {
+    .custom-page{
+        width: 51%
+    }
+}
+@media (min-width: 768px) and (max-width:1000px) {
+    .custom-page{
+        width: 59%
+    }
+}
+@media (min-width: 712px) and (max-width:768px) {
+    .custom-page{
+        width: 71%
+    }
+}
+@media (min-width: 576px) and (max-width:712px) {
+    .custom-page{
+        width: 71%
+    }
+}
+@media (max-width:576px) {
+    .custom-page{
+        font-size: 6px;
+        width: 110%
+    }
+}
