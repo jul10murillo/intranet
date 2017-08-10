@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/08/2017, 04:23:59 PM
+    Author     : ylopez
+*/
+/* BACKEND */ 
+.navbar-static-top{
+    background-color: #222222!important;
+}
+
+.skin-green .main-header .logo {
+    background-color: #383d44!important;
+    color: #b6b6b6!important;
+}
+
+.skin-green .main-header .navbar .sidebar-toggle:hover {
+    background-color: #222222!important;
+}
+
+.skin-green .wrapper, .skin-green .main-sidebar, .skin-green .left-side {
+    background-color: #5b5f64!important;
+}
+
+.skin-green .sidebar-menu>li.header {
+    color: #b6b6b6!important;
+    background: #222222!important;
+}
+
+.skin-green .sidebar a {
+    color: #b6b6b6!important;
+}
+
+.skin-green .sidebar-menu>li:hover>a, .skin-green .sidebar-menu>li.active>a {
+    color: #b6b6b6!important;
+    background: #222222!important;
+    border-left-color: #8db559!important;
+}
+
+.panel-success > .panel-heading {
+    color: #ffffff;
+    background-color: #8db559;
+    border-color: #d6e9c6;
+}
+
+.main-footer {
+    background: #222222!important; 
+    color: #b6b6b6!important;
+    text-align: center;
+}
+
+.skin-green .main-header li.user-header {
+    background-color: #8db559!important;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header {
+    height: 80px!important;
+  }
+  
+  /* LOGIN */ 
+  
+.login-page{
+    background-image: url('../img/fondo_login.jpg')!important;
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
+    background-attachment: fixed!important;
+    background-size: cover!important;
+}
+
+button.btn.btn-primary.btn-block.btn-flat{
+    background-color: #8db559!important;
+    border:none;
+    border-radius: 4px!important;
+}
+
+.login-logo{
+    margin: -20px;
+}

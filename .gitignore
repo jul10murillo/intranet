@@ -1,0 +1,8 @@
+
+*.i
+
+\.hg/cache/
+
+\.hg/store/data/src/web/intranet/common/models/
+
+\.hg/merge/
