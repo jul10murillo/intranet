@@ -31,7 +31,7 @@ ListView::widget([
     'itemView' => '_post',
     'pager' => [
             'options' => [
-                'class' => 'pagination text-center'
+                'class' => 'pagination custom-page'
             ]
         ],
 ]);

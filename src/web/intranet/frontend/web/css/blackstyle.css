@@ -316,7 +316,7 @@ body {
   /*border-style:none;*/
 }
 
-.panel-heading button .glyphicon {
+.panel-heading button .glyphicon, .panel-heading a .glyphicon {
   color: #b6b6b6; 
 }
 
