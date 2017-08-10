@@ -105,8 +105,7 @@ class AnniversaryController extends \yii\web\Controller
                 {
                     
                     $date          = strtotime(str_replace('/', '-', $userData->getFinicio()[0])) ;
-                    $dateDay       = strtotime("+1 day", $date) ;
-                    $dateInicio    = date("m-d", $dateDay) ;
+                    $dateInicio    = date("m-d", $date) ;
                     $dateYear      = date("Y") ;
                     $dateZ         = date((string)$dateYear.'-'.$dateInicio);
 
@@ -123,8 +122,7 @@ class AnniversaryController extends \yii\web\Controller
                 if (isset($userData->getFnacimiento()[0]))
                 {
                     $date          = strtotime(str_replace('/', '-', $userData->getFnacimiento()[0])) ;
-                    $dateDay       = strtotime("+1 day", $date) ;
-                    $dateInicio    = date("m-d", $dateDay) ;
+                    $dateInicio    = date("m-d", $date) ;
                     $dateYear      = date("Y") ;
                     $dateZ         = date((string)$dateYear.'-'.$dateInicio) ;
                     $datezon       = gmdate($dateZ)."T16:25:00Z" ;
