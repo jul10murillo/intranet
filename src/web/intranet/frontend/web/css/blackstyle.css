@@ -598,3 +598,13 @@ span.glyphicon.glyphicon-pencil{
   color: #fff;
   border-bottom: 0 solid transparent;
 }
+.drop-custom{
+    background-color: #222222; 
+}
+.item-custom a{
+    color: #b6b6b6!important;
+}
+.item-custom a:hover{
+    background-color: #97c757!important;
+    color: #FFF!important;
+}

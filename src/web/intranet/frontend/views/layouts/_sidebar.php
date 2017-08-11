@@ -51,14 +51,15 @@ use yii\helpers\Url;
     <a href="#" data-toggle="dropdown" class="dropdown-toggle">Perfil<?php echo ' ('.Yii::$app->user->identity->username.')'?> <b class="caret"></b></a>
     <?php
         echo Dropdown::widget([
-            'options' => ['class' => ''],
+            'options' => ['class' => 'drop-custom'],
             'items' => [
                 ['label' => 'Modificar',
                  'url' => '#',
-                'options'=>['class'=>'','data-toggle'=>'modal','data-target'=>'#templateModal','data-whatever'=>'@getbootstrap'],
+                'options'=>['class'=>'item-custom','data-toggle'=>'modal','data-target'=>'#templateModal','data-whatever'=>'@getbootstrap'],
                  ],
                 ['label' => 'Cerrar Sesión',
-                 'url' => ['/site/logout']
+                 'url' => ['/site/logout'],
+                    'options'=>['class'=>'item-custom']
                 ],
             ],
         ]);

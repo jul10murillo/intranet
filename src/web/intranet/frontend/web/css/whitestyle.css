@@ -589,3 +589,13 @@ span.glyphicon.glyphicon-pencil {
 .date-item,.legend-item {
   color: #3e3934;
 }
+.drop-custom{
+    background-color: #FFF; 
+}
+.item-custom a{
+    color: #000!important;
+}
+.item-custom a:hover{
+    background-color: #97c757!important;
+    color: #FFF!important;
+}
