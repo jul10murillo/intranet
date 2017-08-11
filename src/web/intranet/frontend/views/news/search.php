@@ -4,6 +4,7 @@ use yii\widgets\ActiveForm;
 use yii\helpers\Html;
 use yii\widgets\LinkPager;
 
+$this->title = 'Resultados búsqueda';
 ?>
 <div class="search">
     <?php $form = ActiveForm::begin(['action' => ['news/search'],'options' => [
