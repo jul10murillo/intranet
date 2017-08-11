@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 04-08-2017 a las 22:39:02
+-- Tiempo de generación: 11-08-2017 a las 22:26:22
 -- Versión del servidor: 10.1.22-MariaDB
 -- Versión de PHP: 7.0.18
 
@@ -67,10 +67,7 @@ CREATE TABLE `application` (
 --
 
 INSERT INTO `application` (`application_id`, `application_name`, `application_description`, `application_url`, `categoryap_id`) VALUES
-(1, 'Profit', 'Lorem ipsum dolor sit amet, consectetur adipio', '#', 1),
-(2, 'Correo', 'Lorem ipsum dolor sit amet, consectetur adipio', '#', 2),
-(3, 'Profit', 'Ingresa a  Profit', '#', 1),
-(4, 'Correo', 'Ingresa a tu correo Corporativo', '#', 2),
+(2, 'Correo', 'Accede a tu servicio de correo electrónico', 'mailto:', 2),
 (5, 'Airshop', 'Ingresa a la Página web', '#', 3),
 (6, 'Exotic', 'Página web', '#', 3);
 
@@ -112,7 +109,6 @@ CREATE TABLE `auth_assignment` (
 --
 
 INSERT INTO `auth_assignment` (`item_name`, `user_id`, `created_at`) VALUES
-('admin', '5', 1501877956),
 ('yii2_example_group', '1', 1494941701),
 ('yii2_see_home_group', '3', 1493302134),
 ('yii2_see_home_group', '5', 1501877956);
@@ -139,9 +135,20 @@ CREATE TABLE `auth_item` (
 
 INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES
 ('admin', 1, NULL, NULL, NULL, 1493232743, 1493232743),
+('Administración', 1, NULL, NULL, NULL, 1501248800, 1501248800),
+('Buena Alimentacion', 1, NULL, NULL, NULL, 1501248801, 1501248801),
+('editLink', 2, 'permite editar los links', NULL, NULL, 1501248925, 1501248925),
+('editMision', 2, 'Permite editar misión y visión', NULL, NULL, 1501248892, 1501248892),
+('editNews', 2, 'Permite editar Noticias', NULL, NULL, 1501248845, 1501248845),
+('Informática', 1, NULL, NULL, NULL, 1501248800, 1501248942),
+('Inventario', 1, NULL, NULL, NULL, 1501248800, 1501248800),
+('Mercadeo', 1, NULL, NULL, NULL, 1501248802, 1501248802),
 ('permissionDisplayDetailedAbout', 2, 'Permission to display detailed about informations', NULL, NULL, 1492787312, 1492787312),
 ('permissionToSeeHome', 2, 'Permission to use the home page', NULL, NULL, 1492787313, 1492787313),
 ('permissionToUseContanctPage', 2, 'Permission to use the contanct page', NULL, NULL, 1492787312, 1492787312),
+('Presidencia', 1, NULL, NULL, NULL, 1501248800, 1501248800),
+('RRHH', 1, NULL, NULL, NULL, 1501248800, 1501248800),
+('Servicios Generales', 1, NULL, NULL, NULL, 1501248801, 1501248801),
 ('yii2_example_group', 1, NULL, NULL, NULL, 1492787312, 1492787312),
 ('yii2_see_home_group', 1, NULL, NULL, NULL, 1492787313, 1492787313);
 
@@ -161,6 +168,9 @@ CREATE TABLE `auth_item_child` (
 --
 
 INSERT INTO `auth_item_child` (`parent`, `child`) VALUES
+('Informática', 'editLink'),
+('Informática', 'editMision'),
+('Informática', 'editNews'),
 ('yii2_example_group', 'permissionDisplayDetailedAbout'),
 ('yii2_example_group', 'permissionToUseContanctPage'),
 ('yii2_see_home_group', 'permissionToSeeHome');
@@ -277,11 +287,12 @@ CREATE TABLE `link` (
 --
 
 INSERT INTO `link` (`link_id`, `link_name`, `link_description`, `url`, `categoryli_id`) VALUES
-(1, 'Banesco', 'Lorem ipsum dolor sit amet, consectetur adipio', 'http://www.banesco.com/', 1),
-(2, 'Todoticket', 'Consulta el saldo de tus tarjetas', 'https://www.todoticket.com.ve/', 3),
-(3, 'Banco Provincial', 'Ingresa a Provincial', 'http://www.provincial.com/', 1),
+(1, 'Banesco', 'Sitio web de Banesco Banco Universal. Productos y servicios financieros, Banca por Internet, Banca Móvil, atención al cliente, agencias, videos...', 'http://www.banesco.com/', 1),
+(2, 'TodoTicket ', 'Consulta el saldo de tus tarjetas', 'https://www.todoticket.com.ve/', 3),
+(3, 'Banco Provincial', 'BBVA Provincial te ofrece su banca en línea con toda la información sobre, tarjetas de crédito, cuentas, préstamos, para personas y empresas. Hazlo fácil.', 'http://www.provincial.com/', 1),
 (4, 'Seguros  Mercantil', 'Ingresa a tu seguro aqui', 'www.segurosmercantil.com', 2),
-(5, 'Seguros Universitas', 'Consulta tu seguro', 'www.segurosuniversitas.com', 2);
+(5, 'Seguros Universitas', 'Consulta tu seguro', 'www.segurosuniversitas.com', 2),
+(6, 'Banco de Venezuela', 'Ingresa a tu banco aquí', 'www.bancodevenezuela.com', 1);
 
 -- --------------------------------------------------------
 
@@ -363,7 +374,6 @@ CREATE TABLE `news` (
 --
 
 INSERT INTO `news` (`news_id`, `news_channel`, `news_title`, `news_link`, `news_description`, `categoryne_id`) VALUES
-(1, 'CNN', 'Tecnologia', 'http://rss.cnn.com/rss/edition_technology.rss', 'Noticias tecnológica', 1),
 (2, 'Xataka', 'Tecnología', 'http://www.xataka.com/atom.xml', 'Noticias de Tecnología', 1),
 (4, 'ABC', 'Tecnología', 'http://www.abc.es/rss/feeds/abc_Tecnologia.xml', 'Noticias de tecnología', 1);
 
@@ -388,13 +398,15 @@ CREATE TABLE `news_business` (
 --
 
 INSERT INTO `news_business` (`nbusiness_id`, `nbusiness_title`, `nbusiness_description`, `nbusiness_image`, `nbusiness_date`, `categoryne_id`, `nbusiness_active`) VALUES
-(1, 'Beneficio de Guarderia', 'Todos aquellos empleados cuyo salarios sea menor a Bs. 325.000,00 mensuales\r\ny tengan hijos en edades comprendidas entre los 3 meses y 5 años y 11 meses ;\r\ntendrán acceso al Beneficio del pago de Guardería; el cual consta de un 40% del\r\nSalario Mínimo Vigente; para esto tendrás que:\r\n• Entregar Acta de Nacimiento de tu Hijo\r\n• Carta de no otorgación del Beneficio de parte del trabajo del padre o de la madre\r\ndel niño (según sea el caso)\r\n• Registro mercantil de la Guardería\r\n• Inscripción ante el Ministerio de Educación de la Guardería\r\n• RIF de la Guardería\r\nCon estos documentos puedes pasar\r\npor la Coordinación de\r\nCompensación y Beneficios con la\r\nSrta. Leydy Delgado a formalizar el\r\nexpediente y en donde recibirás los\r\npróximos pasos a seguir.', 'uploads/Beneficio de Guarderia.jpg', '2017-07-06', 2, 1),
+(1, 'Beneficio de Guardería', 'Todos aquellos empleados cuyo salarios sea menor a Bs. 325.000,00 mensuales\r\ny tengan hijos en edades comprendidas entre los 3 meses y 5 años y 11 meses ;\r\ntendrán acceso al Beneficio del pago de Guardería; el cual consta de un 40% del\r\nSalario Mínimo Vigente; para esto tendrás que:\r\n• Entregar Acta de Nacimiento de tu Hijo\r\n• Carta de no otorgación del Beneficio de parte del trabajo del padre o de la madre\r\ndel niño (según sea el caso)\r\n• Registro mercantil de la Guardería\r\n• Inscripción ante el Ministerio de Educación de la Guardería\r\n• RIF de la Guardería\r\nCon estos documentos puedes pasar\r\npor la Coordinación de\r\nCompensación y Beneficios con la\r\nSrta. Leydy Delgado a formalizar el\r\nexpediente y en donde recibirás los\r\npróximos pasos a seguir.', 'uploads/news_1.jpg', '2017-07-06', 2, 1),
 (2, 'prueba', 'prueba', 'uploads/prueba.jpg', '2017-07-06', 2, 1),
 (4, 'prueba3', 'prueba3', 'uploads/prueba3.jpg', '2017-07-06', 2, 1),
 (5, 'PRUEBA4', 'PRUEBA4', 'uploads/PRUEBA4.jpg', '2017-07-06', 2, 0),
 (6, 'prueba5', 'prueba5', 'uploads/prueba5.jpg', '2017-07-06', 2, 1),
-(7, 'prueba6', 'prueba6', 'uploads/prueba6.jpg', '2017-07-07', 2, 1),
-(8, 'Prueba 1', 'Prueba 1 noticias de interes', 'uploads/Prueba 1.jpg', '2017-07-11', 3, 1);
+(7, 'Política  de viáticos Junio 2017', 'A partir del 1ro de Junio los viáticos por viajes (comidas) serán calculados con un  valor único diario el cual será revisado cada 3 meses.\r\nCon esta nueva modalidad el monto asignado será depositado en tu tarjeta de alimentación de Todo Ticket en la fecha que corresponde según tu viaje y dicho monto podrá ser utilizado a conveniencia de cada empleado ya que no exigiremos el soporte de los gastos incurridos por este concepto.\r\nEl monto diario a depositar a partir del 1ro de Junio será de Bs. 35000 diarios; en caso de tener algún excedente no será necesario reintegrarlo a la empresa.\r\nEsperamos que esta nueva modalidad sea para el beneficio de ambas partes de igual forma estaremos revisando y evaluando la continuidad de esta nueva metodología.', 'uploads/news_7.jpg', '2017-07-07', 2, 1),
+(8, 'Prueba 1', 'Prueba 1 noticias de interes', 'uploads/Prueba 1.jpg', '2017-07-11', 3, 1),
+(9, 'Prueba8', 'Prueba8', 'uploads/Prueba8.jpg', '2017-08-07', 4, 1),
+(10, 'prueba9', 'prueba 9', 'uploads/prueba9.png', '2017-08-07', 4, 1);
 
 -- --------------------------------------------------------
 
@@ -686,6 +698,7 @@ CREATE TABLE `user_profile` (
 --
 
 INSERT INTO `user_profile` (`id`, `template`) VALUES
+(1, 'whitestyle.css'),
 (5, 'blackstyle.css');
 
 --
@@ -858,7 +871,7 @@ ALTER TABLE `business`
 -- AUTO_INCREMENT de la tabla `link`
 --
 ALTER TABLE `link`
-  MODIFY `link_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `link_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT de la tabla `link_category`
 --
@@ -873,7 +886,7 @@ ALTER TABLE `news`
 -- AUTO_INCREMENT de la tabla `news_business`
 --
 ALTER TABLE `news_business`
-  MODIFY `nbusiness_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `nbusiness_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 --
 -- AUTO_INCREMENT de la tabla `news_category`
 --
