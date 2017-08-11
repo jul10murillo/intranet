@@ -5,6 +5,7 @@ use yii\helpers\Html;
 //use yii\data\Pagination;
 use yii\widgets\LinkPager;
 
+$this->title = 'Enlaces';
 ?>
 <div class="search">
     <?php $form = ActiveForm::begin(); ?>

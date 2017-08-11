@@ -4,6 +4,7 @@ use yii\widgets\LinkPager ;
 use yii\widgets\ActiveForm ;
 use yii\helpers\Html ;
 
+$this->title = 'Aplicaciones';
 ?>
 <div class="search">
     <?php $form = ActiveForm::begin(); ?>

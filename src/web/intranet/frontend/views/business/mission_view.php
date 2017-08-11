@@ -1,5 +1,6 @@
 <?php
 //use kartik\slider\Slider;
+$this->title = 'Grupo Dumit';
 
 ?>
  <div class="fondo-slider">

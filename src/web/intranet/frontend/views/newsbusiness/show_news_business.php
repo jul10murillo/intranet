@@ -1,5 +1,7 @@
 <?php
 use yii\widgets\LinkPager;
+
+$this->title = 'Noticias';
 ?>
 <div>
     <div class="application-title">
