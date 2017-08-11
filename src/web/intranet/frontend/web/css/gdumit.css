@@ -231,3 +231,6 @@ label.control-label{
         width: 110%
     }
 }
+.drop-custom{
+    border-radius: 0px;
+}
