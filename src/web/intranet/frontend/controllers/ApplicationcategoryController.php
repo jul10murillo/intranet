@@ -27,7 +27,7 @@ class ApplicationcategoryController extends Controller
                 ],
             ],
             'access' => [
-                'class' => AccessControl::className(),
+                'class' => \yii\filters\AccessControl::className(),
                 'only'  => ['index','login', 'logout', 'signup'],
                 'rules' => [
                     [

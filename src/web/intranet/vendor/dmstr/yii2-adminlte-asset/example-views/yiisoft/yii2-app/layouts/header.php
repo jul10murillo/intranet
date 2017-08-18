@@ -7,7 +7,7 @@ use yii\helpers\Html;
 
 <header class="main-header">
     <!--<? = Html::a('<span class="logo-mini">IGD</span><span class="logo-lg">Intranet Grupo Dumit</span>', Yii::$app->homeUrl, ['class' => 'logo']) ?>-->
-<?= Html::a('<img src="../img/LOGO_SOLO.png" class="logo-mini"><img src="../img/LOGO_HOME.png" class="logo-lg">', Yii::$app->homeUrl, ['class' => 'logo']) ?>
+<?= Html::a('<img src="'.Yii::getAlias('@web').'/img/LOGO_SOLO.png" class="logo-mini"><img src="'.Yii::getAlias('@web').'/img/LOGO_HOME.png" class="logo-lg">', Yii::$app->homeUrl, ['class' => 'logo']) ?>
     <nav class="navbar navbar-static-top" role="navigation">
 
         <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
@@ -238,7 +238,7 @@ use yii\helpers\Html;
                                  alt="User Image"/>-->
 
                             <p>
-                                <?= \common\components\GDhelper::getUsername();?> - <?= \common\components\GDhelper::getEmail();?>
+                                <?= \common\components\GDhelper::getUsername();?> 
                             </p>
                         </li>
                         <!-- Menu Body -->

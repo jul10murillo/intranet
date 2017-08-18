@@ -61,6 +61,8 @@ $this->title = 'Aplicaciones';
         LinkPager::widget([
             "pagination" => $pages,
         ]) ;
-        ?> 
+        ?>
+        
     </div>
 </div>
+<?= (\Yii::$app->authManager->checkAccess(\Yii::$app->user->id, 'editApp'))?\yii\helpers\Html::a('<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>', \yii\helpers\Url::to(['application/index']), ['class'=>'botonF1']):""; ?>

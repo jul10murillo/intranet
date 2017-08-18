@@ -26,6 +26,6 @@ $this->title = 'Noticias';
     </div>
     
     <?=
-        (\Yii::$app->user->can('editNews'))?\yii\helpers\Html::a('<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>', \yii\helpers\Url::to(['newsbusiness/index']), ['class'=>'botonF1']):"";
+        (\Yii::$app->authManager->checkAccess(\Yii::$app->user->id, 'editNews'))?\yii\helpers\Html::a('<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>', \yii\helpers\Url::to(['newsbusiness/index']), ['class'=>'botonF1']):"";
     ?>
 </div>

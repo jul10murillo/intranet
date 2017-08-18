@@ -12,17 +12,7 @@ return [
         'label' => $searchModel->attributeLabels()['name'],
         'width' => '140px',
     ],
-    [
-        'attribute' => 'description',
-        'label' => $searchModel->attributeLabels()['description'],
-    ],
-    [
-        'label' => $searchModel->attributeLabels()['ruleName'],
-        'width' => '140px',
-        'value' => function($model) {
-            return $model->ruleName == null ? Yii::t('rbac', '(not use)') : $model->ruleName;
-        }
-    ],
+
     [
         'class' => 'kartik\grid\ActionColumn',
         'dropdown' => false,

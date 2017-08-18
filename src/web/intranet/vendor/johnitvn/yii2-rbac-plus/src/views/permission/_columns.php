@@ -16,12 +16,6 @@ return [
         'label' => $searchModel->attributeLabels()['description'],
     ],    
     [
-        'label' => $searchModel->attributeLabels()['ruleName'],
-        'value' => function($model){
-            return $model->ruleName==null?Yii::t('rbac','(not use)'):$model->ruleName;
-        }
-    ],
-    [
         'class' => 'kartik\grid\ActionColumn',
         'dropdown' => false,
         'vAlign' => 'middle',

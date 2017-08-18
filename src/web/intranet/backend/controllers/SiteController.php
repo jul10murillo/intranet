@@ -74,10 +74,21 @@ class SiteController extends Controller
         if (!Yii::$app->user->isGuest) {
             return $this->goHome();
         }
-
-        $model = new AdminLoginForm;
+               
+        $model = new \common\models\LoginForm;
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goHome();
+            
+//            if (\Yii::$app->authManagerldap->checkAccess(\Yii::$app->user->id, 'adminLogin')){
+                return $this->goHome();
+//            } else {
+//                
+//                Yii::$app->user->logout();
+//                
+//                \Yii::$app->getSession()->setFlash('error', 'You are not authorized to login Admin\'s penal.<br /> Please use valid Username & Password.<br />Please contact Administrator for details.');
+//                //redirect again page to login form.
+//                return $this->redirect(['site/login']);
+//            }
+            
         } else {
             return $this->render('login', [
                 'model' => $model,
