@@ -12,7 +12,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="application-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
-
+        <?= (\Yii::$app->authManager->checkAccess(\Yii::$app->user->id, 'editAppCategory'))?\yii\helpers\Html::a('Categorías de aplicaciones', \yii\helpers\Url::to(['applicationcategory/index']), ['class'=>'btn btn-success']):""; ?>
     <p>
         <?= Html::a('Crear Aplicación', ['create'], ['class' => 'btn btn-success']) ?>
     </p>

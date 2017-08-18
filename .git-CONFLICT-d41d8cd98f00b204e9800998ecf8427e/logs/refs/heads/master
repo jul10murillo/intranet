@@ -11,3 +11,6 @@ ca8cee31fe26f18352858127f1cf704520e01720 0b2d350a204797887bc760f6d9eac7ac2bc63eb
 0d47cb86deb13d69eede995e10e938d9d8f8737e 652f4da7a779eb3b6e94874d9e8f294cd8282fb9 Administrator <admin@example.com> 1501684074 -0400	commit: probando gitignore
 652f4da7a779eb3b6e94874d9e8f294cd8282fb9 e429e6bc811d7f231f53bb9c8df239c2d8a12d38 Administrator <admin@example.com> 1502390720 -0400	commit: agregando cambios
 e429e6bc811d7f231f53bb9c8df239c2d8a12d38 313d8d3dfbbe3fc998a79219024f02c0c9ddcf0e Administrator <admin@example.com> 1502393304 -0400	commit: agregando vendor
+313d8d3dfbbe3fc998a79219024f02c0c9ddcf0e 95701984b496b79a30442f994ddc024c676b6219 Administrator <admin@example.com> 1502483080 -0400	commit: cambios yusmary
+95701984b496b79a30442f994ddc024c676b6219 e4bd0509b3774d5cab9396f29df9560f4ab6316b Administrator <admin@example.com> 1502908851 -0400	commit: ultimos cambios version 0
+e4bd0509b3774d5cab9396f29df9560f4ab6316b 335a93e324ba5d05e844afea30f1d6f34417498a Administrator <admin@example.com> 1502909271 -0400	commit: update bd

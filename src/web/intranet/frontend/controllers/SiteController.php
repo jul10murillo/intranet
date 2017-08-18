@@ -13,6 +13,7 @@ use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
 use common\components\GDhelper;
+use common\models\User;
 
 /**
  * Site controller
@@ -74,32 +75,35 @@ class SiteController extends Controller
      *
      * @return mixed
      */
-    public function actionLogin()
-    {
+    public function actionLogin() {
         if (!Yii::$app->user->isGuest) {
-            return $this->goHome();
+            return $this->goHome() ;
         }
 
-        $model = new LoginForm();
+        $model = new LoginForm() ;
 
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            $username = $model->username;
-            $model1= \common\models\User::find()->select('id')->where(['username'=>$username])->one();
-            $id= $model1->id;
+            $username = $model->username ;
+            $model1   = \common\models\User::find()->select('id')->where(['username' => $username])->one() ;
+            $id       = $model1->id ;
 
-            $user=\common\models\UserProfile::find()->where(['id'=>$id])->one();
-
-            if (!$user){
-                $user = new \common\models\UserProfile;
-                $user->id= $id;
-                $user->template= 'blackstyle.css';
-                $user->save();
+            $user = \common\models\UserProfile::find()->where(['id' => $id])->one() ;
+            if (!$user) {
+                $user           = new \common\models\UserProfile ;
+                $user->id       = $id ;
+                $user->template = 'blackstyle.css' ;
+                $user->save() ;
             }
-            return $this->goBack();
+            $statususer = \Yii::$app->ad->getDefaultProvider()->search()->findBy('sAMAccountname', $username) ;
+            $department = $statususer->getDepartment() ;
+
+            $role = Yii::$app->authManager->getRole($department) ;
+            Yii::$app->authManager->assign($role, $id) ;
+            return $this->goBack() ;
         } else {
             return $this->render('login', [
-                'model' => $model,
-            ]);
+                        'model' => $model,
+                    ]) ;
         }
     }
 

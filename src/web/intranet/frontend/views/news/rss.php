@@ -34,3 +34,4 @@ ListView::widget([
         ],
 ]);
 ?>
+<?= (\Yii::$app->authManager->checkAccess(\Yii::$app->user->id, 'editNewsSource'))?\yii\helpers\Html::a('<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>', \yii\helpers\Url::to(['news/index']), ['class'=>'botonF1']):""; ?>

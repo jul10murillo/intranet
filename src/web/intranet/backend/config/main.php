@@ -26,6 +26,10 @@ return [
         ]
     ] ,
     'components' => [
+         'assetManager' => [
+            'class'     => 'yii\web\AssetManager',
+            'forceCopy' => true,
+        ],
         'view' => [
             'theme' => [
                 'pathMap' => [
@@ -36,11 +40,10 @@ return [
         'request' => [
             'csrfParam' => '_csrf-backend',
         ],
-        'user' => [
-            'class' => 'yii\web\User', // basic class
-            'identityClass' => 'common\models\Admin', // your admin model
+        'user'         => [
+            'identityClass'   => 'Edvlerblog\Adldap2\model\UserDbLdap',
             'enableAutoLogin' => true,
-            'identityCookie' => ['name' => '_identity-backend', 'httpOnly' => true],
+            'identityCookie'  => ['name' => '_identity-frontend', 'httpOnly' => true],
         ],
         'authManagerldap' => [
             'class' => 'yii\rbac\DbManagerFrontend',

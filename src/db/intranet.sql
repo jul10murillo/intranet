@@ -1,15 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.0
--- https://www.phpmyadmin.net/
+-- version 4.5.4.1deb2ubuntu2
+-- http://www.phpmyadmin.net
 --
--- Servidor: 127.0.0.1
--- Tiempo de generación: 11-08-2017 a las 22:26:22
--- Versión del servidor: 10.1.22-MariaDB
--- Versión de PHP: 7.0.18
+-- Host: localhost
+-- Generation Time: Aug 16, 2017 at 02:46 PM
+-- Server version: 5.7.19-0ubuntu0.16.04.1
+-- PHP Version: 7.0.22-0ubuntu0.16.04.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -19,13 +17,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `intranet`
+-- Database: `intranet`
 --
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `admin`
+-- Table structure for table `admin`
 --
 
 CREATE TABLE `admin` (
@@ -41,7 +39,7 @@ CREATE TABLE `admin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Volcado de datos para la tabla `admin`
+-- Dumping data for table `admin`
 --
 
 INSERT INTO `admin` (`id`, `username`, `auth_key`, `status`, `created_at`, `updated_at`, `email`, `password_hash`, `password_reset_token`) VALUES
@@ -51,7 +49,7 @@ INSERT INTO `admin` (`id`, `username`, `auth_key`, `status`, `created_at`, `upda
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `application`
+-- Table structure for table `application`
 --
 
 CREATE TABLE `application` (
@@ -63,18 +61,21 @@ CREATE TABLE `application` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `application`
+-- Dumping data for table `application`
 --
 
 INSERT INTO `application` (`application_id`, `application_name`, `application_description`, `application_url`, `categoryap_id`) VALUES
-(2, 'Correo', 'Accede a tu servicio de correo electrónico', 'mailto:', 2),
+(1, 'Profit', 'Lorem ipsum dolor sit amet, consectetur adipio', '#', 1),
+(2, 'Correo', 'Lorem ipsum dolor sit amet, consectetur adipio', '#', 2),
+(3, 'Profit', 'Ingresa a  Profit', '#', 1),
+(4, 'Correo', 'Ingresa a tu correo Corporativo', '#', 2),
 (5, 'Airshop', 'Ingresa a la Página web', '#', 3),
 (6, 'Exotic', 'Página web', '#', 3);
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `application_category`
+-- Table structure for table `application_category`
 --
 
 CREATE TABLE `application_category` (
@@ -84,7 +85,7 @@ CREATE TABLE `application_category` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `application_category`
+-- Dumping data for table `application_category`
 --
 
 INSERT INTO `application_category` (`categoryap_id`, `categoryap_name`, `categoryap_description`) VALUES
@@ -95,7 +96,7 @@ INSERT INTO `application_category` (`categoryap_id`, `categoryap_name`, `categor
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `auth_assignment`
+-- Table structure for table `auth_assignment`
 --
 
 CREATE TABLE `auth_assignment` (
@@ -105,18 +106,118 @@ CREATE TABLE `auth_assignment` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Volcado de datos para la tabla `auth_assignment`
+-- Dumping data for table `auth_assignment`
 --
 
 INSERT INTO `auth_assignment` (`item_name`, `user_id`, `created_at`) VALUES
-('yii2_example_group', '1', 1494941701),
-('yii2_see_home_group', '3', 1493302134),
-('yii2_see_home_group', '5', 1501877956);
+('Administración', '113', 1502808008),
+('Administración', '149', 1502808011),
+('Administración', '15', 1502808002),
+('Administración', '152', 1502808011),
+('Administración', '153', 1502808011),
+('Administración', '157', 1502808011),
+('Administración', '174', 1502808012),
+('Administración', '200', 1502808012),
+('Administración', '203', 1502808309),
+('Administración', '228', 1502808013),
+('Administración', '230', 1502808006),
+('Administración', '231', 1502808006),
+('Administración', '24', 1502808002),
+('Administración', '46', 1502808004),
+('Administración', '48', 1502808004),
+('Administración', '49', 1502808003),
+('Administración', '68', 1502808005),
+('Administración', '69', 1502808005),
+('Administración', '72', 1502808005),
+('Administración', '75', 1502808005),
+('Administración', '76', 1502808005),
+('Administración', '84', 1502808006),
+('Administración', '95', 1502808007),
+('Administración', '97', 1502808007),
+('Buena Alimentacion', '29', 1502808002),
+('Buena Alimentacion', '90', 1502808004),
+('Importación y Compras', '105', 1502808007),
+('Importación y Compras', '107', 1502808007),
+('Importación y Compras', '108', 1502808008),
+('Importación y Compras', '109', 1502808008),
+('Importación y Compras', '26', 1502808002),
+('Importación y Compras', '52', 1502808004),
+('Importación y Compras', '54', 1502808004),
+('Importación y Compras', '83', 1502808006),
+('Informática', '1', 1502899429),
+('Informática', '11', 1502808001),
+('Informática', '110', 1502808008),
+('Informática', '116', 1502808012),
+('Informática', '12', 1502808001),
+('Informática', '13', 1502808002),
+('Informática', '240', 1502808006),
+('Informática', '242', 1502808007),
+('Informática', '3', 1502808007),
+('Informática', '4', 1502808009),
+('Informática', '5', 1502898177),
+('Informática', '85', 1502808006),
+('Inventario', '111', 1502808008),
+('Inventario', '114', 1502808008),
+('Inventario', '19', 1502808002),
+('Inventario', '23', 1502808002),
+('Inventario', '34', 1502808003),
+('Inventario', '73', 1502808006),
+('Inventario', '74', 1502808008),
+('Mercadeo', '100', 1502808007),
+('Mercadeo', '101', 1502808007),
+('Mercadeo', '103', 1502808007),
+('Mercadeo', '104', 1502808007),
+('Mercadeo', '112', 1502808008),
+('Mercadeo', '241', 1502808006),
+('Mercadeo', '67', 1502808006),
+('Mercadeo', '70', 1502808005),
+('Mercadeo', '81', 1502890898),
+('Operaciones', '10', 1502808003),
+('Operaciones', '123', 1502808009),
+('Operaciones', '142', 1502808010),
+('Operaciones', '150', 1502808011),
+('Operaciones', '151', 1502808011),
+('Operaciones', '188', 1502808014),
+('Operaciones', '193', 1502808012),
+('Operaciones', '199', 1502808012),
+('Operaciones', '217', 1502808014),
+('Operaciones', '269', 1502808014),
+('Operaciones', '41', 1502808003),
+('Operaciones', '53', 1502808004),
+('Operaciones', '60', 1502808003),
+('Operaciones', '62', 1502808012),
+('Operaciones', '63', 1502808008),
+('Operaciones', '66', 1502808005),
+('Operaciones', '80', 1502808005),
+('Presidencia', '127', 1502808009),
+('Presidencia', '16', 1502808002),
+('RRHH', '106', 1502808007),
+('RRHH', '17', 1502808002),
+('RRHH', '18', 1502890862),
+('RRHH', '202', 1502808014),
+('RRHH', '205', 1502808012),
+('RRHH', '206', 1502808012),
+('RRHH', '22', 1502808001),
+('RRHH', '232', 1502808006),
+('RRHH', '239', 1502808006),
+('RRHH', '40', 1502808003),
+('RRHH', '64', 1502808007),
+('RRHH', '65', 1502808006),
+('RRHH', '78', 1502808005),
+('RRHH', '79', 1502808005),
+('RRHH', '87', 1502808008),
+('RRHH', '89', 1502808003),
+('RRHH', '9', 1502808002),
+('Servicios Generales', '35', 1502808004),
+('Servicios Generales', '39', 1502808003),
+('Servicios Generales', '45', 1502808004),
+('Servicios Generales', '50', 1502808004),
+('Servicios Generales', '51', 1502808004);
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `auth_item`
+-- Table structure for table `auth_item`
 --
 
 CREATE TABLE `auth_item` (
@@ -130,32 +231,34 @@ CREATE TABLE `auth_item` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Volcado de datos para la tabla `auth_item`
+-- Dumping data for table `auth_item`
 --
 
 INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES
-('admin', 1, NULL, NULL, NULL, 1493232743, 1493232743),
-('Administración', 1, NULL, NULL, NULL, 1501248800, 1501248800),
-('Buena Alimentacion', 1, NULL, NULL, NULL, 1501248801, 1501248801),
-('editLink', 2, 'permite editar los links', NULL, NULL, 1501248925, 1501248925),
+('Administración', 1, NULL, NULL, NULL, 1502808002, 1502808002),
+('adminLogin', 2, 'Log in administrador', NULL, NULL, 1502801935, 1502801935),
+('Buena Alimentacion', 1, NULL, NULL, NULL, 1502808002, 1502808002),
+('editApp', 2, 'Permite editar las aplicaciones', NULL, NULL, 1502895919, 1502895919),
+('editAppCategory', 2, 'Permite editar las categorías de las aplicaciones', NULL, NULL, 1502895961, 1502895961),
+('editLink', 2, 'permite editar los links', NULL, NULL, 1501248925, 1502891989),
+('editLinkCategory', 2, 'Permite editar la categoría de los links', NULL, NULL, 1502891728, 1502891728),
 ('editMision', 2, 'Permite editar misión y visión', NULL, NULL, 1501248892, 1501248892),
 ('editNews', 2, 'Permite editar Noticias', NULL, NULL, 1501248845, 1501248845),
-('Informática', 1, NULL, NULL, NULL, 1501248800, 1501248942),
-('Inventario', 1, NULL, NULL, NULL, 1501248800, 1501248800),
-('Mercadeo', 1, NULL, NULL, NULL, 1501248802, 1501248802),
-('permissionDisplayDetailedAbout', 2, 'Permission to display detailed about informations', NULL, NULL, 1492787312, 1492787312),
-('permissionToSeeHome', 2, 'Permission to use the home page', NULL, NULL, 1492787313, 1492787313),
-('permissionToUseContanctPage', 2, 'Permission to use the contanct page', NULL, NULL, 1492787312, 1492787312),
-('Presidencia', 1, NULL, NULL, NULL, 1501248800, 1501248800),
-('RRHH', 1, NULL, NULL, NULL, 1501248800, 1501248800),
-('Servicios Generales', 1, NULL, NULL, NULL, 1501248801, 1501248801),
-('yii2_example_group', 1, NULL, NULL, NULL, 1492787312, 1492787312),
-('yii2_see_home_group', 1, NULL, NULL, NULL, 1492787313, 1492787313);
+('editNewsCategory', 2, 'Permite editar la categoría de las noticias', NULL, NULL, 1502896647, 1502896647),
+('editNewsSource', 2, 'Permite editar la fuente de noticias', NULL, NULL, 1502895783, 1502896575),
+('Importación y Compras', 1, NULL, NULL, NULL, 1502808002, 1502808002),
+('Informática', 1, NULL, NULL, NULL, 1502808001, 1502896707),
+('Inventario', 1, NULL, NULL, NULL, 1502808002, 1502808002),
+('Mercadeo', 1, NULL, NULL, NULL, 1502808005, 1502808005),
+('Operaciones', 1, NULL, NULL, NULL, 1502808003, 1502808003),
+('Presidencia', 1, NULL, NULL, NULL, 1502808002, 1502808002),
+('RRHH', 1, NULL, NULL, NULL, 1502808001, 1502820436),
+('Servicios Generales', 1, NULL, NULL, NULL, 1502808002, 1502808002);
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `auth_item_child`
+-- Table structure for table `auth_item_child`
 --
 
 CREATE TABLE `auth_item_child` (
@@ -164,21 +267,28 @@ CREATE TABLE `auth_item_child` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Volcado de datos para la tabla `auth_item_child`
+-- Dumping data for table `auth_item_child`
 --
 
 INSERT INTO `auth_item_child` (`parent`, `child`) VALUES
+('Informática', 'adminLogin'),
+('RRHH', 'adminLogin'),
+('Informática', 'editApp'),
+('Informática', 'editAppCategory'),
 ('Informática', 'editLink'),
+('RRHH', 'editLink'),
+('Informática', 'editLinkCategory'),
 ('Informática', 'editMision'),
+('RRHH', 'editMision'),
 ('Informática', 'editNews'),
-('yii2_example_group', 'permissionDisplayDetailedAbout'),
-('yii2_example_group', 'permissionToUseContanctPage'),
-('yii2_see_home_group', 'permissionToSeeHome');
+('RRHH', 'editNews'),
+('Informática', 'editNewsCategory'),
+('Informática', 'editNewsSource');
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `auth_rule`
+-- Table structure for table `auth_rule`
 --
 
 CREATE TABLE `auth_rule` (
@@ -191,7 +301,7 @@ CREATE TABLE `auth_rule` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `back_auth_assignment`
+-- Table structure for table `back_auth_assignment`
 --
 
 CREATE TABLE `back_auth_assignment` (
@@ -203,7 +313,7 @@ CREATE TABLE `back_auth_assignment` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `back_auth_item`
+-- Table structure for table `back_auth_item`
 --
 
 CREATE TABLE `back_auth_item` (
@@ -217,7 +327,7 @@ CREATE TABLE `back_auth_item` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Volcado de datos para la tabla `back_auth_item`
+-- Dumping data for table `back_auth_item`
 --
 
 INSERT INTO `back_auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES
@@ -226,7 +336,7 @@ INSERT INTO `back_auth_item` (`name`, `type`, `description`, `rule_name`, `data`
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `back_auth_item_child`
+-- Table structure for table `back_auth_item_child`
 --
 
 CREATE TABLE `back_auth_item_child` (
@@ -237,7 +347,7 @@ CREATE TABLE `back_auth_item_child` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `back_auth_rule`
+-- Table structure for table `back_auth_rule`
 --
 
 CREATE TABLE `back_auth_rule` (
@@ -250,7 +360,7 @@ CREATE TABLE `back_auth_rule` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `business`
+-- Table structure for table `business`
 --
 
 CREATE TABLE `business` (
@@ -262,7 +372,7 @@ CREATE TABLE `business` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `business`
+-- Dumping data for table `business`
 --
 
 INSERT INTO `business` (`business_id`, `business_rif`, `business_name`, `mission_description`, `view_description`) VALUES
@@ -271,7 +381,7 @@ INSERT INTO `business` (`business_id`, `business_rif`, `business_name`, `mission
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `link`
+-- Table structure for table `link`
 --
 
 CREATE TABLE `link` (
@@ -283,21 +393,20 @@ CREATE TABLE `link` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `link`
+-- Dumping data for table `link`
 --
 
 INSERT INTO `link` (`link_id`, `link_name`, `link_description`, `url`, `categoryli_id`) VALUES
-(1, 'Banesco', 'Sitio web de Banesco Banco Universal. Productos y servicios financieros, Banca por Internet, Banca Móvil, atención al cliente, agencias, videos...', 'http://www.banesco.com/', 1),
-(2, 'TodoTicket ', 'Consulta el saldo de tus tarjetas', 'https://www.todoticket.com.ve/', 3),
-(3, 'Banco Provincial', 'BBVA Provincial te ofrece su banca en línea con toda la información sobre, tarjetas de crédito, cuentas, préstamos, para personas y empresas. Hazlo fácil.', 'http://www.provincial.com/', 1),
+(1, 'Banesco', 'Lorem ipsum dolor sit amet, consectetur adipio', 'http://www.banesco.com/', 1),
+(2, 'Todoticket', 'Consulta el saldo de tus tarjetas', 'https://www.todoticket.com.ve/', 3),
+(3, 'Banco Provincial', 'Ingresa a Provincial', 'http://www.provincial.com/', 1),
 (4, 'Seguros  Mercantil', 'Ingresa a tu seguro aqui', 'www.segurosmercantil.com', 2),
-(5, 'Seguros Universitas', 'Consulta tu seguro', 'www.segurosuniversitas.com', 2),
-(6, 'Banco de Venezuela', 'Ingresa a tu banco aquí', 'www.bancodevenezuela.com', 1);
+(5, 'Seguros Universitas', 'Consulta tu seguro', 'www.segurosuniversitas.com', 2);
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `link_category`
+-- Table structure for table `link_category`
 --
 
 CREATE TABLE `link_category` (
@@ -307,7 +416,7 @@ CREATE TABLE `link_category` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `link_category`
+-- Dumping data for table `link_category`
 --
 
 INSERT INTO `link_category` (`categoryli_id`, `categoryli_name`, `categoryli_description`) VALUES
@@ -318,7 +427,7 @@ INSERT INTO `link_category` (`categoryli_id`, `categoryli_name`, `categoryli_des
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `migration`
+-- Table structure for table `migration`
 --
 
 CREATE TABLE `migration` (
@@ -327,7 +436,7 @@ CREATE TABLE `migration` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `migration`
+-- Dumping data for table `migration`
 --
 
 INSERT INTO `migration` (`version`, `apply_time`) VALUES
@@ -338,7 +447,7 @@ INSERT INTO `migration` (`version`, `apply_time`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `migration_rbac`
+-- Table structure for table `migration_rbac`
 --
 
 CREATE TABLE `migration_rbac` (
@@ -347,7 +456,7 @@ CREATE TABLE `migration_rbac` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `migration_rbac`
+-- Dumping data for table `migration_rbac`
 --
 
 INSERT INTO `migration_rbac` (`version`, `apply_time`) VALUES
@@ -357,7 +466,7 @@ INSERT INTO `migration_rbac` (`version`, `apply_time`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `news`
+-- Table structure for table `news`
 --
 
 CREATE TABLE `news` (
@@ -370,17 +479,20 @@ CREATE TABLE `news` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `news`
+-- Dumping data for table `news`
 --
 
 INSERT INTO `news` (`news_id`, `news_channel`, `news_title`, `news_link`, `news_description`, `categoryne_id`) VALUES
 (2, 'Xataka', 'Tecnología', 'http://www.xataka.com/atom.xml', 'Noticias de Tecnología', 1),
-(4, 'ABC', 'Tecnología', 'http://www.abc.es/rss/feeds/abc_Tecnologia.xml', 'Noticias de tecnología', 1);
+(4, 'ABC', 'Tecnología', 'http://www.abc.es/rss/feeds/abc_Tecnologia.xml', 'Noticias de tecnología', 1),
+(5, 'Genbeta', 'Tecnología', 'http://feeds.weblogssl.com/genbeta', 'Tecnología', 1),
+(6, 'Applesfera', 'Applesfera', 'http://feeds.weblogssl.com/applesfera', 'Ios', 1),
+(7, 'Vitonica', 'Vitonica', 'http://feeds.weblogssl.com/vitonica', 'Tecnología', 3);
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `news_business`
+-- Table structure for table `news_business`
 --
 
 CREATE TABLE `news_business` (
@@ -394,24 +506,22 @@ CREATE TABLE `news_business` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `news_business`
+-- Dumping data for table `news_business`
 --
 
 INSERT INTO `news_business` (`nbusiness_id`, `nbusiness_title`, `nbusiness_description`, `nbusiness_image`, `nbusiness_date`, `categoryne_id`, `nbusiness_active`) VALUES
-(1, 'Beneficio de Guardería', 'Todos aquellos empleados cuyo salarios sea menor a Bs. 325.000,00 mensuales\r\ny tengan hijos en edades comprendidas entre los 3 meses y 5 años y 11 meses ;\r\ntendrán acceso al Beneficio del pago de Guardería; el cual consta de un 40% del\r\nSalario Mínimo Vigente; para esto tendrás que:\r\n• Entregar Acta de Nacimiento de tu Hijo\r\n• Carta de no otorgación del Beneficio de parte del trabajo del padre o de la madre\r\ndel niño (según sea el caso)\r\n• Registro mercantil de la Guardería\r\n• Inscripción ante el Ministerio de Educación de la Guardería\r\n• RIF de la Guardería\r\nCon estos documentos puedes pasar\r\npor la Coordinación de\r\nCompensación y Beneficios con la\r\nSrta. Leydy Delgado a formalizar el\r\nexpediente y en donde recibirás los\r\npróximos pasos a seguir.', 'uploads/news_1.jpg', '2017-07-06', 2, 1),
+(1, 'Beneficio de Guarderia', 'Todos aquellos empleados cuyo salarios sea menor a Bs. 325.000,00 mensuales\r\ny tengan hijos en edades comprendidas entre los 3 meses y 5 años y 11 meses ;\r\ntendrán acceso al Beneficio del pago de Guardería; el cual consta de un 40% del\r\nSalario Mínimo Vigente; para esto tendrás que:\r\n• Entregar Acta de Nacimiento de tu Hijo\r\n• Carta de no otorgación del Beneficio de parte del trabajo del padre o de la madre\r\ndel niño (según sea el caso)\r\n• Registro mercantil de la Guardería\r\n• Inscripción ante el Ministerio de Educación de la Guardería\r\n• RIF de la Guardería\r\nCon estos documentos puedes pasar\r\npor la Coordinación de\r\nCompensación y Beneficios con la\r\nSrta. Leydy Delgado a formalizar el\r\nexpediente y en donde recibirás los\r\npróximos pasos a seguir.', 'uploads/Beneficio de Guarderia.jpg', '2017-07-06', 2, 1),
 (2, 'prueba', 'prueba', 'uploads/prueba.jpg', '2017-07-06', 2, 1),
 (4, 'prueba3', 'prueba3', 'uploads/prueba3.jpg', '2017-07-06', 2, 1),
 (5, 'PRUEBA4', 'PRUEBA4', 'uploads/PRUEBA4.jpg', '2017-07-06', 2, 0),
 (6, 'prueba5', 'prueba5', 'uploads/prueba5.jpg', '2017-07-06', 2, 1),
-(7, 'Política  de viáticos Junio 2017', 'A partir del 1ro de Junio los viáticos por viajes (comidas) serán calculados con un  valor único diario el cual será revisado cada 3 meses.\r\nCon esta nueva modalidad el monto asignado será depositado en tu tarjeta de alimentación de Todo Ticket en la fecha que corresponde según tu viaje y dicho monto podrá ser utilizado a conveniencia de cada empleado ya que no exigiremos el soporte de los gastos incurridos por este concepto.\r\nEl monto diario a depositar a partir del 1ro de Junio será de Bs. 35000 diarios; en caso de tener algún excedente no será necesario reintegrarlo a la empresa.\r\nEsperamos que esta nueva modalidad sea para el beneficio de ambas partes de igual forma estaremos revisando y evaluando la continuidad de esta nueva metodología.', 'uploads/news_7.jpg', '2017-07-07', 2, 1),
-(8, 'Prueba 1', 'Prueba 1 noticias de interes', 'uploads/Prueba 1.jpg', '2017-07-11', 3, 1),
-(9, 'Prueba8', 'Prueba8', 'uploads/Prueba8.jpg', '2017-08-07', 4, 1),
-(10, 'prueba9', 'prueba 9', 'uploads/prueba9.png', '2017-08-07', 4, 1);
+(7, 'prueba6', 'prueba6', 'uploads/prueba6.jpg', '2017-07-07', 2, 1),
+(8, 'Prueba 1', 'Prueba 1 noticias de interes', 'uploads/Prueba 1.jpg', '2017-07-11', 3, 1);
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `news_category`
+-- Table structure for table `news_category`
 --
 
 CREATE TABLE `news_category` (
@@ -421,7 +531,7 @@ CREATE TABLE `news_category` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `news_category`
+-- Dumping data for table `news_category`
 --
 
 INSERT INTO `news_category` (`categoryne_id`, `categoryne_name`, `categoryne_description`) VALUES
@@ -433,7 +543,7 @@ INSERT INTO `news_category` (`categoryne_id`, `categoryne_name`, `categoryne_des
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `user`
+-- Table structure for table `user`
 --
 
 CREATE TABLE `user` (
@@ -447,7 +557,7 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Volcado de datos para la tabla `user`
+-- Dumping data for table `user`
 --
 
 INSERT INTO `user` (`id`, `username`, `auth_key`, `status`, `created_at`, `updated_at`, `template`) VALUES
@@ -456,7 +566,6 @@ INSERT INTO `user` (`id`, `username`, `auth_key`, `status`, `created_at`, `updat
 (3, 'fsilva', '4RLEk3q2TlzjeCSTciYV6ul-0VLJXdaz', 1, 1492802509, 1492802509, 'blackstyle.css'),
 (4, 'vgazcon', 'BBqTpyDzUhw0nTB3VuZzt99NMxPDsGOh', 1, 1493211033, 1493211033, 'blackstyle.css'),
 (5, 'ylopez', 'QZ16es8z1YBrRCluXa5lMDwj6S1YtT9B', 1, 1495649714, 1500404643, 'whitestyle.css'),
-(6, 'Invitado', 'au3a87ZWsRzMKDXJiHmGgbs-Sp-RABBp', 0, 1499112670, 1499112670, 'blackstyle.css'),
 (7, 'ebarrios', 'qlSVgdHPhaMnVrHhbJThb-KMVSdSsW7e', 1, 1499112670, 1499112670, 'blackstyle.css'),
 (8, 'jfranco', 'S6e2VNnZnVN-J7G7K5JD1P6HPzYLwAFK', 1, 1499112671, 1499112671, 'blackstyle.css'),
 (9, 'dzapata', '3MSiCL4Jt8HyuYgDBmimQckE5LKe_IJd', 1, 1499112671, 1499112671, 'blackstyle.css'),
@@ -481,19 +590,14 @@ INSERT INTO `user` (`id`, `username`, `auth_key`, `status`, `created_at`, `updat
 (28, 'vst.lidercaballeros', 'lFwxyDI6aXnmIRJhrxanWyuh0hIbGFJk', 1, 1499112671, 1499112671, 'blackstyle.css'),
 (29, 'oguevara', 'jJQsGzZDpggf99wArp_icox744nCBS-m', 1, 1499112671, 1499112671, 'blackstyle.css'),
 (30, 'aishopccct', '1uCE7UL3JUiwNlG7YvJsBqonXcC-SZ81', 1, 1499112671, 1499112671, 'blackstyle.css'),
-(31, 'afigueroa', 'hsmwTIPznQUXFzzH9oEQa6Oj7Iuc-CeZ', 1, 1499112671, 1499112671, 'blackstyle.css'),
 (32, 'aislido', 'i5TYpSFyvWGkLpoIdzacHdcUPVrxZOXX', 1, 1499112671, 1499112671, 'blackstyle.css'),
 (33, 'xin.ccct', 'MGsRzaM7eoZLDQG3xsYHjk0HrsYNnBob', 1, 1499112671, 1499112671, 'blackstyle.css'),
 (34, 'elopez', 'evSqtZWvfP6z3zIa8cVSEbmjalnAmPZZ', 1, 1499112671, 1499112671, 'blackstyle.css'),
 (35, 'recepcionpb01', 'Z74RksCKhYskTxr-iYImQGfRQscyy1Ga', 1, 1499112671, 1499112671, 'blackstyle.css'),
 (36, 'ICG18', 'Q4A6lSXKWCg4gykTSYWTwWL9PZGomBRz', 1, 1499112671, 1499112671, 'blackstyle.css'),
-(37, 'icg19', 'FV7sYZ4n53xd3nWfZ-ctQ4vTqpLOehXg', 0, 1499112672, 1499112672, 'blackstyle.css'),
-(38, 'ICG20', 'LoRp9D7jfhgTGZAbPSpnSe5vka8mD6eH', 0, 1499112672, 1499112672, 'blackstyle.css'),
 (39, 'mcaldeira', 'xsHYieXiRrzhNDIAR9HnMpSQ9-SfnO_w', 1, 1499112672, 1499112672, 'blackstyle.css'),
 (40, 'rcelis', '39SCn3kQ-6j5bgwj_WDFQxrL7l8MjzF7', 1, 1499112672, 1499112672, 'blackstyle.css'),
 (41, 'amoncada', 's0MpMeMglxunTJwzOF81vwx-u83y67_u', 1, 1499112672, 1499112672, 'blackstyle.css'),
-(42, 'krbtgt', 'hbYjh0I3USnucAsvYfD_Pc1L9SQNEy9-', 0, 1499112672, 1499112672, 'blackstyle.css'),
-(43, 'SUPPORT_388945a0', 'XJl_tOildYSnuwnvijMBuYFVQvXbw0RL', 0, 1499112672, 1499112672, 'blackstyle.css'),
 (44, 'IWAM_GDPROFIT', 'cw9prLeaGeGxepRxAgH4EDS5FSyRqkeR', 1, 1499112672, 1499112672, 'blackstyle.css'),
 (45, 'recepcionpb02', 'pzdDBXv2puQ2VoNJPzTK0ox6fkJlKL8j', 1, 1499112672, 1499112672, 'blackstyle.css'),
 (46, 'zortega', 'ld5A8BoSHdnEyDuc1OwW7V7-yI0Y7Ywr', 1, 1499112672, 1499112672, 'blackstyle.css'),
@@ -532,27 +636,20 @@ INSERT INTO `user` (`id`, `username`, `auth_key`, `status`, `created_at`, `updat
 (79, 'jKiss', 'Lo1DltuizlJEewj5sbh8sc56-Kp0KZh5', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (80, 'kchacon', 'PQlCtpP9zlWrCcJzvJCljhhvu7GyY9LO', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (81, 'eblanco', 'Caq8YoOyRCWebhsRaLoYjLIcnKjgzo31', 1, 1499112673, 1499112673, 'blackstyle.css'),
-(82, 'ehernandez', '5wIYRqNz7BaZutOpMmr8iqoOhWS380H4', 0, 1499112673, 1499112673, 'blackstyle.css'),
 (83, 'ndsantos', 'wb-Pssx3Opv1COXLRzIyzflTMLoT4ZHE', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (84, 'ygarcia', 'xt0skmx9RtEVay-x8NIAh7-Lbiaidinq', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (85, 'eperalta', 'lnalKJhUVxnIdNQqvQyNiDjmgmwyvjq7', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (86, 'abatatina', 'bO9QX8u6GcLDqG2PNQN_KmAdGQO93L3f', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (87, 'juzcategui', 'Fw_0MwkG8lD973R1P7rrrvI5ECkW2evT', 1, 1499112673, 1499112673, 'blackstyle.css'),
-(88, 'addiaz', 'oBT6cQpr1-DwqRC6hxFnFGIiY9AUoOon', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (89, 'cmartinez', 'XSdBY3psfHkD7UlfNJrFyaLJBuK4_NSk', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (90, 'ymelo', 'ymvaOZTzuizhzFC2hEIhsQuaRYJV-xfu', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (91, 'aissagd', 'zw1AhFAS7TCM_oNKrI-1Rkg_ShF1YSbc', 1, 1499112673, 1499112673, 'blackstyle.css'),
-(92, 'agarcia', 'qVvBMhVLY9YIEH_BP4hJWfpZhb80DdzO', 0, 1499112673, 1499112673, 'blackstyle.css'),
 (93, 'aiscab', 'gH8GeijsLcizEA8TaeF7_gkQHgMh9YNS', 1, 1499112673, 1499112673, 'blackstyle.css'),
-(94, 'aalvarado', '9-zmqyxr0ynDw-WLn0MGdBJH3y-hzkLX', 0, 1499112673, 1499112673, 'blackstyle.css'),
 (95, 'lrequena', 'erfppikf9MwB4kXCRVKYGSEdGlTxc10V', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (96, 'capacitacion', 'Olebz6H94XZgxCQqAL6kCZBpceQ2nlYY', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (97, 'ybriceño', 'JIUE2DeRLo4fDf573PG3KNk5KAusAi9L', 1, 1499112673, 1499112673, 'blackstyle.css'),
-(98, 'ngoncalves', 'Ox4mPxJeYAHQBl9D8PSoOu8T5Ww2hjM7', 0, 1499112673, 1499112673, 'blackstyle.css'),
-(99, 'kgonzalez', 'jtc2DIsWhniJWjI1T7DnNfK3L0Ip0gfq', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (100, 'sgomez', 'p-a9HAAHDlIMMY0BRKbZfeYiwAH5wrct', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (101, 'ralves', 'X_xQ0TvnGM0KLb0TxMQqGzZ_DOcgF0pD', 1, 1499112673, 1499112673, 'blackstyle.css'),
-(102, 'varevalo', 'rnrIYOGxdlnWhLsGSDLVK2wm_O8YVb3B', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (103, 'cguzman', 'ZcbIx6krd3FhqDQdCWoUpXdoiUUZugCP', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (104, 'yrivas', '6dSWNaTME5n6AQx_xcCXf57f5FmSDTdF', 1, 1499112673, 1499112673, 'blackstyle.css'),
 (105, 'rserpa', 'Bg0FPq9zcMbk5ohn1_lGyfI2RkzmYE1d', 1, 1499112673, 1499112673, 'blackstyle.css'),
@@ -573,32 +670,20 @@ INSERT INTO `user` (`id`, `username`, `auth_key`, `status`, `created_at`, `updat
 (120, 'Orinok', '5U3poFgYINj-JfF1EOC69ynhrRK195Of', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (121, 'Ozono', 'F1T8pMNXf0XlbRp8mPAY8lxUpyYDaZL8', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (122, 'Sanignacio', 'KrzDPiBOVrmrF6De0d4Iybi5tM0yl1LI', 1, 1499112674, 1499112674, 'blackstyle.css'),
-(123, 'GDA_Inve01', 'BFXA9pQ8XBWcpnDrbUzg6AQwVskM97GQ', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (124, 'Tango', '4AxT9gZ7vL55sJtG0cq8hO7Vglj6gdL7', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (125, 'Tolon', 'xbFiTTtml_Y8DcjFvwBjc42lD6OK14bS', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (126, 'Valencia', 'mnEu51cQxMPqzYK2GB2IvuZN_7_GC1U2', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (127, 'GDA_Owner', 'XtDVjnk6Kw1F0oSsw7CeRyGOxx5NLuLq', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (128, 'Contabilidad1', 'xgLtw_uV7WpmtRrkL38OS5nIg27RsxSg', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (129, 'Mchachati', '2yWR1o9gJUYsm2yVlpswH7p97wSXN23T', 1, 1499112674, 1499112674, 'blackstyle.css'),
-(130, 'ICG01', 'bOwSyobJj8hOgVL01u4jq4sh7Z-9p-TG', 0, 1499112674, 1499112674, 'blackstyle.css'),
 (131, 'Maturin', 'EdH2NBcVGhUdMXAVcmY8X_VBcl6syNYx', 1, 1499112674, 1499112674, 'blackstyle.css'),
-(132, 'ICG02', 'eIyuRU_4IoUvxXlKFkJpv0YDmlFbSueg', 0, 1499112674, 1499112674, 'blackstyle.css'),
-(133, 'ICG03', '6-qY_E_jyAOQxFTrAgn7ZHYDsGN_Wu95', 0, 1499112674, 1499112674, 'blackstyle.css'),
-(134, 'ICG04', 'r3hEfUUTO2fHHBDOzWpiEInUqH_TbTHB', 0, 1499112674, 1499112674, 'blackstyle.css'),
 (135, 'ICG05', 'g3VtXGPBZViLHCbQn-xJf--QZxal9Je7', 1, 1499112674, 1499112674, 'blackstyle.css'),
-(136, 'ICG06', 'JqBtXMTrHebHu0G8DS3dvjt4smWQ5e5t', 0, 1499112674, 1499112674, 'blackstyle.css'),
-(137, 'ICG07', 'RrclofixwSiAKREOkM_1mGg773mxQ5Se', 0, 1499112674, 1499112674, 'blackstyle.css'),
-(138, 'ICG08', 'lh-7qGb0Ytfn4TT_yKTT8xagNsNpdmNy', 0, 1499112674, 1499112674, 'blackstyle.css'),
-(139, 'sanlong', 'xApLjc-gB47TCfAEWFuSw7tj7arwdz2X', 0, 1499112674, 1499112674, 'blackstyle.css'),
 (140, 'contabilidad9', '653EMa88ydr7l3GEXuQEClX7toGWq1aV', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (141, 'contabilidad10', '896kamZDb7fL9mniDv7-2-X6v7vkZUVY', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (142, 'mcsamaniego', 'SjUn7MHO9mrN31_nn4vB9E9uFUfevOvM', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (143, 'naifmaturin', 'w9_FLpP7-6j38BMi3UeS4cU5L-ux-nmM', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (144, 'L19', '1JbpOyELIQlu5f-2iUwflw3vC-dQHHkJ', 1, 1499112674, 1499112674, 'blackstyle.css'),
-(145, 'ICG10', 'MoC9PmUjnDsqOHZj_nuc0OO4IqucMzGu', 0, 1499112674, 1499112674, 'blackstyle.css'),
-(146, 'crevilla', 'ZDaD5l1yhYTcep3FtiBSF5rnx5RkDJDQ', 0, 1499112674, 1499112674, 'blackstyle.css'),
 (147, 'Administrador', 'hoplPv69Szi4GmeD7FDU4SPsOh1ABFKB', 1, 1499112674, 1499112674, 'blackstyle.css'),
-(148, 'vwalo', 'niL-egeCYVLBdqkDls4focEbl4MpHvYP', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (149, 'wbaldes', 'T2fHj5y_mNdGstcOsg5J8Xw4SC7t6C8j', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (150, 'GDA_inv01', 'bnrEwNq2ALvO3Y5zkiGVuyG5p4d1w2Qd', 1, 1499112674, 1499112674, 'blackstyle.css'),
 (151, 'GDA_Super01', '-m-yke5wIoevPw1rim8JEUR6kPF2gVOB', 1, 1499112674, 1499112674, 'blackstyle.css'),
@@ -617,12 +702,10 @@ INSERT INTO `user` (`id`, `username`, `auth_key`, `status`, `created_at`, `updat
 (164, 'contabilidad6', 'RiTz7vGzmi4TK_01QUuWwPGtwIkwP4TK', 1, 1499112675, 1499112675, 'blackstyle.css'),
 (165, 'contabilidad7', 'SCbmyYOb0dwSgJMOtFVN4TBntiIrXV5g', 1, 1499112675, 1499112675, 'blackstyle.css'),
 (166, 'contabilidad8', 'OmKIJ8d1sIIMN5EYNUd2VG1jkabYQU7N', 1, 1499112675, 1499112675, 'blackstyle.css'),
-(167, 'dzorrilla', 'FE87Dyguek3bGlV-sJQ47kMItAlKBubE', 0, 1499112675, 1499112675, 'blackstyle.css'),
 (168, 'F05', 'CDeMB-hNcoj6Qjisrd8j6cpkmfqScgLc', 1, 1499112675, 1499112675, 'blackstyle.css'),
 (169, 'Forest', 'foeoTMA5ND3AIGPSnNvPIRqJJQfU2vBW', 1, 1499112675, 1499112675, 'blackstyle.css'),
 (170, 'Foru', 'yhuxtUJ5jZ5WLDI4XTt2up48JkFvP3cn', 1, 1499112675, 1499112675, 'blackstyle.css'),
 (171, 'Guatire', 'nTsVe3-JjQei7Ejl2qMbnFInQfL5mk0J', 1, 1499112675, 1499112675, 'blackstyle.css'),
-(172, 'ICG09', 'WgXyG1zJkOtb1dfsFgEjyfxWF1ctiNeq', 0, 1499112675, 1499112675, 'blackstyle.css'),
 (173, 'Sramos', '9yetqoiusw5m3QpJgJNr0JrAS5PgFRaA', 1, 1499112675, 1499112675, 'blackstyle.css'),
 (174, 'vrebolledo', 'TQPQto73RkJKKjtSnPNG0mKLvDYScAaN', 1, 1499112675, 1499112675, 'blackstyle.css'),
 (175, 'joanne.parks', 'PPqFHlaioh9jeNMFOIZpzPv6qX6k5Jzq', 1, 1499112675, 1499112675, 'blackstyle.css'),
@@ -657,8 +740,6 @@ INSERT INTO `user` (`id`, `username`, `auth_key`, `status`, `created_at`, `updat
 (204, 'CHMercedes', 'iW7ubh9qeHVP30IPT1OwaybDc4w7QqHS', 1, 1499112675, 1499112675, 'blackstyle.css'),
 (205, 'LDelgado', '-klThzo0H-fMEtpzXvmpRs8hlvqfE6gd', 1, 1499112676, 1499112676, 'blackstyle.css'),
 (206, 'MQuercia', 'h-7r28vzPy8qwQmosLVRTMqHUVKitwGq', 1, 1499112676, 1499112676, 'blackstyle.css'),
-(207, 'ICG11', 'iIfrbs9F6CEiLByT3sujlOyhFsxRb2yZ', 0, 1499112676, 1499112676, 'blackstyle.css'),
-(208, 'ICG12', 'GBTJMiLOYeyjP1q0SP5dSOXEXZumBHzt', 0, 1499112676, 1499112676, 'blackstyle.css'),
 (209, 'xinhatillo', 'mwa0k-Ahf0bW8FvrcR7B9-WCj9TXSmvK', 1, 1499112676, 1499112676, 'blackstyle.css'),
 (210, 'Adolfoaeropuerto', '9RdbHJVddfqhN30wzrg3JRdYNSk_61bj', 1, 1499112676, 1499112676, 'blackstyle.css'),
 (211, 'Arecreo', 'mFmkWEA8j4Qe0IH9EIE21RKeYC4mp3hx', 1, 1499112676, 1499112676, 'blackstyle.css'),
@@ -669,23 +750,22 @@ INSERT INTO `user` (`id`, `username`, `auth_key`, `status`, `created_at`, `updat
 (216, 'CHaeropuerto', 'cilehVywIDw6maflVEo-LrDj3N0VUDGs', 1, 1499112676, 1499112676, 'blackstyle.css'),
 (217, 'ipinto', 'wESWn3y_l2BhZ3H5uzaljgx8zwI7Cfro', 1, 1499112676, 1499112676, 'blackstyle.css'),
 (218, 'Sancristobal', 'wabfFuaFGzfVkJG73iFEx9XUFFhJwF1V', 1, 1499112676, 1499112676, 'blackstyle.css'),
-(219, 'ICG13', '577XwT-Z_hwzJy6IYRDrfKvwf_C1O3U_', 0, 1499112676, 1499112676, 'blackstyle.css'),
-(220, 'ICG14', 'OeFpJEqBdWlDqq7sobekp4BZv-hLFMZA', 0, 1499112676, 1499112676, 'blackstyle.css'),
-(221, 'ICG15', 'O0wudckHBFtbXeY0EKZiGj9YDJfumMhv', 0, 1499112676, 1499112676, 'blackstyle.css'),
-(222, 'ICG16', 'poZPdZUPJdcio9dRkjPj0nPSf7q7zM9m', 0, 1499112676, 1499112676, 'blackstyle.css'),
-(223, 'ICG17', 'mW4rUQzYgSY1o42ZpV0m3zKRQ5wzTjor', 0, 1499112676, 1499112676, 'blackstyle.css'),
 (224, 'Aldo', 'UhijT6NYKOMGnZUtgrbUjM6T28tSp0P7', 1, 1499112676, 1499112676, 'blackstyle.css'),
 (225, 'Aishopm', 'Fdc9OvsrfPWJUlxONUP_mkvDGeGMaTII', 1, 1499112676, 1499112676, 'blackstyle.css'),
 (226, 'CHMargarita', 'cZnKCTLFu2UU7YEB10k1Jid_F1zfcGON', 1, 1499112676, 1499112676, 'blackstyle.css'),
 (227, 'PGMargarita', 'jxq-DgwSKqSAFAfoFS1drygYAVgvXcYy', 1, 1499112676, 1499112676, 'blackstyle.css'),
 (228, 'aromero', 'NF1Nu6vwOn3kIqDs0k3agFP-TVXWtfOo', 1, 1499112676, 1499112676, 'blackstyle.css'),
-(229, 'amedina', '651_0boGAqcshm9DgcmB6ve-dKXFWXdd', 0, 1499112676, 1499112676, 'blackstyle.css'),
-(230, 'ysalazar', 'mG3atfBBXO9av9nADf0bYDNF6h3-N6oQ', 1, 1499112676, 1499112676, 'blackstyle.css');
+(230, 'ysalazar', 'mG3atfBBXO9av9nADf0bYDNF6h3-N6oQ', 1, 1499112676, 1499112676, 'blackstyle.css'),
+(231, 'dhernandez', 'uzFeNOQDyHO9nMgghRU17oUCHsBzxo2O', 1, 1501248804, 1501248804, 'blackstyle.css'),
+(232, 'mguzman', 'LvccYy80cNEkZEv9OWa5jpW_bp_dLk0h', 1, 1501248809, 1501248809, 'blackstyle.css'),
+(239, 'wrivas', 'HaNuzrMILNghYOrXtuDQd7He2dDBzPoP', 1, 1502808006, 1502808006, 'blackstyle.css'),
+(241, 'ccepeda', 'ISIX-LGpfAlVHAK6sk16IWYx9t4AD5PQ', 1, 1502808006, 1502808006, 'blackstyle.css'),
+(269, 'mrincon', 'Xri8EoOmBJDQqMpksed0CBOSC_XZOI9j', 1, 1502808014, 1502808014, 'blackstyle.css');
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `user_profile`
+-- Table structure for table `user_profile`
 --
 
 CREATE TABLE `user_profile` (
@@ -694,44 +774,47 @@ CREATE TABLE `user_profile` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `user_profile`
+-- Dumping data for table `user_profile`
 --
 
 INSERT INTO `user_profile` (`id`, `template`) VALUES
-(1, 'whitestyle.css'),
-(5, 'blackstyle.css');
+(1, 'blackstyle.css'),
+(5, 'blackstyle.css'),
+(7, 'blackstyle.css'),
+(18, 'blackstyle.css'),
+(81, 'blackstyle.css');
 
 --
--- Índices para tablas volcadas
+-- Indexes for dumped tables
 --
 
 --
--- Indices de la tabla `admin`
+-- Indexes for table `admin`
 --
 ALTER TABLE `admin`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indices de la tabla `application`
+-- Indexes for table `application`
 --
 ALTER TABLE `application`
   ADD PRIMARY KEY (`application_id`),
   ADD KEY `categoryap_id` (`categoryap_id`);
 
 --
--- Indices de la tabla `application_category`
+-- Indexes for table `application_category`
 --
 ALTER TABLE `application_category`
   ADD PRIMARY KEY (`categoryap_id`);
 
 --
--- Indices de la tabla `auth_assignment`
+-- Indexes for table `auth_assignment`
 --
 ALTER TABLE `auth_assignment`
   ADD PRIMARY KEY (`item_name`,`user_id`);
 
 --
--- Indices de la tabla `auth_item`
+-- Indexes for table `auth_item`
 --
 ALTER TABLE `auth_item`
   ADD PRIMARY KEY (`name`),
@@ -739,26 +822,26 @@ ALTER TABLE `auth_item`
   ADD KEY `idx-auth_item-type` (`type`);
 
 --
--- Indices de la tabla `auth_item_child`
+-- Indexes for table `auth_item_child`
 --
 ALTER TABLE `auth_item_child`
   ADD PRIMARY KEY (`parent`,`child`),
   ADD KEY `child` (`child`);
 
 --
--- Indices de la tabla `auth_rule`
+-- Indexes for table `auth_rule`
 --
 ALTER TABLE `auth_rule`
   ADD PRIMARY KEY (`name`);
 
 --
--- Indices de la tabla `back_auth_assignment`
+-- Indexes for table `back_auth_assignment`
 --
 ALTER TABLE `back_auth_assignment`
   ADD PRIMARY KEY (`item_name`,`user_id`);
 
 --
--- Indices de la tabla `back_auth_item`
+-- Indexes for table `back_auth_item`
 --
 ALTER TABLE `back_auth_item`
   ADD PRIMARY KEY (`name`),
@@ -766,71 +849,71 @@ ALTER TABLE `back_auth_item`
   ADD KEY `idx-auth_item-type` (`type`);
 
 --
--- Indices de la tabla `back_auth_item_child`
+-- Indexes for table `back_auth_item_child`
 --
 ALTER TABLE `back_auth_item_child`
   ADD PRIMARY KEY (`parent`,`child`),
   ADD KEY `child` (`child`);
 
 --
--- Indices de la tabla `back_auth_rule`
+-- Indexes for table `back_auth_rule`
 --
 ALTER TABLE `back_auth_rule`
   ADD PRIMARY KEY (`name`);
 
 --
--- Indices de la tabla `business`
+-- Indexes for table `business`
 --
 ALTER TABLE `business`
   ADD PRIMARY KEY (`business_id`);
 
 --
--- Indices de la tabla `link`
+-- Indexes for table `link`
 --
 ALTER TABLE `link`
   ADD PRIMARY KEY (`link_id`),
   ADD KEY `categoryli_id` (`categoryli_id`);
 
 --
--- Indices de la tabla `link_category`
+-- Indexes for table `link_category`
 --
 ALTER TABLE `link_category`
   ADD PRIMARY KEY (`categoryli_id`);
 
 --
--- Indices de la tabla `migration`
+-- Indexes for table `migration`
 --
 ALTER TABLE `migration`
   ADD PRIMARY KEY (`version`);
 
 --
--- Indices de la tabla `migration_rbac`
+-- Indexes for table `migration_rbac`
 --
 ALTER TABLE `migration_rbac`
   ADD PRIMARY KEY (`version`);
 
 --
--- Indices de la tabla `news`
+-- Indexes for table `news`
 --
 ALTER TABLE `news`
   ADD PRIMARY KEY (`news_id`),
   ADD KEY `categoryne_id` (`categoryne_id`);
 
 --
--- Indices de la tabla `news_business`
+-- Indexes for table `news_business`
 --
 ALTER TABLE `news_business`
   ADD PRIMARY KEY (`nbusiness_id`),
   ADD KEY `categoryne_id` (`categoryne_id`);
 
 --
--- Indices de la tabla `news_category`
+-- Indexes for table `news_category`
 --
 ALTER TABLE `news_category`
   ADD PRIMARY KEY (`categoryne_id`);
 
 --
--- Indices de la tabla `user`
+-- Indexes for table `user`
 --
 ALTER TABLE `user`
   ADD PRIMARY KEY (`id`),
@@ -838,131 +921,130 @@ ALTER TABLE `user`
   ADD UNIQUE KEY `auth_key` (`auth_key`);
 
 --
--- Indices de la tabla `user_profile`
+-- Indexes for table `user_profile`
 --
 ALTER TABLE `user_profile`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT de las tablas volcadas
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT de la tabla `admin`
+-- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
--- AUTO_INCREMENT de la tabla `application`
+-- AUTO_INCREMENT for table `application`
 --
 ALTER TABLE `application`
   MODIFY `application_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
--- AUTO_INCREMENT de la tabla `application_category`
+-- AUTO_INCREMENT for table `application_category`
 --
 ALTER TABLE `application_category`
   MODIFY `categoryap_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
--- AUTO_INCREMENT de la tabla `business`
+-- AUTO_INCREMENT for table `business`
 --
 ALTER TABLE `business`
   MODIFY `business_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
--- AUTO_INCREMENT de la tabla `link`
+-- AUTO_INCREMENT for table `link`
 --
 ALTER TABLE `link`
-  MODIFY `link_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `link_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
--- AUTO_INCREMENT de la tabla `link_category`
+-- AUTO_INCREMENT for table `link_category`
 --
 ALTER TABLE `link_category`
   MODIFY `categoryli_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
--- AUTO_INCREMENT de la tabla `news`
+-- AUTO_INCREMENT for table `news`
 --
 ALTER TABLE `news`
-  MODIFY `news_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `news_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
--- AUTO_INCREMENT de la tabla `news_business`
+-- AUTO_INCREMENT for table `news_business`
 --
 ALTER TABLE `news_business`
-  MODIFY `nbusiness_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `nbusiness_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 --
--- AUTO_INCREMENT de la tabla `news_category`
+-- AUTO_INCREMENT for table `news_category`
 --
 ALTER TABLE `news_category`
   MODIFY `categoryne_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
--- AUTO_INCREMENT de la tabla `user`
+-- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=231;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=270;
 --
--- Restricciones para tablas volcadas
+-- Constraints for dumped tables
 --
 
 --
--- Filtros para la tabla `application`
+-- Constraints for table `application`
 --
 ALTER TABLE `application`
   ADD CONSTRAINT `application_ibfk_1` FOREIGN KEY (`categoryap_id`) REFERENCES `application_category` (`categoryap_id`);
 
 --
--- Filtros para la tabla `auth_assignment`
+-- Constraints for table `auth_assignment`
 --
 ALTER TABLE `auth_assignment`
   ADD CONSTRAINT `auth_assignment_ibfk_1` FOREIGN KEY (`item_name`) REFERENCES `auth_item` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Filtros para la tabla `auth_item`
+-- Constraints for table `auth_item`
 --
 ALTER TABLE `auth_item`
   ADD CONSTRAINT `auth_item_ibfk_1` FOREIGN KEY (`rule_name`) REFERENCES `auth_rule` (`name`) ON DELETE SET NULL ON UPDATE CASCADE;
 
 --
--- Filtros para la tabla `auth_item_child`
+-- Constraints for table `auth_item_child`
 --
 ALTER TABLE `auth_item_child`
   ADD CONSTRAINT `auth_item_child_ibfk_1` FOREIGN KEY (`parent`) REFERENCES `auth_item` (`name`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `auth_item_child_ibfk_2` FOREIGN KEY (`child`) REFERENCES `auth_item` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Filtros para la tabla `back_auth_assignment`
+-- Constraints for table `back_auth_assignment`
 --
 ALTER TABLE `back_auth_assignment`
   ADD CONSTRAINT `back_auth_assignment_ibfk_1` FOREIGN KEY (`item_name`) REFERENCES `back_auth_item` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Filtros para la tabla `back_auth_item`
+-- Constraints for table `back_auth_item`
 --
 ALTER TABLE `back_auth_item`
   ADD CONSTRAINT `back_auth_item_ibfk_1` FOREIGN KEY (`rule_name`) REFERENCES `back_auth_rule` (`name`) ON DELETE SET NULL ON UPDATE CASCADE;
 
 --
--- Filtros para la tabla `back_auth_item_child`
+-- Constraints for table `back_auth_item_child`
 --
 ALTER TABLE `back_auth_item_child`
   ADD CONSTRAINT `back_auth_item_child_ibfk_1` FOREIGN KEY (`parent`) REFERENCES `back_auth_item` (`name`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `back_auth_item_child_ibfk_2` FOREIGN KEY (`child`) REFERENCES `back_auth_item` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Filtros para la tabla `link`
+-- Constraints for table `link`
 --
 ALTER TABLE `link`
   ADD CONSTRAINT `link_ibfk_1` FOREIGN KEY (`categoryli_id`) REFERENCES `link_category` (`categoryli_id`);
 
 --
--- Filtros para la tabla `news`
+-- Constraints for table `news`
 --
 ALTER TABLE `news`
   ADD CONSTRAINT `news_ibfk_1` FOREIGN KEY (`categoryne_id`) REFERENCES `news_category` (`categoryne_id`);
 
 --
--- Filtros para la tabla `news_business`
+-- Constraints for table `news_business`
 --
 ALTER TABLE `news_business`
   ADD CONSTRAINT `news_business_ibfk_1` FOREIGN KEY (`categoryne_id`) REFERENCES `news_category` (`categoryne_id`);
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

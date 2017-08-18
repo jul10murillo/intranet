@@ -10,7 +10,7 @@ $this->title = 'Login-Admin';
 
 $fieldOptions1 = [
     'options' => ['class' => 'form-group has-feedback'],
-    'inputTemplate' => "{input}<span class='glyphicon glyphicon-envelope form-control-feedback'></span>"
+    'inputTemplate' => "{input}<span class='glyphicon glyphicon-user form-control-feedback'></span>"
 ];
 
 $fieldOptions2 = [
@@ -21,7 +21,7 @@ $fieldOptions2 = [
 
 <div class="login-box">
     <div class="login-logo">
-        <img src="../img/LOGO.png" >
+        <img src="<?= Yii::getAlias('@web/img/LOGO.png')?>">
         <!--<a href="#"><b>ADMIN</b><br>GRUPO DUMIT</a>-->
     </div>
     <!-- /.login-logo -->

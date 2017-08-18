@@ -1000,3 +1000,337 @@
     ]
     'argc' => 2
 ]
+2017-08-15 14:40:01 [-][-][-][warning][application] -- Starting import from Active Directory --
+2017-08-15 14:40:01 [-][-][-][warning][application] -- Found 234 users --
+2017-08-15 14:40:01 [-][-][-][warning][application] -- Working on user Invitado --
+2017-08-15 14:40:01 [-][-][-][warning][application] -- Working on user arojas --
+2017-08-15 14:40:01 [-][-][-][warning][application] RRHH
+2017-08-15 14:40:01 [-][-][-][warning][application] -- Working on user GDCONFER --
+2017-08-15 14:40:01 [-][-][-][warning][application] Informática
+2017-08-15 14:40:01 [-][-][-][warning][application] -- Working on user imarquez --
+2017-08-15 14:40:02 [-][-][-][warning][application] -- Working on user ligonzalez --
+2017-08-15 14:40:02 [-][-][-][warning][application] -- Working on user getback --
+2017-08-15 14:40:02 [-][-][-][warning][application] -- Working on user eramirez --
+2017-08-15 14:40:02 [-][-][-][warning][application] Administración
+2017-08-15 14:40:02 [-][-][-][warning][application] -- Working on user tdoumet --
+2017-08-15 14:40:02 [-][-][-][warning][application] Presidencia
+2017-08-15 14:40:02 [-][-][-][warning][application] -- Working on user ypatino --
+2017-08-15 14:40:02 [-][-][-][warning][application] -- Working on user farriojas --
+2017-08-15 14:40:02 [-][-][-][warning][application] -- Working on user ebarrios --
+2017-08-15 14:40:02 [-][-][-][warning][application] Servicios Generales
+2017-08-15 14:40:02 [-][-][-][warning][application] -- Working on user ychirinos --
+2017-08-15 14:40:02 [-][-][-][warning][application] Inventario
+2017-08-15 14:40:02 [-][-][-][warning][application] -- Working on user xin.tolon --
+2017-08-15 14:40:02 [-][-][-][warning][application] -- Working on user pmarcano --
+2017-08-15 14:40:02 [-][-][-][warning][application] -- Working on user dzapata --
+2017-08-15 14:40:02 [-][-][-][warning][application] -- Working on user dbastidas --
+2017-08-15 14:40:02 [-][-][-][warning][application] -- Working on user vst.hatillo --
+2017-08-15 14:40:02 [-][-][-][warning][application] -- Working on user vvismara --
+2017-08-15 14:40:02 [-][-][-][warning][application] Importación y Compras
+2017-08-15 14:40:02 [-][-][-][warning][application] -- Working on user vst.liderdamas --
+2017-08-15 14:40:02 [-][-][-][warning][application] -- Working on user vst.lidercaballeros --
+2017-08-15 14:40:02 [-][-][-][warning][application] -- Working on user oguevara --
+2017-08-15 14:40:02 [-][-][-][warning][application] Buena Alimentacion
+2017-08-15 14:40:03 [-][-][-][warning][application] -- Working on user aishopccct --
+2017-08-15 14:40:03 [-][-][-][warning][application] -- Working on user afigueroa --
+2017-08-15 14:40:03 [-][-][-][warning][application] -- Working on user khernandez --
+2017-08-15 14:40:03 [-][-][-][warning][application] Operaciones
+2017-08-15 14:40:03 [-][-][-][warning][application] -- Working on user elopez --
+2017-08-15 14:40:03 [-][-][-][warning][application] -- Working on user xin.lider --
+2017-08-15 14:40:03 [-][-][-][warning][application] -- Working on user cmartinez --
+2017-08-15 14:40:03 [-][-][-][warning][application] -- Working on user lmontiel --
+2017-08-15 14:40:03 [-][-][-][warning][application] -- Working on user jfranco --
+2017-08-15 14:40:03 [-][-][-][warning][application] -- Working on user aissagd --
+2017-08-15 14:40:03 [-][-][-][warning][application] -- Working on user mvelasquez --
+2017-08-15 14:40:03 [-][-][-][warning][application] -- Working on user ICG20 --
+2017-08-15 14:40:03 [-][-][-][warning][application] -- Working on user mcaldeira --
+2017-08-15 14:40:03 [-][-][-][warning][application] -- Working on user rcelis --
+2017-08-15 14:40:03 [-][-][-][warning][application] -- Working on user amoncada --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user krbtgt --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user SUPPORT_388945a0 --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user IWAM_GDPROFIT --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user recepcionpb02 --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user recepcionpb01 --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user zortega --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user yizquiel --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user recepcion02 --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user aislido --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user Recepcion --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user saghandour --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user ytorres --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user areitich --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user vst.ccct --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user vst.samccs --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user vst.tolon --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user vst.mgtaca --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user vst.millenium --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user xin.samccs --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user xin.ccct --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user xin.mgtaca --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user ymelo --
+2017-08-15 14:40:04 [-][-][-][warning][application] -- Working on user agarcia --
+2017-08-15 14:40:05 [-][-][-][warning][application] -- Working on user ICG18 --
+2017-08-15 14:40:05 [-][-][-][warning][application] -- Working on user jkiss --
+2017-08-15 14:40:05 [-][-][-][warning][application] -- Working on user svasquez --
+2017-08-15 14:40:05 [-][-][-][warning][application] -- Working on user gpabon --
+2017-08-15 14:40:05 [-][-][-][warning][application] -- Working on user avielma --
+2017-08-15 14:40:05 [-][-][-][warning][application] Mercadeo
+2017-08-15 14:40:05 [-][-][-][warning][application] -- Working on user jmurillo --
+2017-08-15 14:40:05 [-][-][-][warning][application] -- Working on user ediaz --
+2017-08-15 14:40:05 [-][-][-][warning][application] -- Working on user ysubieta --
+2017-08-15 14:40:05 [-][-][-][warning][application] -- Working on user ylopez --
+2017-08-15 14:40:05 [-][-][-][warning][application] -- Working on user sramirez --
+2017-08-15 14:40:05 [-][-][-][warning][application] -- Working on user lgarcia --
+2017-08-15 14:40:05 [-][-][-][warning][application] -- Working on user emesa --
+2017-08-15 14:40:05 [-][-][-][warning][application] -- Working on user gsorrentino --
+2017-08-15 14:40:05 [-][-][-][warning][application] -- Working on user kchacon --
+2017-08-15 14:40:05 [-][-][-][warning][application] -- Working on user pcasique --
+2017-08-15 14:40:06 [-][-][-][warning][application] -- Working on user eblanco --
+2017-08-15 14:40:06 [-][-][-][warning][application] -- Working on user ndsantos --
+2017-08-15 14:40:06 [-][-][-][warning][application] -- Working on user ygarcia --
+2017-08-15 14:40:06 [-][-][-][warning][application] -- Working on user eperalta --
+2017-08-15 14:40:06 [-][-][-][warning][application] -- Working on user abatatina --
+2017-08-15 14:40:06 [-][-][-][warning][application] -- Working on user ysalazar --
+2017-08-15 14:40:06 [-][-][-][warning][application] -- Working on user dhernandez --
+2017-08-15 14:40:06 [-][-][-][warning][application] -- Working on user mguzman --
+2017-08-15 14:40:06 [-][-][-][warning][application] -- Working on user mvillanueva --
+2017-08-15 14:40:06 [-][-][-][warning][application] -- Working on user wrivas --
+2017-08-15 14:40:06 [-][-][-][warning][application] -- Working on user squser --
+2017-08-15 14:40:06 [-][-][-][warning][application] -- Working on user ccepeda --
+2017-08-15 14:40:06 [-][-][-][warning][application] -- Working on user ghernandez --
+2017-08-15 14:40:06 [-][-][-][warning][application] -- Working on user abonaldy --
+2017-08-15 14:40:07 [-][-][-][warning][application] -- Working on user aiscab --
+2017-08-15 14:40:07 [-][-][-][warning][application] -- Working on user esanabria --
+2017-08-15 14:40:07 [-][-][-][warning][application] -- Working on user aalvarado --
+2017-08-15 14:40:07 [-][-][-][warning][application] -- Working on user lrequena --
+2017-08-15 14:40:07 [-][-][-][warning][application] -- Working on user capacitacion --
+2017-08-15 14:40:07 [-][-][-][warning][application] -- Working on user ybriceño --
+2017-08-15 14:40:07 [-][-][-][warning][application] -- Working on user ngoncalves --
+2017-08-15 14:40:07 [-][-][-][warning][application] -- Working on user kgonzalez --
+2017-08-15 14:40:07 [-][-][-][warning][application] -- Working on user sgomez --
+2017-08-15 14:40:07 [-][-][-][warning][application] -- Working on user fsilva --
+2017-08-15 14:40:07 [-][-][-][warning][application] -- Working on user ralves --
+2017-08-15 14:40:07 [-][-][-][warning][application] -- Working on user cguzman --
+2017-08-15 14:40:07 [-][-][-][warning][application] -- Working on user yrivas --
+2017-08-15 14:40:07 [-][-][-][warning][application] -- Working on user rserpa --
+2017-08-15 14:40:07 [-][-][-][warning][application] -- Working on user dleal --
+2017-08-15 14:40:07 [-][-][-][warning][application] -- Working on user apaiva --
+2017-08-15 14:40:08 [-][-][-][warning][application] -- Working on user ablanco --
+2017-08-15 14:40:08 [-][-][-][warning][application] -- Working on user lrojas --
+2017-08-15 14:40:08 [-][-][-][warning][application] -- Working on user hmoreno --
+2017-08-15 14:40:08 [-][-][-][warning][application] -- Working on user kortuno --
+2017-08-15 14:40:08 [-][-][-][warning][application] -- Working on user druiz --
+2017-08-15 14:40:08 [-][-][-][warning][application] -- Working on user cguereguan --
+2017-08-15 14:40:08 [-][-][-][warning][application] -- Working on user rmontero --
+2017-08-15 14:40:08 [-][-][-][warning][application] -- Working on user varevalo --
+2017-08-15 14:40:08 [-][-][-][warning][application] -- Working on user addiaz --
+2017-08-15 14:40:08 [-][-][-][warning][application] -- Working on user calvarez --
+2017-08-15 14:40:08 [-][-][-][warning][application] -- Working on user juzcategui --
+2017-08-15 14:40:08 [-][-][-][warning][application] -- Working on user operez --
+2017-08-15 14:40:08 [-][-][-][warning][application] -- Working on user icg19 --
+2017-08-15 14:40:09 [-][-][-][warning][application] -- Working on user vgazcon --
+2017-08-15 14:40:09 [-][-][-][warning][application] -- Working on user IUSR_GDPROFIT --
+2017-08-15 14:40:09 [-][-][-][warning][application] -- Working on user ICG01 --
+2017-08-15 14:40:09 [-][-][-][warning][application] -- Working on user Orinok --
+2017-08-15 14:40:09 [-][-][-][warning][application] -- Working on user Ozono --
+2017-08-15 14:40:09 [-][-][-][warning][application] -- Working on user Sanignacio --
+2017-08-15 14:40:09 [-][-][-][warning][application] -- Working on user GDA_Inve01 --
+2017-08-15 14:40:09 [-][-][-][warning][application] -- Working on user Tango --
+2017-08-15 14:40:09 [-][-][-][warning][application] -- Working on user Tolon --
+2017-08-15 14:40:09 [-][-][-][warning][application] -- Working on user Valencia --
+2017-08-15 14:40:09 [-][-][-][warning][application] -- Working on user GDA_Owner --
+2017-08-15 14:40:09 [-][-][-][warning][application] -- Working on user Contabilidad1 --
+2017-08-15 14:40:09 [-][-][-][warning][application] -- Working on user Mchachati --
+2017-08-15 14:40:09 [-][-][-][warning][application] -- Working on user Omendez --
+2017-08-15 14:40:09 [-][-][-][warning][application] -- Working on user ICG02 --
+2017-08-15 14:40:09 [-][-][-][warning][application] -- Working on user naifmaturin --
+2017-08-15 14:40:09 [-][-][-][warning][application] -- Working on user ICG03 --
+2017-08-15 14:40:09 [-][-][-][warning][application] -- Working on user ICG04 --
+2017-08-15 14:40:10 [-][-][-][warning][application] -- Working on user ICG05 --
+2017-08-15 14:40:10 [-][-][-][warning][application] -- Working on user ICG06 --
+2017-08-15 14:40:10 [-][-][-][warning][application] -- Working on user ICG07 --
+2017-08-15 14:40:10 [-][-][-][warning][application] -- Working on user ICG08 --
+2017-08-15 14:40:10 [-][-][-][warning][application] -- Working on user sanlong --
+2017-08-15 14:40:10 [-][-][-][warning][application] -- Working on user contabilidad9 --
+2017-08-15 14:40:10 [-][-][-][warning][application] -- Working on user contabilidad10 --
+2017-08-15 14:40:10 [-][-][-][warning][application] -- Working on user mcsamaniego --
+2017-08-15 14:40:10 [-][-][-][warning][application] -- Working on user ICG09 --
+2017-08-15 14:45:08 [-][-][-][warning][application] -- Working on user ICG10 --
+2017-08-15 14:45:09 [-][-][-][warning][application] -- Working on user Naifmillenium --
+2017-08-15 14:45:09 [-][-][-][warning][application] -- Working on user Maturin --
+2017-08-15 14:45:09 [-][-][-][warning][application] -- Working on user CFlores --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user Carolinaherrera --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user Administrador --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user vwalo --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user wbaldes --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user GDA_inv01 --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user GDA_Super01 --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user GDA_Manager --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user lrodriguez --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user AHatillo --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user aishtilider --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user aishmillenium --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user GDA_Admin --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user crevilla --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user contabilidad2 --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user L19 --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user contabilidad3 --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user contabilidad4 --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user contabilidad5 --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user contabilidad6 --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user contabilidad7 --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user contabilidad8 --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user dzorrilla --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user F05 --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user Forest --
+2017-08-15 14:40:11 [-][-][-][warning][application] -- Working on user Foru --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user Guatire --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user L153 --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user Sramos --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user LDelgado --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user mapamate --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user inv.adomars --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user lady.fashions --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user lider.fashions --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user andrea.parks --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user metropolitan.fashion --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user liko.fashion --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user lider.fashion --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user venecor.lnaranjos --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user lady.fashion --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user joanne.parks --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user joanne.park --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user le.park --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user inv.adomar --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user tropical.vanity --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user andrea.park --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user jmenendez --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user cmoreno --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user amontilla --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user amaturin --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user ccervantes --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user adtolon --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user ecapote --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user yfragoza --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user vrebolledo --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user adiaz --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user mjimenez --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user corporacion.vanity --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user island.fboutique --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user MQuercia --
+2017-08-15 14:40:12 [-][-][-][warning][application] -- Working on user ICG13 --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user ICG11 --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user ICG12 --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user xinhatillo --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user Adolfoaeropuerto --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user Arecreo --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user Pronoviasmercedes --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user Aishopbarcelona --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user Coachtolon --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user Aishopfe --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user CHMercedes --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user CHaeropuerto --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user Sancristobal --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user ICG14 --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user vanity.island --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user ICG15 --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user ICG16 --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user ICG17 --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user Aldo --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user Aishopm --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user CHMargarita --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user PGMargarita --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user aromero --
+2017-08-15 14:40:13 [-][-][-][warning][application] -- Working on user amedina --
+2017-08-15 14:40:14 [-][-][-][warning][application] -- Working on user ipinto --
+2017-08-15 14:40:14 [-][-][-][warning][application] -- Working on user falfonzo --
+2017-08-15 14:40:14 [-][-][-][warning][application] -- Working on user mdelima --
+2017-08-15 14:40:14 [-][-][-][warning][application] -- Working on user mrincon --
+2017-08-15 14:40:14 [-][-][-][warning][application] -- End import from Active Directory --
+2017-08-15 14:40:01 [-][-][-][info][application] $_SERVER = [
+    'CLUTTER_IM_MODULE' => 'xim'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-5VLUv4lvvI'
+    'DEFAULTS_PATH' => '/usr/share/gconf/xfce.default.path'
+    'DESKTOP_SESSION' => 'xfce'
+    'DISPLAY' => ':0.0'
+    'GDMSESSION' => 'xfce'
+    'GDM_LANG' => 'en_US'
+    'GLADE_CATALOG_PATH' => ':'
+    'GLADE_MODULE_PATH' => ':'
+    'GLADE_PIXMAP_PATH' => ':'
+    'GNOME_KEYRING_CONTROL' => ''
+    'GNOME_KEYRING_PID' => ''
+    'GTK2_MODULES' => 'overlay-scrollbar'
+    'GTK_IM_MODULE' => 'ibus'
+    'GTK_MODULES' => 'gail:atk-bridge'
+    'HOME' => '/home/julio'
+    'IM_CONFIG_PHASE' => '1'
+    'INSTANCE' => ''
+    'JOB' => 'dbus'
+    'LANG' => 'en_US.UTF-8'
+    'LANGUAGE' => 'en_US'
+    'LC_ADDRESS' => 'es_VE.UTF-8'
+    'LC_IDENTIFICATION' => 'es_VE.UTF-8'
+    'LC_MEASUREMENT' => 'es_VE.UTF-8'
+    'LC_MONETARY' => 'es_VE.UTF-8'
+    'LC_NAME' => 'es_VE.UTF-8'
+    'LC_NUMERIC' => 'es_VE.UTF-8'
+    'LC_PAPER' => 'es_VE.UTF-8'
+    'LC_TELEPHONE' => 'es_VE.UTF-8'
+    'LC_TIME' => 'es_VE.UTF-8'
+    'LOGNAME' => 'julio'
+    'MANDATORY_PATH' => '/usr/share/gconf/xfce.mandatory.path'
+    'PAM_KWALLET5_LOGIN' => '/tmp/kwallet5_julio.socket'
+    'PAM_KWALLET_LOGIN' => '/tmp/kwallet_julio.socket'
+    'PATH' => '/home/julio/bin:/home/julio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'PWD' => '/var/www/intranet/src/web/intranet'
+    'QT4_IM_MODULE' => 'ibus'
+    'QT_ACCESSIBILITY' => '1'
+    'QT_IM_MODULE' => 'ibus'
+    'QT_LINUX_ACCESSIBILITY_ALWAYS_ON' => '1'
+    'QT_QPA_PLATFORMTHEME' => 'appmenu-qt5'
+    'SESSION' => 'xfce'
+    'SESSIONTYPE' => ''
+    'SESSION_MANAGER' => 'local/gd030001:@/tmp/.ICE-unix/2605,unix/gd030001:/tmp/.ICE-unix/2605'
+    'SHELL' => '/bin/bash'
+    'SHLVL' => '1'
+    'SSH_AGENT_PID' => '2614'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-bSRLcsQztFA0/agent.2613'
+    'TERM' => 'xterm'
+    'UPSTART_EVENTS' => 'started xsession'
+    'UPSTART_INSTANCE' => ''
+    'UPSTART_JOB' => 'startxfce4'
+    'UPSTART_SESSION' => 'unix:abstract=/com/ubuntu/upstart-session/1000/2313'
+    'USER' => 'julio'
+    'XAUTHORITY' => '/home/julio/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-xfce:/usr/share/upstart/xdg:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings:/etc/xdg'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'XDG_DATA_DIRS' => '/usr/share/xfce:/usr/share/xfce4:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/usr/share'
+    'XDG_GREETER_DATA_DIR' => '/var/lib/lightdm-data/julio'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XDG_SEAT' => 'seat0'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'XDG_SESSION_DESKTOP' => 'xfce'
+    'XDG_SESSION_ID' => 'c2'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'XDG_SESSION_TYPE' => 'x11'
+    'XDG_VTNR' => '7'
+    'XMODIFIERS' => '@im=ibus'
+    '__fish_bin_dir' => '/usr/bin'
+    '__fish_datadir' => '/usr/share/fish'
+    '__fish_help_dir' => '/usr/share/doc/fish'
+    '__fish_sysconfdir' => '/etc/fish'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1502808001.1644
+    'REQUEST_TIME' => 1502808001
+    'argv' => [
+        0 => './yii'
+        1 => 'ldapcmd/import-all-users'
+    ]
+    'argc' => 2
+]
